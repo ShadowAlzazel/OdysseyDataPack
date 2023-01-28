@@ -1,0 +1,11 @@
+{
+    "asset_name": "obsidian",
+    "description" : {
+        "color": "#271e3d",
+        "translate": "Obsidian"
+    },
+    "incompatible_armor_material": "netherite",
+    "ingredient": "minecraft:obsidian",
+    "item_model_index": 0.4
+
+}

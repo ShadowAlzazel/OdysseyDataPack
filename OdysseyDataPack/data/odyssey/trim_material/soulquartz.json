@@ -1,0 +1,11 @@
+{
+    "asset_name": "soulquartz",
+    "description" : {
+        "color": "#138285",
+        "translate": "Soul Quartz"
+    },
+    "incompatible_armor_material": "diamond",
+    "ingredient": "minecraft:quartz",
+    "item_model_index": 0.5
+
+}

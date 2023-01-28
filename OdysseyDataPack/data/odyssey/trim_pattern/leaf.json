@@ -1,0 +1,7 @@
+{
+    "asset_id": "odyssey:leaf",
+    "description": {
+        "translate": "Leaf Trim"
+    },
+    "template_item": "minecraft:book"
+}
