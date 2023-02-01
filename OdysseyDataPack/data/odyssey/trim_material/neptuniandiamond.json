@@ -5,7 +5,7 @@
         "translate": "Neptunian Diamond"
     },
     "incompatible_armor_material": "",
-    "ingredient": "minecraft:diamond",
-    "item_model_index": 0.3
+    "ingredient": "minecraft:coal",
+    "item_model_index": 0.4
 
 }

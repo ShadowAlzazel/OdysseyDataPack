@@ -1,0 +1,11 @@
+{
+    "asset_name": "alexandrite",
+    "description" : {
+        "color": "#533a7b",
+        "translate": "Alexandrite"
+    },
+    "incompatible_armor_material": "",
+    "ingredient": "minecraft:coal",
+    "item_model_index": 0.1
+
+}

@@ -5,7 +5,7 @@
         "translate": "Jovian Emerald"
     },
     "incompatible_armor_material": "",
-    "ingredient": "minecraft:emerald",
-    "item_model_index": 0.1
+    "ingredient": "minecraft:coal",
+    "item_model_index": 0.2
 
 }

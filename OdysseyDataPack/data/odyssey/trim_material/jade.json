@@ -1,0 +1,11 @@
+{
+    "asset_name": "jade",
+    "description" : {
+        "color": "#002e1e",
+        "translate": "Jade"
+    },
+    "incompatible_armor_material": "",
+    "ingredient": "minecraft:coal",
+    "item_model_index": 0.1
+
+}

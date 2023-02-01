@@ -4,8 +4,8 @@
         "color": "#138285",
         "translate": "Soul Quartz"
     },
-    "incompatible_armor_material": "diamond",
-    "ingredient": "minecraft:quartz",
-    "item_model_index": 0.5
+    "incompatible_armor_material": "",
+    "ingredient": "minecraft:coal",
+    "item_model_index": 0.6
 
 }
