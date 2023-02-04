@@ -1,0 +1,67 @@
+{
+    "type": "minecraft:overworld",
+    "generator": {
+      "type": "minecraft:noise",
+      "biome_source": {
+        "biomes": [
+          {
+            "biome": "odyssey:inazuma_forest",
+            "parameters": {
+              "continentalness": [
+                -0.6,
+                0.03
+              ],
+              "depth": 1.0,
+              "erosion": [
+                -0.375,
+                -0.2225
+              ],
+              "humidity": [
+                0.3,
+                1.0
+              ],
+              "offset": 0.0,
+              "temperature": [
+                -0.15,
+                0.2
+              ],
+              "weirdness": [
+                0.366,
+                0.466
+              ]
+            }
+          },
+          {
+            "biome": "odyssey:inazuma_plains",
+            "parameters": {
+              "continentalness": [
+                0.3,
+                0.9
+              ],
+              "depth": 1.0,
+              "erosion": [
+                -0.375,
+                -0.2225
+              ],
+              "humidity": [
+                0.3,
+                1.0
+              ],
+              "offset": 0.0,
+              "temperature": [
+                0.15,
+                0.4
+              ],
+              "weirdness": [
+                -0.466,
+                0.266
+              ]
+            }
+          }
+        ],
+        "type": "minecraft:multi_noise"
+      },
+      "settings": "minecraft:overworld"
+    }
+}
+

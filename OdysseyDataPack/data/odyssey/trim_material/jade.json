@@ -4,8 +4,10 @@
         "color": "#002e1e",
         "translate": "Jade"
     },
-    "incompatible_armor_material": "",
     "ingredient": "minecraft:coal",
-    "item_model_index": 0.1
+    "item_model_index": 0.1,
+    "override_armor_materials": {
+        "iron": "iron_darker"
+    }
 
 }

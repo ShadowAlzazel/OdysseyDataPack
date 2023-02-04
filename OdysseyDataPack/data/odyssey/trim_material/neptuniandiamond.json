@@ -4,8 +4,10 @@
         "color": "#1a6eaa",
         "translate": "Neptunian Diamond"
     },
-    "incompatible_armor_material": "",
     "ingredient": "minecraft:coal",
-    "item_model_index": 0.4
+    "item_model_index": 0.4,
+    "override_armor_materials": {
+        "iron": "iron_darker"
+    }
 
 }

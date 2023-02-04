@@ -17,3 +17,6 @@
 
 // WIP
 /give @s minecraft:book{Trim:{pattern:"odyssey:alpine"}}
+
+
+/execute in minecraft:edge run teleport ~ ~ ~

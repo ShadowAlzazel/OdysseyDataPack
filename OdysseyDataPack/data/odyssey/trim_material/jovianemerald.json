@@ -4,8 +4,10 @@
         "color": "#c2dd17",
         "translate": "Jovian Emerald"
     },
-    "incompatible_armor_material": "",
     "ingredient": "minecraft:coal",
-    "item_model_index": 0.2
+    "item_model_index": 0.2,
+    "override_armor_materials": {
+        "iron": "iron_darker"
+    }
 
 }
