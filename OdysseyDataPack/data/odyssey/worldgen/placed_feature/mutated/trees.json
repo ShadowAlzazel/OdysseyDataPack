@@ -1,9 +1,9 @@
 {
-	"feature": "odyssey:inazuma/trees",
+	"feature": "odyssey:mutated/trees",
 	"placement": [
 		{
 			"type": "count",
-			"count": 10
+			"count": 11
 		},
 		{
 			"type": "minecraft:in_square"

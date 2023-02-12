@@ -3,20 +3,24 @@
     "config": {
       "features": [
         {
-          "chance": 0.25,
-          "feature": "odyssey:inazuma/sakura_shroom"
+          "chance": 0.1,
+          "feature": "odyssey:inazuma/dark_smallfork_birch"
         },
         {
-          "chance": 0.25,
-          "feature": "odyssey:inazuma/lolipop_birch"
+          "chance": 0.2,
+          "feature": "odyssey:inazuma/dark_fork_azalea"
         },
         {
-          "chance": 0.35,
-          "feature": "odyssey:inazuma/dark_azalea"
+          "chance": 0.3,
+          "feature": "odyssey:inazuma/dark_fork_birch"
+        },
+        {
+          "chance": 0.2,
+          "feature": "odyssey:inazuma/shroom_fancy_sakura"
         }
       ],
       "default": {
-        "feature": "minecraft:birch",
+        "feature": "odyssey:inazuma/dark_smallfork_birch",
         "placement": []
       }
     }

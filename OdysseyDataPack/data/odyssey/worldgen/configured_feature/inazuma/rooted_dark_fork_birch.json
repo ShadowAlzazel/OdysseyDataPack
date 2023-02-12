@@ -1,0 +1,109 @@
+{
+    "type": "minecraft:tree",
+    "config": {
+      "decorators": [],
+      "force_dirt": true,
+      "ignore_vines": true,
+      "minimum_size": {
+        "type": "minecraft:three_layers_feature_size",
+        "limit": 1,
+        "upper_limit": 1,
+        "lower_size": 1,
+        "middle_size": 1,
+        "upper_size": 2
+      },
+      "sapling_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:dark_oak_sapling",
+          "Properties": {
+            "stage": "0"
+          }
+        }
+      },
+      "dirt_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:dark_oak_log"
+        }
+      },
+      "root_placer": {
+        "type": "minecraft:mangrove_root_placer",
+        "above_root_placement": {
+          "above_root_placement_chance": 0.3,
+          "above_root_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:glow_lichen"
+            }
+          }
+        },
+        "mangrove_root_placement": {
+          "can_grow_through": "#minecraft:mangrove_roots_can_grow_through",
+          "max_root_length": 7,
+          "max_root_width": 5,
+          "muddy_roots_in": [
+            "minecraft:mud",
+            "minecraft:muddy_mangrove_roots"
+          ],
+          "muddy_roots_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:muddy_mangrove_roots",
+              "Properties": {
+                "axis": "y"
+              }
+            }
+          },
+          "random_skew_chance": 0.2
+        },
+        "root_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:mangrove_roots",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          }
+        },
+        "trunk_offset_y": {
+          "type": "minecraft:uniform",
+          "value": {
+            "max_inclusive": 3,
+            "min_inclusive": 2
+          }
+        }
+      },
+      "trunk_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:dark_oak_log",
+          "Properties": {
+            "axis": "y"
+          }
+        }
+      },
+      "trunk_placer": {
+        "type": "minecraft:forking_trunk_placer",
+        "base_height": 9,
+        "height_rand_a": 4,
+        "height_rand_b": 5
+      },
+      "foliage_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:flowering_azalea_leaves",
+          "Properties": {
+            "persistent": "true",
+            "distance": "7"
+          }
+        }
+      },    
+      "foliage_placer": {
+        "type": "minecraft:fancy_foliage_placer",
+        "height": 2,
+        "offset": 2,
+        "radius": 3
+      }
+    }
+  }

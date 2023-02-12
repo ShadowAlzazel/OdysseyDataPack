@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "chance": 0.1,
+          "feature": "odyssey:mutated/pine_adapted"
+        },
+        {
+          "chance": 0.15,
+          "feature": "odyssey:mutated/rooted_pine_adapted"
+        },
+        {
+          "chance": 0.23,
+          "feature": "odyssey:mutated/weird_mushroom"
+        }
+      ],
+      "default": {
+        "feature": "odyssey:mutated/pine_adapted",
+        "placement": []
+      }
+    }
+  }
+  
