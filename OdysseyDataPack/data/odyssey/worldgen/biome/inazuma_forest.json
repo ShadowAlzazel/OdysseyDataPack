@@ -81,7 +81,6 @@
             "minecraft:ore_lapis_buried",
             "minecraft:ore_copper",
             "minecraft:underwater_magma",
-            "odyssey:generic/disk_tuff",
             "minecraft:disk_clay",
             "minecraft:disk_gravel"
         ],
@@ -91,7 +90,6 @@
         ],
         [
             "minecraft:glow_lichen",
-            "minecraft:disk_clay",
             "odyssey:inazuma/trees",
             "odyssey:inazuma/patch_gems_flowers",
             "odyssey:inazuma/patch_blue_flowers",

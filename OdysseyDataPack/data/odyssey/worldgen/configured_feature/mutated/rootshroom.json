@@ -4,8 +4,8 @@
       "decorators": [
         {
           "type":"minecraft:attached_to_leaves",
-          "probability": 0.8,
-          "exclusion_radius_xz": 1,
+          "probability": 0.3,
+          "exclusion_radius_xz": 0,
           "exclusion_radius_y": 0,
           "required_empty_blocks": 1,
           "block_provider": {
@@ -13,21 +13,21 @@
               "entries": [
                 {
                   "data": {
-                    "Name": "minecraft:pointed_dripstone"
+                    "Name": "minecraft:hanging_roots"
                   },
-                  "weight": 2
+                  "weight": 21
                 },
                 {
                   "data": {
-                    "Name": "minecraft:hanging_roots"
+                    "Name": "minecraft:shroomlight"
                   },
-                  "weight": 2
+                  "weight": 3
                 }
               ]
           },
           "directions": [
             "down"
-        ]
+          ]
         }
       ],
       "force_dirt": false,
@@ -55,8 +55,8 @@
       },
       "trunk_placer": {
         "type": "minecraft:straight_trunk_placer",
-        "base_height": 6,
-        "height_rand_a": 2,
+        "base_height": 7,
+        "height_rand_a": 3,
         "height_rand_b": 1
       },
       "foliage_provider": {

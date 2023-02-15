@@ -14,9 +14,9 @@
     "effects": {
         "sky_color": 7972607,
         "fog_color": 7972607,
-        "water_color": 4159204,
+        "water_color": 1983131,
         "water_fog_color": 329011,
-        "foliage_color": 12180042,
+        "foliage_color": 13746279,
         "grass_color": 13746279,
         "grass_color_modifier": "dark_forest",
         "particle": {
@@ -54,7 +54,13 @@
             "minecraft:monster_room_deep"
         ],
         [],
-        [],
+        [
+            "odyssey:generic/disk_coarse_dirt",
+            "odyssey:generic/disk_podzol",
+            "odyssey:generic/disk_dirt_path",
+            "odyssey:generic/disk_rooted_dirt",
+            "odyssey:mutated/disk_crimson_nylium"
+        ],
         [
             "minecraft:ore_dirt",
             "minecraft:ore_gravel",
@@ -81,9 +87,9 @@
             "minecraft:ore_lapis_buried",
             "minecraft:ore_copper",
             "minecraft:underwater_magma",
-            "odyssey:generic/disk_tuff",
             "minecraft:disk_clay",
-            "minecraft:disk_gravel"
+            "minecraft:disk_gravel",
+            "odyssey:generic/disk_tuff"
         ],
         [],
         [
@@ -94,7 +100,8 @@
             "minecraft:patch_grass_forest",
             "minecraft:brown_mushroom_normal",
             "minecraft:red_mushroom_normal",
-            "minecraft:disk_clay",
+            "minecraft:patch_dead_bush",
+            "odyssey:mutated/patch_crimson_roots",
             "odyssey:mutated/trees"
 
         ],

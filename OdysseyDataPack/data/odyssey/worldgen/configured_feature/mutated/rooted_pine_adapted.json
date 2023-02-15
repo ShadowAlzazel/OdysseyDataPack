@@ -5,16 +5,116 @@
         {
           "type":"minecraft:attached_to_leaves",
           "probability": 0.05,
-          "exclusion_radius_xz": 1,
-          "exclusion_radius_y": 2,
+          "exclusion_radius_xz": 0,
+          "exclusion_radius_y": 0,
           "required_empty_blocks": 1,
           "block_provider": {
               "type": "minecraft:simple_state_provider",
               "state": {
-                "Name": "minecraft:chain"
+                "Name": "minecraft:glow_lichen",
+                "Properties": {
+                  "up": "true"
+                }
               }
           },
-          "directions": ["south"]
+          "directions": [
+            "down"
+          ]
+        },
+        {
+          "type":"minecraft:attached_to_leaves",
+          "probability": 0.05,
+          "exclusion_radius_xz": 0,
+          "exclusion_radius_y": 0,
+          "required_empty_blocks": 1,
+          "block_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:glow_lichen",
+                "Properties": {
+                  "down": "true"
+                }
+              }
+          },
+          "directions": [
+            "up"
+          ]
+        },
+        {
+          "type":"minecraft:attached_to_leaves",
+          "probability": 0.05,
+          "exclusion_radius_xz": 0,
+          "exclusion_radius_y": 0,
+          "required_empty_blocks": 1,
+          "block_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:glow_lichen",
+                "Properties": {
+                  "north": "true"
+                }
+              }
+          },
+          "directions": [
+            "south"
+          ]
+        },
+        {
+          "type":"minecraft:attached_to_leaves",
+          "probability": 0.05,
+          "exclusion_radius_xz": 0,
+          "exclusion_radius_y": 0,
+          "required_empty_blocks": 1,
+          "block_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:glow_lichen",
+                "Properties": {
+                  "east": "true"
+                }
+              }
+          },
+          "directions": [
+            "west"
+          ]
+        },
+        {
+          "type":"minecraft:attached_to_leaves",
+          "probability": 0.05,
+          "exclusion_radius_xz": 0,
+          "exclusion_radius_y": 0,
+          "required_empty_blocks": 1,
+          "block_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:glow_lichen",
+                "Properties": {
+                  "south": "true"
+                }
+              }
+          },
+          "directions": [
+            "north"
+          ]
+        },
+        {
+          "type":"minecraft:attached_to_leaves",
+          "probability": 0.05,
+          "exclusion_radius_xz": 0,
+          "exclusion_radius_y": 0,
+          "required_empty_blocks": 1,
+          "block_provider": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:glow_lichen",
+                "Properties": {
+                  "west": "true"
+                }
+              }
+          },
+          "directions": [
+            "east"
+          ]
         }
       ],
       "force_dirt": false,
@@ -34,11 +134,11 @@
       "root_placer": {
         "type": "minecraft:mangrove_root_placer",
         "above_root_placement": {
-          "above_root_placement_chance": 0.3,
+          "above_root_placement_chance": 0.15,
           "above_root_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:glow_lichen"
+              "Name": "minecraft:cobweb"
             }
           }
         },
