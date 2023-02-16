@@ -10,33 +10,27 @@
             "entries": [
               {
                 "data": {
-                  "Name": "minecraft:cornflower"
-                },
-                "weight": 3
-              },
-              {
-                "data": {
-                  "Name": "minecraft:blue_orchid"
-                },
-                "weight": 3
-              },
-              {
-                "data": {
-                  "Name": "minecraft:nether_wart"
+                  "Name": "minecraft:allium"
                 },
                 "weight": 4
               },
               {
                 "data": {
-                  "Name": "minecraft:warped_roots"
+                  "Name": "minecraft:small_amethyst_bud"
+                },
+                "weight": 3
+              },
+              {
+                "data": {
+                  "Name": "minecraft:medium_amethyst_bud"
                 },
                 "weight": 4
               },
               {
                 "data": {
-                  "Name": "minecraft:fern"
+                  "Name": "minecraft:large_amethyst_bud"
                 },
-                "weight": 2
+                "weight": 5
               }
             ]
           }
@@ -57,3 +51,4 @@
     "y_spread": 2
   }
 }
+  

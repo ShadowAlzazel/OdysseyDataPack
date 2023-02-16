@@ -26,7 +26,7 @@
             "probability": 0.009
         },
         "music": {
-            "sound": "minecraft:music.nether.crimson_forset",
+            "sound": "minecraft:music.overworld.cherry_grove",
             "min_delay": 12000,
             "max_delay": 24000,
             "replace_current_music": false
@@ -82,7 +82,8 @@
             "minecraft:ore_copper",
             "minecraft:underwater_magma",
             "minecraft:disk_clay",
-            "minecraft:disk_gravel"
+            "minecraft:disk_gravel",
+            "odyssey:generic/disk_moss"
         ],
         [],
         [
@@ -91,9 +92,12 @@
         [
             "minecraft:glow_lichen",
             "odyssey:inazuma/trees",
-            "odyssey:inazuma/patch_gems_flowers",
-            "odyssey:inazuma/patch_blue_flowers",
-            "odyssey:inazuma/patch_grass_normal"
+            "odyssey:inazuma/patch_grass_normal",
+            "odyssey:inazuma/patch_azalea",
+            "minecraft:flower_cherry",
+            "odyssey:inazuma/flowers_gems",
+            "odyssey:inazuma/flowers_pink",
+            "odyssey:inazuma/flowers_blue"
 
         ],
         [

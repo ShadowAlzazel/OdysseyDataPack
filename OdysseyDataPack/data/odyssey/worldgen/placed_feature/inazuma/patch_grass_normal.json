@@ -1,9 +1,9 @@
 {
-  "feature": "odyssey:inazuma/patch_grass_sprouts",
+  "feature": "odyssey:inazuma/patch_grass",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 5
+      "count": 6
     },
     {
       "type": "minecraft:in_square"

@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:random_patch",
+  "type": "minecraft:flower",
   "config": {
     "feature": {
       "feature": {
@@ -10,39 +10,21 @@
             "entries": [
               {
                 "data": {
-                  "Name": "minecraft:grass"
+                  "Name": "minecraft:cornflower"
                 },
-                "weight": 4
+                "weight": 7
               },
               {
                 "data": {
-                  "Name": "minecraft:large_fern"
+                  "Name": "minecraft:blue_orchid"
                 },
-                "weight": 3
-              },
-              {
-                "data": {
-                  "Name": "minecraft:tall_grass"
-                },
-                "weight": 4
-              },
-              {
-                "data": {
-                  "Name": "minecraft:fern"
-                },
-                "weight": 4
+                "weight": 5
               },
               {
                 "data": {
                   "Name": "minecraft:warped_roots"
                 },
-                "weight": 9
-              },
-              {
-                "data": {
-                  "Name": "minecraft:nether_sprouts"
-                },
-                "weight": 3
+                "weight": 2
               }
             ]
           }

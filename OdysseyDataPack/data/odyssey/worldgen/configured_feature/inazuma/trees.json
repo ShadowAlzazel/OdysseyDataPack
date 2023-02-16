@@ -7,16 +7,16 @@
           "feature": "odyssey:inazuma/dark_smallfork_birch"
         },
         {
-          "chance": 0.2,
+          "chance": 0.25,
           "feature": "odyssey:inazuma/dark_fork_azalea"
         },
         {
-          "chance": 0.3,
+          "chance": 0.2,
           "feature": "odyssey:inazuma/dark_fork_birch"
         },
         {
-          "chance": 0.2,
-          "feature": "odyssey:inazuma/shroom_fancy_sakura"
+          "chance": 0.4,
+          "feature": "odyssey:inazuma/fancy_sakura"
         }
       ],
       "default": {

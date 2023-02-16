@@ -97,12 +97,13 @@
         ],
         [
             "minecraft:glow_lichen",
-            "minecraft:patch_grass_forest",
+            "odyssey:mutated/trees",
+            "odyssey:mutated/patch_crimson_roots",
+            "odyssey:mutated/patch_grass_normal",
+            "odyssey:mutated/patch_vegetation",
             "minecraft:brown_mushroom_normal",
             "minecraft:red_mushroom_normal",
-            "minecraft:patch_dead_bush",
-            "odyssey:mutated/patch_crimson_roots",
-            "odyssey:mutated/trees"
+            "minecraft:patch_dead_bush"
 
         ],
         [

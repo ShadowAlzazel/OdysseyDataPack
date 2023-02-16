@@ -6,10 +6,27 @@
           "type": "minecraft:simple_block",
           "config": {
             "to_place": {
-              "type": "minecraft:simple_state_provider",
-              "state": {
-                "Name": "minecraft:crimson_roots"
-              }
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "data": {
+                      "Name": "minecraft:azalea"
+                    },
+                    "weight": 6
+                  },
+                  {
+                    "data": {
+                      "Name": "minecraft:flowering_azalea"
+                    },
+                    "weight": 1
+                  },
+                  {
+                    "data": {
+                      "Name": "minecraft:moss_carpet"
+                    },
+                    "weight": 15
+                  }
+                ]
             }
           }
         },
@@ -26,12 +43,8 @@
                 {
                   "type": "minecraft:matching_blocks",
                   "blocks": [
-                    "minecraft:rooted_dirt",
-                    "minecraft:crimson_nylium",
-                    "minecraft:podzol",
-                    "minecraft:dirt",
                     "minecraft:grass_block",
-                    "minecraft:coarse_dirt"
+                    "minecraft:moss_block"
                   ],
                   "offset": [
                     0,
@@ -44,7 +57,7 @@
           }
         ]
       },
-      "tries": 80,
+      "tries": 96,
       "xz_spread": 7,
       "y_spread": 3
     }
