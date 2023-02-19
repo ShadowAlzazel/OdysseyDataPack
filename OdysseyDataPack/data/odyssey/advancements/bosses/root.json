@@ -1,0 +1,37 @@
+{
+    "display": {
+        "frame": "task",
+        "hidden": false,
+        "announce_to_chat": false,
+        "show_toast": false,
+        "icon": {
+          "item": "minecraft:netherite_axe"
+        },
+        "title": {
+          "translate": "Odyssey - Bosses"
+        },
+        "description": {
+            "translate": "Adversity forces legends"
+        },
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+      "sword": {
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:wooden_sword"
+              ]
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "requirements": [
+      [
+        "sword"
+      ]
+    ]
+  }

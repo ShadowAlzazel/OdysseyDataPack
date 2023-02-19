@@ -1,0 +1,37 @@
+{
+  "display": {
+      "frame": "task",
+      "hidden": false,
+      "announce_to_chat": false,
+      "show_toast": false,
+      "icon": {
+        "item": "minecraft:smithing_table"
+      },
+      "title": {
+        "translate": "Odyssey - Smithing"
+      },
+      "description": {
+          "translate": "Smithing is more than creating weapons; a fine art of partnership"
+      },
+      "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "smithing_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:smithing_table"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "smithing_table"
+    ]
+  ]
+}

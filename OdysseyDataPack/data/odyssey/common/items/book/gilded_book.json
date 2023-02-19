@@ -1,0 +1,38 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "translate": "DESCRIPTION",
+                    "color": "REPLACE",
+                    "italic": true
+                  }
+                ],
+                "replace": true
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:6900000,odyssey:{item:'gilded_book'}}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "Gilded Book",
+                  "color": "REPLACE",
+                  "italic": false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

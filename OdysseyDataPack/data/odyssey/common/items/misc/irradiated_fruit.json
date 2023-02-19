@@ -1,0 +1,44 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:apple",
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "translate": "GET_FROM_DATABASE -> fetch from",
+                    "color": "#FF5733",
+                    "italic": true
+                  },
+                  "",
+                  {
+                    "translate": "GET_DATA_BASE",
+                    "color": "#FF5733",
+                    "italic": true
+                  }
+                ],
+                "replace": true
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:6900000,odyssey:{item:'irradiated_fruit'}}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "Irradiated Friut",
+                  "color": "#FF5733",
+                  "italic": false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "chance": 0.166666,
+          "feature": "odyssey:prismashroom/tall_shroom_blue"
+        },
+        {
+          "chance": 0.166666,
+          "feature": "odyssey:prismashroom/tall_shroom_cyan"
+        },
+        {
+          "chance": 0.166666,
+          "feature": "odyssey:prismashroom/tall_shroom_magenta"
+        },
+        {
+          "chance": 0.166666,
+          "feature": "odyssey:prismashroom/tall_shroom_orange"
+        },
+        {
+          "chance": 0.166666,
+          "feature": "odyssey:prismashroom/tall_shroom_pink"
+        },
+        {
+          "chance": 0.166666,
+          "feature": "odyssey:prismashroom/tall_shroom_yellow"
+        }
+      ],
+      "default": {
+        "feature": "odyssey:prismashroom/tall_shroom_green",
+        "placement": []
+      }
+    }
+  }
+  

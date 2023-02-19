@@ -1,0 +1,38 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:honey_bottle",
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "translate": "DESCRIPTION",
+                    "color": "REPLACE",
+                    "italic": true
+                  }
+                ],
+                "replace": true
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:6900000,odyssey:{item:'elecuile_essence'}}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "Elecile Essence",
+                  "color": "REPLACE",
+                  "italic": false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

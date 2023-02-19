@@ -1,0 +1,41 @@
+{
+    "display": {
+        "frame": "task",
+        "hidden": false,
+        "announce_to_chat": true,
+        "show_toast": true,
+        "icon": {
+          "item": "minecraft:bone",
+          "nbt": "{CustomModelData:6906614,odyssey:{item:'ectoplasm'}}"
+        },
+        "title": {
+          "translate": "Who you gonna call..."
+        },
+        "description": {
+            "translate": "Killed a Spectre"
+        }
+    },
+    "criteria": {
+      "killed_wraith": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:skeleton",
+                "nbt": "{Tags:[\"odyssey.wraith\"]}"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:player_killed_entity"
+      }
+    },
+    "requirements": [
+      [
+        "killed_wraith"
+      ]
+    ],
+    "parent": "odyssey:odyssey/root"
+  }

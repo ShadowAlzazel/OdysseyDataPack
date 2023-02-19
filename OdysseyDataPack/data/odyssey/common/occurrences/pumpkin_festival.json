@@ -1,0 +1,54 @@
+{
+    "name": "pupmkin_festival",
+    "allay_negatable": true,
+    "type": [
+        "stucture",
+        "solar"
+    ],
+    "affects": {
+        "entity": [
+            {
+                "type": "minecraft:villager"
+            } 
+        ],
+        "stucture": [
+            {
+                "type": "minecraft:village"
+            }
+        ]
+    },
+    "requirements": [
+        {
+            "type": "is_season",
+            "entries": [
+                "AUTUMN"
+            ]
+        }    
+    ],
+    "conditions": {
+        "entity_conditions": [
+            {
+                "name": "within_height",
+                "min": -12,
+                "max": 122
+            },
+            {
+                "name": "is_wet",
+                "in_rain": true,
+                "in_water": true
+            }
+
+        ],
+        "stucture_conditions": [
+
+        ]
+    },
+    "persistent_entity_actions": [
+        {
+            "name": "persitent_potion_effect",
+            "potions": [
+                "Slow"
+            ]
+        }
+    ]
+}

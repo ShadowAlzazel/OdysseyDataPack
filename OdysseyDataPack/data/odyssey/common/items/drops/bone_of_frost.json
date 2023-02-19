@@ -1,0 +1,38 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bone",
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "translate": "DESCRIPTION",
+                    "color": "REPLACE",
+                    "italic": true
+                  }
+                ],
+                "replace": true
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:6900000,odyssey:{item:'bone_of_frost'}}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "Bone of Frost",
+                  "color": "REPLACE",
+                  "italic": false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}
