@@ -32,7 +32,7 @@
             }
           },
           {
-            "biome": "odyssey:inazuma_plains",
+            "biome": "odyssey:birch_backwoods",
             "parameters": {
               "continentalness": [
                 -0.3,

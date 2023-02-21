@@ -1,10 +1,13 @@
 {
-    "feature": "odyssey:pantanal/disk_green_edge",
+    "feature": "odyssey:pantanal/ring_azalea",
     "placement": [ 
-      
       {
         "type": "minecraft:count",
-        "count": 2
+        "count": 30
+      },
+      {
+        "type": "minecraft:count",
+        "count": 50
       },
       {
         "type": "minecraft:in_square"
