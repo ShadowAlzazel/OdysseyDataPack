@@ -3,16 +3,16 @@
     "config": {
       "features": [
         {
-          "chance": 0.4,
-          "feature": "odyssey:pantanal/tree_multi"
+          "chance": 0.55,
+          "feature": "odyssey:pantanal/tree_blob"
         },
         {
-          "chance": 0.6,
+          "chance": 0.45,
           "feature": "odyssey:pantanal/tree_fancy"
         }
       ],
       "default": {
-        "feature": "odyssey:pantanal/tree_multi",
+        "feature": "odyssey:pantanal/tree_small",
         "placement": []
       }
     }

@@ -9,12 +9,7 @@
           "to_place": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:azalea_leaves",
-              "Properties": {
-                "level": "0",
-                "persistent": "true",
-                "waterlogged": "true"
-              }
+              "Name": "minecraft:red_sand"
             }
           }
         }
@@ -55,68 +50,28 @@
               {
                 "type": "minecraft:matching_blocks",
                 "blocks": [
-                  "minecraft:water"
+                  "minecraft:grass_block",
+                  "minecraft:dirt"
                 ]
               },
               {
                 "type": "not",
                 "predicate": {
-                  "type": "any_of",
-                  "predicates": [
-                    {
-                      "type": "minecraft:matching_blocks",
-                      "blocks": [
-                        "minecraft:dirt",
-                        "minecraft:grass_block",
-                        "minecraft:air"
-                      ],
-                      "offset": [
-                        1,
-                        0,
-                        0
-                      ]
-                    },
-                    {
-                      "type": "minecraft:matching_blocks",
-                      "blocks": [
-                        "minecraft:dirt",
-                        "minecraft:grass_block",
-                        "minecraft:air"
-                      ],
-                      "offset": [
-                        -1,
-                        0,
-                        0
-                      ]
-                    },
-                    {
-                      "type": "minecraft:matching_blocks",
-                      "blocks": [
-                        "minecraft:dirt",
-                        "minecraft:grass_block",
-                        "minecraft:air"
-                      ],
-                      "offset": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    {
-                      "type": "minecraft:matching_blocks",
-                      "blocks": [
-                        "minecraft:dirt",
-                        "minecraft:grass_block",
-                        "minecraft:air"
-                      ],
-                      "offset": [
-                        0,
-                        0,
-                        -1
-                      ]
-                    }
-                  ]
+                  "type": "minecraft:matching_fluids",
+                  "fluids": "minecraft:water"
                 }
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:cave_air",
+                  "minecraft:air"
+                ]
               },
               {
                 "type": "any_of",

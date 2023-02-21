@@ -1,13 +1,14 @@
 {
-    "feature": "odyssey:pantanal/ring_azalea",
+    "feature": "odyssey:pantanal/patch_muddy_roots",
     "placement": [ 
+      
       {
-        "type": "minecraft:count",
-        "count": 40
+        "type": "minecraft:rarity_filter",
+        "chance": 2
       },
       {
         "type": "minecraft:count",
-        "count": 60
+        "count": 1
       },
       {
         "type": "minecraft:in_square"

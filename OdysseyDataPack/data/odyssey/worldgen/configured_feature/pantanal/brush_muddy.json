@@ -13,25 +13,28 @@
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:rooted_dirt"
+        "Name": "minecraft:muddy_mangrove_roots"
       }
     },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:jungle_wood"
+        "Name": "minecraft:mangrove_log",
+        "Properties": {
+          "axis": "y"
+        }
       }
     },
     "trunk_placer": {
-      "type": "minecraft:fancy_trunk_placer",
-      "base_height": 15,
-      "height_rand_a": 6,
-      "height_rand_b": 4
+      "type": "minecraft:straight_trunk_placer",
+      "base_height": 1,
+      "height_rand_a": 0,
+      "height_rand_b": 0
     },
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:mangrove_leaves",
+        "Name": "minecraft:birch_leaves",
         "Properties": {
           "distance": "7",
           "persistent": "true",
@@ -40,14 +43,10 @@
       }
     },
     "foliage_placer": {
-      "type": "minecraft:cherry_foliage_placer",
-      "corner_hole_chance": 0.25,
-      "hanging_leaves_chance": 0.55,
-      "hanging_leaves_extension_chance": 0.3,
-      "height": 5,
-      "offset": 1,
-      "radius": 4,
-      "wide_bottom_layer_hole_chance": 0.15
+      "type": "minecraft:acacia_foliage_placer",
+      "height": 1,
+      "offset": 0,
+      "radius": 3
     }
   }
 }

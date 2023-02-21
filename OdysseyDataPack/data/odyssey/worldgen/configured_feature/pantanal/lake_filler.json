@@ -23,7 +23,7 @@
           "count": {
             "type": "minecraft:uniform",
             "value": {
-              "max_inclusive": 10,
+              "max_inclusive": 20,
               "min_inclusive": 10
             }
           }
@@ -37,7 +37,13 @@
               "max_inclusive": 5
             }
           },
-          "y_spread": 0
+          "y_spread": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": -1,
+              "max_inclusive": 1
+            }
+          }
         },
         {
           "type": "block_predicate_filter",
@@ -49,6 +55,18 @@
                 "blocks": [
                   "minecraft:moss_block",
                   "minecraft:azalea_leaves"
+                ]
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:cave_air",
+                  "minecraft:air"
                 ]
               },
               {
