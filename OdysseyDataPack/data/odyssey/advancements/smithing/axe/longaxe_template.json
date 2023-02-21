@@ -1,0 +1,38 @@
+{
+    "parent": "odyssey:smithing/axe/tracker_root",
+    "criteria": {
+      "get_longaxe_template": {
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{CustomModelData:1,odyssey:{item:'longaxe_template'}}",
+              "items": [
+                "minecraft:iron_ingot"
+              ]
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "display": {
+      "announce_to_chat": true,
+      "description": {
+        "translate": "Acquired the template to forge a longaxe"
+      },
+      "frame": "task",
+      "hidden": true,
+      "icon": {
+        "item": "minecraft:diamond_axe"
+      },
+      "show_toast": true,
+      "title": {
+        "translate": "Axe!"
+      }
+    },
+    "requirements": [
+      [
+        "get_longaxe_template"
+      ]
+    ]
+}

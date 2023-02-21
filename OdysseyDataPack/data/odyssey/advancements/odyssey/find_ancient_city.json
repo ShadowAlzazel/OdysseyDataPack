@@ -1,0 +1,41 @@
+{
+    "parent": "odyssey:odyssey/root",
+    "criteria": {
+      "find_ancient_city": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structure": "minecraft:ancient_city"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      }
+    },
+    "display": {
+      "announce_to_chat": true,
+      "description": {
+        "translate": "Locate an ancient city in the deep dark"
+      },
+      "frame": "goal",
+      "hidden": false,
+      "icon": {
+        "item": "minecraft:reinforced_deepslate"
+      },
+      "show_toast": true,
+      "title": {
+        "translate": "Lost, Dark and Sculky?"
+      }
+    },
+    "requirements": [
+      [
+        "find_ancient_city"
+      ]
+    ]
+  }

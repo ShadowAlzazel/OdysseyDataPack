@@ -1,41 +1,40 @@
 {
-    "parent": "odyssey:odyssey/root",
+    "parent": "odyssey:odyssey/find_ancient_city",
     "display": {
-        "frame": "task",
+        "frame": "challenge",
         "hidden": false,
         "announce_to_chat": true,
         "show_toast": true,
         "icon": {
-          "item": "minecraft:tnt"
+          "item": "minecraft:rotten_flesh",
+          "nbt": "{CustomModelData:6903620,odyssey:{item:'warden_entrails'}}"
         },
         "title": {
-          "translate": "Fully Charged!"
+          "translate": "It can still hear..."
         },
         "description": {
-            "translate": "Died to a charged Creeper"
+            "translate": "Vanquish the warden in the deep dark"
         }
     },
     "criteria": {
-      "killed_by_charged_creeper": {
+      "killed_warden": {
         "conditions": {
           "entity": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type": "minecraft:creeper",
-                "nbt": "{powered:1b}"
+                "type": "minecraft:warden"
               }
             }
           ]
         },
-        "trigger": "minecraft:entity_killed_player"
+        "trigger": "minecraft:player_killed_entity"
       }
     },
     "requirements": [
       [
-        "killed_by_charged_creeper"
+        "killed_warden"
       ]
     ]
-    
-  }
+}

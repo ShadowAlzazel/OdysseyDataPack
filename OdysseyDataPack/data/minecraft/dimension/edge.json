@@ -53,7 +53,7 @@
                 0.4
               ],
               "weirdness": [
-                -0.466,
+                -0.266,
                 0.266
               ]
             }
@@ -81,6 +81,33 @@
               ],
               "weirdness": [
                 -0.366,
+                0.166
+              ]
+            }
+          },
+          {
+            "biome": "odyssey:pantanal",
+            "parameters": {
+              "continentalness": [
+                -0.5,
+                0.8
+              ],
+              "depth": 1.0,
+              "erosion": [
+                -0.175,
+                0.2225
+              ],
+              "humidity": [
+                -0.5,
+                0.5
+              ],
+              "offset": 0.0,
+              "temperature": [
+                -0.6,
+                0.2
+              ],
+              "weirdness": [
+                -0.566,
                 0.166
               ]
             }

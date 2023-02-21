@@ -4,25 +4,25 @@
       "features": [
         {
           "chance": 0.1,
-          "feature": "odyssey:inazuma/dark_smallfork_birch"
+          "feature": "odyssey:inazuma/tree_small_birchfork"
         },
         {
-          "chance": 0.25,
-          "feature": "odyssey:inazuma/dark_fork_azalea"
+          "chance": 0.3,
+          "feature": "odyssey:inazuma/tree_tall_azaleafork"
         },
         {
           "chance": 0.2,
-          "feature": "odyssey:inazuma/dark_fork_birch"
+          "feature": "odyssey:inazuma/tree_tall_purplefork"
         },
         {
           "chance": 0.4,
-          "feature": "odyssey:inazuma/fancy_sakura"
+          "feature": "odyssey:inazuma/tree_fancy_sakura"
         }
       ],
       "default": {
-        "feature": "odyssey:inazuma/dark_smallfork_birch",
+        "feature": "odyssey:inazuma/tree_small_birchfork",
         "placement": []
       }
     }
-  }
+}
   

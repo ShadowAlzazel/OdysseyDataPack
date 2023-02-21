@@ -1,11 +1,7 @@
 {
     "name": "template_occurrence",
-    "type": [
-        "lunar",
-        "seasonal",
-        "stucture"
-    ],
-    "negatable_by_allay": false,
+    "type": "lunar",
+    "negatable_by_allay": true,
     "requirements": [
         {
             "type": "needs_season",
@@ -62,7 +58,6 @@
                 }
             ]
         }
-
     ],
     "spawning_actions": [
     ],

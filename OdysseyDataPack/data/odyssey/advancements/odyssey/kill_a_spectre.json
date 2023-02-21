@@ -1,4 +1,5 @@
 {
+    "parent": "odyssey:odyssey/root",
     "display": {
         "frame": "task",
         "hidden": false,
@@ -36,6 +37,5 @@
       [
         "killed_wraith"
       ]
-    ],
-    "parent": "odyssey:odyssey/root"
-  }
+    ]
+}

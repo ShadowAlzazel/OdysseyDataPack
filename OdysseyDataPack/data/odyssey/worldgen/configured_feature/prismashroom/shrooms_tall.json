@@ -4,31 +4,31 @@
       "features": [
         {
           "chance": 0.166666,
-          "feature": "odyssey:prismashroom/tall_shroom_blue"
+          "feature": "odyssey:prismashroom/shroom_tall_blue"
         },
         {
           "chance": 0.166666,
-          "feature": "odyssey:prismashroom/tall_shroom_cyan"
+          "feature": "odyssey:prismashroom/shroom_tall_cyan"
         },
         {
           "chance": 0.166666,
-          "feature": "odyssey:prismashroom/tall_shroom_magenta"
+          "feature": "odyssey:prismashroom/shroom_tall_magenta"
         },
         {
           "chance": 0.166666,
-          "feature": "odyssey:prismashroom/tall_shroom_orange"
+          "feature": "odyssey:prismashroom/shroom_tall_orange"
         },
         {
           "chance": 0.166666,
-          "feature": "odyssey:prismashroom/tall_shroom_pink"
+          "feature": "odyssey:prismashroom/shroom_tall_pink"
         },
         {
           "chance": 0.166666,
-          "feature": "odyssey:prismashroom/tall_shroom_yellow"
+          "feature": "odyssey:prismashroom/shroom_tall_yellow"
         }
       ],
       "default": {
-        "feature": "odyssey:prismashroom/tall_shroom_green",
+        "feature": "odyssey:prismashroom/shroom_tall_green",
         "placement": []
       }
     }

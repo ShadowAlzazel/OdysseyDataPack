@@ -1,6 +1,6 @@
 {
     "has_precipitation": true,
-    "temperature": 0.8,
+    "temperature": 0.4,
     "downfall": 0.7,
     "player_spawn_friendly": true,
     "creature_spawn_probability": 0.4,
@@ -14,19 +14,19 @@
     "effects": {
         "sky_color": 7972607,
         "fog_color": 7972607,
-        "water_color": 4159204,
+        "water_color": 1983131,
         "water_fog_color": 329011,
-        "foliage_color": 12820193,
-        "grass_color": 9294183,
-        "grass_color_modifier": "none",
+        "foliage_color": 13746279,
+        "grass_color": 13746279,
+        "grass_color_modifier": "dark_forest",
         "particle": {
             "options": {
-                "type": "minecraft:witch"
+                "type": "minecraft:wax_off"
             },
-            "probability": 0.009
+            "probability": 0.002
         },
         "music": {
-            "sound": "minecraft:music.overworld.cherry_grove",
+            "sound": "minecraft:music.nether.crimson_forset",
             "min_delay": 12000,
             "max_delay": 24000,
             "replace_current_music": false
@@ -83,7 +83,8 @@
             "minecraft:underwater_magma",
             "minecraft:disk_clay",
             "minecraft:disk_gravel",
-            "odyssey:generic/disk_moss"
+            "odyssey:generic/disk_large_blackstone",
+            "odyssey:generic/disk_mud"
         ],
         [],
         [
@@ -91,15 +92,7 @@
         ],
         [
             "minecraft:glow_lichen",
-            "odyssey:inazuma/trees",
-            "odyssey:inazuma/patch_grass_normal",
-            "odyssey:inazuma/patch_azalea",
-            "minecraft:flower_cherry",
-            "odyssey:inazuma/flowers_gems",
-            "odyssey:inazuma/flowers_pink",
-            "odyssey:inazuma/flowers_blue",
-            "odyssey:inazuma/brushes"
-
+            "odyssey:prismashroom/shrooms_tall"
         ],
         [
             "minecraft:freeze_top_layer"

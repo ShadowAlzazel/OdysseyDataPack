@@ -1,7 +1,9 @@
 {
   "has_precipitation": true,
   "temperature": 0.8,
-  "downfall": 0.4,
+  "downfall": 0.85,
+  "player_spawn_friendly": true,
+  "creature_spawn_probability": 0.4,
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -10,24 +12,39 @@
     ]
   },
   "effects": {
-    "fog_color": 12638463,
-    "mood_sound": {
-      "block_search_extent": 8,
-      "offset": 2.0,
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000
-    },
-    "sky_color": 7907327,
-    "water_color": 4159204,
+    "sky_color": 7972607,
+    "fog_color": 7972607,
+    "water_color": 1426834,
     "water_fog_color": 329011,
-    "grass_color": 10604113
+    "foliage_color": 12820193,
+    "grass_color": 9294183,
+    "grass_color_modifier": "none",
+    "particle": {
+      "options": {
+        "type": "minecraft:spore_blossom_air"
+      },
+      "probability": 0.009
+    },
+    "music": {
+      "sound": "minecraft:music.overworld.cherry_grove",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.crimson_forest.additions",
+      "tick_chance": 0.0111
+    },
+    "mood_sound": {
+      "sound": "minecraft.ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    }
   },
   "features": [
     [],
-    [
-      "minecraft:lake_lava_underground",
-      "minecraft:lake_lava_surface"
-    ],
+    [],
     [
       "minecraft:amethyst_geode"
     ],
@@ -63,25 +80,17 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "odyssey:pantanal/disk_water",
+      "odyssey:pantanal/disk_green_edge"
     ],
     [],
     [
-      "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen",
-      "minecraft:patch_tall_grass_2",
-      "minecraft:trees_plains",
-      "minecraft:flower_plains",
-      "odyssey:inazuma/patch_grass_plain",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:glow_lichen"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -124,16 +133,10 @@
         "weight": 8
       },
       {
-        "type": "minecraft:horse",
-        "maxCount": 6,
-        "minCount": 2,
-        "weight": 5
-      },
-      {
-        "type": "minecraft:donkey",
+        "type": "minecraft:rabbit",
         "maxCount": 3,
-        "minCount": 1,
-        "weight": 1
+        "minCount": 2,
+        "weight": 4
       }
     ],
     "misc": [],

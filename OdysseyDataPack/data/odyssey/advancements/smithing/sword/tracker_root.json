@@ -1,0 +1,102 @@
+{
+    "parent": "odyssey:smithing/sword/root",
+    "criteria": {
+      "get_saber_template": {
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{CustomModelData:1,odyssey:{item:'saber_template'}}",
+              "items": [
+                "minecraft:iron_ingot"
+              ]
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "get_rapier_template": {
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{CustomModelData:1,odyssey:{item:'rapier_template'}}",
+              "items": [
+                "minecraft:iron_ingot"
+              ]
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "get_katana_template": {
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{CustomModelData:1,odyssey:{item:'katana_template'}}",
+              "items": [
+                "minecraft:iron_ingot"
+              ]
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "get_claymore_template": {
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{CustomModelData:1,odyssey:{item:'claymore_template'}}",
+              "items": [
+                "minecraft:iron_ingot"
+              ]
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "get_cutlass_template": {
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{CustomModelData:1,odyssey:{item:'cutlass_template'}}",
+              "items": [
+                "minecraft:iron_ingot"
+              ]
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "display": {
+      "announce_to_chat": true,
+      "description": {
+        "translate": "Discover every single sword template"
+      },
+      "frame": "challenge",
+      "hidden": false,
+      "icon": {
+        "item": "minecraft:netherite_sword"
+      },
+      "show_toast": true,
+      "title": {
+        "translate": "Mastersmith"
+      }
+    },
+    "requirements": [
+      [
+        "get_saber_template"
+      ],
+      [
+        "get_rapier_template"
+      ],
+      [
+        "get_katana_template"
+      ],
+      [
+        "get_cutlass_template"
+      ],
+      [
+        "get_claymore_template"
+      ]
+    ]
+}

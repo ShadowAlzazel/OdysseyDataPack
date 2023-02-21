@@ -1,0 +1,89 @@
+{
+    "parent": "odyssey:smithing/root",
+    "criteria": {
+      "create_wooden_sword": {
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:wooden_sword"
+              ]
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "create_stone_sword": {
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:stone_sword"
+              ]
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "create_iron_sword": {
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:iron_sword"
+              ]
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "create_golden_sword": {
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:golden_sword"
+              ]
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "create_diamond_sword": {
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:diamond_sword"
+              ]
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "display": {
+      "announce_to_chat": true,
+      "description": {
+        "translate": "Make a high quality sword!"
+      },
+      "frame": "task",
+      "hidden": false,
+      "icon": {
+        "item": "minecraft:iron_sword"
+      },
+      "show_toast": true,
+      "title": {
+        "translate": "Swordsmith!"
+      }
+    },
+    "requirements": [
+      [
+        "create_wooden_sword",
+        "create_stone_sword",
+        "create_iron_sword",
+        "create_golden_sword",
+        "create_diamond_sword"
+      ]
+    ]
+}

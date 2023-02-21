@@ -1,0 +1,38 @@
+{
+    "parent": "odyssey:smithing/sword/tracker_root",
+    "criteria": {
+      "get_saber_template": {
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{CustomModelData:1,odyssey:{item:'saber_template'}}",
+              "items": [
+                "minecraft:iron_ingot"
+              ]
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "display": {
+      "announce_to_chat": true,
+      "description": {
+        "translate": "Acquired the template to forge a Katana"
+      },
+      "frame": "task",
+      "hidden": true,
+      "icon": {
+        "item": "minecraft:diamond_sword"
+      },
+      "show_toast": true,
+      "title": {
+        "translate": "Saber"
+      }
+    },
+    "requirements": [
+      [
+        "get_saber_template"
+      ]
+    ]
+}
