@@ -52,10 +52,7 @@
             "predicates": [
               {
                 "type": "minecraft:matching_blocks",
-                "blocks": [
-                  "minecraft:moss_block",
-                  "minecraft:azalea_leaves"
-                ]
+                "blocks": "minecraft:moss_block"
               },
               {
                 "type": "minecraft:matching_blocks",

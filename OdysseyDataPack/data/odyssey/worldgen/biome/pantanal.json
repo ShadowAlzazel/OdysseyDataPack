@@ -53,7 +53,12 @@
       "minecraft:monster_room_deep"
     ],
     [],
-    [],
+    [
+      "odyssey:pantanal/ring_moss",
+      "odyssey:pantanal/ring_orange",
+      "odyssey:pantanal/lake_filler",
+      "odyssey:pantanal/ring_azalea"
+    ],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
@@ -81,12 +86,7 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel",
-      "odyssey:pantanal/ring_moss",
-      "odyssey:pantanal/lake_filler",
-      "odyssey:pantanal/ring_azalea",
-      "odyssey:pantanal/ring_orange"
-      
+      "minecraft:disk_gravel"
     ],
     [],
     [
@@ -94,10 +94,9 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:flower_swamp",
-      "minecraft:seagrass_swamp",
       "odyssey:pantanal/trees",
-      "odyssey:pantanal/brushes"
+      "odyssey:pantanal/patch_muddy_roots",
+      "odyssey:pantanal/patch_grass"
     ],
     [
       "minecraft:freeze_top_layer"

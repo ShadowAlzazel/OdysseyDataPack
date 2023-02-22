@@ -38,7 +38,7 @@
             "type": "minecraft:uniform",
             "value": {
               "min_inclusive": -1,
-              "max_inclusive": 1
+              "max_inclusive": 0
             }
           }
         },
@@ -49,17 +49,7 @@
             "predicates": [
               {
                 "type": "minecraft:matching_blocks",
-                "blocks": [
-                  "minecraft:grass_block",
-                  "minecraft:dirt"
-                ]
-              },
-              {
-                "type": "not",
-                "predicate": {
-                  "type": "minecraft:matching_fluids",
-                  "fluids": "minecraft:water"
-                }
+                "blocks": "minecraft:grass_block"
               },
               {
                 "type": "minecraft:matching_blocks",
@@ -68,10 +58,7 @@
                   1,
                   0
                 ],
-                "blocks": [
-                  "minecraft:cave_air",
-                  "minecraft:air"
-                ]
+                "blocks": "minecraft:air"
               },
               {
                 "type": "any_of",
