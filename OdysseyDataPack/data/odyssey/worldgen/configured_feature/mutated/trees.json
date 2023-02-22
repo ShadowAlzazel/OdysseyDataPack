@@ -4,23 +4,23 @@
       "features": [
         {
           "chance": 0.10,
-          "feature": "odyssey:mutated/pine_adapted"
+          "feature": "odyssey:mutated/tree_pine_adapted"
         },
         {
           "chance": 0.22,
-          "feature": "odyssey:mutated/rooted_pine_adapted"
+          "feature": "odyssey:mutated/tree_rooted_adapted"
         },
         {
           "chance": 0.18,
-          "feature": "odyssey:mutated/rootshroom"
+          "feature": "odyssey:mutated/shroom_skyroot"
         },
         {
           "chance": 0.18,
-          "feature": "odyssey:mutated/weepshroom"
+          "feature": "odyssey:mutated/shroom_weep"
         }
       ],
       "default": {
-        "feature": "odyssey:mutated/pine_adapted",
+        "feature": "odyssey:mutated/tree_pine_adapted",
         "placement": []
       }
     }
