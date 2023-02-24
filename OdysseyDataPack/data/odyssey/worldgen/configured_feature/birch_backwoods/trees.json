@@ -3,12 +3,12 @@
   "config": {
     "features": [
       {
-        "chance": 0.4,
+        "chance": 0.5,
         "feature": "odyssey:birch_backwoods/tree_tall_birch"
       },
       {
-        "chance": 0.6,
-        "feature": "odyssey:birch_backwoods/tree_tall_birch_blob"
+        "chance": 0.5,
+        "feature": "odyssey:birch_backwoods/tree_tall_blob"
       }
     ],
     "default": {

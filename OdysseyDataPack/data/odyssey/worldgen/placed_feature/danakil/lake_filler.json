@@ -1,9 +1,13 @@
 {
-    "feature": "odyssey:birch_backwoods/random_green_blocks",
-    "placement": [  
+    "feature": "odyssey:danakil/lake_filler",
+    "placement": [ 
       {
         "type": "minecraft:count",
-        "count": 3
+        "count": 40
+      },
+      {
+        "type": "minecraft:count",
+        "count": 60
       },
       {
         "type": "minecraft:in_square"

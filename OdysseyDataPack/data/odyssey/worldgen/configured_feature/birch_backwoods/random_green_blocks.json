@@ -12,11 +12,17 @@
                   "data": {
                     "Name": "minecraft:moss_block"
                   },
-                  "weight": 8
+                  "weight": 15
                 },
                 {
                   "data": {
                     "Name": "minecraft:mossy_cobblestone"
+                  },
+                  "weight": 7
+                },
+                {
+                  "data": {
+                    "Name": "minecraft:green_concrete_powder"
                   },
                   "weight": 2
                 }
@@ -34,7 +40,7 @@
           }
         ]
       },
-      "tries": 84,
+      "tries": 90,
       "xz_spread": 9,
       "y_spread": 3
     }

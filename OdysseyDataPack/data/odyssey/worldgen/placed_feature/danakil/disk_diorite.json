@@ -1,0 +1,29 @@
+{
+    "feature": "odyssey:danakil/disk_diorite",
+    "placement": [ 
+      {
+        "type": "minecraft:rarity_filter",
+        "chance": 3
+      },
+      {
+        "type": "minecraft:count",
+        "count": {
+          "type": "uniform",
+          "value": {
+            "max_inclusive": 5,
+            "min_inclusive": 3
+          }
+        }
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:heightmap",
+        "heightmap": "WORLD_SURFACE_WG"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }

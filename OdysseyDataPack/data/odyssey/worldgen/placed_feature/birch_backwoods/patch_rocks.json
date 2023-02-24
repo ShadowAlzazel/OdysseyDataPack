@@ -1,9 +1,9 @@
 {
-    "feature": "odyssey:birch_backwoods/random_green_blocks",
-    "placement": [  
+    "feature": "odyssey:birch_backwoods/patch_rocks",
+    "placement": [
       {
-        "type": "minecraft:count",
-        "count": 3
+        "type": "minecraft:rarity_filter",
+        "chance": 2
       },
       {
         "type": "minecraft:in_square"
@@ -17,3 +17,4 @@
       }
     ]
   }
+  

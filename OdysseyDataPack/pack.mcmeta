@@ -5,7 +5,9 @@
     ]
   },
   "pack": {
-    "pack_format": 11,
-    "description": "Minecraft Odyssey Required Data Pack"
+    "pack_format": 12,
+    "description": {
+      "translate": "Minecraft Odyssey Required Data Pack"
+    }
   }
 }

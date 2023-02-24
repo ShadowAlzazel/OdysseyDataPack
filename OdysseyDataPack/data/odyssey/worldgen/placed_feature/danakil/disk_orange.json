@@ -1,0 +1,29 @@
+{
+    "feature": "odyssey:danakil/disk_orange",
+    "placement": [ 
+      {
+        "type": "minecraft:rarity_filter",
+        "chance": 3
+      },
+      {
+        "type": "minecraft:count",
+        "count": {
+          "type": "uniform",
+          "value": {
+            "max_inclusive": 4,
+            "min_inclusive": 2
+          }
+        }
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:heightmap",
+        "heightmap": "WORLD_SURFACE_WG"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }

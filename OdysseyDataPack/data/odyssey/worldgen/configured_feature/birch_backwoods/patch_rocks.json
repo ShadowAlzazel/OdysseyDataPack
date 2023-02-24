@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "minecraft:cobblestone"
+                },
+                "weight": 6
+              },
+              {
+                "data": {
+                  "Name": "minecraft:mossy_cobblestone"
+                },
+                "weight": 7
+              },
+              {
+                "data": {
+                  "Name": "minecraft:stone"
+                },
+                "weight": 6
+              },
+              {
+                "data": {
+                  "Name": "minecraft:andesite"
+                },
+                "weight": 6
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:grass_block"
+          }
+        }
+      ]
+    },
+    "tries": 90,
+    "xz_spread": 7,
+    "y_spread": 3
+  }
+}

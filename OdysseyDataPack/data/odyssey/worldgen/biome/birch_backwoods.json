@@ -81,6 +81,8 @@
             "minecraft:glow_lichen",
             "odyssey:birch_backwoods/trees",
             "odyssey:birch_backwoods/patch_packed_mud",
+            "odyssey:birch_backwoods/patch_rooted_dirt",
+            "odyssey:birch_backwoods/patch_rocks",
             "odyssey:birch_backwoods/random_green_blocks",
             "odyssey:birch_backwoods/flowers_birch",
             "odyssey:birch_backwoods/patch_grass"

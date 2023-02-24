@@ -24,7 +24,7 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:birch_wood",
+        "Name": "minecraft:birch_log",
         "Properties": {
           "axis": "y"
         }
@@ -48,14 +48,10 @@
       }
     },
     "foliage_placer": {
-      "type": "minecraft:cherry_foliage_placer",
-      "corner_hole_chance": 0.25,
-      "hanging_leaves_chance": 0.55,
-      "hanging_leaves_extension_chance": 0.3,
-      "height": 5,
-      "offset": 1,
-      "radius": 3,
-      "wide_bottom_layer_hole_chance": 0.15
+      "type": "minecraft:blob_foliage_placer",
+      "height": 3,
+      "offset": 0,
+      "radius": 2
     }
   }
 }
