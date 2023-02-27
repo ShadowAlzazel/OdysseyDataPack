@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "direction": "up",
+    "prioritize_tip": false,
+    "allowed_placement": {
+      "type": "minecraft:all_of",
+      "predicates": [
+        {
+          "type": "minecraft:matching_blocks",
+          "blocks": "minecraft:air"
+        }
+      ]
+    },
+    "layers": [
+      {
+        "height": 15,
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:spruce_log",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "direction": "west",
+    "prioritize_tip": true,
+    "allowed_placement": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "minecraft:air"
+    },
+    "layers": [
+      {
+        "height": {
+          "type": "uniform",
+          "value": {
+            "max_inclusive": 5,
+            "min_inclusive": 4
+          }
+        },
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:birch_log",
+            "Properties": {
+              "axis": "x"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

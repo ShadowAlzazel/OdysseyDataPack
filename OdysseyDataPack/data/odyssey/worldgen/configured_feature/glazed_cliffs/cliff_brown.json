@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [],
+    "default": {
+      "feature": {
+        "type": "simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:terracotta"
+            }
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "count",
+          "count": {
+            "type": "minecraft:uniform",
+            "value": {
+              "max_inclusive": 25,
+              "min_inclusive": 15
+            }
+          }
+        },
+        {
+          "type": "minecraft:random_offset",
+          "xz_spread": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": -5,
+              "max_inclusive": 5
+            }
+          },
+          "y_spread": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": -3,
+              "max_inclusive": 3
+            }
+          }
+        },
+        {
+          "type": "block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:dirt",
+                  "minecraft:granite"
+                ]
+              },
+              {
+                "type": "not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:terracotta"
+                  ],
+                  "offset": [
+                      0,
+                      -3,
+                      0
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

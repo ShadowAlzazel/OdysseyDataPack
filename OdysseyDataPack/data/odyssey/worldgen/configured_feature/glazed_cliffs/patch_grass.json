@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:random_patch",
+    "config": {
+      "feature": {
+        "feature": {
+          "type": "minecraft:simple_block",
+          "config": {
+            "to_place": {
+              "type": "minecraft:weighted_state_provider",
+              "entries": [
+                {
+                  "data": {
+                    "Name": "minecraft:grass"
+                  },
+                  "weight": 2
+                },
+                {
+                  "data": {
+                    "Name": "minecraft:tall_grass"
+                  },
+                  "weight": 10
+                }
+              ]
+            }
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:grass_block"
+              ],
+              "offset": [
+                  0,
+                  -1,
+                  0
+              ]
+            }
+          }
+        ]
+      },
+      "tries": 96,
+      "xz_spread": 8,
+      "y_spread": 4
+    }
+  }
