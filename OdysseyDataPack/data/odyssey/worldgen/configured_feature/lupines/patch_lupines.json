@@ -10,15 +10,15 @@
             "entries": [
               {
                 "data": {
-                  "Name": "minecraft:white_tulip"
+                  "Name": "minecraft:large_fern"
                 },
-                "weight": 5
+                "weight": 21
               },
               {
                 "data": {
-                  "Name": "minecraft:pink_tulip"
+                  "Name": "minecraft:fern"
                 },
-                "weight": 9
+                "weight": 3
               },
               {
                 "data": {
@@ -41,7 +41,7 @@
       ]
     },
     "tries": 96,
-    "xz_spread": 6,
+    "xz_spread": 9,
     "y_spread": 2
   }
 }

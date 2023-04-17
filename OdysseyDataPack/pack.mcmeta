@@ -1,11 +1,6 @@
 {
-  "features": {
-    "enabled": [
-      "minecraft:update_1_20"
-    ]
-  },
   "pack": {
-    "pack_format": 12,
+    "pack_format": 13,
     "description": {
       "translate": "Minecraft Odyssey Required Data Pack"
     }

@@ -1,20 +1,19 @@
 {
-    "type": "minecraft:random_selector",
-    "config": {
-      "features": [
-        {
-          "chance": 0.45,
-          "feature": "odyssey:inazuma/brush_birch"
-        },
-        {
-          "chance": 0.55,
-          "feature": "odyssey:inazuma/brush_purple"
-        }
-      ],
-      "default": {
-        "feature": "odyssey:inazuma/brush_purple",
-        "placement": []
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.45,
+        "feature": "odyssey:inazuma/brush_birch"
+      },
+      {
+        "chance": 0.55,
+        "feature": "odyssey:inazuma/brush_purple"
       }
+    ],
+    "default": {
+      "feature": "odyssey:inazuma/brush_purple",
+      "placement": []
     }
+  }
 }
-  

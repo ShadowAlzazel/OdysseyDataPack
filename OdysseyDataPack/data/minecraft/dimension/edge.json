@@ -86,6 +86,33 @@
             }
           },
           {
+            "biome": "odyssey:lupin_fjords",
+            "parameters": {
+              "continentalness": [
+                -0.4,
+                0.4
+              ],
+              "depth": 1.0,
+              "erosion": [
+                -0.275,
+                0.1225
+              ],
+              "humidity": [
+                -0.3,
+                0.8
+              ],
+              "offset": 0.0,
+              "temperature": [
+                -0.5,
+                0.3
+              ],
+              "weirdness": [
+                -0.366,
+                0.166
+              ]
+            }
+          },
+          {
             "biome": "odyssey:glazed_cliffs",
             "parameters": {
               "continentalness": [
