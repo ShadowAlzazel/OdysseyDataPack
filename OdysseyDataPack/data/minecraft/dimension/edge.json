@@ -113,6 +113,33 @@
             }
           },
           {
+            "biome": "odyssey:prismashroom_moor",
+            "parameters": {
+              "continentalness": [
+                -0.9,
+                -0.2
+              ],
+              "depth": 1.0,
+              "erosion": [
+                0.275,
+                0.7225
+              ],
+              "humidity": [
+                -1.0,
+                0.0
+              ],
+              "offset": 0.0,
+              "temperature": [
+                -1.0,
+                1.0
+              ],
+              "weirdness": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          {
             "biome": "odyssey:glazed_cliffs",
             "parameters": {
               "continentalness": [

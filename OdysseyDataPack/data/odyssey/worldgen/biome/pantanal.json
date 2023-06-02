@@ -96,7 +96,10 @@
       "minecraft:glow_lichen",
       "odyssey:pantanal/trees",
       "odyssey:pantanal/patch_muddy_roots",
-      "odyssey:pantanal/patch_grass"
+      "odyssey:pantanal/disk_small_coarse_dirt",
+      "odyssey:pantanal/disk_small_podzol",
+      "odyssey:pantanal/patch_grass",
+      "odyssey:pantanal/flowers_pantanal"
     ],
     [
       "minecraft:freeze_top_layer"

@@ -16,8 +16,8 @@
     "fog_color": 7972607,
     "water_color": 4159204,
     "water_fog_color": 329011,
-    "foliage_color": 6868090,
-    "grass_color": 12426977,
+    "foliage_color": 10742494,
+    "grass_color": 6868090,
     "grass_color_modifier": "none",
     "music": {
       "sound": "minecraft:music.overworld.cherry_grove",
@@ -41,7 +41,8 @@
     [],
     [
       "minecraft:amethyst_geode",
-      "minecraft:forest_rock"
+      "minecraft:forest_rock",
+      "odyssey:lupines/rock_prismarine"
     ],
     [
       "minecraft:monster_room",
@@ -78,6 +79,7 @@
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
       "odyssey:generic/disk_moss"
+      
     ],
     [],
     [
@@ -85,7 +87,10 @@
     ],
     [
       "minecraft:glow_lichen",
-      "odyssey:lupines/patch_lupines"
+      "odyssey:lupines/patch_rocks",
+      "odyssey:lupines/patch_grass",
+      "odyssey:lupines/flowers_lupine",
+      "odyssey:lupines/trees"
     ],
     [
       "minecraft:freeze_top_layer"

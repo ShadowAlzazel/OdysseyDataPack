@@ -14,11 +14,11 @@
     "effects": {
         "sky_color": 7972607,
         "fog_color": 7972607,
-        "water_color": 1983131,
+        "water_color": 16777215,
         "water_fog_color": 329011,
-        "foliage_color": 13746279,
-        "grass_color": 13746279,
-        "grass_color_modifier": "dark_forest",
+        "foliage_color": 3604434,
+        "grass_color": 3604434,
+        "grass_color_modifier": "none",
         "particle": {
             "options": {
                 "type": "minecraft:wax_off"
@@ -54,7 +54,9 @@
             "minecraft:monster_room_deep"
         ],
         [],
-        [],
+        [
+            "odyssey:prismashroom/ring_dark_prismarine"
+        ],
         [
             "minecraft:ore_dirt",
             "minecraft:ore_gravel",

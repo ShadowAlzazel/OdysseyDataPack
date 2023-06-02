@@ -1,9 +1,9 @@
 {
-	"feature": "odyssey:prismashroom/shrooms_tall",
+	"feature": "odyssey:lupines/trees",
 	"placement": [
 		{
 			"type": "count",
-			"count": 7
+			"count": 2
 		},
 		{
 			"type": "minecraft:in_square"
@@ -22,9 +22,9 @@
 					0
 				],
 				"blocks": [
-					"minecraft:dirt",
 					"minecraft:grass_block",
-                    "minecraft:mud"
+					"minecraft:dirt",
+                    "minecraft:moss_block"
 				]
 			}
 		},

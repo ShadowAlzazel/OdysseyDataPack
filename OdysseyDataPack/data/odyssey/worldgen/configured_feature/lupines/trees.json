@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "chance": 0.36,
+          "feature": "odyssey:lupines/tree_small_fork"
+        }
+      ],
+      "default": {
+        "feature": "odyssey:lupines/tree_small_fork",
+        "placement": []
+      }
+    }
+}
+  

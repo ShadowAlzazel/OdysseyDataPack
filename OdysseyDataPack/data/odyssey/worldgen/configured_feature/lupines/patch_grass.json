@@ -12,17 +12,24 @@
                 "data": {
                   "Name": "minecraft:large_fern"
                 },
-                "weight": 21
+                "weight": 11
               },
               {
                 "data": {
                   "Name": "minecraft:fern"
                 },
-                "weight": 3
+                "weight": 4
               },
               {
                 "data": {
-                  "Name": "minecraft:allium"
+                  "Name": "minecraft:tall_grass"
+                },
+                "weight": 8
+              }
+              ,
+              {
+                "data": {
+                  "Name": "minecraft:tall_grass"
                 },
                 "weight": 3
               }
@@ -40,8 +47,8 @@
         }
       ]
     },
-    "tries": 96,
-    "xz_spread": 9,
+    "tries": 80,
+    "xz_spread": 8,
     "y_spread": 2
   }
 }
