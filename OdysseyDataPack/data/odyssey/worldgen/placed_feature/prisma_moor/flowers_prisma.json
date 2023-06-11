@@ -1,9 +1,13 @@
 {
-    "feature": "odyssey:lupines/rock_prismarine",
+    "feature": "odyssey:prisma_moor/flowers_prisma",
     "placement": [
       {
         "type": "minecraft:count",
-        "count": 2
+        "count": 3
+      },
+      {
+        "type": "minecraft:rarity_filter",
+        "chance": 2
       },
       {
         "type": "minecraft:in_square"

@@ -1,13 +1,9 @@
 {
-    "feature": "odyssey:lupines/flowers_lupine",
+    "feature": "odyssey:prisma_moor/patch_grass",
     "placement": [
       {
         "type": "minecraft:count",
-        "count": 3
-      },
-      {
-        "type": "minecraft:rarity_filter",
-        "chance": 2
+        "count": 2
       },
       {
         "type": "minecraft:in_square"

@@ -86,7 +86,7 @@
             }
           },
           {
-            "biome": "odyssey:lupin_fjords",
+            "biome": "odyssey:prisma_moor",
             "parameters": {
               "continentalness": [
                 -0.4,
