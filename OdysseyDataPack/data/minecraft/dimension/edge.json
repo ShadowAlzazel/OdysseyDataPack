@@ -113,7 +113,7 @@
             }
           },
           {
-            "biome": "odyssey:prismashroom_moor",
+            "biome": "odyssey:spectral_savannah",
             "parameters": {
               "continentalness": [
                 -0.9,
