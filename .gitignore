@@ -4,3 +4,7 @@
 common
 /common
 ./common
+
+.overworld
+.overworld.json
+overworld.json

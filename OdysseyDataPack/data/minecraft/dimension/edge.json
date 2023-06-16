@@ -11,7 +11,10 @@
                 0.3,
                 0.8
               ],
-              "depth": 1.0,
+              "depth": [
+                -0.005,
+                0
+              ],
               "erosion": [
                 -0.375,
                 0.4225
@@ -38,7 +41,10 @@
                 -0.3,
                 0.5
               ],
-              "depth": 1.0,
+              "depth": [
+                -0.005,
+                0
+              ],
               "erosion": [
                 -0.375,
                 -0.2225
@@ -65,7 +71,10 @@
                 -0.3,
                 0.5
               ],
-              "depth": 1.0,
+              "depth": [
+                -0.005,
+                0
+              ],
               "erosion": [
                 -0.175,
                 0.2225
@@ -92,7 +101,10 @@
                 -0.4,
                 0.4
               ],
-              "depth": 1.0,
+              "depth": [
+                -0.005,
+                0
+              ],
               "erosion": [
                 -0.275,
                 0.1225
@@ -113,13 +125,16 @@
             }
           },
           {
-            "biome": "odyssey:spectral_savannah",
+            "biome": "odyssey:spectral_steppe",
             "parameters": {
               "continentalness": [
                 -0.9,
                 -0.2
               ],
-              "depth": 1.0,
+              "depth": [
+                -0.005,
+                0
+              ],
               "erosion": [
                 0.275,
                 0.7225
@@ -146,7 +161,10 @@
                 0.3,
                 0.8
               ],
-              "depth": 1.0,
+              "depth": [
+                -0.005,
+                0
+              ],
               "erosion": [
                 -0.575,
                 0.225
@@ -170,26 +188,59 @@
             "biome": "odyssey:pantanal",
             "parameters": {
               "continentalness": [
-                -0.5,
-                0.8
+                0.333,
+                0.6
               ],
-              "depth": 1.0,
+              "depth": [
+                -0.005,
+                0
+              ],
               "erosion": [
-                -0.175,
-                0.2225
+                0.555,
+                0.78
               ],
               "humidity": [
-                -0.5,
-                0.5
+                0.5,
+                0.833
               ],
               "offset": 0.0,
               "temperature": [
-                -0.6,
-                0.2
+                0.6,
+                0.833
               ],
               "weirdness": [
-                -0.866,
-                -0.166
+                -0.2,
+                0.2
+              ]
+            }
+          },
+          {
+            "biome": "odyssey:pantanal",
+            "parameters": {
+              "continentalness": [
+                0.6,
+                0.833
+              ],
+              "depth": [
+                -0.005,
+                0
+              ],
+              "erosion": [
+                0.555,
+                0.78
+              ],
+              "humidity": [
+                0.6,
+                0.833
+              ],
+              "offset": 0.0,
+              "temperature": [
+                0.6,
+                0.833
+              ],
+              "weirdness": [
+                -0.1,
+                0.3
               ]
             }
           },
@@ -200,7 +251,10 @@
                 0.5,
                 1.0
               ],
-              "depth": 1.0,
+              "depth": [
+                -0.005,
+                0
+              ],
               "erosion": [
                 -0.375,
                 -0.2225

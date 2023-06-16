@@ -7,31 +7,34 @@
       "minimum_size": {
         "type": "minecraft:two_layers_feature_size",
         "limit": 1,
-        "lower_size": 0,
-        "upper_size": 2
+        "lower_size": 1,
+        "upper_size": 0
       },
       "dirt_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:grass_block"
+          "Name": "minecraft:rooted_dirt"
         }
       },
       "trunk_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:birch_log"
+          "Name": "minecraft:dark_oak_log",
+          "Properties": {
+            "axis": "y"
+          }
         }
       },
       "trunk_placer": {
         "type": "minecraft:straight_trunk_placer",
-        "base_height": 8,
-        "height_rand_a": 2,
+        "base_height": 1,
+        "height_rand_a": 0,
         "height_rand_b": 0
       },
       "foliage_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:oak_leaves",
+          "Name": "minecraft:birch_leaves",
           "Properties": {
             "distance": "7",
             "persistent": "true",
@@ -40,16 +43,11 @@
         }
       },
       "foliage_placer": {
-        "type": "minecraft:spruce_foliage_placer",
-        "offset": 2,
-        "radius": 1,
-        "trunk_height": {
-          "type": "minecraft:uniform",
-          "value": {
-            "max_inclusive": 5,
-            "min_inclusive": 4
-          }
-        }
+        "type": "minecraft:blob_foliage_placer",
+        "height": 1,
+        "offset": 1,
+        "radius": 1
       }
     }
-}
+  }
+  
