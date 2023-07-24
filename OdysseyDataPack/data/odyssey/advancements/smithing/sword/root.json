@@ -65,7 +65,7 @@
     "display": {
       "announce_to_chat": true,
       "description": {
-        "translate": "Make a high quality sword! WIP-TEMP"
+        "translate": "Craft a sword, any sword..."
       },
       "frame": "task",
       "hidden": false,

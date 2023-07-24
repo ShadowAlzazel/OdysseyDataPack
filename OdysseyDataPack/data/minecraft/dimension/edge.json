@@ -1,283 +1,132 @@
 {
-    "type": "minecraft:overworld",
-    "generator": {
-      "type": "minecraft:noise",
-      "biome_source": {
-        "biomes": [
-          {
-            "biome": "odyssey:inazuma_forest",
-            "parameters": {
-              "continentalness": [
-                0.3,
-                0.8
-              ],
-              "depth": [
-                -0.005,
-                0
-              ],
-              "erosion": [
-                -0.375,
-                0.4225
-              ],
-              "humidity": [
-                0.3,
-                1.2
-              ],
-              "offset": 0.0,
-              "temperature": [
-                0.2,
-                0.6
-              ],
-              "weirdness": [
-                -0.466,
-                0.466
-              ]
-            }
-          },
-          {
-            "biome": "odyssey:birch_backwoods",
-            "parameters": {
-              "continentalness": [
-                -0.3,
-                0.5
-              ],
-              "depth": [
-                -0.005,
-                0
-              ],
-              "erosion": [
-                -0.375,
-                -0.2225
-              ],
-              "humidity": [
-                0.3,
-                1.0
-              ],
-              "offset": 0.0,
-              "temperature": [
-                0.15,
-                0.4
-              ],
-              "weirdness": [
-                -0.266,
-                0.266
-              ]
-            }
-          },
-          {
-            "biome": "odyssey:mutated_forest",
-            "parameters": {
-              "continentalness": [
-                -0.3,
-                0.5
-              ],
-              "depth": [
-                -0.005,
-                0
-              ],
-              "erosion": [
-                -0.175,
-                0.2225
-              ],
-              "humidity": [
-                -0.3,
-                0.8
-              ],
-              "offset": 0.0,
-              "temperature": [
-                -0.3,
-                0.4
-              ],
-              "weirdness": [
-                -0.366,
-                0.166
-              ]
-            }
-          },
-          {
-            "biome": "odyssey:prisma_moor",
-            "parameters": {
-              "continentalness": [
-                -0.4,
-                0.4
-              ],
-              "depth": [
-                -0.005,
-                0
-              ],
-              "erosion": [
-                -0.275,
-                0.1225
-              ],
-              "humidity": [
-                -0.3,
-                0.8
-              ],
-              "offset": 0.0,
-              "temperature": [
-                -0.5,
-                0.3
-              ],
-              "weirdness": [
-                -0.366,
-                0.166
-              ]
-            }
-          },
-          {
-            "biome": "odyssey:spectral_steppe",
-            "parameters": {
-              "continentalness": [
-                -0.9,
-                -0.2
-              ],
-              "depth": [
-                -0.005,
-                0
-              ],
-              "erosion": [
-                0.275,
-                0.7225
-              ],
-              "humidity": [
-                -1.0,
-                0.0
-              ],
-              "offset": 0.0,
-              "temperature": [
-                -1.0,
-                1.0
-              ],
-              "weirdness": [
-                -1.0,
-                1.0
-              ]
-            }
-          },
-          {
-            "biome": "odyssey:glazed_cliffs",
-            "parameters": {
-              "continentalness": [
-                0.3,
-                0.8
-              ],
-              "depth": [
-                -0.005,
-                0
-              ],
-              "erosion": [
-                -0.575,
-                0.225
-              ],
-              "humidity": [
-                0.4,
-                0.9
-              ],
-              "offset": 0.0,
-              "temperature": [
-                0.3,
-                0.84
-              ],
-              "weirdness": [
-                -0.666,
-                0.166
-              ]
-            }
-          },
-          {
-            "biome": "odyssey:pantanal",
-            "parameters": {
-              "continentalness": [
-                0.333,
-                0.6
-              ],
-              "depth": [
-                -0.005,
-                0
-              ],
-              "erosion": [
-                0.555,
-                0.78
-              ],
-              "humidity": [
-                0.5,
-                0.833
-              ],
-              "offset": 0.0,
-              "temperature": [
-                0.6,
-                0.833
-              ],
-              "weirdness": [
-                -0.2,
-                0.2
-              ]
-            }
-          },
-          {
-            "biome": "odyssey:pantanal",
-            "parameters": {
-              "continentalness": [
-                0.6,
-                0.833
-              ],
-              "depth": [
-                -0.005,
-                0
-              ],
-              "erosion": [
-                0.555,
-                0.78
-              ],
-              "humidity": [
-                0.6,
-                0.833
-              ],
-              "offset": 0.0,
-              "temperature": [
-                0.6,
-                0.833
-              ],
-              "weirdness": [
-                -0.1,
-                0.3
-              ]
-            }
-          },
-          {
-            "biome": "odyssey:danakil",
-            "parameters": {
-              "continentalness": [
-                0.5,
-                1.0
-              ],
-              "depth": [
-                -0.005,
-                0
-              ],
-              "erosion": [
-                -0.375,
-                -0.2225
-              ],
-              "humidity": [
-                -0.8,
-                -0.2
-              ],
-              "offset": 0.0,
-              "temperature": [
-                1.0,
-                1.6
-              ],
-              "weirdness": [
-                -0.366,
-                0.166
-              ]
-            }
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "biomes": [
+        {
+          "biome": "odyssey:pantanal",
+          "parameters": {
+            "continentalness": [
+              -0.01,
+              0.25
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0.5650000000000001,
+              1
+            ],
+            "humidity": [
+              0.3,
+              0.8
+            ],
+            "offset": 0.0,
+            "temperature": [
+              0.15,
+              0.6
+            ],
+            "weirdness": [
+              -1.0,
+              1.0
+            ]
           }
-        ],
-        "type": "minecraft:multi_noise"
-      },
-      "settings": "minecraft:overworld"
-    }
+        },
+        {
+          "biome": "odyssey:pantanal",
+          "parameters": {
+            "continentalness": [
+              0.62,
+              1
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.2225,
+              0.05
+            ],
+            "humidity": [
+              0.3,
+              0.8
+            ],
+            "offset": 0.0,
+            "temperature": [
+              0.15,
+              0.6
+            ],
+            "weirdness": [
+              -1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "biome": "odyssey:pantanal",
+          "parameters": {
+            "continentalness": [
+              -0.1,
+              0.18
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0.5650000000000001,
+              1
+            ],
+            "humidity": [
+              0.3,
+              0.8
+            ],
+            "offset": 0.0,
+            "temperature": [
+              0.15,
+              0.6
+            ],
+            "weirdness": [
+              -0.7666667,
+              -0.4
+            ]
+          }
+        },
+        {
+          "biome": "odyssey:pantanal",
+          "parameters": {
+            "continentalness": [
+              -0.1,
+              0.18
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0.5650000000000001,
+              1
+            ],
+            "humidity": [
+              0.3,
+              0.8
+            ],
+            "offset": 0.0,
+            "temperature": [
+              0.15,
+              0.6
+            ],
+            "weirdness": [
+              0.4,
+              0.7666667
+            ]
+          }
+        }
+      ],
+      "type": "minecraft:multi_noise"
+    },
+    "settings": "minecraft:overworld"
+  }
 }
-

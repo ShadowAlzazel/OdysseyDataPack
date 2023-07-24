@@ -5,7 +5,7 @@
         "translate": "Kunzite"
     },
     "ingredient": "minecraft:coal",
-    "item_model_index": 0.3,
+    "item_model_index": 0.4,
     "override_armor_materials": {
         "iron": "iron_darker"
     }

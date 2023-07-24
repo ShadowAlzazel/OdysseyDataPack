@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "chance": 0.45,
+          "feature": "odyssey:redwood/redwood_core"
+        },
+        {
+          "chance": 0.55,
+          "feature": "odyssey:redwood/sequoia_core"
+        }
+      ],
+      "default": {
+        "feature": "odyssey:redwood/redwood_core",
+        "placement": []
+      }
+    }
+}
+  

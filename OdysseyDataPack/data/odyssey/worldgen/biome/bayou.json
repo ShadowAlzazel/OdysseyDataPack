@@ -14,16 +14,16 @@
     "effects": {
       "sky_color": 7972607,
       "fog_color": 7972607,
-      "water_color": 1983131,
+      "water_color": 6722436,
       "water_fog_color": 329011,
-      "foliage_color": 13746279,
-      "grass_color": 13746279,
+      "foliage_color": 3445513,
+      "grass_color": 6519899,
       "grass_color_modifier": "none",
       "particle": {
         "options": {
-          "type": "minecraft:wax_off"
+          "type": "minecraft:scrape"
         },
-        "probability": 0.002
+        "probability": 0.001
       },
       "music": {
         "sound": "minecraft:music.nether.crimson_forset",
@@ -46,21 +46,14 @@
       [],
       [],
       [
-        "minecraft:amethyst_geode",
-        "minecraft:forest_rock"
+        "minecraft:amethyst_geode"
       ],
       [
         "minecraft:monster_room",
         "minecraft:monster_room_deep"
       ],
       [],
-      [
-        "odyssey:generic/disk_coarse_dirt",
-        "odyssey:generic/disk_podzol",
-        "odyssey:generic/disk_dirt_path",
-        "odyssey:generic/disk_rooted_dirt",
-        "odyssey:mutated/disk_crimson_nylium"
-      ],
+      [],
       [
         "minecraft:ore_dirt",
         "minecraft:ore_gravel",
@@ -89,7 +82,8 @@
         "minecraft:underwater_magma",
         "minecraft:disk_clay",
         "minecraft:disk_gravel",
-        "odyssey:generic/disk_tuff"
+        "odyssey:bayou/disk_dripstone",
+        "odyssey:bayou/disk_mud"
       ],
       [],
       [
@@ -97,13 +91,8 @@
       ],
       [
         "minecraft:glow_lichen",
-        "odyssey:mutated/trees",
-        "odyssey:mutated/patch_crimson_roots",
-        "odyssey:mutated/patch_grass_normal",
-        "odyssey:mutated/patch_vegetation",
-        "minecraft:brown_mushroom_normal",
-        "minecraft:red_mushroom_normal",
-        "minecraft:patch_dead_bush"
+        "odyssey:bayou/trees",
+        "odyssey:bayou/trees_deep"
       ],
       [
         "minecraft:freeze_top_layer"
@@ -122,34 +111,10 @@
       "axolotls": [],
       "creature": [
         {
-          "type": "minecraft:sheep",
+          "type": "minecraft:frog",
           "maxCount": 4,
           "minCount": 4,
           "weight": 12
-        },
-        {
-          "type": "minecraft:pig",
-          "maxCount": 4,
-          "minCount": 4,
-          "weight": 10
-        },
-        {
-          "type": "minecraft:chicken",
-          "maxCount": 4,
-          "minCount": 4,
-          "weight": 10
-        },
-        {
-          "type": "minecraft:cow",
-          "maxCount": 4,
-          "minCount": 4,
-          "weight": 8
-        },
-        {
-          "type": "minecraft:rabbit",
-          "maxCount": 3,
-          "minCount": 2,
-          "weight": 4
         }
       ],
       "misc": [],

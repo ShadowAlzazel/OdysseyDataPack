@@ -102,8 +102,7 @@
       "odyssey:mutated/patch_grass_normal",
       "odyssey:mutated/patch_vegetation",
       "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_dead_bush"
+      "minecraft:red_mushroom_normal"
     ],
     [
       "minecraft:freeze_top_layer"

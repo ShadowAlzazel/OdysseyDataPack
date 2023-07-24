@@ -3,12 +3,16 @@
     "config": {
       "features": [
         {
-          "chance": 0.1,
-          "feature": "odyssey:redwood/tree_redwood"
+          "chance": 0.4,
+          "feature": "odyssey:redwood/tree_redwood_big"
+        },
+        {
+          "chance": 0.6,
+          "feature": "odyssey:redwood/tree_sequoia_big"
         }
       ],
       "default": {
-        "feature": "odyssey:redwood/tree_redwood",
+        "feature": "odyssey:redwood/tree_redwood_big",
         "placement": []
       }
     }

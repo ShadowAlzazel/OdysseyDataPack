@@ -37,7 +37,7 @@
         "Name": "minecraft:birch_leaves",
         "Properties": {
           "distance": "7",
-          "persistent": "true",
+          "persistent": "false",
           "waterlogged": "false"
         }
       }

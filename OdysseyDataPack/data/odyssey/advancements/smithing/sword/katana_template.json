@@ -1,13 +1,17 @@
 {
     "parent": "odyssey:smithing/sword/tracker_root",
     "criteria": {
-      "get_katana_template": {
+      "create_katana": {
         "conditions": {
           "items": [
             {
-              "nbt": "{CustomModelData:1,odyssey:{item:'katana_template'}}",
+              "nbt": "{CustomModelData:6905744}",
               "items": [
-                "minecraft:iron_ingot"
+                "minecraft:wooden_sword",
+                "minecraft:stone_sword",
+                "minecraft:iron_sword",
+                "minecraft:golden_sword",
+                "minecraft:diamond_sword"
               ]
             }
           ]
@@ -18,12 +22,13 @@
     "display": {
       "announce_to_chat": true,
       "description": {
-        "translate": "Acquired the template to forge a Katana"
+        "translate": "Create a Katana"
       },
       "frame": "task",
       "hidden": true,
       "icon": {
-        "item": "minecraft:diamond_sword"
+        "item": "minecraft:iron_sword",
+        "nbt": "{CustomModelData:6905744}"
       },
       "show_toast": true,
       "title": {
@@ -32,7 +37,7 @@
     },
     "requirements": [
       [
-        "get_katana_template"
+        "create_katana"
       ]
     ]
 }
