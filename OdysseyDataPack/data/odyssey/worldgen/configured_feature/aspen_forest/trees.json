@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "chance": 0.9,
+          "feature": "odyssey:aspen_forest/tree_aspen"
+        }
+      ],
+      "default": {
+        "feature": "odyssey:aspen_forest/tree_aspen",
+        "placement": []
+      }
+    }
+  }
+  

@@ -5,7 +5,7 @@
     "biome_source": {
       "biomes": [
         {
-          "biome": "odyssey:pantanal",
+          "biome": "odyssey:birch_backwoods",
           "parameters": {
             "continentalness": [
               -0.01,

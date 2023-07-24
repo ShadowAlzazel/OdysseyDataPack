@@ -1,116 +1,100 @@
 {
-    "has_precipitation": true,
-    "temperature": 0.6,
-    "downfall": 0.6,
-    "player_spawn_friendly": true,
-    "creature_spawn_probability": 0.4,
-    "carvers": {
-      "air": [
+  "has_precipitation": true,
+  "temperature": 0.3,
+  "downfall": 0.4,
+  "player_spawn_friendly": true,
+  "creature_spawn_probability": 0.4,
+  "carvers": {
+    "air": [
         "minecraft:cave",
         "minecraft:cave_extra_underground",
         "minecraft:canyon"
-      ]
-    },
-    "effects": {
+    ]
+},
+  "effects": {
       "sky_color": 7972607,
       "fog_color": 7972607,
-      "water_color": 1983131,
+      "water_color": 4159204,
       "water_fog_color": 329011,
-      "foliage_color": 13746279,
-      "grass_color": 13746279,
+      "foliage_color": 16762403,
+      "grass_color": 9294183,
       "grass_color_modifier": "none",
-      "particle": {
-        "options": {
-          "type": "minecraft:wax_off"
-        },
-        "probability": 0.002
-      },
       "music": {
-        "sound": "minecraft:music.nether.crimson_forset",
-        "min_delay": 12000,
-        "max_delay": 24000,
-        "replace_current_music": false
-      },
-      "additions_sound": {
-        "sound": "minecraft:ambient.crimson_forest.additions",
-        "tick_chance": 0.0111
+          "sound": "minecraft:music.overworld.meadow",
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": false
       },
       "mood_sound": {
-        "sound": "minecraft.ambient.cave",
-        "tick_delay": 6000,
-        "block_search_extent": 8,
-        "offset": 2.0
+          "sound": "minecraft.ambient.cave",
+          "tick_delay": 6000,
+          "block_search_extent": 8,
+          "offset": 2.0
       }
-    },
-    "features": [
+  },
+  "features": [
       [],
       [],
       [
-        "minecraft:amethyst_geode",
-        "minecraft:forest_rock"
+          "minecraft:amethyst_geode"
       ],
       [
-        "minecraft:monster_room",
-        "minecraft:monster_room_deep"
+          "minecraft:monster_room",
+          "minecraft:monster_room_deep"
+      ],
+      [],
+      [],
+      [
+          "minecraft:ore_dirt",
+          "minecraft:ore_gravel",
+          "minecraft:ore_granite_upper",
+          "minecraft:ore_granite_lower",
+          "minecraft:ore_diorite_upper",
+          "minecraft:ore_diorite_lower",
+          "minecraft:ore_andesite_upper",
+          "minecraft:ore_andesite_lower",
+          "minecraft:ore_tuff",
+          "minecraft:ore_coal_upper",
+          "minecraft:ore_coal_lower",
+          "minecraft:ore_iron_upper",
+          "minecraft:ore_iron_middle",
+          "minecraft:ore_iron_small",
+          "minecraft:ore_gold",
+          "minecraft:ore_gold_lower",
+          "minecraft:ore_redstone",
+          "minecraft:ore_redstone_lower",
+          "minecraft:ore_diamond",
+          "minecraft:ore_diamond_large",
+          "minecraft:ore_diamond_buried",
+          "minecraft:ore_lapis",
+          "minecraft:ore_lapis_buried",
+          "minecraft:ore_copper",
+          "minecraft:underwater_magma",
+          "minecraft:disk_clay",
+          "minecraft:disk_gravel",
+          "odyssey:birch_backwoods/patch_packed_mud",
+          "odyssey:birch_backwoods/patch_rooted_dirt",
+          "odyssey:birch_backwoods/patch_rocks",
+          "odyssey:generic/disk_podzol"
       ],
       [],
       [
-        "odyssey:generic/disk_coarse_dirt",
-        "odyssey:generic/disk_podzol",
-        "odyssey:generic/disk_dirt_path",
-        "odyssey:generic/disk_rooted_dirt",
-        "odyssey:mutated/disk_crimson_nylium"
+          "minecraft:spring_water"
       ],
       [
-        "minecraft:ore_dirt",
-        "minecraft:ore_gravel",
-        "minecraft:ore_granite_upper",
-        "minecraft:ore_granite_lower",
-        "minecraft:ore_diorite_upper",
-        "minecraft:ore_diorite_lower",
-        "minecraft:ore_andesite_upper",
-        "minecraft:ore_andesite_lower",
-        "minecraft:ore_tuff",
-        "minecraft:ore_coal_upper",
-        "minecraft:ore_coal_lower",
-        "minecraft:ore_iron_upper",
-        "minecraft:ore_iron_middle",
-        "minecraft:ore_iron_small",
-        "minecraft:ore_gold",
-        "minecraft:ore_gold_lower",
-        "minecraft:ore_redstone",
-        "minecraft:ore_redstone_lower",
-        "minecraft:ore_diamond",
-        "minecraft:ore_diamond_large",
-        "minecraft:ore_diamond_buried",
-        "minecraft:ore_lapis",
-        "minecraft:ore_lapis_buried",
-        "minecraft:ore_copper",
-        "minecraft:underwater_magma",
-        "minecraft:disk_clay",
-        "minecraft:disk_gravel",
-        "odyssey:generic/disk_tuff"
-      ],
-      [],
-      [
-        "minecraft:spring_water"
+          "minecraft:glow_lichen",
+          "odyssey:aspen_forest/trees",
+          "odyssey:birch_backwoods/random_green_blocks",
+          "odyssey:birch_backwoods/flowers_birch",
+          "odyssey:birch_backwoods/patch_grass"
+          
       ],
       [
-        "minecraft:glow_lichen",
-        "odyssey:mutated/trees",
-        "odyssey:mutated/patch_crimson_roots",
-        "odyssey:mutated/patch_grass_normal",
-        "odyssey:mutated/patch_vegetation",
-        "minecraft:brown_mushroom_normal",
-        "minecraft:red_mushroom_normal",
-        "minecraft:patch_dead_bush"
-      ],
-      [
-        "minecraft:freeze_top_layer"
+          "minecraft:freeze_top_layer"
       ]
-    ],
-    "spawn_costs": {},
-    "spawners": {
+  ],
+  "spawn_costs": {},
+  "spawners": {
       "ambient": [
         {
           "type": "minecraft:bat",
@@ -213,6 +197,5 @@
       ],
       "water_ambient": [],
       "water_creature": []
-    }
   }
-  
+}
