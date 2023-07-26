@@ -1,7 +1,7 @@
 {
   "type": "minecraft:random_patch",
   "config": {
-    "tries": 2,
+    "tries": 20,
     "xz_spread": 1,
     "y_spread": 1,
     "feature": {
@@ -44,8 +44,8 @@
                 "Name": "minecraft:brown_concrete_powder"
               }
             ],
-            "cannot_replace": "#minecraft:base_stone_overworld",
-            "invalid_blocks": "#minecraft:base_stone_overworld"
+            "cannot_replace": "#minecraft:ancient_city_replaceable",
+            "invalid_blocks": "#minecraft:ancient_city_replaceable"
           },
           "layers": {
             "filling": 0.5,

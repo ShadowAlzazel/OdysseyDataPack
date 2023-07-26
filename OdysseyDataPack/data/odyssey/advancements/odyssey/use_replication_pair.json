@@ -1,0 +1,40 @@
+{
+    "parent": "odyssey:odyssey/discharge_a_curse",
+    "display": {
+      "frame": "goal",
+      "hidden": false,
+      "announce_to_chat": true,
+      "show_toast": true,
+      "icon": {
+        "item": "minecraft:iron_ingot",
+        "nbt": "{CustomModelData:6906618,odyssey:{item:'soul_steel_ingot'}}"
+      },
+      "title": {
+        "translate": "Two Pair!"
+      },
+      "description": {
+        "translate": "Use a replication tome on a book with 2 or more enchants"
+      }
+    },
+    "criteria": {
+      "create_soul_steel_ingot": {
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:iron_ingot"
+              ],
+              "nbt": "{CustomModelData:6906618}"
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "requirements": [
+      [
+        "create_soul_steel_ingot"
+      ]
+    ]
+  }
+  

@@ -1,0 +1,40 @@
+{
+    "parent": "odyssey:odyssey/enchant_a_tome",
+    "display": {
+      "frame": "task",
+      "hidden": false,
+      "announce_to_chat": true,
+      "show_toast": true,
+      "icon": {
+        "item": "minecraft:iron_ingot",
+        "nbt": "{CustomModelData:6906618,odyssey:{item:'soul_steel_ingot'}}"
+      },
+      "title": {
+        "translate": "Heart and Soul!"
+      },
+      "description": {
+        "translate": "Use tome and prismarine crystal"
+      }
+    },
+    "criteria": {
+      "create_soul_steel_ingot": {
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:iron_ingot"
+              ],
+              "nbt": "{CustomModelData:6906618}"
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "requirements": [
+      [
+        "create_soul_steel_ingot"
+      ]
+    ]
+  }
+  

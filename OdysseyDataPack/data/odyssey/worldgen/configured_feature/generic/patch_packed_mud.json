@@ -18,13 +18,15 @@
           "type": "minecraft:block_predicate_filter",
           "predicate": {
             "type": "minecraft:matching_blocks",
-            "blocks": "minecraft:grass_block"
+            "blocks": [
+              "minecraft:grass_block"
+            ]
           }
         }
       ]
     },
     "tries": 72,
     "xz_spread": 7,
-    "y_spread": 3
+    "y_spread": 1
   }
 }

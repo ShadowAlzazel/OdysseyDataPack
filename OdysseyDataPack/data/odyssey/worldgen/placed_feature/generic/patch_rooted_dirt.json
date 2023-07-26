@@ -1,6 +1,10 @@
 {
-  "feature": "odyssey:birch_backwoods/patch_rooted_dirt",
+  "feature": "odyssey:generic/patch_rooted_dirt",
   "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 2
+    },
     {
       "type": "minecraft:rarity_filter",
       "chance": 2

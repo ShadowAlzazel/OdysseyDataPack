@@ -26,13 +26,13 @@
       "probability": 0.009
     },
     "music": {
-      "sound": "minecraft:music.overworld.cherry_grove",
+      "sound": "minecraft:music.overworld.jungle",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false
     },
     "additions_sound": {
-      "sound": "minecraft:ambient.crimson_forest.additions",
+      "sound": "minecraft:ambient.warped_forest.loop",
       "tick_chance": 0.0111
     },
     "mood_sound": {

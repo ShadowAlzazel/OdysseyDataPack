@@ -16,24 +16,14 @@
       "fog_color": 7972607,
       "water_color": 1983131,
       "water_fog_color": 329011,
-      "foliage_color": 13746279,
-      "grass_color": 13746279,
+      "foliage_color": 9758519,
+      "grass_color": 8968752,
       "grass_color_modifier": "none",
-      "particle": {
-        "options": {
-          "type": "minecraft:wax_off"
-        },
-        "probability": 0.002
-      },
       "music": {
-        "sound": "minecraft:music.nether.crimson_forset",
+        "sound": "minecraft:music.overworld.bamboo_jungle",
         "min_delay": 12000,
         "max_delay": 24000,
         "replace_current_music": false
-      },
-      "additions_sound": {
-        "sound": "minecraft:ambient.crimson_forest.additions",
-        "tick_chance": 0.0111
       },
       "mood_sound": {
         "sound": "minecraft.ambient.cave",
@@ -46,8 +36,7 @@
       [],
       [],
       [
-        "minecraft:amethyst_geode",
-        "minecraft:forest_rock"
+        "minecraft:amethyst_geode"
       ],
       [
         "minecraft:monster_room",
@@ -55,11 +44,7 @@
       ],
       [],
       [
-        "odyssey:generic/disk_coarse_dirt",
-        "odyssey:generic/disk_podzol",
-        "odyssey:generic/disk_dirt_path",
-        "odyssey:generic/disk_rooted_dirt",
-        "odyssey:mutated/disk_crimson_nylium"
+        "odyssey:chocolate_hills/mound"
       ],
       [
         "minecraft:ore_dirt",
@@ -89,7 +74,9 @@
         "minecraft:underwater_magma",
         "minecraft:disk_clay",
         "minecraft:disk_gravel",
-        "odyssey:generic/disk_tuff"
+        "odyssey:generic/patch_packed_mud",
+        "odyssey:generic/patch_rooted_dirt",
+        "odyssey:generic/patch_rocks"
       ],
       [],
       [
@@ -97,13 +84,12 @@
       ],
       [
         "minecraft:glow_lichen",
-        "odyssey:mutated/trees",
-        "odyssey:mutated/patch_crimson_roots",
-        "odyssey:mutated/patch_grass_normal",
-        "odyssey:mutated/patch_vegetation",
-        "minecraft:brown_mushroom_normal",
-        "minecraft:red_mushroom_normal",
-        "minecraft:patch_dead_bush"
+        "odyssey:chocolate_hills/trees",
+        "odyssey:generic/random_green_blocks",
+        "odyssey:chocolate_hills/patch_vegetation",
+        "odyssey:chocolate_hills/flowers",
+        "minecraft:patch_pumpkin",
+        "minecraft:patch_melon_sparse"
       ],
       [
         "minecraft:freeze_top_layer"

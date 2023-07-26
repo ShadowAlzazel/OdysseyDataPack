@@ -8,7 +8,7 @@
       "air": [
           "minecraft:cave",
           "minecraft:cave_extra_underground",
-          "minecraft:canyon"
+          "minecraft:canyon" 
       ]
   },
     "effects": {
@@ -71,7 +71,10 @@
             "minecraft:ore_copper",
             "minecraft:underwater_magma",
             "minecraft:disk_clay",
-            "minecraft:disk_gravel"
+            "minecraft:disk_gravel",
+            "odyssey:generic/patch_packed_mud",
+            "odyssey:generic/patch_rooted_dirt",
+            "odyssey:generic/patch_rocks"
         ],
         [],
         [
@@ -80,13 +83,10 @@
         [
             "minecraft:glow_lichen",
             "odyssey:birch_backwoods/trees",
-            "odyssey:birch_backwoods/patch_packed_mud",
-            "odyssey:birch_backwoods/patch_rooted_dirt",
-            "odyssey:birch_backwoods/patch_rocks",
-            "odyssey:birch_backwoods/random_green_blocks",
+            "odyssey:generic/random_green_blocks",
             "odyssey:generic/fallen_birch_trunk",
             "odyssey:birch_backwoods/flowers_birch",
-            "odyssey:birch_backwoods/patch_grass"
+            "odyssey:generic/patch_grass"
         ],
         [
             "minecraft:freeze_top_layer"

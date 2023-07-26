@@ -16,11 +16,11 @@
       "fog_color": 7972607,
       "water_color": 4159204,
       "water_fog_color": 329011,
-      "foliage_color": 16762403,
+      "foliage_color": 16705374,
       "grass_color": 9294183,
       "grass_color_modifier": "none",
       "music": {
-          "sound": "minecraft:music.overworld.meadow",
+          "sound": "minecraft:music.overworld.old_growth_taiga",
           "min_delay": 12000,
           "max_delay": 24000,
           "replace_current_music": false
@@ -72,9 +72,9 @@
           "minecraft:underwater_magma",
           "minecraft:disk_clay",
           "minecraft:disk_gravel",
-          "odyssey:birch_backwoods/patch_packed_mud",
-          "odyssey:birch_backwoods/patch_rooted_dirt",
-          "odyssey:birch_backwoods/patch_rocks",
+          "odyssey:generic/patch_packed_mud",
+          "odyssey:generic/patch_rooted_dirt",
+          "odyssey:generic/patch_rocks",
           "odyssey:generic/disk_podzol"
       ],
       [],
@@ -84,9 +84,10 @@
       [
           "minecraft:glow_lichen",
           "odyssey:aspen_forest/trees",
-          "odyssey:birch_backwoods/random_green_blocks",
-          "odyssey:birch_backwoods/flowers_birch",
-          "odyssey:birch_backwoods/patch_grass"
+          "odyssey:generic/random_green_blocks",
+          "odyssey:aspen_forest/patch_vegetation",
+          "odyssey:aspen_forest/flowers",
+          "odyssey:generic/patch_grass"
           
       ],
       [

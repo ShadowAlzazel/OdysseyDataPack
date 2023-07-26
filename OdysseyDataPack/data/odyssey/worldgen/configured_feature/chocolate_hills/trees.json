@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "chance": 0.45,
+          "feature": "odyssey:chocolate_hills/tree_nara"
+        },
+        {
+            "chance": 0.55,
+            "feature": "odyssey:chocolate_hills/tree_banaba"
+        }
+      ],
+      "default": {
+        "feature": "odyssey:chocolate_hills/tree_banaba",
+        "placement": []
+      }
+    }
+  }
+  
