@@ -17,7 +17,7 @@
       "water_color": 6722436,
       "water_fog_color": 329011,
       "foliage_color": 3445513,
-      "grass_color": 6519899,
+      "grass_color": 8702997,
       "grass_color_modifier": "none",
       "particle": {
         "options": {
@@ -83,7 +83,8 @@
         "minecraft:disk_clay",
         "minecraft:disk_gravel",
         "odyssey:bayou/disk_dripstone",
-        "odyssey:bayou/disk_mud"
+        "odyssey:bayou/disk_mud",
+        "odyssey:bayou/disk_pond"
       ],
       [],
       [
@@ -92,7 +93,12 @@
       [
         "minecraft:glow_lichen",
         "odyssey:bayou/trees",
-        "odyssey:bayou/trees_deep"
+        "odyssey:bayou/trees_inland",
+        "odyssey:bayou/trees_deep",
+        "odyssey:bayou/patch_moss",
+        "odyssey:bayou/patch_shallow_vegetation",
+        "odyssey:bayou/patch_vegetation",
+        "odyssey:bayou/glow_vines"
       ],
       [
         "minecraft:freeze_top_layer"

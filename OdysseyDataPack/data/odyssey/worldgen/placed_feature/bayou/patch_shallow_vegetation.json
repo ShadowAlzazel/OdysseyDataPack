@@ -1,26 +1,26 @@
 {
-	"feature": "odyssey:bayou/trees_deep",
+	"feature": "odyssey:bayou/patch_shallow_vegetation",
 	"placement": [
 		{
 			"type": "count",
-			"count": 14
+			"count": 5
 		},
 		{
 			"type": "minecraft:in_square"
 		},
 		{
 			"type": "heightmap",
-			"heightmap": "OCEAN_FLOOR_WG"
+			"heightmap": "OCEAN_FLOOR"
 		},
         {
             "type": "minecraft:height_range",
             "height": {
                 "type": "minecraft:uniform",
                 "min_inclusive": {
-					"absolute": 51
+					"absolute": 57
 				},
 				"max_inclusive": {
-					"absolute": 58
+					"absolute": 63
 				}
             }
         },
@@ -37,10 +37,7 @@
 					"minecraft:mud",
 					"minecraft:dirt",
                     "minecraft:grass_block",
-                    "minecraft:dripstone_block",
-                    "minecraft:sand",
-                    "minecraft:gravel",
-                    "minecraft:clay"
+                    "minecraft:dripstone_block"
 				]
 			}
 		},

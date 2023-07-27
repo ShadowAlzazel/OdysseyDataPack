@@ -3,7 +3,7 @@
     "placement": [
       {
         "type": "count",
-        "count": 12
+        "count": 13
       },
       {
         "type": "minecraft:in_square"
@@ -24,6 +24,7 @@
           "blocks": [
             "minecraft:grass_block",
             "minecraft:dirt",
+            "minecraft:podzol",
             "minecraft:coarse_dirt",
             "minecraft:rooted_dirt",
             "minecraft:moss_block"

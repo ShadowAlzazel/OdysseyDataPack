@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:flower",
+    "type": "minecraft:random_patch",
     "config": {
       "feature": {
         "feature": {
@@ -10,15 +10,32 @@
               "entries": [
                 {
                   "data": {
-                    "Name": "minecraft:orange_tulip"
+                    "Name": "minecraft:grass"
+                  },
+                  "weight": 7
+                },
+                {
+                  "data": {
+                    "Name": "minecraft:azalea"
                   },
                   "weight": 2
                 },
                 {
                   "data": {
-                    "Name": "minecraft:dandelion"
+                    "Name": "minecraft:tall_grass"
                   },
-                  "weight": 7
+                  "weight": 3
+                },
+                {
+                  "data": {
+                    "Name": "minecraft:mangrove_leaves",
+                    "Properties": {
+                      "distance": "7",
+                      "persistent": "true",
+                      "waterlogged": "false"
+                    }
+                  },
+                  "weight": 4
                 }
               ]
             }
@@ -40,8 +57,8 @@
                     "minecraft:grass_block",
                     "minecraft:moss_block",
                     "minecraft:dirt",
-                    "minecraft:coarse_dirt",
-                    "minecraft:rooted_dirt"
+                    "minecraft:rooted_dirt",
+                    "minecraft:mud"
                   ],
                   "offset": [
                     0,
@@ -54,9 +71,9 @@
           }
         ]
       },
-      "tries": 96,
-      "xz_spread": 8,
-      "y_spread": 3
+      "tries": 100,
+      "xz_spread": 7,
+      "y_spread": 2
     }
   }
   

@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:flower",
+    "type": "minecraft:random_patch",
     "config": {
       "feature": {
         "feature": {
@@ -10,15 +10,38 @@
               "entries": [
                 {
                   "data": {
-                    "Name": "minecraft:orange_tulip"
+                    "Name": "minecraft:seagrass"
+                  },
+                  "weight": 9
+                },
+                {
+                  "data": {
+                    "Name": "minecraft:sea_pickle",
+                    "Properties": {
+                      "pickles": "1"
+                    }
                   },
                   "weight": 2
                 },
                 {
                   "data": {
-                    "Name": "minecraft:dandelion"
+                    "Name": "minecraft:sea_pickle",
+                    "Properties": {
+                      "pickles": "2"
+                    }
                   },
-                  "weight": 7
+                  "weight": 2
+                },
+                {
+                  "data": {
+                    "Name": "minecraft:oak_leaves",
+                    "Properties": {
+                      "distance": "7",
+                      "persistent": "true",
+                      "waterlogged": "true"
+                    }
+                  },
+                  "weight": 2
                 }
               ]
             }
@@ -32,7 +55,7 @@
               "predicates": [
                 {
                   "type": "minecraft:matching_blocks",
-                  "blocks": "minecraft:air"
+                  "blocks": "minecraft:water"
                 },
                 {
                   "type": "minecraft:matching_blocks",
@@ -54,9 +77,9 @@
           }
         ]
       },
-      "tries": 96,
-      "xz_spread": 8,
-      "y_spread": 3
+      "tries": 90,
+      "xz_spread": 6,
+      "y_spread": 2
     }
   }
   

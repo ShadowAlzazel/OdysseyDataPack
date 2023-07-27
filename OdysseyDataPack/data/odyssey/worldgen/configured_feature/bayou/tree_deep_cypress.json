@@ -4,14 +4,14 @@
     "decorators": [
       {
         "type": "minecraft:attached_to_leaves",
-        "probability": 0.02,
-        "exclusion_radius_xz": 0,
+        "probability": 0.05,
+        "exclusion_radius_xz": 1,
         "exclusion_radius_y": 0,
         "required_empty_blocks": 1,
         "block_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:jungle_leaves",
+            "Name": "minecraft:mangrove_leaves",
             "Properties": {
               "persistent": "false",
               "distance": "7"
@@ -21,6 +21,120 @@
         "directions": [
           "down"
         ]
+      },
+      {
+        "type": "minecraft:attached_to_leaves",
+        "probability": 0.1,
+        "exclusion_radius_xz": 0,
+        "exclusion_radius_y": 0,
+        "required_empty_blocks": 1,
+        "block_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:glow_lichen",
+            "Properties": {
+              "up": "true"
+            }
+          }
+        },
+        "directions": [
+          "down"
+        ]
+      },
+      {
+        "type": "minecraft:attached_to_leaves",
+        "probability": 0.1,
+        "exclusion_radius_xz": 0,
+        "exclusion_radius_y": 0,
+        "required_empty_blocks": 1,
+        "block_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:glow_lichen",
+            "Properties": {
+              "down": "true"
+            }
+          }
+        },
+        "directions": [
+          "up"
+        ]
+      },
+      {
+        "type": "minecraft:attached_to_leaves",
+        "probability": 0.1,
+        "exclusion_radius_xz": 0,
+        "exclusion_radius_y": 0,
+        "required_empty_blocks": 1,
+        "block_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:glow_lichen",
+            "Properties": {
+              "north": "true"
+            }
+          }
+        },
+        "directions": [
+          "south"
+        ]
+      },
+      {
+        "type": "minecraft:attached_to_leaves",
+        "probability": 0.1,
+        "exclusion_radius_xz": 0,
+        "exclusion_radius_y": 0,
+        "required_empty_blocks": 1,
+        "block_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:glow_lichen",
+            "Properties": {
+              "east": "true"
+            }
+          }
+        },
+        "directions": [
+          "west"
+        ]
+      },
+      {
+        "type": "minecraft:attached_to_leaves",
+        "probability": 0.1,
+        "exclusion_radius_xz": 0,
+        "exclusion_radius_y": 0,
+        "required_empty_blocks": 1,
+        "block_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:glow_lichen",
+            "Properties": {
+              "south": "true"
+            }
+          }
+        },
+        "directions": [
+          "north"
+        ]
+      },
+      {
+        "type": "minecraft:attached_to_leaves",
+        "probability": 0.1,
+        "exclusion_radius_xz": 0,
+        "exclusion_radius_y": 0,
+        "required_empty_blocks": 1,
+        "block_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:glow_lichen",
+            "Properties": {
+              "west": "true"
+            }
+          }
+        },
+        "directions": [
+          "east"
+        ]
       }
     ],
     "force_dirt": false,
@@ -28,7 +142,7 @@
     "minimum_size": {
       "type": "minecraft:two_layers_feature_size",
       "limit": 2,
-      "lower_size": 0,
+      "lower_size": 1,
       "upper_size": 2
     },
     "dirt_provider": {
@@ -40,16 +154,16 @@
     "root_placer": {
       "type": "minecraft:mangrove_root_placer",
       "above_root_placement": {
-        "above_root_placement_chance": 0.15,
+        "above_root_placement_chance": 0.7,
         "above_root_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:mangrove_roots"
+            "Name": "minecraft:mangrove_wood"
           }
         }
       },
       "mangrove_root_placement": {
-        "can_grow_through": "#minecraft:mangrove_roots_can_grow_through",
+        "can_grow_through": "#odyssey:bayou_roots_can_grow_through",
         "max_root_length": 25,
         "max_root_width": 9,
         "muddy_roots_in": [
@@ -65,7 +179,7 @@
             }
           }
         },
-        "random_skew_chance": 0.5
+        "random_skew_chance": 0.4
       },
       "root_provider": {
         "type": "minecraft:simple_state_provider",
@@ -95,7 +209,7 @@
     },
     "trunk_placer": {
       "type": "minecraft:cherry_trunk_placer",
-      "base_height": 10,
+      "base_height": 9,
       "branch_count": {
         "type": "minecraft:constant",
         "value": 3
@@ -103,23 +217,23 @@
       "branch_end_offset_from_top": {
         "type": "minecraft:uniform",
         "value": {
-          "max_inclusive": 3,
-          "min_inclusive": -1
+          "max_inclusive": 5,
+          "min_inclusive": 3
         }
       },
       "branch_horizontal_length": {
         "type": "minecraft:uniform",
         "value": {
-          "max_inclusive": 5,
-          "min_inclusive": 3
+          "max_inclusive": 4,
+          "min_inclusive": 2
         }
       },
       "branch_start_offset_from_top": {
-        "max_inclusive": -2,
-        "min_inclusive": -4
+        "max_inclusive": -1,
+        "min_inclusive": -3
       },
-      "height_rand_a": 5,
-      "height_rand_b": 3
+      "height_rand_a": 4,
+      "height_rand_b": 2
     },
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
@@ -133,12 +247,12 @@
     },
     "foliage_placer": {
       "type": "minecraft:cherry_foliage_placer",
-      "corner_hole_chance": 0.35,
+      "corner_hole_chance": 0.75,
       "hanging_leaves_chance": 0.35,
       "hanging_leaves_extension_chance": 0.85,
-      "height": 4,
-      "offset": 2,
-      "radius": 5,
+      "height": 5,
+      "offset": 1,
+      "radius": 3,
       "wide_bottom_layer_hole_chance": 0.15
     }
   }

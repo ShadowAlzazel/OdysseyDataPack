@@ -1,19 +1,20 @@
 {
-    "feature": "odyssey:aspen_forest/flowers",
+    "feature": "odyssey:bayou/patch_moss",
     "placement": [
       {
         "type": "minecraft:count",
-        "count": 3
+        "count": 4
       },
       {
         "type": "minecraft:in_square"
       },
       {
         "type": "minecraft:heightmap",
-        "heightmap": "WORLD_SURFACE_WG"
+        "heightmap": "WORLD_SURFACE"
       },
       {
         "type": "minecraft:biome"
       }
     ]
   }
+  
