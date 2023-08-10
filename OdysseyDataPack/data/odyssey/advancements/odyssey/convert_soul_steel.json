@@ -17,23 +17,9 @@
     }
   },
   "criteria": {
-    "create_soul_steel_ingot": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:iron_ingot"
-            ],
-            "nbt": "{CustomModelData:6906618}"
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
     }
-  },
-  "requirements": [
-    [
-      "create_soul_steel_ingot"
-    ]
-  ]
+  }
 }

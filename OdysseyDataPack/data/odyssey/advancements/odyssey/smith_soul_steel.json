@@ -1,40 +1,26 @@
 {
     "parent": "odyssey:odyssey/convert_soul_steel",
     "display": {
-      "frame": "task",
+      "frame": "goal",
       "hidden": false,
       "announce_to_chat": true,
       "show_toast": true,
       "icon": {
-        "item": "minecraft:iron_sword",
-        "nbt": "{CustomModelData:6906644,odyssey:{item:'soul_steel_katana'}}"
+        "item": "minecraft:copper_ingot",
+        "nbt": "{CustomModelData:6906646,odyssey:{item:'soul_steel_upgrade_template'}}"
       },
       "title": {
-        "translate": "SoulWIP"
+        "translate": "Souless Savant"
       },
       "description": {
-        "translate": "Create a Soul Steel Ingot by throwing raw iron into soul fire surrounded by sculk"
+        "translate": "Craft a Soul Steel tool using a Soul Steel Ingot and Upgrade Template"
       }
     },
     "criteria": {
-      "create_soul_steel_ingot": {
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:iron_ingot"
-              ],
-              "nbt": "{CustomModelData:6906618}"
-            }
-          ]
-        },
-        "trigger": "minecraft:inventory_changed"
+      "requirement": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
       }
-    },
-    "requirements": [
-      [
-        "create_soul_steel_ingot"
-      ]
-    ]
+    }
   }
   

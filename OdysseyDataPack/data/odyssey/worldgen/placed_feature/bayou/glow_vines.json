@@ -16,7 +16,7 @@
             "absolute": 64
           },
           "max_inclusive": {
-            "absolute": 100
+            "absolute": 86
           }
         }
       },
@@ -33,7 +33,9 @@
           ],
           "blocks": [
             "minecraft:mangrove_wood",
-            "minecraft:mangrove_log"
+            "minecraft:mangrove_log",
+            "minecraft:stripped_dark_oak_wood",
+            "minecraft:stripped_dark_oak_log"
           ]
         }
       },

@@ -7,34 +7,20 @@
       "show_toast": true,
       "icon": {
         "item": "minecraft:iron_ingot",
-        "nbt": "{CustomModelData:6906618,odyssey:{item:'soul_steel_ingot'}}"
+        "nbt": "{CustomModelData:6906069,odyssey:{item:'tome_of_replication'}}"
       },
       "title": {
         "translate": "Two Pair!"
       },
       "description": {
-        "translate": "Use a replication tome on a book with 2 or more enchants"
+        "translate": "Use a Replication Tome on a book with two or more enchants"
       }
     },
     "criteria": {
-      "create_soul_steel_ingot": {
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:iron_ingot"
-              ],
-              "nbt": "{CustomModelData:6906618}"
-            }
-          ]
-        },
-        "trigger": "minecraft:inventory_changed"
+      "requirement": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
       }
-    },
-    "requirements": [
-      [
-        "create_soul_steel_ingot"
-      ]
-    ]
+    }
   }
   

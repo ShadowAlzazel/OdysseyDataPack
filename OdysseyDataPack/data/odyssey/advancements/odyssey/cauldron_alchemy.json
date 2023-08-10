@@ -6,14 +6,14 @@
       "announce_to_chat": true,
       "show_toast": true,
       "icon": {
-        "item": "minecraft:book",
-        "nbt": "{CustomModelData:6905501,odyssey:{item:'arcane_book'}}"
+        "item": "minecraft:potion",
+        "nbt": "{CustomModelData:6905317,odyssey:{item:'pearshape_potion'}}"
       },
       "title": {
-        "translate": "Home to Tome"
+        "translate": "What is this Witchcraft?"
       },
       "description": {
-        "translate": "Enchant an Arcane Book in the enchanting table to get a tome"
+        "translate": "Use a boiling Cauldron to brew a new type of potion"
       }
     },
     "criteria": {

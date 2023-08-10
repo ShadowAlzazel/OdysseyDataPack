@@ -57,7 +57,6 @@
                     "minecraft:grass_block",
                     "minecraft:moss_block",
                     "minecraft:dirt",
-                    "minecraft:rooted_dirt",
                     "minecraft:mud"
                   ],
                   "offset": [
@@ -71,9 +70,9 @@
           }
         ]
       },
-      "tries": 100,
+      "tries": 80,
       "xz_spread": 7,
-      "y_spread": 2
+      "y_spread": 1
     }
   }
   

@@ -1,5 +1,5 @@
 {
-    "parent": "odyssey:odyssey/root",
+    "parent": "odyssey:odyssey/find_mansion",
     "criteria": {
       "find_ancient_city": {
         "conditions": {

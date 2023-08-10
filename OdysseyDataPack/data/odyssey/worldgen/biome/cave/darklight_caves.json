@@ -4,6 +4,7 @@
     "downfall": 0.6,
     "player_spawn_friendly": true,
     "creature_spawn_probability": 0.4,
+    "surface_builder": "minecraft:stone",
     "carvers": {
       "air": [
         "minecraft:cave",
@@ -12,16 +13,16 @@
       ]
     },
     "effects": {
-      "sky_color": 7972607,
-      "fog_color": 7972607,
-      "water_color": 6722436,
-      "water_fog_color": 329011,
+      "sky_color": 0,
+      "fog_color": 0,
+      "water_color": 1983131,
+      "water_fog_color": 1983131,
       "foliage_color": 3445513,
       "grass_color": 8702997,
       "grass_color_modifier": "none",
       "particle": {
         "options": {
-          "type": "minecraft:scrape"
+          "type": "minecraft:sculk_charge_pop"
         },
         "probability": 0.001
       },
@@ -81,98 +82,32 @@
         "minecraft:ore_copper",
         "minecraft:underwater_magma",
         "minecraft:disk_clay",
-        "minecraft:disk_gravel",
-        "odyssey:bayou/disk_dripstone",
-        "odyssey:bayou/coast_mud",
-        "odyssey:bayou/patch_pond",
-        "odyssey:bayou/disk_muddy"
+        "minecraft:disk_gravel"
       ],
       [],
       [
         "minecraft:spring_water"
       ],
       [
-        "minecraft:glow_lichen",
-        "odyssey:bayou/trees_inland",
-        "odyssey:bayou/trees",
-        "odyssey:bayou/trees_deep",
-        "odyssey:bayou/patch_moss",
-        "odyssey:bayou/patch_shallow_vegetation",
-        "odyssey:bayou/patch_vegetation",
-        "odyssey:bayou/glow_vines"
+        "minecraft:glow_lichen"
       ],
       [
-        "minecraft:freeze_top_layer"
+
       ]
     ],
     "spawn_costs": {},
     "spawners": {
       "ambient": [
-        {
-          "type": "minecraft:bat",
-          "maxCount": 8,
-          "minCount": 8,
-          "weight": 10
-        }
       ],
       "axolotls": [],
-      "creature": [
-        {
-          "type": "minecraft:frog",
-          "maxCount": 4,
-          "minCount": 4,
-          "weight": 12
-        }
-      ],
+      "creature": [],
       "misc": [],
       "monster": [
         {
-          "type": "minecraft:spider",
-          "maxCount": 4,
-          "minCount": 4,
-          "weight": 100
-        },
-        {
-          "type": "minecraft:zombie",
-          "maxCount": 4,
-          "minCount": 4,
-          "weight": 95
-        },
-        {
-          "type": "minecraft:zombie_villager",
-          "maxCount": 1,
-          "minCount": 1,
-          "weight": 5
-        },
-        {
-          "type": "minecraft:skeleton",
-          "maxCount": 4,
-          "minCount": 4,
-          "weight": 100
-        },
-        {
-          "type": "minecraft:creeper",
-          "maxCount": 4,
-          "minCount": 4,
-          "weight": 100
-        },
-        {
-          "type": "minecraft:slime",
-          "maxCount": 4,
-          "minCount": 4,
-          "weight": 100
-        },
-        {
           "type": "minecraft:enderman",
-          "maxCount": 4,
-          "minCount": 1,
-          "weight": 10
-        },
-        {
-          "type": "minecraft:witch",
           "maxCount": 1,
           "minCount": 1,
-          "weight": 5
+          "weight": 100
         }
       ],
       "underground_water_creature": [

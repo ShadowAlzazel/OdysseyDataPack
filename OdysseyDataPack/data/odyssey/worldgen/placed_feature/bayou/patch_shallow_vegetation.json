@@ -3,7 +3,7 @@
 	"placement": [
 		{
 			"type": "count",
-			"count": 5
+			"count": 9
 		},
 		{
 			"type": "minecraft:in_square"
@@ -17,7 +17,7 @@
             "height": {
                 "type": "minecraft:uniform",
                 "min_inclusive": {
-					"absolute": 57
+					"absolute": 55
 				},
 				"max_inclusive": {
 					"absolute": 63
@@ -37,7 +37,10 @@
 					"minecraft:mud",
 					"minecraft:dirt",
                     "minecraft:grass_block",
-                    "minecraft:dripstone_block"
+                    "minecraft:dripstone_block",
+					"minecraft:sand",
+					"minecraft:gravel",
+					"minecraft:clay"
 				]
 			}
 		},

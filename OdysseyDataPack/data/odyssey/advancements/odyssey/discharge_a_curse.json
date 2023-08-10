@@ -6,35 +6,21 @@
       "announce_to_chat": true,
       "show_toast": true,
       "icon": {
-        "item": "minecraft:iron_ingot",
-        "nbt": "{CustomModelData:6906618,odyssey:{item:'soul_steel_ingot'}}"
+        "item": "minecraft:enchanted_book",
+        "nbt": "{CustomModelData:6906067,odyssey:{item:'tome_of_discharge'}}"
       },
       "title": {
-        "translate": "Heart and Soul!"
+        "translate": "Curses ****"
       },
       "description": {
-        "translate": "Use tome and prismarine crystal"
+        "translate": "Use a Discharge Tome and a prismarine crystal to remove a curse"
       }
     },
     "criteria": {
-      "create_soul_steel_ingot": {
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:iron_ingot"
-              ],
-              "nbt": "{CustomModelData:6906618}"
-            }
-          ]
-        },
-        "trigger": "minecraft:inventory_changed"
+      "requirement": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
       }
-    },
-    "requirements": [
-      [
-        "create_soul_steel_ingot"
-      ]
-    ]
+    }
   }
   

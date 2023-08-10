@@ -6,35 +6,21 @@
       "announce_to_chat": true,
       "show_toast": true,
       "icon": {
-        "item": "minecraft:iron_ingot",
-        "nbt": "{CustomModelData:6906618,odyssey:{item:'soul_steel_ingot'}}"
+        "item": "minecraft:enchanted_book",
+        "nbt": "{CustomModelData:6906066,odyssey:{item:'gilded_book'}}"
       },
       "title": {
-        "translate": "Heart and Soul!"
+        "translate": "Gilded Touch"
       },
       "description": {
-        "translate": "Use smithing and gold nugget"
+        "translate": "Use the Smithing Table and a gold nugget to apply one gilded enchant onto an gilded empty slot"
       }
     },
     "criteria": {
-      "create_soul_steel_ingot": {
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:iron_ingot"
-              ],
-              "nbt": "{CustomModelData:6906618}"
-            }
-          ]
-        },
-        "trigger": "minecraft:inventory_changed"
+      "requirement": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
       }
-    },
-    "requirements": [
-      [
-        "create_soul_steel_ingot"
-      ]
-    ]
+    }
   }
   

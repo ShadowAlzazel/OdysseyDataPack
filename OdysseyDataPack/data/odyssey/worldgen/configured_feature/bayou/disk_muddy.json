@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "half_height": 3,
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "max_inclusive": 3,
+        "min_inclusive": 2
+      }
+    },
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "minecraft:mud"
+                },
+                "weight": 5
+              },
+              {
+                "data": {
+                  "Name": "minecraft:muddy_mangrove_roots"
+                },
+                "weight": 1
+              }
+            ]
+      },
+      "rules": []
+    },
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:dirt",
+        "minecraft:grass_block"
+      ]
+    }
+  }
+}
