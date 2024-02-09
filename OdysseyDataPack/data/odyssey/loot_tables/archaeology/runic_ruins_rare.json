@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:archaeology",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:brick",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData:6905632}"
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:brick",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData:6905632}"
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:brick",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{CustomModelData:6905632}"
+                }
+            ]
+          }
+        ],
+        "rolls": 1.0
+      }
+    ],
+    "random_sequence": "odyssey:archaeology/runic_ruins_rare"
+  }
