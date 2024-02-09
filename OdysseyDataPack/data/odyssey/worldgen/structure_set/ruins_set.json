@@ -1,9 +1,9 @@
 {
     "placement": {
       "type": "minecraft:random_spread",
-      "salt": 18011212,
-      "separation": 12,
-      "spacing": 40
+      "salt": 16904532,
+      "separation": 5,
+      "spacing": 20
     },
     "structures": [
       {
@@ -12,6 +12,14 @@
       },
       {
         "structure": "odyssey:runic_ruins/stone_outpost_ruins_1",
+        "weight": 2
+      },
+      {
+        "structure": "odyssey:runic_ruins/base_ruins_e1",
+        "weight": 2
+      },
+      {
+        "structure": "odyssey:runic_ruins/base_ruins_e2",
         "weight": 2
       }
     ]
