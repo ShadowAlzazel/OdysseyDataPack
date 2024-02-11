@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:archaeology",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:skull_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:miner_pottery_sherd"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ingot"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ],
+    "random_sequence": "odyssey:archaeology/dig_site_rare"
+}

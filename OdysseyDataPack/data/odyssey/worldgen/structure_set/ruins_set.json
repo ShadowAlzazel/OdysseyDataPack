@@ -1,7 +1,7 @@
 {
     "placement": {
       "type": "minecraft:random_spread",
-      "salt": 16904532,
+      "salt": 14904832,
       "separation": 5,
       "spacing": 20
     },
@@ -15,11 +15,15 @@
         "weight": 2
       },
       {
-        "structure": "odyssey:runic_ruins/base_ruins_e1",
+        "structure": "odyssey:runic_ruins/base_ruins_solara_1",
         "weight": 2
       },
       {
-        "structure": "odyssey:runic_ruins/base_ruins_e2",
+        "structure": "odyssey:runic_ruins/base_ruins_solara_2",
+        "weight": 2
+      },
+      {
+        "structure": "odyssey:runic_ruins/house_ruins_tatami",
         "weight": 2
       }
     ]
