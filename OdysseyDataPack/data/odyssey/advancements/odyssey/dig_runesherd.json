@@ -1,0 +1,26 @@
+{
+    "parent": "odyssey:odyssey/root",
+    "display": {
+      "frame": "task",
+      "hidden": false,
+      "announce_to_chat": true,
+      "show_toast": true,
+      "icon": {
+        "item": "minecraft:brick",
+        "nbt": "{CustomModelData:6901453,odyssey:{item:'assault_runesherd'}}"
+      },
+      "title": {
+        "translate": "Ryze was here"
+      },
+      "description": {
+        "translate": "Dig up a runesherd found at an abandoned base"
+      }
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    }
+  }
+  

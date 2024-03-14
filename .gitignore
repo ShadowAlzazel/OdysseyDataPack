@@ -5,6 +5,10 @@ common
 /common
 ./common
 
+/dimensions_sets
+dimensions_sets
+./dimensions_sets
+
 .overworld
 .overworld.json
 overworld.json
