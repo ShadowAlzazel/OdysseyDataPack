@@ -46,15 +46,21 @@
         [],
         [],
         [
-            "minecraft:amethyst_geode"
+            "minecraft:amethyst_geode",
+            "minecraft:forest_rock"
         ],
         [
             "minecraft:monster_room",
             "minecraft:monster_room_deep"
         ],
         [],
-        [],
-        [],
+        [
+            "odyssey:spectral_steppe/ring_dark_prismarine"
+        ],
+        [
+            "odyssey:generic/disk_large_blackstone",
+            "odyssey:generic/disk_mud"
+        ],
         [],
         [
             "minecraft:spring_water"

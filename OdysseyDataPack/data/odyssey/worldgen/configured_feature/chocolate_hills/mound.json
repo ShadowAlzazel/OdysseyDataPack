@@ -1,83 +1,83 @@
 {
-    "type": "minecraft:geode",
-    "config": {
-      "blocks": {
-        "filling_provider": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-              "Name": "minecraft:brown_concrete_powder"
-            }
-        },
-        "inner_layer_provider": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-              "Name": "minecraft:brown_concrete"
-            }
-        },
-        "alternate_inner_layer_provider": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-              "Name": "minecraft:brown_concrete_powder"
-            }
-        },
-        "middle_layer_provider": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-              "Name": "minecraft:brown_concrete_powder"
-            }
-        },
-        "outer_layer_provider": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-              "Name": "minecraft:brown_concrete_powder"
-            }
-        },
-        "inner_placements": [
-          {
-            "Name": "minecraft:brown_concrete_powder"
-          }
-        ],
-        "cannot_replace": "#minecraft:geode_invalid_blocks",
-        "invalid_blocks": "#odyssey:chocolate_hill_invalid"
-      },
-      "layers": {
-        "filling": 1.5,
-        "inner_layer": 4.3,
-        "middle_layer": 5.2,
-        "outer_layer": 6.8
-      },
-      "crack": {
-        "generate_crack_chance": 0,
-        "base_crack_size": 0,
-        "crack_point_offset": 0
-      },
-      "noise_multiplier": 0.005,
-      "use_potential_placements_chance": 0,
-      "use_alternate_layer0_chance": 0,
-      "placements_require_layer0_alternate": false, 
-      "outer_wall_distance": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 1,
-          "max_inclusive": 2
+  "type": "minecraft:geode",
+  "config": {
+    "blocks": {
+      "filling_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:brown_concrete_powder"
         }
       },
-      "distribution_points": {
-        "type": "minecraft:biased_to_bottom",
-        "value": {
-          "min_inclusive": 4,
-          "max_inclusive": 5
+      "inner_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:brown_concrete"
         }
       },
-      "point_offset": {
-        "type": "minecraft:biased_to_bottom",
-        "value": {
-          "min_inclusive": 0,
-          "max_inclusive": 1
+      "alternate_inner_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:brown_concrete_powder"
         }
       },
-      "min_gen_offset": -16,
-      "max_gen_offset": 16,
-      "invalid_blocks_threshold": 1
-    }
+      "middle_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:brown_concrete_powder"
+        }
+      },
+      "outer_layer_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:brown_concrete_powder"
+        }
+      },
+      "inner_placements": [
+        {
+          "Name": "minecraft:brown_concrete_powder"
+        }
+      ],
+      "cannot_replace": "#minecraft:geode_invalid_blocks",
+      "invalid_blocks": "#odyssey:chocolate_hill_invalid"
+    },
+    "layers": {
+      "filling": 1.5,
+      "inner_layer": 4.3,
+      "middle_layer": 5.2,
+      "outer_layer": 6.8
+    },
+    "crack": {
+      "generate_crack_chance": 0,
+      "base_crack_size": 0,
+      "crack_point_offset": 0
+    },
+    "noise_multiplier": 0.005,
+    "use_potential_placements_chance": 0,
+    "use_alternate_layer0_chance": 0,
+    "placements_require_layer0_alternate": false,
+    "outer_wall_distance": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      }
+    },
+    "distribution_points": {
+      "type": "minecraft:biased_to_bottom",
+      "value": {
+        "min_inclusive": 4,
+        "max_inclusive": 5
+      }
+    },
+    "point_offset": {
+      "type": "minecraft:biased_to_bottom",
+      "value": {
+        "min_inclusive": 0,
+        "max_inclusive": 1
+      }
+    },
+    "min_gen_offset": -16,
+    "max_gen_offset": 16,
+    "invalid_blocks_threshold": 1
   }
+}

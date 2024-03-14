@@ -1,0 +1,15 @@
+{
+    "name": "odyssey:ancient_hunt/walls",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "location": "odyssey:ancient_hunt/wall",
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
+        }
+    ]
+}

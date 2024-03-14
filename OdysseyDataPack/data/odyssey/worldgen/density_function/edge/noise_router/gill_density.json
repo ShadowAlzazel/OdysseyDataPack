@@ -1,0 +1,50 @@
+{
+    "argument": {
+      "argument1": 0.5,
+      "argument2": {
+        "argument": {
+          "argument": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:mul",
+              "argument1": {
+                "type": "minecraft:y_clamped_gradient",
+                "from_y": -52,
+                "to_y": -24,
+                "from_value": 0,
+                "to_value": 1
+              },
+              "argument2": {
+                "type": "minecraft:add",
+                "argument1": {
+                  "type": "minecraft:add",
+                  "argument1": {
+                    "type": "minecraft:mul",
+                    "argument1": {
+                      "type": "minecraft:y_clamped_gradient",
+                      "from_y": 184,
+                      "to_y": 440,
+                      "from_value": 1,
+                      "to_value": 0
+                    },
+                    "argument2": {
+                      "type": "minecraft:add",
+                      "argument1": "odyssey:edge/gills/base",
+                      "argument2": 23.4375
+                    }
+                  },
+                  "argument2": -23.4375
+                },
+                "argument2": 0.234375
+              }
+            },
+            "argument2": -0.33708
+          },
+          "type": "minecraft:blend_density"
+        },
+        "type": "minecraft:interpolated"
+      },
+      "type": "minecraft:mul"
+    },
+    "type": "minecraft:squeeze"
+  }
