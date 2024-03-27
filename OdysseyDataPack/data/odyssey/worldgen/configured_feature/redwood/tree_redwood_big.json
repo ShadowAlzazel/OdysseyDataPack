@@ -45,24 +45,24 @@
         "type": "minecraft:mega_pine_foliage_placer",
         "radius": {
           "type": "minecraft:uniform",
-          "value": {
+          
             "min_inclusive": 1,
             "max_inclusive": 2
-          }
+          
         },
         "offset": {
           "type": "minecraft:uniform",
-          "value": {
+          
             "min_inclusive": 10,
             "max_inclusive": 11
-          }
+          
         },
         "crown_height": {
           "type": "minecraft:uniform",
-          "value": {
+          
             "min_inclusive": 17,
             "max_inclusive": 24
-          }
+          
         }
       }
     }

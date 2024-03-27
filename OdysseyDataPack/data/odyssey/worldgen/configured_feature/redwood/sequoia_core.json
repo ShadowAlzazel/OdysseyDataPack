@@ -52,12 +52,12 @@
               {
                 "height": {
                   "type": "minecraft:clamped_normal",
-                  "value": {
+                  
                     "min_inclusive": 21,
                     "max_inclusive": 26,
                     "mean": 24,
                     "deviation": 0.17
-                  }
+                  
                 },
                 "provider": {
                   "type": "minecraft:simple_state_provider",

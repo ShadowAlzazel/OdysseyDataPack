@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond_ingot"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "DD",
+    "PP",
+    "PP"
+  ],
+  "result": {
+    "item": "minecraft:knowledge_book"
+  },
+  "show_notification": false
+}

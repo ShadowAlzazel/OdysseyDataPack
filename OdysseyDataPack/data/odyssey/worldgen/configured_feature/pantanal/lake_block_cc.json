@@ -22,20 +22,19 @@
             "type": "count",
             "count": {
               "type": "minecraft:uniform",
-              "value": {
                 "max_inclusive": 16,
                 "min_inclusive": 16
-              }
+              
             }
           },
           {
             "type": "minecraft:random_offset",
             "xz_spread": {
               "type": "minecraft:uniform",
-              "value": {
+              
                 "min_inclusive": -3,
                 "max_inclusive": 3
-              }
+              
             },
             "y_spread": 0
           },

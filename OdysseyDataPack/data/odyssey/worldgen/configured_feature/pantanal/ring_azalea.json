@@ -24,27 +24,27 @@
           "type": "count",
           "count": {
             "type": "minecraft:uniform",
-            "value": {
+            
               "max_inclusive": 20,
               "min_inclusive": 10
-            }
+            
           }
         },
         {
           "type": "minecraft:random_offset",
           "xz_spread": {
             "type": "minecraft:uniform",
-            "value": {
+           
               "min_inclusive": -5,
               "max_inclusive": 5
-            }
+            
           },
           "y_spread": {
             "type": "minecraft:uniform",
-            "value": {
+            
               "min_inclusive": -1,
               "max_inclusive": 1
-            }
+            
           }
         },
         {

@@ -9,10 +9,10 @@
             "half_height": 3,
             "radius": {
               "type": "minecraft:biased_to_bottom",
-              "value": {
+              
                 "min_inclusive": 3,
                 "max_inclusive": 5
-              }
+              
             },
             "state_provider": {
               "fallback": {
