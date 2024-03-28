@@ -1,102 +1,96 @@
 {
     "parent": "odyssey:smithing/sword/root",
     "criteria": {
-      "get_saber_template": {
+      "craft_claymore": {
         "conditions": {
-          "items": [
+          "ingredients": [
             {
-              "nbt": "{CustomModelData:1,odyssey:{item:'saber_template'}}",
-              "items": [
-                "minecraft:iron_ingot"
-              ]
+              "item": {}
             }
-          ]
+          ],
+          "recipe_id":"odyssey:weapons/stone_claymore"
         },
-        "trigger": "minecraft:inventory_changed"
+        "trigger": "minecraft:recipe_crafted"
       },
-      "get_rapier_template": {
+      "craft_cutlass": {
         "conditions": {
-          "items": [
+          "ingredients": [
             {
-              "nbt": "{CustomModelData:1,odyssey:{item:'rapier_template'}}",
-              "items": [
-                "minecraft:iron_ingot"
-              ]
+              "item": {}
             }
-          ]
+          ],
+          "recipe_id":"odyssey:weapons/stone_cutlass"
         },
-        "trigger": "minecraft:inventory_changed"
+        "trigger": "minecraft:recipe_crafted"
       },
-      "get_katana_template": {
+      "craft_katana": {
         "conditions": {
-          "items": [
+          "ingredients": [
             {
-              "nbt": "{CustomModelData:1,odyssey:{item:'katana_template'}}",
-              "items": [
-                "minecraft:iron_ingot"
-              ]
+              "item": {}
             }
-          ]
+          ],
+          "recipe_id":"odyssey:weapons/stone_katana"
         },
-        "trigger": "minecraft:inventory_changed"
+        "trigger": "minecraft:recipe_crafted"
       },
-      "get_claymore_template": {
+      "craft_rapier": {
         "conditions": {
-          "items": [
+          "ingredients": [
             {
-              "nbt": "{CustomModelData:1,odyssey:{item:'claymore_template'}}",
-              "items": [
-                "minecraft:iron_ingot"
-              ]
+              "item": {}
             }
-          ]
+          ],
+          "recipe_id":"odyssey:weapons/stone_rapier"
         },
-        "trigger": "minecraft:inventory_changed"
+        "trigger": "minecraft:recipe_crafted"
       },
-      "get_cutlass_template": {
+      "craft_saber": {
         "conditions": {
-          "items": [
+          "ingredients": [
             {
-              "nbt": "{CustomModelData:1,odyssey:{item:'cutlass_template'}}",
-              "items": [
-                "minecraft:iron_ingot"
-              ]
+              "item": {}
             }
-          ]
+          ],
+          "recipe_id":"odyssey:weapons/stone_saber"
         },
-        "trigger": "minecraft:inventory_changed"
+        "trigger": "minecraft:recipe_crafted"
       }
     },
     "display": {
       "announce_to_chat": true,
       "description": {
-        "translate": "Discover every single sword template"
+        "translate": "advancments.odyssey.smithing.sword.tracker_root.description"
       },
       "frame": "challenge",
       "hidden": false,
       "icon": {
-        "item": "minecraft:netherite_sword"
+        "count": 1,
+        "id": "minecraft:netherite_sword",
+        "components": {
+          "minecraft:custom_model_data": 6905753
+        }
       },
       "show_toast": true,
       "title": {
-        "translate": "Mastersmith"
+        "translate": "advancments.odyssey.smithing.sword.tracker_root.title"
       }
     },
     "requirements": [
       [
-        "get_saber_template"
+        "craft_claymore"
       ],
       [
-        "get_rapier_template"
+        "craft_cutlass"
       ],
       [
-        "get_katana_template"
+        "craft_katana"
       ],
       [
-        "get_cutlass_template"
+        "craft_rapier"
       ],
       [
-        "get_claymore_template"
+        "craft_saber"
       ]
     ]
 }

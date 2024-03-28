@@ -55,7 +55,7 @@ def create_weapon_recipe_files():
             # Assemble json obj 
             json_obj = {
                 "type": "minecraft:crafting_shaped",
-                "category": "misc",
+                "category": "equipment",
                 "group": f"{ttyp.name}",
                 "key": key,
                 "pattern": pattern,
@@ -64,7 +64,7 @@ def create_weapon_recipe_files():
                     "id": f"minecraft:{mat.item_override_pre}_{ttyp.item_override_suf}",
                     "components": components
                 },
-                "show_notification": False
+                "show_notification": True
             }
             text = json.dumps(json_obj, indent=2)
             # Write the text to opened file

@@ -1,26 +1,27 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
-  "group": "dagger",
+  "group": "claymore",
   "key": {
     "X": {
-      "item": "minecraft:copper_ingot"
+      "tag": "minecraft:planks"
     },
     "|": {
       "item": "minecraft:stick"
     }
   },
   "pattern": [
-    " X",
-    "| "
+    " X ",
+    "XXX",
+    " | "
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:golden_sword",
+    "id": "minecraft:wooden_sword",
     "components": {
-      "minecraft:custom_model_data": 6905546,
-      "minecraft:item_name": "copper_dagger",
-      "minecraft:custom_name": "{\"text\": \"Copper Dagger\", \"italic\": False}",
+      "minecraft:custom_model_data": 6905745,
+      "minecraft:item_name": "wooden_claymore",
+      "minecraft:custom_name": "{\"text\": \"Wooden Claymore\", \"italic\": False}",
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:generic.attack_damage",
@@ -32,7 +33,7 @@
             2
           ],
           "name": "odyssey:generic.attack_damage",
-          "amount": 3.5,
+          "amount": 8.0,
           "operation": "add_value"
         },
         {
@@ -58,11 +59,10 @@
             4
           ],
           "name": "odyssey:generic.attack_speed",
-          "amount": 3.0,
+          "amount": 0.85,
           "operation": "add_value"
         }
-      ],
-      "minecraft:max_damage": 198
+      ]
     }
   },
   "show_notification": false

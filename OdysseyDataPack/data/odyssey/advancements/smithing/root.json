@@ -5,13 +5,14 @@
       "announce_to_chat": false,
       "show_toast": false,
       "icon": {
-        "item": "minecraft:smithing_table"
+        "count": 1,
+        "id": "minecraft:smithing_table"
       },
       "title": {
         "translate": "Odyssey - Smithing"
       },
       "description": {
-          "translate": "Smithing is more than creating weapons; a fine art of partnership"
+          "translate": "Smithing is more than creating weapons. It is a fine art of death and life."
       },
       "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
   },

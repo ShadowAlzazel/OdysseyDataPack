@@ -1,7 +1,7 @@
 {
     "parent": "odyssey:smithing/root",
     "criteria": {
-      "create_wooden_sword": {
+      "craft_wooden_sword": {
         "conditions": {
           "items": [
             {
@@ -13,7 +13,7 @@
         },
         "trigger": "minecraft:inventory_changed"
       },
-      "create_stone_sword": {
+      "craft_stone_sword": {
         "conditions": {
           "items": [
             {
@@ -25,7 +25,7 @@
         },
         "trigger": "minecraft:inventory_changed"
       },
-      "create_iron_sword": {
+      "craft_iron_sword": {
         "conditions": {
           "items": [
             {
@@ -37,7 +37,7 @@
         },
         "trigger": "minecraft:inventory_changed"
       },
-      "create_golden_sword": {
+      "craft_golden_sword": {
         "conditions": {
           "items": [
             {
@@ -49,7 +49,7 @@
         },
         "trigger": "minecraft:inventory_changed"
       },
-      "create_diamond_sword": {
+      "craft_diamond_sword": {
         "conditions": {
           "items": [
             {
@@ -65,25 +65,26 @@
     "display": {
       "announce_to_chat": true,
       "description": {
-        "translate": "Craft a sword, any sword..."
+        "translate": "advancments.odyssey.smithing.sword.root.description"
       },
       "frame": "task",
       "hidden": false,
       "icon": {
-        "item": "minecraft:iron_sword"
+        "count": 1,
+        "id": "minecraft:iron_sword"
       },
       "show_toast": true,
       "title": {
-        "translate": "Swordsmith!"
+        "translate": "advancments.odyssey.smithing.sword.root.title"
       }
     },
     "requirements": [
       [
-        "create_wooden_sword",
-        "create_stone_sword",
-        "create_iron_sword",
-        "create_golden_sword",
-        "create_diamond_sword"
+        "craft_wooden_sword",
+        "craft_stone_sword",
+        "craft_iron_sword",
+        "craft_golden_sword",
+        "craft_diamond_sword"
       ]
     ]
 }

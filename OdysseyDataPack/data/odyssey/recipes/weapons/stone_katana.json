@@ -1,26 +1,30 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
-  "group": "dagger",
+  "group": "katana",
   "key": {
     "X": {
-      "item": "minecraft:copper_ingot"
+      "item": "minecraft:cobblestone"
     },
     "|": {
       "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
     }
   },
   "pattern": [
-    " X",
-    "| "
+    "  X",
+    "CX ",
+    "|  "
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:golden_sword",
+    "id": "minecraft:stone_sword",
     "components": {
-      "minecraft:custom_model_data": 6905546,
-      "minecraft:item_name": "copper_dagger",
-      "minecraft:custom_name": "{\"text\": \"Copper Dagger\", \"italic\": False}",
+      "minecraft:custom_model_data": 6905744,
+      "minecraft:item_name": "stone_katana",
+      "minecraft:custom_name": "{\"text\": \"Stone Katana\", \"italic\": False}",
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:generic.attack_damage",
@@ -32,7 +36,7 @@
             2
           ],
           "name": "odyssey:generic.attack_damage",
-          "amount": 3.5,
+          "amount": 6.0,
           "operation": "add_value"
         },
         {
@@ -58,11 +62,10 @@
             4
           ],
           "name": "odyssey:generic.attack_speed",
-          "amount": 3.0,
+          "amount": 1.5,
           "operation": "add_value"
         }
-      ],
-      "minecraft:max_damage": 198
+      ]
     }
   },
   "show_notification": false
