@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "claymore",
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " X ",
+    "XXX",
+    " | "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:iron_sword",
+    "components": {
+      "minecraft:custom_model_data": 6905745,
+      "minecraft:item_name": "iron_claymore",
+      "minecraft:custom_name": "Iron Claymore"
+    }
+  },
+  "show_notification": false
+}

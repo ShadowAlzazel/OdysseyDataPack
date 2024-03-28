@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "katana",
+  "key": {
+    "X": {
+      "item": "minecraft:diamond"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  X",
+    "CX ",
+    "|  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:diamond_sword",
+    "components": {
+      "minecraft:custom_model_data": 6905744,
+      "minecraft:item_name": "diamond_katana",
+      "minecraft:custom_name": "Diamond Katana"
+    }
+  },
+  "show_notification": false
+}

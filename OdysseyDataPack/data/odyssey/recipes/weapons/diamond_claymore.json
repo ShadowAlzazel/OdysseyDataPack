@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "claymore",
+  "key": {
+    "X": {
+      "item": "minecraft:diamond"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " X ",
+    "XXX",
+    " | "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:diamond_sword",
+    "components": {
+      "minecraft:custom_model_data": 6905745,
+      "minecraft:item_name": "diamond_claymore",
+      "minecraft:custom_name": "Diamond Claymore"
+    }
+  },
+  "show_notification": false
+}
