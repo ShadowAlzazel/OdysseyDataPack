@@ -1,10 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "claymore",
+  "group": "test",
   "key": {
     "X": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:tuff"
     },
     "|": {
       "item": "minecraft:stick"
@@ -17,11 +17,11 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:diamond_sword",
+    "id": "minecraft:stone_sword",
     "components": {
         "minecraft:custom_model_data": 6905745,
-        "minecraft:item_name": "diamond_claymore",
-        "minecraft:custom_name": "{\"text\": \"Diamond Claymore\"}"
+        "minecraft:item_name": "test_sword",
+        "minecraft:custom_name": "{\"text\": \"Test Sword\"}"
     }
   },
   "show_notification": false

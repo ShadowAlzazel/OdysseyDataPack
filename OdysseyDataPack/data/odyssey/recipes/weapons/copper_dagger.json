@@ -1,27 +1,26 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "claymore",
+  "group": "dagger",
   "key": {
     "X": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:copper_ingot"
     },
     "|": {
       "item": "minecraft:stick"
     }
   },
   "pattern": [
-    " X ",
-    "XXX",
-    " | "
+    " X",
+    "| "
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:iron_sword",
+    "id": "minecraft:golden_sword",
     "components": {
-      "minecraft:custom_model_data": 6905745,
-      "minecraft:item_name": "iron_claymore",
-      "minecraft:custom_name": "{\"text\": \"Iron Claymore\", \"italic\": False}",
+      "minecraft:custom_model_data": 6905546,
+      "minecraft:item_name": "copper_dagger",
+      "minecraft:custom_name": "{\"text\": \"Copper Dagger\", \"italic\": False}",
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:generic.attack_damage",
@@ -33,7 +32,7 @@
             2
           ],
           "name": "odyssey:generic.attack_damage",
-          "amount": 10.0,
+          "amount": 3.5,
           "operation": "add_value"
         },
         {
@@ -59,10 +58,11 @@
             4
           ],
           "name": "odyssey:generic.attack_speed",
-          "amount": 0.85,
+          "amount": 3.0,
           "operation": "add_value"
         }
-      ]
+      ],
+      "minecraft:max_damage": 158
     }
   },
   "show_notification": false
