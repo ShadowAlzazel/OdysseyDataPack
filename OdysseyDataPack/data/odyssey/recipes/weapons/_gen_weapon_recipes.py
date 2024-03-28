@@ -17,8 +17,6 @@ os.chdir(dir_name)
 #materials = ['wooden', 'golden', 'stone', 'iron', 'diamond', 'netherite',
 #             'copper', 'silver', 'soul_steel', 'titanium', 'andonized_titanium', 'iridium', 'mithril']
 
-
-
 # Function to create weapon recipe files 
 def create_weapon_recipe_files(): 
     # Loop for all combinations

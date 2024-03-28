@@ -12,7 +12,7 @@ class Material:
     material_name: str = 'Custom Material' # 'custom_name' component
     mat_damage: int = 0
     item_model_pre: int = 12345 # 'custom_model_data' compnent [12345XX]
-    item_override_pre: str = 'diamond' # for finding the item id
+    item_override_pre: str = 'stone' # for finding the item id
     max_durability: int = None
     
     
@@ -28,13 +28,17 @@ class ToolType:
 
 materials = [
     # Minecraft
+    Material('wooden', 'Wooden', 1.0, 69057, 'wooden'),
     Material('golden', 'Golden', 1.5, 69057, 'golden'),
+    Material('stone', 'Stone', 2.0, 69057, 'stone'),
     Material('iron', 'Iron', 3.0, 69057, 'iron'),
     Material('diamond', 'Diamond', 4.0, 69057, 'diamond'),
     # Odyssey
-    Material('copper', 'Copper', 2.5, 69055, 'golden', 158)
-    #Material('titanium', 'Titanium', 4.0, 69068),
-    #Material('andonized_titanium', 'Andonized Titanium', 4.0, 69070)
+    Material('copper', 'Copper', 2.5, 69055, 'golden', 198),
+    #Material('titanium', 'Titanium', 4.0, 69068, 'iron', 1002),
+    #Material('andonized_titanium', 'Andonized Titanium', 4.0, 69070, 'iron', 1002),
+    #Material('iridium', 'Iridium', 4.0, 69071, 'iron', 3467),
+    #Material('mithril', 'Mithril', 4.0, 69076, 'iron', 3467)
 ]
     
 tool_types = [
@@ -42,7 +46,6 @@ tool_types = [
     ToolType('claymore', 'Claymore', 7.0, 0.85, 45, 'sword'),
     ToolType('dagger', 'Dagger', 1.0, 3.0, 46, 'sword')
 ]
-
 
 tool_patterns = {
     'katana': [
@@ -63,12 +66,13 @@ tool_patterns = {
 
 # Add way to ovveride 
 material_keys = {
+    # Minecraft
     'wooden': {
         "X": {"tag": "minecraft:planks"},
         "|": {"item": "minecraft:stick"}
     },
     'stone': {
-        "X": {"item": "minecraft:gold_ingot"},
+        "X": {"item": "minecraft:cobblestone"},
         "|": {"item": "minecraft:stick"}
     },
     'golden': {
@@ -83,7 +87,12 @@ material_keys = {
         "X": {"item": "minecraft:diamond"},
         "|": {"item": "minecraft:stick"}
     },
+    # Odyssey
     'copper': {
+        "X": {"item": "minecraft:copper_ingot"},
+        "|": {"item": "minecraft:stick"}
+    },
+    'mithril': {
         "X": {"item": "minecraft:copper_ingot"},
         "|": {"item": "minecraft:stick"}
     },
