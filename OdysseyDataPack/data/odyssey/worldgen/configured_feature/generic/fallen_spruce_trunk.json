@@ -11,10 +11,10 @@
         {
           "height": {
             "type": "uniform",
-            "value": {
+            
               "max_inclusive": 7,
               "min_inclusive": 4
-            }
+            
           },
           "provider": {
             "type": "minecraft:simple_state_provider",

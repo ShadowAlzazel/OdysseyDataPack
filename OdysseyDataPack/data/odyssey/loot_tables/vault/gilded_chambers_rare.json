@@ -1,0 +1,55 @@
+{
+    "type": "minecraft:chest",
+    "random_sequence": "odyssey:vault/gilded_chambers_rare",
+    "pools": [
+      {
+        "bonus_rolls": 1.0,
+        "rolls": 3.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:brick",
+            "functions": [
+                {
+                    "function": "set_components",
+                    "components": {
+                      "minecraft:custom_model_data":6905632
+                    },
+                    "conditions": []
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_ingot",
+            "functions": []
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond",
+            "functions": []
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ancient_debris",
+            "functions": []
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:heavy_core",
+            "functions": []
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flow_armor_trim_smithing_template",
+            "functions": []
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bolt_armor_trim_smithing_template",
+            "functions": []
+          }
+        ]
+      }
+    ]
+  }

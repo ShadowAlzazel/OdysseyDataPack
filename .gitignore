@@ -12,3 +12,17 @@ dimensions_sets
 .overworld
 .overworld.json
 overworld.json
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+__pycache__
+.pyc
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+.env/
+env/
+venv/

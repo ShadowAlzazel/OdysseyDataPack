@@ -1,0 +1,40 @@
+{
+  "parent": "odyssey:smithing/sword/tracker_root",
+  "criteria": {
+    "craft_rapier": {
+      "conditions": {
+        "ingredients": [
+          {
+            "item": {}
+          }
+        ],
+        "recipe_id":"odyssey:weapons/stone_rapier"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancments.odyssey.smithing.sword.craft_rapier.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond_sword",
+      "components": {
+        "minecraft:custom_model_data": 6905747
+      }
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancments.odyssey.smithing.sword.craft_rapier.title"
+    }
+  },
+  "requirements": [
+    [
+      "craft_rapier"
+    ]
+  ]
+}
