@@ -2,20 +2,21 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "D": {
-      "item": "minecraft:diamond_ingot"
+    "X": {
+      "item": "minecraft:diamond"
     },
-    "P": {
+    "#": {
       "tag": "minecraft:planks"
     }
   },
   "pattern": [
-    "DD",
-    "PP",
-    "PP"
+    "XX",
+    "##",
+    "##"
   ],
   "result": {
-    "item": "minecraft:knowledge_book"
+    "count": 1,
+    "id": "minecraft:crafting_table"
   },
   "show_notification": false
 }
