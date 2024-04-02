@@ -2,7 +2,7 @@
     "type": "minecraft:edge",
     "generator": {
       "type": "minecraft:noise",
-      "settings": "odyssey:edge",
+      "settings": "odyssey:edge_new",
       "biome_source": {
         "type": "minecraft:multi_noise",
         "biomes": [
@@ -127,7 +127,7 @@
             }
           },
           {
-            "biome": "minecraft:plains",
+            "biome": "odyssey:cardinal_fields",
             "parameters": {
               "continentalness": [
                 0.3,

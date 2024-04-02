@@ -23,7 +23,7 @@
       "options": {
         "type": "minecraft:wax_off"
       },
-      "probability": 0.002
+      "probability": 0.001
     },
     "music": {
       "sound": "minecraft:music.nether.crimson_forest",
