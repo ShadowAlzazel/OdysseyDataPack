@@ -1,0 +1,66 @@
+{
+    "type": "minecraft:geode",
+    "config": {
+      "blocks": {
+        "filling_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:calcite"
+          }
+        },
+        "inner_layer_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:calcite"
+          }
+        },
+        "alternate_inner_layer_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:calcite"
+          }
+        },
+        "middle_layer_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:calcite"
+          }
+        },
+        "outer_layer_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:calcite"
+          }
+        },
+        "inner_placements": [
+          {
+            "Name": "minecraft:calcite"
+          }
+        ],
+        "cannot_replace": "#minecraft:geode_invalid_blocks",
+        "invalid_blocks": "#odyssey:calcite_cube_invalid"
+      },
+      "layers": {
+        "filling": 1,
+        "inner_layer": 1,
+        "middle_layer": 1,
+        "outer_layer": 1
+      },
+      "crack": {
+        "generate_crack_chance": 0,
+        "base_crack_size": 0,
+        "crack_point_offset": 0
+      },
+      "noise_multiplier": 0.0,
+      "use_potential_placements_chance": 0,
+      "use_alternate_layer0_chance": 0,
+      "placements_require_layer0_alternate": false,
+      "outer_wall_distance": 16,
+      "distribution_points": 5,
+      "point_offset": 0,
+      "min_gen_offset": -16,
+      "max_gen_offset": 16,
+      "invalid_blocks_threshold": 1
+    }
+  }
+  

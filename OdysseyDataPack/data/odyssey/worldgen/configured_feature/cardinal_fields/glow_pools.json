@@ -10,25 +10,31 @@
             "entries": [
               {
                 "data": {
-                  "Name": "minecraft:short_grass"
+                  "Name": "minecraft:glow_lichen",
+                  "Properties": {
+                    "down": "true",
+                    "waterlogged": "true"
+                  }
                 },
-                "weight": 14
+                "weight": 21
               },
               {
                 "data": {
-                  "Name": "minecraft:tall_grass"
+                  "Name": "minecraft:sea_pickle",
+                  "Properties": {
+                    "pickles": 2,
+                    "waterlogged": "true"
+                  }
                 },
-                "weight": 2
+                "weight": 4
               },
               {
                 "data": {
-                  "Name": "minecraft:crimson_roots"
-                },
-                "weight": 12
-              },
-              {
-                "data": {
-                  "Name": "minecraft:torchflower"
+                  "Name": "minecraft:sea_pickle",
+                  "Properties": {
+                    "pickles": 1,
+                    "waterlogged": "true"
+                  }
                 },
                 "weight": 1
               }
@@ -43,19 +49,16 @@
             "type": "minecraft:all_of",
             "predicates": [
               {
-                "type": "minecraft:matching_blocks",
-                "blocks": [
-                  "minecraft:air"
+                "type": "minecraft:matching_fluids",
+                "fluids": [
+                  "minecraft:water"
                 ]
               },
               {
                 "type": "minecraft:matching_blocks",
                 "blocks": [
-                  "minecraft:dirt",
-                  "minecraft:crimson_nylium",
-                  "minecraft:grass_block",
-                  "minecraft:rooted_dirt",
-                  "minecraft:coarse_dirt"
+                  "minecraft:calcite",
+                  "minecraft:diorite"
                 ],
                 "offset": [
                   0,
@@ -68,8 +71,8 @@
         }
       ]
     },
-    "tries": 100,
-    "xz_spread": 8,
-    "y_spread": 3
+    "tries": 80,
+    "xz_spread": 7,
+    "y_spread": 2
   }
 }

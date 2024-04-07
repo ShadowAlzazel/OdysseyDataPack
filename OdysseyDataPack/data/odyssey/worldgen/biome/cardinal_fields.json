@@ -16,7 +16,7 @@
         "fog_color": 7972607,
         "water_color": 16777215,
         "water_fog_color": 329011,
-        "foliage_color": 16738351,
+        "foliage_color": 16723813,
         "grass_color": 16603721,
         "grass_color_modifier": "none",
         "particle": {
@@ -59,8 +59,7 @@
         [
         ],
         [
-            "odyssey:cardinal_fields/cubic_i1",
-            "odyssey:cardinal_fields/cubic_tall_i1"
+            "odyssey:cardinal_fields/calcite_cube_bottom"
         ],
         [],
         [
@@ -68,6 +67,7 @@
         ],
         [
             "odyssey:cardinal_fields/patch_vegetation",
+            "odyssey:cardinal_fields/glow_pools",
             "minecraft:glow_lichen"
         ],
         [

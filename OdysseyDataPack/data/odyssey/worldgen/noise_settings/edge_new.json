@@ -107,15 +107,94 @@
                         "type": "minecraft:condition",
                         "if_true": {
                           "type": "minecraft:noise_threshold",
-                          "max_threshold": 0.108,
-                          "min_threshold": -0.116,
+                          "max_threshold": 0.096,
+                          "min_threshold": 0.0,
                           "noise": "odyssey:cardinal/lines"
                         },
                         "then_run": {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:diorite"
+                            "Name": "minecraft:rooted_dirt"
                           }
+                        }
+                      },
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:noise_threshold",
+                          "max_threshold": 0.0,
+                          "min_threshold": -0.108,
+                          "noise": "odyssey:cardinal/lines"
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:coarse_dirt"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:biome",
+                    "biome_is": [
+                      "odyssey:prisma_moor"
+                    ]
+                  },
+                  "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:noise_threshold",
+                          "max_threshold": -0.282,
+                          "min_threshold": -5.33,
+                          "noise": "odyssey:prisma_moor/surface"
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:moss_block"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:biome",
+                    "biome_is": [
+                      "odyssey:spectral_steppe"
+                    ]
+                  },
+                  "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:noise_threshold",
+                          "max_threshold": -0.178,
+                          "min_threshold": -4.32,
+                          "noise": "odyssey:spectral_steppe/surface"
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:mud"
+                          }
+                        }
+                      },
+                      {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "Name": "minecraft:mycelium"
                         }
                       }
                     ]
@@ -248,7 +327,8 @@
               "if_true": {
                 "type": "minecraft:biome",
                 "biome_is": [
-                  "odyssey:star_bog"
+                  "odyssey:star_bog",
+                  "odyssey:spectral_steppe"
                 ]
               },
               "then_run": {
