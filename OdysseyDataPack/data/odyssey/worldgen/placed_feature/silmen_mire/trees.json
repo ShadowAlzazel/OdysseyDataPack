@@ -1,0 +1,40 @@
+{
+    "feature": "odyssey:silmen_mire/trees",
+    "placement": [
+      {
+        "type": "rarity_filter",
+        "chance": 1
+      },
+      {
+        "type": "count",
+        "count": 3
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "heightmap",
+        "heightmap": "WORLD_SURFACE"
+      },
+      {
+        "type": "minecraft:block_predicate_filter",
+        "predicate": {
+          "type": "minecraft:matching_blocks",
+          "offset": [
+            0, -1, 0
+          ],
+          "blocks": [
+            "minecraft:grass_block",
+            "minecraft:dirt",
+            "minecraft:mud",
+            "minecraft:crimson_nylium",
+            "minecraft:warped_wart_block"
+          ]
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+  

@@ -97,7 +97,7 @@
             }
           },
           {
-            "biome": "odyssey:pantanal",
+            "biome": "odyssey:silmen_mire",
             "parameters": {
               "continentalness": [
                 -0.1,

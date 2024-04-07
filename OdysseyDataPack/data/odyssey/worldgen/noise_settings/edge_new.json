@@ -203,6 +203,35 @@
                 {
                   "type": "minecraft:condition",
                   "if_true": {
+                    "type": "minecraft:biome",
+                    "biome_is": [
+                      "odyssey:silmen_mire"
+                    ]
+                  },
+                  "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:noise_threshold",
+                          "max_threshold": 12.37,
+                          "min_threshold": 0.238,
+                          "noise": "odyssey:silmen/pool"
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:warped_wart_block"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
                     "type": "minecraft:stone_depth",
                     "add_surface_depth": false,
                     "offset": 0,

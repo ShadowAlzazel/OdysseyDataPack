@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "chance": 0.36,
+          "feature": "odyssey:silmen_mire/tree_silmen"
+        }
+      ],
+      "default": {
+        "feature": "odyssey:silmen_mire/tree_silmen",
+        "placement": []
+      }
+    }
+}
+  
