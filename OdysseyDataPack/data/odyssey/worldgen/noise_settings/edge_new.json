@@ -170,7 +170,7 @@
                   "if_true": {
                     "type": "minecraft:biome",
                     "biome_is": [
-                      "odyssey:spectral_steppe"
+                      "odyssey:lumenshroom_grove"
                     ]
                   },
                   "then_run": {
@@ -182,7 +182,7 @@
                           "type": "minecraft:noise_threshold",
                           "max_threshold": -0.178,
                           "min_threshold": -4.32,
-                          "noise": "odyssey:spectral_steppe/surface"
+                          "noise": "odyssey:lumenshroom_grove/surface"
                         },
                         "then_run": {
                           "type": "minecraft:block",
@@ -357,7 +357,7 @@
                 "type": "minecraft:biome",
                 "biome_is": [
                   "odyssey:star_bog",
-                  "odyssey:spectral_steppe"
+                  "odyssey:lumenshroom_grove"
                 ]
               },
               "then_run": {

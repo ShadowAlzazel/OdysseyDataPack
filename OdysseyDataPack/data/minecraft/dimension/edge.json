@@ -157,7 +157,7 @@
             }
           },
           {
-            "biome": "odyssey:spectral_steppe",
+            "biome": "odyssey:lumenshroom_grove",
             "parameters": {
               "continentalness": [
                 -0.3,
