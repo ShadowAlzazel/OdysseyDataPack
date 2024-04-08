@@ -14,10 +14,10 @@
     "effects": {
         "sky_color": 7972607,
         "fog_color": 7972607,
-        "water_color": 11465699,
+        "water_color": 9288414,
         "water_fog_color": 329011,
-        "foliage_color": 10878944,
-        "grass_color": 7143372,
+        "foliage_color": 13500277,
+        "grass_color": 11272148,
         "grass_color_modifier": "none",
         "particle": {
             "options": {
@@ -55,22 +55,17 @@
         ],
         [],
         [
-            "odyssey:silmen_mire/lake_filler",
-            "odyssey:silmen_mire/lake_edge"
         ],
         [
-            "odyssey:silmen_mire/lake_base"
         ],
         [],
         [
             "minecraft:spring_water"
         ],
         [
-            "minecraft:glow_lichen",
-            "odyssey:silmen_mire/trees",
-            "odyssey:silmen_mire/patch_vegetation",
-            "odyssey:silmen_mire/lake_vegetation",
-            "odyssey:silmen_mire/glow_vines_trees"
+            "odyssey:aetherial_woods/trees",
+            "odyssey:aetherial_woods/patch_vegetation",
+            "minecraft:glow_lichen"
         ],
         [
             "minecraft:freeze_top_layer"

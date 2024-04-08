@@ -7,7 +7,7 @@
         "type": "minecraft:multi_noise",
         "biomes": [
           {
-            "biome": "odyssey:birch_backwoods",
+            "biome": "odyssey:aetherial_woods",
             "parameters": {
               "continentalness": [
                 -0.01,
@@ -37,7 +37,7 @@
             }
           },
           {
-            "biome": "odyssey:prisma_moor",
+            "biome": "odyssey:marina_moor",
             "parameters": {
               "continentalness": [
                 0.62,
@@ -63,36 +63,6 @@
               "weirdness": [
                 -1.0,
                 1.0
-              ]
-            }
-          },
-          {
-            "biome": "odyssey:spectral_steppe",
-            "parameters": {
-              "continentalness": [
-                0.5,
-                0.9
-              ],
-              "depth": [
-                -0.005,
-                0
-              ],
-              "erosion": [
-                0,
-                0.5650000000000001
-              ],
-              "humidity": [
-                -0.5,
-                0.0
-              ],
-              "offset": 0.0,
-              "temperature": [
-                -0.3,
-                0.3
-              ],
-              "weirdness": [
-                -0.7666667,
-                -0.4
               ]
             }
           },
@@ -158,6 +128,36 @@
           },
           {
             "biome": "odyssey:star_bog",
+            "parameters": {
+              "continentalness": [
+                0.5,
+                0.9
+              ],
+              "depth": [
+                -0.005,
+                0
+              ],
+              "erosion": [
+                0,
+                0.5650000000000001
+              ],
+              "humidity": [
+                -0.5,
+                0.0
+              ],
+              "offset": 0.0,
+              "temperature": [
+                -0.3,
+                0.3
+              ],
+              "weirdness": [
+                -0.7666667,
+                -0.4
+              ]
+            }
+          },
+          {
+            "biome": "odyssey:spectral_steppe",
             "parameters": {
               "continentalness": [
                 -0.3,
