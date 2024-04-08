@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "minecraft:glow_lichen",
+                  "Properties": {
+                    "down": "true",
+                    "waterlogged": "true"
+                  }
+                },
+                "weight": 21
+              },
+              {
+                "data": {
+                  "Name": "minecraft:sea_pickle",
+                  "Properties": {
+                    "pickles": 2,
+                    "waterlogged": "true"
+                  }
+                },
+                "weight": 4
+              },
+              {
+                "data": {
+                  "Name": "minecraft:sea_pickle",
+                  "Properties": {
+                    "pickles": 1,
+                    "waterlogged": "true"
+                  }
+                },
+                "weight": 1
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_fluids",
+                "fluids": [
+                  "minecraft:water"
+                ]
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:calcite",
+                  "minecraft:diorite"
+                ],
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "tries": 80,
+    "xz_spread": 7,
+    "y_spread": 2
+  }
+}

@@ -9,13 +9,8 @@ dir_name = os.path.dirname(abspath)
 os.chdir(dir_name)
 
 # TODO 
-# Add [Polexe], [Battleaxe(labrys)]
+# Add [Battleaxe(labrys)]
 # Rework [Rapier], [Lance]
-
-#tool_types = ['chakram', 'claymore', 'cutlass', 'dagger', 'halberd', 'katana', 'kunai', 'lance', 
-#                'longaxe', 'longsword', 'rapier', 'saber', 'scythe', 'sickle', 'spear', 'warhammer']
-#materials = ['wooden', 'golden', 'stone', 'iron', 'diamond', 'netherite',
-#             'copper', 'silver', 'soul_steel', 'titanium', 'andonized_titanium', 'iridium', 'mithril']
 
 # Function to create weapon recipe files 
 def create_weapon_recipe_files(): 

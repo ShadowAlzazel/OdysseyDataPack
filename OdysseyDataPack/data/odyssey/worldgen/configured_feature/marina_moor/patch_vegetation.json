@@ -12,7 +12,7 @@
                 "data": {
                   "Name": "minecraft:large_fern"
                 },
-                "weight": 11
+                "weight": 15
               },
               {
                 "data": {
@@ -25,13 +25,18 @@
                   "Name": "minecraft:tall_grass"
                 },
                 "weight": 8
-              }
-              ,
+              },
+              {
+                "data": {
+                  "Name": "minecraft:blue_orchid"
+                },
+                "weight": 6
+              },
               {
                 "data": {
                   "Name": "minecraft:tall_grass"
                 },
-                "weight": 3
+                "weight": 6
               }
             ]
           }
@@ -48,7 +53,7 @@
       ]
     },
     "tries": 80,
-    "xz_spread": 8,
+    "xz_spread": 7,
     "y_spread": 2
   }
 }

@@ -1,0 +1,60 @@
+{
+    "type": "minecraft:random_patch",
+    "config": {
+      "feature": {
+        "feature": {
+          "type": "minecraft:simple_block",
+          "config": {
+            "to_place": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:calcite"
+              }
+            }
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:crimson_nylium",
+                    "minecraft:grass_block",
+                    "minecraft:air",
+                    "minecraft:crimson_roots",
+                    "minecraft:water"
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:tuff",
+                    "minecraft:dirt",
+                    "minecraft:crimson_nylium",
+                    "minecraft:grass_block",
+                    "minecraft:calcite",
+                    "minecraft:diorite",
+                    "minecraft:rooted_dirt",
+                    "minecraft:coarse_dirt"
+                  ],
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "tries": 400,
+      "xz_spread": 1,
+      "y_spread": 2
+    }
+  }
+  

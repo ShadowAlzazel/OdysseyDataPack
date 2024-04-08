@@ -16,14 +16,14 @@
     "fog_color": 7972607,
     "water_color": 16777215,
     "water_fog_color": 329011,
-    "foliage_color": 3604434,
-    "grass_color": 3604434,
+    "foliage_color": 15000804,
+    "grass_color": 15000804,
     "grass_color_modifier": "none",
     "particle": {
       "options": {
         "type": "minecraft:wax_off"
       },
-      "probability": 0.002
+      "probability": 0.001
     },
     "music": {
       "sound": "minecraft:music.nether.crimson_forest",
@@ -61,7 +61,8 @@
     ],
     [
       "minecraft:glow_lichen",
-      "odyssey:spectral_steppe/shrooms_tall"
+      "odyssey:spectral_steppe/shrooms_tall",
+      "odyssey:spectral_steppe/patch_vegetation"
     ],
     [
       "minecraft:freeze_top_layer"

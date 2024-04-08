@@ -11,7 +11,7 @@ class Material:
     name: str = 'material' # 'item_name' component
     material_name: str = 'Custom Material' # 'custom_name' component
     mat_damage: int = 0
-    item_model_pre: int = 12345 # 'custom_model_data' compnent [12345XX]
+    item_model_pre: int = 12345 # 'custom_model_data' component [12345XX]
     item_override_pre: str = 'stone' # for finding the item id
     max_durability: int = None
     
@@ -24,7 +24,6 @@ class ToolType:
     base_speed: int = 1.0
     item_model_suf: int = 67 # 'custom_model_data' compnent [XXXXX67]
     item_override_suf: str = 'sword' # for finding the item id
-    #pattern: list[str] = field(default_factory=list)
 
 materials = [
     # Minecraft
@@ -35,10 +34,12 @@ materials = [
     Material('diamond', 'Diamond', 4.0, 69057, 'diamond'),
     # Odyssey
     Material('copper', 'Copper', 2.5, 69055, 'golden', 198),
+    #Material('silver', 'Silver', 3.0, 69063, 'iron', 231),
+    #Material('soul_steel', 'Soul Steel', 4.0, 69066, 'iron', 666),
     #Material('titanium', 'Titanium', 4.0, 69068, 'iron', 1002),
     #Material('andonized_titanium', 'Andonized Titanium', 4.0, 69070, 'iron', 1002),
-    #Material('iridium', 'Iridium', 4.0, 69071, 'iron', 3467),
-    #Material('mithril', 'Mithril', 4.0, 69076, 'iron', 3467)
+    #Material('iridium', 'Iridium', 4.0, 69071, 'iron', 3108),
+    #Material('mithril', 'Mithril', 4.0, 69076, 'iron', 17)
 ]
     
 tool_types = [
@@ -47,6 +48,7 @@ tool_types = [
     ToolType('dagger', 'Dagger', 1.0, 3.0, 46, 'sword')
 ]
 
+# Create pattern
 tool_patterns = {
     'katana': [
         "  X",
@@ -64,7 +66,7 @@ tool_patterns = {
     ]
 } 
 
-# Add way to ovveride 
+# "X" is the main ingredient and "|" is the main stick
 material_keys = {
     # Minecraft
     'wooden': {
@@ -98,6 +100,7 @@ material_keys = {
     },
 }
 
+# "C" is for the complementary ingredient
 tool_keys = {
     'katana': {
         "C": {"item": "minecraft:copper_ingot"},

@@ -4,11 +4,11 @@
       "features": [
         {
           "chance": 0.36,
-          "feature": "odyssey:prisma_moor/tree_small_fork"
+          "feature": "odyssey:marina_moor/tree_small_fork"
         }
       ],
       "default": {
-        "feature": "odyssey:prisma_moor/tree_small_fork",
+        "feature": "odyssey:marina_moor/tree_small_fork",
         "placement": []
       }
     }
