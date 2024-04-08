@@ -1,7 +1,7 @@
 {
   "has_precipitation": true,
-  "temperature": 0.7,
-  "downfall": 0.7,
+  "temperature": 0.8,
+  "downfall": 0.0,
   "player_spawn_friendly": true,
   "creature_spawn_probability": 0.4,
   "carvers": {
@@ -16,8 +16,8 @@
     "fog_color": 7972607,
     "water_color": 16777215,
     "water_fog_color": 329011,
-    "foliage_color": 16723813,
-    "grass_color": 16603721,
+    "foliage_color": 16777215,
+    "grass_color": 16777215,
     "grass_color_modifier": "none",
     "particle": {
       "options": {
@@ -53,21 +53,16 @@
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [
-      "odyssey:cardinal_fields/pools"
-    ],
     [],
     [
-      "odyssey:cardinal_fields/calcite_cube_bottom"
+      "odyssey:spectral_gap/patch_basalt_stack"
     ],
     [],
+    [],
+    [],
     [
-      "minecraft:spring_water"
-    ],
-    [
-      "odyssey:cardinal_fields/patch_vegetation",
-      "odyssey:cardinal_fields/glow_pools",
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "odyssey:spectral_gap/columns"
     ],
     []
   ],

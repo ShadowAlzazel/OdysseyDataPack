@@ -157,6 +157,36 @@
             }
           },
           {
+            "biome": "odyssey:spectral_gap",
+            "parameters": {
+              "continentalness": [
+                0.5,
+                0.9
+              ],
+              "depth": [
+                -0.005,
+                0
+              ],
+              "erosion": [
+                0,
+                0.5650000000000001
+              ],
+              "humidity": [
+                -0.16777777,
+                0.16777777
+              ],
+              "offset": 0.0,
+              "temperature": [
+                -0.16777777,
+                0.16777777
+              ],
+              "weirdness": [
+                -0.16777777,
+                0.16777777
+              ]
+            }
+          },
+          {
             "biome": "odyssey:lumenshroom_grove",
             "parameters": {
               "continentalness": [

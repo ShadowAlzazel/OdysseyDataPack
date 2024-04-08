@@ -141,6 +141,44 @@
                   "if_true": {
                     "type": "minecraft:biome",
                     "biome_is": [
+                      "odyssey:spectral_gap"
+                    ]
+                  },
+                  "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:noise_threshold",
+                          "max_threshold": -0.142,
+                          "min_threshold": -0.987,
+                          "noise": "odyssey:spectral_gap/lines"
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:basalt",
+                            "Properties": {
+                              "axis": "y"
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "Name": "minecraft:blackstone"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:biome",
+                    "biome_is": [
                       "odyssey:marina_moor"
                     ]
                   },
@@ -340,7 +378,7 @@
                 }
               ]
             }
-          } 
+          }
         ]
       },
       {
@@ -357,7 +395,8 @@
                 "type": "minecraft:biome",
                 "biome_is": [
                   "odyssey:star_bog",
-                  "odyssey:lumenshroom_grove"
+                  "odyssey:lumenshroom_grove",
+                  "odyssey:spectral_gap"
                 ]
               },
               "then_run": {
