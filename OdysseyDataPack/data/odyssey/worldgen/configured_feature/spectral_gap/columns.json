@@ -3,12 +3,16 @@
   "config": {
     "features": [
       {
-        "chance": 0.4,
+        "chance": 0.35,
         "feature": "odyssey:spectral_gap/patch_column_cyan"
       },
       {
-        "chance": 0.6,
+        "chance": 0.55,
         "feature": "odyssey:spectral_gap/patch_column_orange"
+      },
+      {
+        "chance": 0.1,
+        "feature": "odyssey:spectral_gap/patch_column_purple"
       }
     ],
     "default": {

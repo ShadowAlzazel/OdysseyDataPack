@@ -1,0 +1,20 @@
+{
+    "feature": "odyssey:spectral_gap/patch_diorite_stack",
+    "placement": [
+      {
+        "type": "count",
+        "count": 20
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:heightmap",
+        "heightmap": "WORLD_SURFACE_WG"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+  

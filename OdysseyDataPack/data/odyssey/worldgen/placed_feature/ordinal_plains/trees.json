@@ -1,16 +1,16 @@
 {
-    "feature": "odyssey:spectral_gap/columns",
+    "feature": "odyssey:ordinal_plains/trees",
     "placement": [
       {
         "type": "count",
-        "count": 12
+        "count": 2
       },
       {
         "type": "minecraft:in_square"
       },
       {
         "type": "heightmap",
-        "heightmap": "MOTION_BLOCKING"
+        "heightmap": "WORLD_SURFACE_WG"
       },
       {
         "type": "minecraft:block_predicate_filter",
@@ -20,8 +20,10 @@
             0, -1, 0
           ],
           "blocks": [
-            "minecraft:blackstone",
-            "minecraft:calcite",
+            "minecraft:grass_block",
+            "minecraft:dirt",
+            "minecraft:coarse_dirt",
+            "minecraft:rooted_dirt",
             "minecraft:tuff"
           ]
         }

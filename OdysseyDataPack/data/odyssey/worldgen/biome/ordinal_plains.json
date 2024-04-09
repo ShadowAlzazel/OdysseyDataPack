@@ -2,7 +2,7 @@
   "has_precipitation": true,
   "temperature": 0.8,
   "downfall": 0.0,
-  "player_spawn_friendly": false,
+  "player_spawn_friendly": true,
   "creature_spawn_probability": 0.4,
   "carvers": {
     "air": [
@@ -16,8 +16,8 @@
     "fog_color": 7972607,
     "water_color": 16777215,
     "water_fog_color": 329011,
-    "foliage_color": 16777215,
-    "grass_color": 16777215,
+    "foliage_color": 16723813,
+    "grass_color": 16768289,
     "grass_color_modifier": "none",
     "particle": {
       "options": {
@@ -55,16 +55,21 @@
     ],
     [],
     [
-      "odyssey:spectral_gap/patch_diorite_stack"
+      "odyssey:ordinal_plains/cube_tuff"
     ],
-    [],
+    [
+      "odyssey:ordinal_plains/pool_filler"
+    ],
     [],
     [],
     [
       "minecraft:glow_lichen",
-      "odyssey:spectral_gap/columns"
+      "odyssey:ordinal_plains/trees",
+      "odyssey:ordinal_plains/patch_vegetation"
     ],
-    []
+    [
+      "odyssey:ordinal_plains/tree_filler"
+    ]
   ],
   "spawn_costs": {},
   "spawners": {

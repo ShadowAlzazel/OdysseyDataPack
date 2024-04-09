@@ -11,12 +11,16 @@
         "feature": "odyssey:inazuma/tree_tall_azaleafork"
       },
       {
-        "chance": 0.3,
+        "chance": 0.4,
+        "feature": "odyssey:inazuma/tree_fancy_sakura"
+      },
+      {
+        "chance": 0.2,
         "feature": "odyssey:inazuma/tree_tall_purplefork"
       },
       {
-        "chance": 0.5,
-        "feature": "odyssey:inazuma/tree_fancy_sakura"
+        "chance": 0.2,
+        "feature": "odyssey:inazuma/tree_fancy_purple"
       }
     ],
     "default": {

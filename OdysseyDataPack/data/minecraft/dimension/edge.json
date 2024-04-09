@@ -127,7 +127,7 @@
             }
           },
           {
-            "biome": "odyssey:star_bog",
+            "biome": "odyssey:ordinal_plains",
             "parameters": {
               "continentalness": [
                 0.5,
@@ -152,6 +152,36 @@
               ],
               "weirdness": [
                 -0.7666667,
+                -0.4
+              ]
+            }
+          },
+          {
+            "biome": "odyssey:inazuma_forest",
+            "parameters": {
+              "continentalness": [
+                -0.6,
+                0.0
+              ],
+              "depth": [
+                -0.005,
+                0
+              ],
+              "erosion": [
+                0.5650000000000001,
+                1
+              ],
+              "humidity": [
+                0.3,
+                0.8
+              ],
+              "offset": 0.0,
+              "temperature": [
+                -0.3,
+                0.3
+              ],
+              "weirdness": [
+                -0.9,
                 -0.4
               ]
             }

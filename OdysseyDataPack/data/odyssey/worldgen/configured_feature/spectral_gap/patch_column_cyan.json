@@ -102,6 +102,7 @@
                 "type": "minecraft:matching_blocks",
                 "blocks": [
                   "minecraft:blackstone",
+                  "minecraft:calcite",
                   "minecraft:tuff"
                 ],
                 "offset": [
@@ -114,6 +115,7 @@
                 "type": "minecraft:matching_blocks",
                 "blocks": [
                   "minecraft:blackstone",
+                  "minecraft:calcite",
                   "minecraft:tuff"
                 ]
               },
@@ -121,6 +123,7 @@
                 "type": "minecraft:matching_blocks",
                 "blocks": [
                   "minecraft:blackstone",
+                  "minecraft:calcite",
                   "minecraft:tuff"
                 ],
                 "offset": [

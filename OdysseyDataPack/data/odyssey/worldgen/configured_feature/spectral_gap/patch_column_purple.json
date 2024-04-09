@@ -1,0 +1,149 @@
+{
+    "type": "minecraft:random_patch",
+    "config": {
+      "feature": {
+        "feature": {
+          "type": "minecraft:block_column",
+          "config": {
+            "direction": "up",
+            "allowed_placement": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_blocks",
+                  "offset": [
+                    0,
+                    3,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:air"
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "offset": [
+                    0,
+                    15,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:air"
+                  ]
+                }
+              ]
+            },
+            "prioritize_tip": false,
+            "layers": [
+              {
+                "height": {
+                  "type": "minecraft:constant",
+                  "value": 1
+                },
+                "provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:pearlescent_froglight"
+                  }
+                }
+              },
+              {
+                "height": {
+                  "type": "minecraft:constant",
+                  "value": 1
+                },
+                "provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:amethyst_cluster",
+                    "Properties": {
+                      "facing": "up",
+                      "waterlogged": "false"
+                    }
+                  }
+                }
+              },
+              {
+                "height": {
+                  "type": "minecraft:clamped_normal",
+                  "min_inclusive": 15,
+                  "max_inclusive": 19,
+                  "mean": 16.9,
+                  "deviation": 0.21
+                },
+                "provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:purple_stained_glass"
+                  }
+                }
+              },
+              {
+                "height": {
+                  "type": "minecraft:clamped_normal",
+                  "min_inclusive": 5,
+                  "max_inclusive": 7,
+                  "mean": 6.22,
+                  "deviation": 0.15
+                },
+                "provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                    "Name": "minecraft:magenta_stained_glass"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:blackstone",
+                    "minecraft:calcite",
+                    "minecraft:tuff"
+                  ],
+                  "offset": [
+                    0,
+                    2,
+                    0
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:blackstone",
+                    "minecraft:calcite",
+                    "minecraft:tuff"
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:blackstone",
+                    "minecraft:calcite",
+                    "minecraft:tuff"
+                  ],
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "tries": 10,
+      "xz_spread": 3,
+      "y_spread": 3
+    }
+  }
+  
