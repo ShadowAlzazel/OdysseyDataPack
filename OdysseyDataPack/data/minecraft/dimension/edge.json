@@ -7,6 +7,36 @@
         "type": "minecraft:multi_noise",
         "biomes": [
           {
+            "biome": "odyssey:cave/darklight_caves",
+            "parameters": {
+              "continentalness": [
+                -0.5,
+                0.5
+              ],
+              "depth": [
+                1.3,
+                2
+              ],
+              "erosion": [
+                0.5650000000000001,
+                1
+              ],
+              "humidity": [
+                0.0,
+                0.5
+              ],
+              "offset": 0.0,
+              "temperature": [
+                -0.5,
+                0.0
+              ],
+              "weirdness": [
+                -1.0,
+                1.0
+              ]
+            }
+          },
+          {
             "biome": "odyssey:aetherial_woods",
             "parameters": {
               "continentalness": [
