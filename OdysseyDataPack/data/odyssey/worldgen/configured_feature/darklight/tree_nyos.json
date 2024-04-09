@@ -1,0 +1,145 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "decorators": [
+      {
+        "type": "minecraft:attached_to_leaves",
+        "probability": 0.22,
+        "exclusion_radius_xz": 0,
+        "exclusion_radius_y": 0,
+        "required_empty_blocks": 1,
+        "block_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:glow_lichen",
+            "Properties": {
+              "up": "true"
+            }
+          }
+        },
+        "directions": [
+          "down"
+        ]
+      }
+    ],
+    "force_dirt": false,
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 1,
+      "lower_size": 0,
+      "upper_size": 2
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "root_placer": {
+      "type": "minecraft:mangrove_root_placer",
+      "above_root_placement": {
+        "above_root_placement_chance": 0.0,
+        "above_root_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:stripped_acacia_wood",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        }
+      },
+      "mangrove_root_placement": {
+        "can_grow_through": "#odyssey:darklight_roots_can_grow_through",
+        "max_root_length": 12,
+        "max_root_width": 5,
+        "muddy_roots_in": [
+          "minecraft:basalt"
+        ],
+        "muddy_roots_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:stripped_acacia_wood",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        "random_skew_chance": 0.4
+      },
+      "root_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:stripped_acacia_wood",
+          "Properties": {
+            "axis": "y"
+          }
+        }
+      },
+      "trunk_offset_y": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 2,
+        "min_inclusive": 1
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:stripped_acacia_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "trunk_placer": {
+      "type": "minecraft:cherry_trunk_placer",
+      "base_height": 2,
+      "branch_count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "data": 1,
+            "weight": 1
+          },
+          {
+            "data": 2,
+            "weight": 8
+          },
+          {
+            "data": 3,
+            "weight": 4
+          }
+        ]
+      },
+      "branch_end_offset_from_top": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 5,
+        "min_inclusive": 3
+      },
+      "branch_horizontal_length": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 4,
+        "min_inclusive": 3
+      },
+      "branch_start_offset_from_top": {
+        "max_inclusive": -0,
+        "min_inclusive": -1
+      },
+      "height_rand_a": 3,
+      "height_rand_b": 2
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:sculk"
+      }
+    },
+    "foliage_placer": {
+      "type": "minecraft:pine_foliage_placer",
+      "height": 3,
+      "offset": 3,
+      "radius": 4
+    }
+  }
+}

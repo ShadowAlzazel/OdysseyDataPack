@@ -43,14 +43,10 @@
       }
     },
     "foliage_placer": {
-      "type": "minecraft:cherry_foliage_placer",
-      "corner_hole_chance": 0.65,
-      "hanging_leaves_chance": 0.75,
-      "hanging_leaves_extension_chance": 0.6,
+      "type": "minecraft:pine_foliage_placer",
       "height": 4,
-      "offset": 1,
-      "radius": 3,
-      "wide_bottom_layer_hole_chance": 0.25
+      "offset": 3,
+      "radius": 4
     }
   }
 }

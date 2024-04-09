@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:mud",
+      "minecraft:muddy_mangrove_roots",
+      "minecraft:mangrove_roots",
+      "minecraft:grass_block",
+      "minecraft:mycelium",
+      "minecraft:moss_block",
+      "minecraft:moss_carpet",
+      "minecraft:sand",
+      "minecraft:gravel",
+      "minecraft:clay",
+      "minecraft:tuff",
+      "minecraft:calcute"
+    ]
+  }
+  
