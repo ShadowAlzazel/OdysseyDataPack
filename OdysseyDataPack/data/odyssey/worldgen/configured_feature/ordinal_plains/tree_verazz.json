@@ -19,7 +19,7 @@
     "root_placer": {
       "type": "minecraft:mangrove_root_placer",
       "above_root_placement": {
-        "above_root_placement_chance": 0.73,
+        "above_root_placement_chance": 0.65,
         "above_root_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
@@ -28,7 +28,7 @@
         }
       },
       "mangrove_root_placement": {
-        "can_grow_through": "#minecraft:mangrove_roots_can_grow_through",
+        "can_grow_through": "#odyssey:ordinal_tree_roots",
         "max_root_length": 4,
         "max_root_width": 1,
         "muddy_roots_in": [

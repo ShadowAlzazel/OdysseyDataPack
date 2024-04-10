@@ -91,8 +91,8 @@
               0.6
             ],
             "weirdness": [
-              0.4,
-              0.7666667
+              -0.7666667,
+              -0.4
             ]
           }
         },
@@ -100,8 +100,8 @@
           "biome": "odyssey:cardinal_fields",
           "parameters": {
             "continentalness": [
-              0.3,
-              0.6
+              0.5,
+              0.9
             ],
             "depth": [
               -0.005,
@@ -112,17 +112,17 @@
               1
             ],
             "humidity": [
-              -0.3,
-              0.3
+              -0.6,
+              0.0
             ],
             "offset": 0.0,
             "temperature": [
-              -0.15,
-              0.4
+              -0.6,
+              0.0
             ],
             "weirdness": [
-              0.4,
-              0.7666667
+              0.7666667,
+              1
             ]
           }
         },
@@ -142,17 +142,17 @@
               0.5650000000000001
             ],
             "humidity": [
-              -0.5,
-              0.0
-            ],
-            "offset": 0.0,
-            "temperature": [
               -0.3,
               0.3
             ],
+            "offset": 0.0,
+            "temperature": [
+              -0.6,
+              0.0
+            ],
             "weirdness": [
-              -0.7666667,
-              -0.4
+              0.4,
+              0.7666667
             ]
           }
         },
@@ -190,8 +190,8 @@
           "biome": "odyssey:spectral_gap",
           "parameters": {
             "continentalness": [
-              0.5,
-              0.9
+              0.2,
+              0.5
             ],
             "depth": [
               -0.005,

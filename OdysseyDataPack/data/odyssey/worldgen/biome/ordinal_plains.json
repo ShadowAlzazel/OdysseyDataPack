@@ -68,7 +68,8 @@
       "odyssey:ordinal_plains/patch_vegetation"
     ],
     [
-      "odyssey:ordinal_plains/tree_filler"
+      "odyssey:ordinal_plains/tree_filler",
+      "odyssey:ordinal_plains/glow_pools"
     ]
   ],
   "spawn_costs": {},
