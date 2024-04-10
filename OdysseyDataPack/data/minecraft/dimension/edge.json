@@ -10,8 +10,8 @@
           "biome": "odyssey:aetherial_woods",
           "parameters": {
             "continentalness": [
-              -0.01,
-              0.25
+              -0.1,
+              0.3
             ],
             "depth": [
               -0.005,
@@ -22,7 +22,7 @@
               1
             ],
             "humidity": [
-              0.3,
+              0.5,
               0.8
             ],
             "offset": 0.0,
@@ -40,8 +40,8 @@
           "biome": "odyssey:marina_moor",
           "parameters": {
             "continentalness": [
-              0.62,
-              1
+              0.0,
+              0.3
             ],
             "depth": [
               -0.005,
@@ -49,7 +49,7 @@
             ],
             "erosion": [
               -0.6,
-              0.05
+              -0.3
             ],
             "humidity": [
               0.3,
@@ -57,12 +57,12 @@
             ],
             "offset": 0.0,
             "temperature": [
-              0.15,
+              0.3,
               0.6
             ],
             "weirdness": [
-              -1.0,
-              1.0
+              -0.8,
+              -0.5
             ]
           }
         },
@@ -71,15 +71,15 @@
           "parameters": {
             "continentalness": [
               -0.1,
-              0.18
+              0.3
             ],
             "depth": [
               -0.005,
               0
             ],
             "erosion": [
-              0.5650000000000001,
-              1
+              -1.0,
+              -0.5
             ],
             "humidity": [
               0.3,
@@ -89,66 +89,6 @@
             "temperature": [
               0.15,
               0.6
-            ],
-            "weirdness": [
-              -0.7666667,
-              -0.4
-            ]
-          }
-        },
-        {
-          "biome": "odyssey:cardinal_fields",
-          "parameters": {
-            "continentalness": [
-              0.5,
-              0.9
-            ],
-            "depth": [
-              -0.005,
-              0
-            ],
-            "erosion": [
-              0.5650000000000001,
-              1
-            ],
-            "humidity": [
-              -0.6,
-              0.0
-            ],
-            "offset": 0.0,
-            "temperature": [
-              -0.6,
-              0.0
-            ],
-            "weirdness": [
-              0.7666667,
-              1
-            ]
-          }
-        },
-        {
-          "biome": "odyssey:ordinal_plains",
-          "parameters": {
-            "continentalness": [
-              0.5,
-              0.9
-            ],
-            "depth": [
-              -0.005,
-              0
-            ],
-            "erosion": [
-              0,
-              0.5650000000000001
-            ],
-            "humidity": [
-              -0.3,
-              0.3
-            ],
-            "offset": 0.0,
-            "temperature": [
-              -0.6,
-              0.0
             ],
             "weirdness": [
               0.4,
@@ -161,15 +101,15 @@
           "parameters": {
             "continentalness": [
               -0.6,
-              0.0
+              -0.3
             ],
             "depth": [
               -0.005,
               0
             ],
             "erosion": [
-              0.5650000000000001,
-              1
+              -1.0,
+              -0.5
             ],
             "humidity": [
               0.3,
@@ -181,8 +121,67 @@
               0.3
             ],
             "weirdness": [
-              -0.9,
-              -0.4
+              -1.0,
+              -0.5
+            ]
+          }
+        },
+        {
+          "biome": "odyssey:cardinal_fields",
+          "parameters": {
+            "continentalness": [
+              0.3,
+              0.6
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0.5,
+              1.0
+            ],
+            "humidity": [
+              0.0,
+              0.3
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -0.3,
+              0.0
+            ],
+            "weirdness": [
+              0.4,
+              0.7
+            ]
+          }
+        },
+        {
+          "biome": "odyssey:ordinal_plains",
+          "parameters": {
+            "continentalness": [
+              0.6,
+              1.0
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0, 0.5
+            ],
+            "humidity": [
+              0.3,
+              0.6
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -0.2,
+              0.3
+            ],
+            "weirdness": [
+              0.2,
+              0.7
             ]
           }
         },
@@ -198,21 +197,20 @@
               0
             ],
             "erosion": [
-              0,
-              0.5650000000000001
+              0, 0.4
             ],
             "humidity": [
-              -0.16777777,
-              0.16777777
+              -0.8,
+              -0.5
             ],
             "offset": 0.0,
             "temperature": [
-              -0.16777777,
-              0.16777777
+              -0.8,
+              -0.5
             ],
             "weirdness": [
-              -0.16777777,
-              0.16777777
+              -0.8,
+              -0.5
             ]
           }
         },
@@ -228,8 +226,7 @@
               0
             ],
             "erosion": [
-              0.5650000000000001,
-              1
+              0.7, 1
             ],
             "humidity": [
               -0.3,
@@ -250,29 +247,28 @@
           "biome": "odyssey:nullstone_steppes",
           "parameters": {
             "continentalness": [
-              -1.0,
-              -0.3
+              -0.2,
+              0.3
             ],
             "depth": [
               -0.005,
               0
             ],
             "erosion": [
-              0.5650000000000001,
-              1
+              -1.0,
+              -0.6
             ],
             "humidity": [
-              -0.3,
-              0.3
+              -1.0,
+              -0.6
             ],
             "offset": 0.0,
             "temperature": [
-              -0.7,
-              -0.3
+              0.5,
+              1.0
             ],
             "weirdness": [
-              -1,
-              -0.7666667
+              0.5, 1
             ]
           }
         },

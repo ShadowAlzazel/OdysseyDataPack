@@ -38,7 +38,7 @@
                       "type": "minecraft:add",
                       "argument1": {
                         "type": "minecraft:add",
-                        "argument1": 0.15,
+                        "argument1": 0.169,
                         "argument2": "minecraft:end/base_3d_noise"
                       },
                       "argument2": {
@@ -46,7 +46,7 @@
                         "input": "minecraft:overworld/continents",
                         "min_inclusive": 0.6,
                         "max_exclusive": 2,
-                        "when_in_range": "odyssey:edge/gills/3d_noise",
+                        "when_in_range": "odyssey:edge/gills/base",
                         "when_out_of_range": "minecraft:end/base_3d_noise"
                       }
                     }
