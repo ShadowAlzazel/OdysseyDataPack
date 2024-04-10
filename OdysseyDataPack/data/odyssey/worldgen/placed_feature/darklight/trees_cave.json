@@ -8,13 +8,13 @@
           "feature": "odyssey:darklight/tree_nyos"
         }
       ],
-      "default": "odyssey:nothing"
+      "default": "odyssey:darklight/tree_nyos"
     }
   },
   "placement": [
     {
       "type": "minecraft:count_on_every_layer",
-      "count": 10
+      "count": 3
     },
     {
       "type": "minecraft:block_predicate_filter",

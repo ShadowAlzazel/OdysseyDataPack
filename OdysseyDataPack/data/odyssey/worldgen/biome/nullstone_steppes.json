@@ -1,8 +1,8 @@
 {
   "has_precipitation": true,
-  "temperature": 0.6,
-  "downfall": 0.6,
-  "player_spawn_friendly": false,
+  "temperature": 0.7,
+  "downfall": 0.7,
+  "player_spawn_friendly": true,
   "creature_spawn_probability": 0.4,
   "carvers": {
     "air": [
@@ -12,21 +12,21 @@
     ]
   },
   "effects": {
-    "sky_color": 0,
-    "fog_color": 0,
-    "water_color": 1983131,
-    "water_fog_color": 1983131,
-    "foliage_color": 3445513,
-    "grass_color": 8702997,
+    "sky_color": 7972607,
+    "fog_color": 7972607,
+    "water_color": 16777215,
+    "water_fog_color": 329011,
+    "foliage_color": 16723813,
+    "grass_color": 16603721,
     "grass_color_modifier": "none",
     "particle": {
       "options": {
-        "type": "minecraft:sculk_charge_pop"
+        "type": "minecraft:wax_off"
       },
       "probability": 0.001
     },
     "music": {
-      "sound": "minecraft:music.overworld.lush_caves",
+      "sound": "minecraft:music.nether.crimson_forest",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false
@@ -44,40 +44,27 @@
   },
   "features": [
     [],
-    [],
+    [
+      "odyssey:nullstone/pool_filler"
+    ],
     [
       "minecraft:amethyst_geode",
       "odyssey:generic/diamond_geode"
     ],
     [
       "minecraft:monster_room",
-      "minecraft:monster_room_deep"
+      "minecraft:monster_room_deep",
+      "odyssey:nullstone/pillar_tall",
+      "odyssey:nullstone/pillar_small"
     ],
     [],
-    [
-    ],
-    [
-      "minecraft:ore_coal_upper",
-      "minecraft:ore_coal_lower",
-      "minecraft:ore_iron_upper",
-      "minecraft:ore_iron_middle",
-      "minecraft:ore_iron_small",
-      "minecraft:ore_gold",
-      "minecraft:ore_gold_lower",
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower",
-      "minecraft:ore_diamond",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_lapis",
-      "minecraft:ore_copper"
-    ],
     [],
-    [
-      
-    ],
+    [],
+    [],
+    [],
     [
       "minecraft:glow_lichen",
-      "odyssey:darklight/trees_cave"
+      "odyssey:nullstone/pool_vegetation"
     ],
     []
   ],
@@ -87,16 +74,8 @@
     "axolotls": [],
     "creature": [],
     "misc": [],
-    "monster": [
-    ],
-    "underground_water_creature": [
-      {
-        "type": "minecraft:glow_squid",
-        "maxCount": 6,
-        "minCount": 4,
-        "weight": 10
-      }
-    ],
+    "monster": [],
+    "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []
   }
