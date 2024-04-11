@@ -71,7 +71,7 @@
       },
       "type": "minecraft:mul"
     },
-    "argument2": "odyssey:edge/hyphea/fracture_noise",
+    "argument2": "odyssey:edge/hyphea/3d_noise",
     "type": "minecraft:add"
   }
   
