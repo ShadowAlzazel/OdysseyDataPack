@@ -1,0 +1,120 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:block_column",
+        "config": {
+          "direction": "up",
+          "allowed_placement": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  0,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:air"
+                ]
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  1,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:air"
+                ]
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  5,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:air"
+                ]
+              }
+            ]
+          },
+          "prioritize_tip": false,
+          "layers": [
+            {
+              "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 0,
+                "max_inclusive": 1
+              },
+              "provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:diorite"
+                }
+              }
+            },
+            {
+              "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 0,
+                "max_inclusive": 1
+              },
+              "provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:diorite_slab",
+                  "Properties": {
+                    "type": "bottom",
+                    "waterlogged": "false"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:diorite"
+                ],
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:calcite",
+                  "minecraft:tuff"
+                ],
+                "offset": [
+                  0,
+                  -2,
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "tries": 80,
+    "xz_spread": 6,
+    "y_spread": 1
+  }
+}

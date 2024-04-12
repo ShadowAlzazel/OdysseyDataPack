@@ -1,0 +1,23 @@
+{
+    "feature": "odyssey:ordinal_plains/cube_tuff",
+    "placement": [
+      {
+	  	"type": "count",
+	  	"count": 2
+	    },
+      {
+        "type": "minecraft:rarity_filter",
+        "chance": 2
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:heightmap",
+        "heightmap": "WORLD_SURFACE_WG"
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }

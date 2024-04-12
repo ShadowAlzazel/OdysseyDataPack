@@ -1,0 +1,34 @@
+{
+    "feature": "odyssey:spectral_gap/columns",
+    "placement": [
+      {
+        "type": "count",
+        "count": 12
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "heightmap",
+        "heightmap": "MOTION_BLOCKING"
+      },
+      {
+        "type": "minecraft:block_predicate_filter",
+        "predicate": {
+          "type": "minecraft:matching_blocks",
+          "offset": [
+            0, -1, 0
+          ],
+          "blocks": [
+            "minecraft:blackstone",
+            "minecraft:calcite",
+            "minecraft:tuff"
+          ]
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+  

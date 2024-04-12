@@ -61,8 +61,8 @@
     ],
     [
       "minecraft:glow_lichen",
-      "odyssey:spectral_steppe/shrooms_tall",
-      "odyssey:spectral_steppe/patch_vegetation"
+      "odyssey:lumenshroom_grove/shrooms_tall",
+      "odyssey:lumenshroom_grove/patch_vegetation"
     ],
     [
       "minecraft:freeze_top_layer"

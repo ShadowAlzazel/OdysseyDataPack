@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "chance": 0.166666,
+          "feature": "odyssey:lumenshroom_grove/shroom_tall_blue"
+        },
+        {
+          "chance": 0.166666,
+          "feature": "odyssey:lumenshroom_grove/shroom_tall_cyan"
+        },
+        {
+          "chance": 0.166666,
+          "feature": "odyssey:lumenshroom_grove/shroom_tall_magenta"
+        },
+        {
+          "chance": 0.166666,
+          "feature": "odyssey:lumenshroom_grove/shroom_tall_orange"
+        },
+        {
+          "chance": 0.166666,
+          "feature": "odyssey:lumenshroom_grove/shroom_tall_pink"
+        },
+        {
+          "chance": 0.166666,
+          "feature": "odyssey:lumenshroom_grove/shroom_tall_yellow"
+        }
+      ],
+      "default": {
+        "feature": "odyssey:lumenshroom_grove/shroom_tall_cyan",
+        "placement": []
+      }
+    }
+  }
+  

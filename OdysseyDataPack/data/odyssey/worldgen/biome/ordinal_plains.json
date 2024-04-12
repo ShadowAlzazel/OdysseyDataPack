@@ -1,0 +1,86 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.8,
+  "downfall": 0.0,
+  "player_spawn_friendly": true,
+  "creature_spawn_probability": 0.4,
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "effects": {
+    "sky_color": 7972607,
+    "fog_color": 7972607,
+    "water_color": 16777215,
+    "water_fog_color": 329011,
+    "foliage_color": 16723813,
+    "grass_color": 16768289,
+    "grass_color_modifier": "none",
+    "particle": {
+      "options": {
+        "type": "minecraft:wax_off"
+      },
+      "probability": 0.001
+    },
+    "music": {
+      "sound": "minecraft:music.nether.crimson_forest",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.crimson_forest.additions",
+      "tick_chance": 0.0111
+    },
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    }
+  },
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:amethyst_geode",
+      "odyssey:generic/diamond_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [
+      "odyssey:ordinal_plains/cube_tuff"
+    ],
+    [
+      "odyssey:ordinal_plains/pool_filler"
+    ],
+    [],
+    [],
+    [
+      "minecraft:glow_lichen",
+      "odyssey:ordinal_plains/trees",
+      "odyssey:ordinal_plains/patch_vegetation"
+    ],
+    [
+      "odyssey:ordinal_plains/tree_filler",
+      "odyssey:ordinal_plains/glow_pools"
+    ]
+  ],
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  }
+}
