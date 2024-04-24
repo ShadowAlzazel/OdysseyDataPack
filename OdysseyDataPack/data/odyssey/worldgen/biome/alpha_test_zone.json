@@ -1,7 +1,7 @@
 {
   "has_precipitation": true,
   "temperature": 0.5,
-  "downfall": 0.7,
+  "downfall": 0.6,
   "player_spawn_friendly": true,
   "creature_spawn_probability": 0.4,
   "carvers": {
@@ -13,11 +13,11 @@
   },
   "effects": {
     "sky_color": 7972607,
-    "fog_color": 7972607,
-    "water_color": 9288414,
+    "fog_color": 12638463,
+    "water_color": 2576383,
     "water_fog_color": 329011,
-    "foliage_color": 13500277,
-    "grass_color": 11272148,
+    "foliage_color": 7929657,
+    "grass_color": 11599739,
     "grass_color_modifier": "none",
     "particle": {
       "options": {
@@ -61,9 +61,7 @@
       "minecraft:spring_water"
     ],
     [
-      "odyssey:aetherial_woods/trees",
-      "odyssey:aetherial_woods/patch_vegetation",
-      "minecraft:glow_lichen"
+      "odyssey:alpha/trees"
     ],
     [
       "minecraft:freeze_top_layer"

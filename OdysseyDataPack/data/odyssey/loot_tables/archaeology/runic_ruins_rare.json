@@ -10,28 +10,11 @@
           "name": "minecraft:brick",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:6905632}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:brick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:6905632}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:brick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:6905632}"
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 6905632
+              },
+              "conditions": []
             }
           ]
         }

@@ -37,6 +37,15 @@
                 "projection": "rigid",
                 "processors": "minecraft:empty"
             }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "location": "odyssey:dig_site/dig_site_deco_5",
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty"
+            }
         }
     ]
 }

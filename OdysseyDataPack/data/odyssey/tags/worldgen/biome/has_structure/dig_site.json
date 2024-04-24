@@ -1,12 +1,9 @@
 {
   "replace": false,
   "values": [
-    "odyssey:aetherial_woods",
-    "odyssey:alpha_test_zone",
-    "odyssey:marina_moor",
-    "odyssey:silmen_mire",
-    "odyssey:inazuma_forest",
-    "odyssey:lumenshroom_grove",
+    "odyssey:redwood_forest",
+    "odyssey:aspen_forest",
+    "odyssey:birch_backwoods",
     "minecraft:plains",
     "minecraft:sunflower_plains",
     "minecraft:forest",
@@ -16,9 +13,11 @@
     "minecraft:old_growth_birch_forest",
     "minecraft:old_growth_pine_taiga",
     "minecraft:old_growth_spruce_taiga",
+    "minecraft:sparse_jungle",
     "minecraft:taiga",
     "minecraft:meadow",
     "minecraft:cherry_grove",
-    "minecraft:grove"
+    "minecraft:grove",
+    "minecraft:windswept_hills"
   ]
 }

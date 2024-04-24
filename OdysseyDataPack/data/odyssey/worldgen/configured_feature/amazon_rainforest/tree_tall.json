@@ -3,45 +3,6 @@
   "config": {
     "decorators": [
       {
-        "type": "minecraft:attached_to_leaves",
-        "block_provider": {
-          "type": "minecraft:simple_state_provider",
-          "state": {
-            "Name": "minecraft:birch_fence",
-            "Properties": {
-              "waterlogged": "false"
-            }
-          }
-        },
-        "directions": [
-          "down"
-        ],
-        "exclusion_radius_xz": 1,
-        "exclusion_radius_y": 0,
-        "probability": 0.1,
-        "required_empty_blocks": 3
-      },
-      {
-        "type": "minecraft:attached_to_leaves",
-        "block_provider": {
-          "type": "minecraft:simple_state_provider",
-          "state": {
-            "Name": "minecraft:birch_fence",
-            "Properties": {
-              "waterlogged": "false"
-            }
-          }
-        },
-        "directions": [
-          "down"
-        ],
-        "exclusion_radius_xz": 1,
-        "exclusion_radius_y": 0,
-        "probability": 0.5,
-        "required_empty_blocks": 3,
-        "use_logs": true
-      },
-      {
         "type": "minecraft:beehive",
         "fixed_height": false,
         "probability": 0.05
