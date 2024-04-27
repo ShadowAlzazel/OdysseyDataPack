@@ -3,7 +3,7 @@
   "temperature": 0.7,
   "downfall": 0.7,
   "player_spawn_friendly": true,
-  "creature_spawn_probability": 0.4,
+  "creature_spawn_probability": 0.1,
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -77,9 +77,9 @@
     "monster": [
       {
         "type": "minecraft:breeze",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 80
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 5
       },
       {
         "type": "minecraft:enderman",
