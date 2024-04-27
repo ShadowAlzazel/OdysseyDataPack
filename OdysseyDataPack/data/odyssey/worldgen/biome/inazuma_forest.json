@@ -155,13 +155,25 @@
         "weight": 100
       },
       {
+        "type": "minecraft:zombie",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 95
+      },
+      {
         "type": "minecraft:skeleton",
         "maxCount": 4,
         "minCount": 4,
         "weight": 100
       },
       {
-        "type": "minecraft:slime",
+        "type": "minecraft:bogged",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 130
+      },
+      {
+        "type": "minecraft:breeze",
         "maxCount": 4,
         "minCount": 4,
         "weight": 100
