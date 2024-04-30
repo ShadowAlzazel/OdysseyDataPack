@@ -130,14 +130,12 @@
       },
       "branch_end_offset_from_top": {
         "type": "minecraft:uniform",
-        
           "max_inclusive": 3,
           "min_inclusive": 1
         
       },
       "branch_horizontal_length": {
         "type": "minecraft:uniform",
-        
           "max_inclusive": 4,
           "min_inclusive": 3
         

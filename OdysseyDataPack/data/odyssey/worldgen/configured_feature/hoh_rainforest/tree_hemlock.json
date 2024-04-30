@@ -4,14 +4,14 @@
     "decorators": [
       {
         "type": "minecraft:attached_to_leaves",
-        "probability": 0.08,
-        "exclusion_radius_xz": 2,
+        "probability": 0.32,
+        "exclusion_radius_xz": 1,
         "exclusion_radius_y": 0,
         "required_empty_blocks": 2,
         "block_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:mangrove_leaves",
+            "Name": "minecraft:oak_leaves",
             "Properties": {
               "persistent": "false",
               "distance": "7"
@@ -27,9 +27,9 @@
     "ignore_vines": true,
     "minimum_size": {
       "type": "minecraft:two_layers_feature_size",
-      "limit": 2,
+      "limit": 1,
       "lower_size": 0,
-      "upper_size": 2
+      "upper_size": 1
     },
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
@@ -40,40 +40,22 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:stripped_dark_oak_wood",
+        "Name": "minecraft:jungle_log",
         "Properties": {
           "axis": "y"
         }
       }
     },
     "trunk_placer": {
-      "type": "minecraft:cherry_trunk_placer",
-      "base_height": 11,
-      "branch_count": {
-        "type": "minecraft:constant",
-        "value": 2
-      },
-      "branch_end_offset_from_top": {
-        "type": "minecraft:uniform",
-        "max_inclusive": 2,
-        "min_inclusive": 1
-      },
-      "branch_horizontal_length": {
-        "type": "minecraft:uniform",
-        "max_inclusive": 7,
-        "min_inclusive": 5
-      },
-      "branch_start_offset_from_top": {
-        "max_inclusive": 0,
-        "min_inclusive": -1
-      },
-      "height_rand_a": 6,
-      "height_rand_b": 3
+      "type": "minecraft:straight_trunk_placer",
+      "base_height": 13,
+      "height_rand_a": 3,
+      "height_rand_b": 2
     },
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:mangrove_leaves",
+        "Name": "minecraft:oak_leaves",
         "Properties": {
           "distance": "7",
           "persistent": "false",
@@ -82,10 +64,20 @@
       }
     },
     "foliage_placer": {
-      "type": "minecraft:blob_foliage_placer",
-      "height": 2,
-      "offset": 1,
-      "radius": 4
+      "type": "minecraft:mega_pine_foliage_placer",
+      "crown_height": {
+        "type": "minecraft:clamped_normal",
+        "deviation": 2,
+        "min_inclusive": 7,
+        "max_inclusive": 10,
+        "mean": 8
+      },
+      "offset": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 3
+      },
+      "radius": 1
     }
   }
 }
