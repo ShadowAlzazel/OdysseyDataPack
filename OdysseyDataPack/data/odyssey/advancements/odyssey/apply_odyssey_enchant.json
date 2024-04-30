@@ -6,14 +6,18 @@
       "announce_to_chat": true,
       "show_toast": true,
       "icon": {
-        "item": "minecraft:enchanted_book",
-        "nbt": "{CustomModelData:6906066,odyssey:{item:'gilded_book'}}"
+        "count": 1,
+        "id": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:custom_model_data": 6906066,
+          "minecraft:item_name": "arcane_book"
+        }
       },
       "title": {
-        "translate": "Gilded Touch"
+        "translate": "To Enchant or not to Enchant."
       },
       "description": {
-        "translate": "Use the Smithing Table and a gold nugget to apply one gilded enchant onto an gilded empty slot"
+        "translate": "Apply a new Odyssey Enchantment."
       }
     },
     "criteria": {

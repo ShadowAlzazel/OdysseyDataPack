@@ -1,19 +1,20 @@
 {
   "display": {
-      "frame": "task",
-      "hidden": false,
-      "announce_to_chat": false,
-      "show_toast": false,
-      "icon": {
-        "item": "minecraft:recovery_compass"
-      },
-      "title": {
-        "translate": "Odyssey - Story"
-      },
-      "description": {
-          "translate": "An Odyssey Awaits!"
-      },
-      "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": false,
+    "show_toast": false,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:recovery_compass"
+    },
+    "title": {
+      "translate": "Odyssey - Story"
+    },
+    "description": {
+      "translate": "An Odyssey Awaits!"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
   },
   "criteria": {
     "crafting_table": {

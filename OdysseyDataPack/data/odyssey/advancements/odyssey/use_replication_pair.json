@@ -1,26 +1,29 @@
 {
-    "parent": "odyssey:odyssey/discharge_a_curse",
-    "display": {
-      "frame": "goal",
-      "hidden": false,
-      "announce_to_chat": true,
-      "show_toast": true,
-      "icon": {
-        "item": "minecraft:iron_ingot",
-        "nbt": "{CustomModelData:6906069,odyssey:{item:'tome_of_replication'}}"
-      },
-      "title": {
-        "translate": "Two Pair!"
-      },
-      "description": {
-        "translate": "Use a Replication Tome on a book with two or more enchants"
+  "parent": "odyssey:odyssey/discharge_a_curse",
+  "display": {
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:custom_model_data": 6906069,
+        "minecraft:item_name": "tome_of_replication"
       }
     },
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible",
-        "conditions": {}
-      }
+    "title": {
+      "translate": "Two Pair!"
+    },
+    "description": {
+      "translate": "Use a Replication Tome on a book with two or more enchants"
+    }
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
     }
   }
-  
+}

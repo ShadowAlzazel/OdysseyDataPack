@@ -6,8 +6,12 @@
       "announce_to_chat": true,
       "show_toast": true,
       "icon": {
-        "item": "minecraft:potion",
-        "nbt": "{CustomModelData:6905317,odyssey:{item:'pearshape_potion'}}"
+        "count": 1,
+        "id": "minecraft:potion",
+        "components": {
+          "minecraft:custom_model_data": 6905317,
+          "minecraft:item_name": "pearshape_potion"
+        }
       },
       "title": {
         "translate": "What is this Witchcraft?"

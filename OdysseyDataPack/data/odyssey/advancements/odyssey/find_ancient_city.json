@@ -1,41 +1,42 @@
 {
-    "parent": "odyssey:odyssey/find_mansion",
-    "criteria": {
-      "find_ancient_city": {
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "location": {
-                  "structure": "minecraft:ancient_city"
-                }
+  "parent": "odyssey:odyssey/find_mansion",
+  "criteria": {
+    "find_ancient_city": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:ancient_city"
               }
             }
-          ]
-        },
-        "trigger": "minecraft:location"
-      }
-    },
-    "display": {
-      "announce_to_chat": true,
-      "description": {
-        "translate": "Locate an ancient city in the deep dark"
+          }
+        ]
       },
-      "frame": "goal",
-      "hidden": false,
-      "icon": {
-        "item": "minecraft:reinforced_deepslate"
-      },
-      "show_toast": true,
-      "title": {
-        "translate": "Lost, Dark and Sculky?"
-      }
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "Locate an ancient city in the deep dark"
     },
-    "requirements": [
-      [
-        "find_ancient_city"
-      ]
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:reinforced_deepslate"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "Lost, Dark and Sculky?"
+    }
+  },
+  "requirements": [
+    [
+      "find_ancient_city"
     ]
-  }
+  ]
+}
