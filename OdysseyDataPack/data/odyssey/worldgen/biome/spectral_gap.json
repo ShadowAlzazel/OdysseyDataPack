@@ -16,8 +16,8 @@
     "fog_color": 7972607,
     "water_color": 16777215,
     "water_fog_color": 329011,
-    "foliage_color": 16777215,
-    "grass_color": 16777215,
+    "foliage_color": 15200255,
+    "grass_color": 15200255,
     "grass_color_modifier": "none",
     "particle": {
       "options": {

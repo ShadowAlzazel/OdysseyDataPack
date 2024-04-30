@@ -1,8 +1,8 @@
 {
-  "has_precipitation": true,
-  "temperature": 0.4,
-  "downfall": 0.7,
-  "player_spawn_friendly": true,
+  "has_precipitation": false,
+  "temperature": 1.0,
+  "downfall": 0.0,
+  "player_spawn_friendly": false,
   "creature_spawn_probability": 0.4,
   "carvers": {
     "air": [
@@ -16,8 +16,8 @@
     "fog_color": 7972607,
     "water_color": 16777215,
     "water_fog_color": 329011,
-    "foliage_color": 15000804,
-    "grass_color": 15000804,
+    "foliage_color": 15200255,
+    "grass_color": 15200255,
     "grass_color_modifier": "none",
     "particle": {
       "options": {
@@ -46,6 +46,7 @@
     [],
     [],
     [
+      "minecraft:amethyst_geode",
       "odyssey:generic/diamond_geode"
     ],
     [
@@ -56,17 +57,11 @@
     [],
     [],
     [],
+    [],
     [
-      "minecraft:spring_water"
+      "minecraft:glow_lichen"
     ],
-    [
-      "minecraft:glow_lichen",
-      "odyssey:lumenshroom_grove/shrooms_tall",
-      "odyssey:lumenshroom_grove/patch_vegetation"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ],
   "spawn_costs": {},
   "spawners": {
