@@ -1,13 +1,9 @@
 {
-    "asset_name": "ruby",
-    "description" : {
-        "color": "#cf142e",
-        "translate": "Ruby"
-    },
-    "ingredient": "minecraft:coal",
-    "item_model_index": 0.2,
-    "override_armor_materials": {
-        "iron": "iron_darker"
-    }
-
+  "asset_name": "ruby",
+  "description": {
+    "color": "#cf142e",
+    "translate": "Ruby"
+  },
+  "ingredient": "minecraft:jigsaw",
+  "item_model_index": 0.0010
 }

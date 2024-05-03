@@ -1,13 +1,9 @@
 {
-    "asset_name": "soulquartz",
-    "description" : {
-        "color": "#138285",
-        "translate": "Soul Quartz"
-    },
-    "ingredient": "minecraft:coal",
-    "item_model_index": 0.6,
-    "override_armor_materials": {
-        "iron": "iron_darker"
-    }
-
+  "asset_name": "soulquartz",
+  "description": {
+    "color": "#138285",
+    "translate": "Soul Quartz"
+  },
+  "ingredient": "minecraft:jigsaw",
+  "item_model_index": 0.0012
 }
