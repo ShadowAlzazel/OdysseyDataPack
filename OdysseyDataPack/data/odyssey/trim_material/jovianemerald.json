@@ -1,13 +1,9 @@
 {
-    "asset_name": "jovianemerald",
-    "description" : {
-        "color": "#c2dd17",
-        "translate": "Jovian Emerald"
-    },
-    "ingredient": "minecraft:coal",
-    "item_model_index": 0.1,
-    "override_armor_materials": {
-        "iron": "iron_darker"
-    }
-
+  "asset_name": "jovianemerald",
+  "description": {
+    "color": "#c2dd17",
+    "translate": "Jovian Emerald"
+  },
+  "ingredient": "minecraft:jigsaw",
+  "item_model_index": 0.0005
 }

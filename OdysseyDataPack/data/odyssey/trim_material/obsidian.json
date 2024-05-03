@@ -1,13 +1,9 @@
 {
-    "asset_name": "obsidian",
-    "description" : {
-        "color": "#271e3d",
-        "translate": "Obsidian"
-    },
-    "ingredient": "minecraft:coal",
-    "item_model_index": 0.5,
-    "override_armor_materials": {
-        "iron": "iron_darker"
-    }
-
+  "asset_name": "obsidian",
+  "description": {
+    "color": "#271e3d",
+    "translate": "Obsidian"
+  },
+  "ingredient": "minecraft:jigsaw",
+  "item_model_index": 0.0009
 }
