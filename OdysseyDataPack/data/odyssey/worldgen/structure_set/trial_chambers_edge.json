@@ -1,0 +1,18 @@
+{
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 94256565,
+      "separation": 10,
+      "spacing": 20
+    },
+    "structures": [
+      {
+        "structure": "odyssey:trial_chambers_edge",
+        "weight": 1
+      },
+      {
+        "structure": "odyssey:trial_chambers_edge",
+        "weight": 1
+      }
+    ]
+  }

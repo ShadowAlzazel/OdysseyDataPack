@@ -1,40 +1,44 @@
 {
-    "parent": "odyssey:odyssey/find_ancient_city",
-    "display": {
-        "frame": "challenge",
-        "hidden": false,
-        "announce_to_chat": true,
-        "show_toast": true,
-        "icon": {
-          "item": "minecraft:rotten_flesh",
-          "nbt": "{CustomModelData:6903620,odyssey:{item:'warden_entrails'}}"
-        },
-        "title": {
-          "translate": "It can still hear..."
-        },
-        "description": {
-            "translate": "Vanquish the warden in the deep dark"
-        }
-    },
-    "criteria": {
-      "killed_warden": {
-        "conditions": {
-          "entity": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "type": "minecraft:warden"
-              }
-            }
-          ]
-        },
-        "trigger": "minecraft:player_killed_entity"
+  "parent": "odyssey:odyssey/find_ancient_city",
+  "display": {
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:rotten_flesh",
+      "components": {
+        "minecraft:custom_model_data": 6903620,
+        "minecraft:item_name": "warden_entrails"
       }
     },
-    "requirements": [
-      [
-        "killed_warden"
-      ]
+    "title": {
+      "translate": "It can still hear..."
+    },
+    "description": {
+      "translate": "Vanquish the warden in the deep dark"
+    }
+  },
+  "criteria": {
+    "killed_warden": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:warden"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "requirements": [
+    [
+      "killed_warden"
     ]
+  ]
 }

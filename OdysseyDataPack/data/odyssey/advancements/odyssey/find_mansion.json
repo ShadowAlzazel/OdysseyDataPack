@@ -1,41 +1,40 @@
 {
-    "parent": "odyssey:odyssey/root",
-    "criteria": {
-      "find_mansion": {
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "location": {
-                  "structure": "minecraft:mansion"
-                }
+  "parent": "odyssey:odyssey/root",
+  "criteria": {
+    "find_mansion": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:mansion"
               }
             }
-          ]
-        },
-        "trigger": "minecraft:location"
-      }
-    },
-    "display": {
-      "announce_to_chat": true,
-      "description": {
-        "translate": "Enter the premises of a woodland mansion"
+          }
+        ]
       },
-      "frame": "goal",
-      "hidden": false,
-      "icon": {
-        "item": "minecraft:dark_oak_planks"
-      },
-      "show_toast": true,
-      "title": {
-        "translate": "Who built this manor?"
-      }
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "Enter the premises of a woodland mansion"
     },
-    "requirements": [
-      [
-        "find_mansion"
-      ]
-    ]
-  }
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:dark_oak_planks"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "Who built this manor?"
+    }
+  },
+  "requirements": [
+    ["find_mansion"]
+  ]
+}

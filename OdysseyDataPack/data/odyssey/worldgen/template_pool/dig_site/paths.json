@@ -3,9 +3,18 @@
     "fallback": "minecraft:empty",
     "elements": [
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "odyssey:dig_site/dig_site_path_1",
+                "element_type": "minecraft:single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "odyssey:dig_site/dig_site_path_2",
                 "element_type": "minecraft:single_pool_element",
                 "projection": "terrain_matching",
                 "processors": "minecraft:empty"

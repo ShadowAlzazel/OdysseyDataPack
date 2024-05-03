@@ -99,7 +99,20 @@
     "axolotls": [],
     "creature": [],
     "misc": [],
-    "monster": [],
+    "monster": [
+      {
+        "type": "minecraft:breeze",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:stray",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 130
+      }
+    ],
     "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []

@@ -1,80 +1,80 @@
 {
-    "parent": "odyssey:odyssey/find_mansion",
-    "display": {
-      "frame": "goal",
-      "hidden": false,
-      "announce_to_chat": true,
-      "show_toast": true,
-      "icon": {
-        "item": "minecraft:explorer_pottery_sherd"
-      },
-      "title": {
-        "translate": "Insert Sean Bean Quote"
-      },
-      "description": {
-        "translate": "Find an Odyssey natural wonder"
-      }
+  "parent": "odyssey:odyssey/find_mansion",
+  "display": {
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:explorer_pottery_sherd"
     },
-    "criteria": {
-        "odyssey:pantanal": {
-          "trigger": "minecraft:location",
-          "conditions": {
-            "player": {
-              "location": {
-                "biome": "odyssey:pantanal"
-              }
-            }
-          }
-        },
-        "odyssey:bayou": {
-          "trigger": "minecraft:location",
-          "conditions": {
-            "player": {
-              "location": {
-                "biome": "odyssey:bayou"
-              }
-            }
-          }
-        },
-        "odyssey:chocolate_hills": {
-          "trigger": "minecraft:location",
-          "conditions": {
-            "player": {
-              "location": {
-                "biome": "odyssey:chocolate_hills"
-              }
-            }
-          }
-        },
-        "odyssey:redwood_forest": {
-          "trigger": "minecraft:location",
-          "conditions": {
-            "player": {
-              "location": {
-                "biome": "odyssey:redwood_forest"
-              }
-            }
-          }
-        },
-        "odyssey:danakil": {
-          "trigger": "minecraft:location",
-          "conditions": {
-            "player": {
-              "location": {
-                "biome": "odyssey:danakil"
-              }
-            }
+    "title": {
+      "translate": "Insert Sean Bean Quote"
+    },
+    "description": {
+      "translate": "Find an Odyssey natural wonder"
+    }
+  },
+  "criteria": {
+    "odyssey:pantanal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "odyssey:pantanal"
           }
         }
-      },
-      "requirements": [
-        [
-          "odyssey:pantanal",
-          "odyssey:bayou",
-          "odyssey:chocolate_hills",
-          "odyssey:redwood_forest",
-          "odyssey:danakil"
-        ]
-      ]
-  }
-  
+      }
+    },
+    "odyssey:bayou": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "odyssey:bayou"
+          }
+        }
+      }
+    },
+    "odyssey:chocolate_hills": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "odyssey:chocolate_hills"
+          }
+        }
+      }
+    },
+    "odyssey:redwood_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "odyssey:redwood_forest"
+          }
+        }
+      }
+    },
+    "odyssey:danakil": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "odyssey:danakil"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "odyssey:pantanal",
+      "odyssey:bayou",
+      "odyssey:chocolate_hills",
+      "odyssey:redwood_forest",
+      "odyssey:danakil"
+    ]
+  ]
+}

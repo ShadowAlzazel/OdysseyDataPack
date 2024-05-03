@@ -3,7 +3,7 @@
   "temperature": 0.7,
   "downfall": 0.7,
   "player_spawn_friendly": true,
-  "creature_spawn_probability": 0.4,
+  "creature_spawn_probability": 0.1,
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -74,7 +74,20 @@
     "axolotls": [],
     "creature": [],
     "misc": [],
-    "monster": [],
+    "monster": [
+      {
+        "type": "minecraft:breeze",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 30
+      }
+    ],
     "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []

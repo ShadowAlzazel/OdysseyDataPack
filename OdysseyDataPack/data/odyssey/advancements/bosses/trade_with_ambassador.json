@@ -1,40 +1,40 @@
 {
-    "parent": "odyssey:bosses/root",
-    "display": {
-        "frame": "goal",
-        "hidden": false,
-        "announce_to_chat": true,
-        "show_toast": true,
-        "icon": {
-          "item": "minecraft:rotten_flesh",
-          "nbt": "{CustomModelData:6903620,odyssey:{item:'warden_entrails'}}"
-        },
-        "title": {
-          "translate": "It can still hear..."
-        },
-        "description": {
-            "translate": "Vanquish the warden in the deep dark"
-        }
+  "parent": "odyssey:bosses/root",
+  "display": {
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:deepslate_diamond_ore"
     },
-    "criteria": {
-      "killed_warden": {
-        "conditions": {
-          "entity": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "type": "minecraft:warden"
-              }
+    "title": {
+      "translate": "A Deal of all time."
+    },
+    "description": {
+      "translate": "Trade with the ambassador..."
+    }
+  },
+  "criteria": {
+    "killed_warden": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:warden"
             }
-          ]
-        },
-        "trigger": "minecraft:player_killed_entity"
-      }
-    },
-    "requirements": [
-      [
-        "killed_warden"
-      ]
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "requirements": [
+    [
+      "killed_warden"
     ]
+  ]
 }

@@ -1,26 +1,29 @@
 {
-    "parent": "odyssey:odyssey/convert_soul_steel",
-    "display": {
-      "frame": "goal",
-      "hidden": false,
-      "announce_to_chat": true,
-      "show_toast": true,
-      "icon": {
-        "item": "minecraft:copper_ingot",
-        "nbt": "{CustomModelData:6906646,odyssey:{item:'soul_steel_upgrade_template'}}"
-      },
-      "title": {
-        "translate": "Souless Savant"
-      },
-      "description": {
-        "translate": "Craft a Soul Steel tool using a Soul Steel Ingot and Upgrade Template"
+  "parent": "odyssey:odyssey/convert_soul_steel",
+  "display": {
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:copper_ingot",
+      "components": {
+        "minecraft:custom_model_data": 6906646,
+        "minecraft:item_name": "soul_steel_upgrade_template"
       }
     },
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible",
-        "conditions": {}
-      }
+    "title": {
+      "translate": "Soulbound Smith"
+    },
+    "description": {
+      "translate": "Craft a Soul Steel tool using a Soul Steel Ingot and Upgrade Template."
+    }
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
     }
   }
-  
+}

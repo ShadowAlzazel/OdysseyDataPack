@@ -6,8 +6,12 @@
     "announce_to_chat": true,
     "show_toast": true,
     "icon": {
-      "item": "minecraft:iron_ingot",
-      "nbt": "{CustomModelData:6906618,odyssey:{item:'soul_steel_ingot'}}"
+      "count": 1,
+      "id": "minecraft:iron_ingot",
+      "components": {
+        "minecraft:custom_model_data": 6906618,
+        "minecraft:item_name": "soul_steel_ingot"
+      }
     },
     "title": {
       "translate": "Heart and Soul!"

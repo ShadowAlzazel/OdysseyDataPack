@@ -1,0 +1,30 @@
+{
+    "parent": "odyssey:odyssey/root",
+    "display": {
+      "frame": "task",
+      "hidden": false,
+      "announce_to_chat": true,
+      "show_toast": true,
+      "icon": {
+        "count": 1,
+        "id": "minecraft:enchanted_book",
+        "components": {
+          "minecraft:custom_model_data": 6906066,
+          "minecraft:item_name": "arcane_book"
+        }
+      },
+      "title": {
+        "translate": "To Enchant or not to Enchant."
+      },
+      "description": {
+        "translate": "Apply a new Odyssey Enchantment."
+      }
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+    }
+  }
+  

@@ -2,7 +2,7 @@
   "type": "minecraft:edge",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "odyssey:edge_new",
+    "settings": "odyssey:edge_settings",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
@@ -240,6 +240,35 @@
             "weirdness": [
               -0.7666667,
               -0.4
+            ]
+          }
+        },
+        {
+          "biome": "odyssey:scorchlands",
+          "parameters": {
+            "continentalness": [
+              -1.0,
+              -0.8
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0.7, 1
+            ],
+            "humidity": [
+              -1.0,
+              -0.6
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -0.3,
+              0.2
+            ],
+            "weirdness": [
+              -0.4,
+              0.0
             ]
           }
         },

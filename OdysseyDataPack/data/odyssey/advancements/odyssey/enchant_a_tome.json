@@ -1,26 +1,29 @@
 {
-    "parent": "odyssey:odyssey/root",
-    "display": {
-      "frame": "task",
-      "hidden": false,
-      "announce_to_chat": true,
-      "show_toast": true,
-      "icon": {
-        "item": "minecraft:book",
-        "nbt": "{CustomModelData:6905501,odyssey:{item:'arcane_book'}}"
-      },
-      "title": {
-        "translate": "Home to Tome"
-      },
-      "description": {
-        "translate": "Enchant an Arcane Book in the enchanting table to get a tome"
+  "parent": "odyssey:odyssey/root",
+  "display": {
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:book",
+      "components": {
+        "minecraft:custom_model_data": 6905501,
+        "minecraft:item_name": "arcane_book"
       }
     },
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible",
-        "conditions": {}
-      }
+    "title": {
+      "translate": "Home to Tome"
+    },
+    "description": {
+      "translate": "Enchant an Arcane Book in the enchanting table to get a tome."
+    }
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
     }
   }
-  
+}

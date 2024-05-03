@@ -1,26 +1,29 @@
 {
-    "parent": "odyssey:odyssey/enchant_a_tome",
-    "display": {
-      "frame": "task",
-      "hidden": false,
-      "announce_to_chat": true,
-      "show_toast": true,
-      "icon": {
-        "item": "minecraft:enchanted_book",
-        "nbt": "{CustomModelData:6906067,odyssey:{item:'tome_of_discharge'}}"
-      },
-      "title": {
-        "translate": "Curses ****"
-      },
-      "description": {
-        "translate": "Use a Discharge Tome and a prismarine crystal to remove a curse"
+  "parent": "odyssey:odyssey/enchant_a_tome",
+  "display": {
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:custom_model_data": 6906067,
+        "minecraft:item_name": "tome_of_discharge"
       }
     },
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible",
-        "conditions": {}
-      }
+    "title": {
+      "translate": "Curses ****"
+    },
+    "description": {
+      "translate": "Use a Tome of Discharge to remove a cursed enchantment."
+    }
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
     }
   }
-  
+}

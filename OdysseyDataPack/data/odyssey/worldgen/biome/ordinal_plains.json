@@ -26,9 +26,9 @@
       "probability": 0.001
     },
     "music": {
-      "sound": "minecraft:music.nether.crimson_forest",
-      "min_delay": 12000,
-      "max_delay": 24000,
+      "sound": "minecraft:music.credits",
+      "min_delay": 6000,
+      "max_delay": 12000,
       "replace_current_music": false
     },
     "additions_sound": {
@@ -78,7 +78,26 @@
     "axolotls": [],
     "creature": [],
     "misc": [],
-    "monster": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 200
+      },
+      {
+        "type": "minecraft:breeze",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 10
+      }
+    ],
     "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []

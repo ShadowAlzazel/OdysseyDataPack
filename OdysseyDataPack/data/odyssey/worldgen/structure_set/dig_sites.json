@@ -1,0 +1,14 @@
+{
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 28226662,
+      "separation": 15,
+      "spacing": 28
+    },
+    "structures": [
+      {
+        "structure": "odyssey:dig_site",
+        "weight": 1
+      }
+    ]
+  }

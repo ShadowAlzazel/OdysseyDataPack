@@ -1,70 +1,79 @@
 {
-    "type": "minecraft:archaeology",
-    "pools": [
-      {
-        "bonus_rolls": 0.0,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:burn_pottery_sherd"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:danger_pottery_sherd"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:brick",
-            "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{CustomModelData:6905632}"
-                }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:brick",
-            "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{CustomModelData:6905632}"
-                }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:brick",
-            "functions": [
-                {
-                    "function": "minecraft:set_nbt",
-                    "tag": "{CustomModelData:6905632}"
-                }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:stick"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:emerald"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:diamond"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:gold_nugget"
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:clay_ball"
-          }
-        ],
-        "rolls": 1.0
-      }
-    ],
-    "random_sequence": "odyssey:archaeology/runic_ruins"
-  }
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:burn_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:danger_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 6905632
+              },
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 6905632
+              },
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 6905632
+              },
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "odyssey:archaeology/runic_ruins"
+}

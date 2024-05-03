@@ -1,41 +1,41 @@
 {
-    "parent": "odyssey:odyssey/root",
-    "display": {
-        "frame": "task",
-        "hidden": false,
-        "announce_to_chat": true,
-        "show_toast": true,
-        "icon": {
-          "item": "minecraft:tnt"
-        },
-        "title": {
-          "translate": "Fully Charged!"
-        },
-        "description": {
-            "translate": "Died to a charged Creeper"
-        }
+  "parent": "odyssey:odyssey/root",
+  "display": {
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:tnt"
     },
-    "criteria": {
-      "killed_by_charged_creeper": {
-        "conditions": {
-          "entity": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "type": "minecraft:creeper",
-                "nbt": "{powered:1b}"
-              }
+    "title": {
+      "translate": "Fully Charged!"
+    },
+    "description": {
+      "translate": "Died to a charged Creeper"
+    }
+  },
+  "criteria": {
+    "killed_by_charged_creeper": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:creeper",
+              "nbt": "{powered:1b}"
             }
-          ]
-        },
-        "trigger": "minecraft:entity_killed_player"
-      }
-    },
-    "requirements": [
-      [
-        "killed_by_charged_creeper"
-      ]
+          }
+        ]
+      },
+      "trigger": "minecraft:entity_killed_player"
+    }
+  },
+  "requirements": [
+    [
+      "killed_by_charged_creeper"
     ]
-    
-  }
+  ]
+}
