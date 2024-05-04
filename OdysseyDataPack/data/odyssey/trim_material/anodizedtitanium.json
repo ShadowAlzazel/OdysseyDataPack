@@ -1,8 +1,8 @@
 {
-  "asset_name": "andonziedtitanium",
+  "asset_name": "anodizedtitanium",
   "description": {
     "color": "#2744cb",
-    "translate": "Andonized Titanium"
+    "translate": "Anodized Titanium"
   },
   "ingredient": "minecraft:jigsaw",
   "item_model_index": 0.0002

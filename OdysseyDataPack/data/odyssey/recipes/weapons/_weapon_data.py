@@ -37,7 +37,7 @@ materials = [
     #Material('silver', 'Silver', 3.0, 69063, 'iron', 231),
     #Material('soul_steel', 'Soul Steel', 4.0, 69066, 'iron', 666),
     #Material('titanium', 'Titanium', 4.0, 69068, 'iron', 1002),
-    #Material('andonized_titanium', 'Andonized Titanium', 4.0, 69070, 'iron', 1002),
+    #Material('anodized_titanium', 'anodized Titanium', 4.0, 69070, 'iron', 1002),
     #Material('iridium', 'Iridium', 4.0, 69071, 'iron', 3108),
     #Material('mithril', 'Mithril', 4.0, 69076, 'iron', 17)
 ]
