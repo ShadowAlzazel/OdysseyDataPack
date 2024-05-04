@@ -1,5 +1,7 @@
 # OdysseyDataPack
 
+Created by ShadowAlzazel
+
 
 CREDITS
 
