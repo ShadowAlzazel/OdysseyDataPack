@@ -3,12 +3,16 @@
   "config": {
     "features": [
       {
-        "chance": 0.33,
-        "feature": "odyssey:zhangjiajie/tree_cloud_azalea"
+        "chance": 0.4,
+        "feature": "odyssey:zhangjiajie/tree_azalea"
+      },
+      {
+        "chance": 0.6,
+        "feature": "odyssey:zhangjiajie/tree_cloud"
       }
     ],
     "default": {
-      "feature": "odyssey:zhangjiajie/tree_cloud_azalea",
+      "feature": "odyssey:zhangjiajie/tree_azalea",
       "placement": []
     }
   }

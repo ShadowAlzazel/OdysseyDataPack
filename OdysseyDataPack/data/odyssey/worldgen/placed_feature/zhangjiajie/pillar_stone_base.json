@@ -1,5 +1,5 @@
 {
-  "feature": "odyssey:zhangjiajie/pillar_stone_tall",
+  "feature": "odyssey:zhangjiajie/pillar_stone_base",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
@@ -13,9 +13,9 @@
       "count": {
         "type": "minecraft:clamped_normal",
         "deviation": 5,
-        "min_inclusive": 46,
-        "max_inclusive": 60,
-        "mean": 51
+        "min_inclusive": 37,
+        "max_inclusive": 51,
+        "mean": 41
       }
     },
     {

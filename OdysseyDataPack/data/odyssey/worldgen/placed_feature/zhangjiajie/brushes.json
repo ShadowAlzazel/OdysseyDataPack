@@ -1,9 +1,9 @@
 {
-  "feature": "odyssey:zhangjiajie/trees",
+  "feature": "odyssey:zhangjiajie/brushes",
   "placement": [
     {
       "type": "count",
-      "count": 5
+      "count": 12
     },
     {
       "type": "minecraft:in_square"
@@ -20,11 +20,6 @@
           0, -1, 0
         ],
         "blocks": [
-          "minecraft:grass_block",
-          "minecraft:dirt",
-          "minecraft:coarse_dirt",
-          "minecraft:rooted_dirt",
-          "minecraft:podzol",
           "minecraft:moss_block",
           "minecraft:stone",
           "minecraft:tuff",

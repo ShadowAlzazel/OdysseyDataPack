@@ -35,7 +35,8 @@
     [],
     [],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "odyssey:zhangjiajie/pillar_stone_base"
     ],
     [
       "minecraft:monster_room",
@@ -43,7 +44,7 @@
     ],
     [],
     [
-      "odyssey:zhangjiajie/pillar_stone_tall"
+      "odyssey:zhangjiajie/pillar_mid_cobble"
     ],
     [
       "minecraft:ore_dirt",
@@ -72,7 +73,8 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "odyssey:zhangjiajie/pillar_top_moss"
     ],
     [],
     [
@@ -82,6 +84,7 @@
       "minecraft:glow_lichen",
       "odyssey:zhangjiajie/trees",
       "odyssey:zhangjiajie/patch_flowers",
+      "odyssey:zhangjiajie/brushes",
       "minecraft:patch_tall_grass_2",
       "minecraft:patch_grass_plain"
     ],

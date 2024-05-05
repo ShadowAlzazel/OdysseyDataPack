@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "minecraft:deepslate",
     "minecraft:grass_block",
     "minecraft:dirt",
     "minecraft:pink_tulip",

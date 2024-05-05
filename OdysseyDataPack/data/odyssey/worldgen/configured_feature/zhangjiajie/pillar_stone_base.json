@@ -2,8 +2,8 @@
   "type": "minecraft:vegetation_patch",
   "config": {
     "depth": 1,
-    "extra_bottom_block_chance": 0.08,
-    "extra_edge_column_chance": 0.57,
+    "extra_bottom_block_chance": 0.17,
+    "extra_edge_column_chance": 0.58,
     "ground_state": {
       "type": "minecraft:weighted_state_provider",
       "entries": [
@@ -15,7 +15,7 @@
         }
       ]
     },
-    "replaceable": "#odyssey:stone_pillar",
+    "replaceable": "#odyssey:zhangjiajie_pillar_base",
     "surface": "floor",
     "vegetation_chance": 1,
     "vegetation_feature": {
@@ -55,7 +55,7 @@
       },
       "placement": []
     },
-    "vertical_range": 45,
+    "vertical_range": 46,
     "xz_radius": {
       "type": "minecraft:biased_to_bottom",
       "min_inclusive": 2,
