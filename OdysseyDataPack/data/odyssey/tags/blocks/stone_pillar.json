@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:deepslate",
+    "minecraft:grass_block",
+    "minecraft:dirt",
+    "minecraft:pink_tulip",
+    "minecraft:allium",
+    "minecraft:dandelion",
+    "minecraft:orange_tulip",
+    "minecraft:cornflower",
+    "minecraft:white_tulip",
+    "minecraft:red_tulip",
+    "minecraft:oxeye_daisy",
+    "minecraft:short_grass",
+    "minecraft:tall_grass",
+    "minecraft:azalea_leaves",
+    "minecraft:flowering_azalea_leaves",
+    "minecraft:stripped_dark_oak_wood"
+  ]
+}

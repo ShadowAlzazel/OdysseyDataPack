@@ -4,14 +4,14 @@
     "decorators": [
       {
         "type": "minecraft:attached_to_leaves",
-        "probability": 0.12,
-        "exclusion_radius_xz": 0,
+        "probability": 0.21,
+        "exclusion_radius_xz": 1,
         "exclusion_radius_y": 0,
-        "required_empty_blocks": 1,
+        "required_empty_blocks": 2,
         "block_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:flowering_azalea_leaves",
+            "Name": "minecraft:azalea_leaves",
             "Properties": {
               "persistent": "false",
               "distance": "7"
@@ -29,7 +29,7 @@
       "type": "minecraft:two_layers_feature_size",
       "limit": 1,
       "lower_size": 0,
-      "upper_size": 2
+      "upper_size": 1
     },
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
@@ -40,17 +40,35 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:stripped_birch_wood",
+        "Name": "minecraft:stripped_dark_oak_wood",
         "Properties": {
           "axis": "y"
         }
       }
     },
     "trunk_placer": {
-      "type": "minecraft:forking_trunk_placer",
-      "base_height": 5,
-      "height_rand_a": 3,
-      "height_rand_b": 6
+      "type": "minecraft:cherry_trunk_placer",
+      "base_height": 8,
+      "branch_count": {
+        "type": "minecraft:constant",
+        "value": 2
+      },
+      "branch_end_offset_from_top": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 5,
+        "min_inclusive": 3
+      },
+      "branch_horizontal_length": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 3,
+        "min_inclusive": 2
+      },
+      "branch_start_offset_from_top": {
+        "max_inclusive": 0,
+        "min_inclusive": -2
+      },
+      "height_rand_a": 6,
+      "height_rand_b": 4
     },
     "foliage_provider": {
       "type": "minecraft:weighted_state_provider",
@@ -75,19 +93,15 @@
               "waterlogged": "false"
             }
           },
-          "weight": 6
+          "weight": 3
         }
       ]
     },
     "foliage_placer": {
-      "type": "minecraft:cherry_foliage_placer",
-      "corner_hole_chance": 0.6,
-      "hanging_leaves_chance": 0.75,
-      "hanging_leaves_extension_chance": 0.5,
-      "height": 4,
-      "offset": 1,
-      "radius": 3,
-      "wide_bottom_layer_hole_chance": 0.25
+      "type": "minecraft:blob_foliage_placer",
+      "height": 2,
+      "offset": 2,
+      "radius": 3
     }
   }
 }
