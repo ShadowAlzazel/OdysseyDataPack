@@ -3,7 +3,7 @@
   "placement": [
     {
       "type": "count",
-      "count": 12
+      "count": 30
     },
     {
       "type": "minecraft:in_square"
@@ -15,16 +15,36 @@
     {
       "type": "minecraft:block_predicate_filter",
       "predicate": {
-        "type": "minecraft:matching_blocks",
-        "offset": [
-          0, -1, 0
-        ],
-        "blocks": [
-          "minecraft:moss_block",
-          "minecraft:stone",
-          "minecraft:tuff",
-          "minecraft:cobblestone",
-          "minecraft:mossy_cobblestone"
+        "type": "any_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0, -1,
+              0
+            ],
+            "blocks": [
+              "minecraft:moss_block",
+              "minecraft:stone",
+              "minecraft:tuff",
+              "minecraft:cobblestone",
+              "minecraft:mossy_cobblestone"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0, 0,
+              0
+            ],
+            "blocks": [
+              "minecraft:moss_block",
+              "minecraft:stone",
+              "minecraft:tuff",
+              "minecraft:cobblestone",
+              "minecraft:mossy_cobblestone"
+            ]
+          }
         ]
       }
     },
