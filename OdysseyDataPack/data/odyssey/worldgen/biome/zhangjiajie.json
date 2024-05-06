@@ -1,7 +1,7 @@
 {
   "has_precipitation": true,
-  "temperature": 0.8,
-  "downfall": 0.85,
+  "temperature": 0.7,
+  "downfall": 0.7,
   "player_spawn_friendly": true,
   "creature_spawn_probability": 0.4,
   "carvers": {
@@ -14,26 +14,15 @@
   "effects": {
     "sky_color": 7972607,
     "fog_color": 12638463,
-    "water_color": 1426834,
+    "water_color": 1983131,
     "water_fog_color": 329011,
-    "foliage_color": 9420085,
-    "grass_color": 6919445,
+    "foliage_color": 8372562,
     "grass_color_modifier": "none",
-    "particle": {
-      "options": {
-        "type": "minecraft:spore_blossom_air"
-      },
-      "probability": 0.009
-    },
     "music": {
-      "sound": "minecraft:music.overworld.jungle",
+      "sound": "minecraft:music.overworld.bamboo_jungle",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false
-    },
-    "additions_sound": {
-      "sound": "minecraft:ambient.warped_forest.loop",
-      "tick_chance": 0.0111
     },
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -46,7 +35,8 @@
     [],
     [],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "odyssey:zhangjiajie/pillar_stone_base"
     ],
     [
       "minecraft:monster_room",
@@ -54,10 +44,7 @@
     ],
     [],
     [
-      "odyssey:pantanal/ring_moss",
-      "odyssey:pantanal/ring_orange",
-      "odyssey:pantanal/lake_filler",
-      "odyssey:pantanal/ring_azalea"
+      "odyssey:zhangjiajie/pillar_mid_cobble"
     ],
     [
       "minecraft:ore_dirt",
@@ -86,7 +73,8 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "odyssey:zhangjiajie/pillar_top_moss"
     ],
     [],
     [
@@ -94,12 +82,11 @@
     ],
     [
       "minecraft:glow_lichen",
-      "odyssey:pantanal/trees",
-      "odyssey:pantanal/patch_muddy_roots",
-      "odyssey:pantanal/disk_small_coarse_dirt",
-      "odyssey:pantanal/disk_small_podzol",
-      "odyssey:pantanal/patch_grass",
-      "odyssey:pantanal/flowers_pantanal"
+      "odyssey:zhangjiajie/trees",
+      "odyssey:zhangjiajie/patch_flowers",
+      "odyssey:zhangjiajie/brushes",
+      "minecraft:patch_tall_grass_2",
+      "minecraft:patch_grass_plain"
     ],
     [
       "minecraft:freeze_top_layer"

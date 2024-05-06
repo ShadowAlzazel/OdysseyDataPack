@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:moss_block",
+    "minecraft:stone",
+    "minecraft:tuff",
+    "minecraft:cobblestone",
+    "minecraft:mossy_cobblestone"
+  ]
+}
