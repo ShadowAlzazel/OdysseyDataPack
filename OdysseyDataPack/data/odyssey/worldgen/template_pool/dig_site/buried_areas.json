@@ -1,60 +1,69 @@
 {
-    "name": "odyssey:dig_site/buried_areas",
-    "fallback": "minecraft:empty",
-    "elements": [
-        {
-            "weight": 2,
-            "element": {
-                "location": "odyssey:dig_site/dig_site_buried_house_1",
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty"
-            }
-        },
-        {
-            "weight": 2,
-            "element": {
-                "location": "odyssey:dig_site/dig_site_buried_hold_1",
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty"
-            }
-        },
-        {
-            "weight": 2,
-            "element": {
-                "location": "odyssey:dig_site/dig_site_buried_house_2",
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "location": "odyssey:dig_site/dig_site_buried_shrine_1",
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "location": "odyssey:dig_site/dig_site_buried_torii_1",
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "location": "odyssey:dig_site/dig_site_buried_cube_1",
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty"
-            }
-        }
-    ]
+  "name": "odyssey:dig_site/buried_areas",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "odyssey:dig_site/dig_site_buried_house_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "odyssey:dig_site/dig_site_buried_hold_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "odyssey:dig_site/dig_site_buried_house_2",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "odyssey:dig_site/dig_site_buried_shrine_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "odyssey:dig_site/dig_site_buried_torii_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:dig_site/dig_site_buried_cube_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "odyssey:dig_site/dig_site_buried_tower_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
 }

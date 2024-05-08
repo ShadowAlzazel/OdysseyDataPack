@@ -3,7 +3,42 @@
   "description": {
     "translate": "enchantment.odyssey.molten_core"
   },
-  "effects": {},
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "attacker",
+        "enchanted": "victim",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:ignite",
+              "duration": {
+                "type": "linear",
+                "base": 4,
+                "per_level_above_first": 4
+              }
+            },
+            {
+              "type": "minecraft:damage_item",
+              "amount": 1.0
+            }
+          ]
+        },
+        "requirements": {
+          "condition": "minecraft:random_chance",
+          "chance": {
+            "type": "minecraft:enchantment_level",
+            "amount": {
+              "type": "minecraft:linear",
+              "base": 0.5,
+              "per_level_above_first": 0.25
+            }
+          }
+        }
+      }
+    ]
+  },
   "max_cost": {
     "base": 40,
     "per_level_above_first": 10

@@ -1,4 +1,9 @@
 {
+  "features": {
+    "enabled": [
+      "minecraft:trade_rebalance"
+    ]
+  },
   "pack": {
     "pack_format": 42,
     "description": {

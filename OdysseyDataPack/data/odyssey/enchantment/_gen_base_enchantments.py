@@ -25,6 +25,7 @@ melee_enchants = [
     "freezing_aspect",
     "frog_fright",
     "frosty_fuse",
+    "grasp",
     "gravity_well",
     "guarding_strike",
     "gust",
@@ -156,9 +157,9 @@ def create_json_obj(name: str, supported: str, slots: list):
         "weight": 5
     }
     # Write to file
-    text = json.dumps(json_obj, indent=2)
-    with open(filename, 'w') as file:
-        file.write(text)  
+    #text = json.dumps(json_obj, indent=2)
+    #with open(filename, 'w') as file:
+    #    file.write(text)  
         
 # Main
 def main():

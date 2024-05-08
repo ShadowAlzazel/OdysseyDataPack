@@ -3,7 +3,18 @@
   "description": {
     "translate": "enchantment.odyssey.untouchable"
   },
-  "effects": {},
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "victim",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "odyssey:enchantment/untouchable"
+        }
+      }
+    ]
+  },
   "exclusive_set": "#odyssey:exclusive_set/immunity_changes",
   "max_cost": {
     "base": 40,
