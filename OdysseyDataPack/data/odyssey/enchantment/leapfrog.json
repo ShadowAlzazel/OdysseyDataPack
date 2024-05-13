@@ -3,18 +3,43 @@
   "description": {
     "translate": "enchantment.odyssey.leapfrog"
   },
-  "effects": {},
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.15,
+          "per_level_above_first": 0.15
+        },
+        "attribute": "minecraft:generic.jump_strength",
+        "name": "enchantment.odyssey.leapfrog_jump",
+        "operation": "add_value",
+        "uuid": "179ef370-4e6b-4147-9b4c-0143244e5028"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 2.0,
+          "per_level_above_first": 1.0
+        },
+        "attribute": "minecraft:generic.safe_fall_distance",
+        "name": "enchantment.odyssey.leapfrog_fall",
+        "operation": "add_value",
+        "uuid": "3cd49614-5cc8-4460-9528-b923bfa8ce05"
+      }
+    ]
+  },
   "max_cost": {
     "base": 40,
     "per_level_above_first": 10
   },
-  "max_level": 3,
+  "max_level": 4,
   "min_cost": {
     "base": 15,
     "per_level_above_first": 10
   },
   "slots": [
-    "armor"
+    "legs"
   ],
   "supported_items": "#minecraft:enchantable/leg_armor",
   "weight": 5
