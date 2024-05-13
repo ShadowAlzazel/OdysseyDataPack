@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.45,
+        "feature": "odyssey:cypress_grove/tree_kasmir_cypress"
+      },
+      {
+        "chance": 0.55,
+        "feature": "odyssey:cypress_grove/tree_tarout_cypress"
+      }
+    ],
+    "default": {
+      "feature": "odyssey:cypress_grove/tree_tarout_cypress",
+      "placement": []
+    }
+  }
+}

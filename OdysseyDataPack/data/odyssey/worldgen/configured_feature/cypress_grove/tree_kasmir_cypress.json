@@ -11,9 +11,11 @@
         "block_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:glow_lichen",
+            "Name": "minecraft:acacia_leaves",
             "Properties": {
-              "up": "true"
+              "distance": "7",
+              "persistent": "false",
+              "waterlogged": "false"
             }
           }
         },
@@ -30,9 +32,11 @@
         "block_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:glow_lichen",
+            "Name": "minecraft:acacia_leaves",
             "Properties": {
-              "down": "true"
+              "distance": "7",
+              "persistent": "false",
+              "waterlogged": "false"
             }
           }
         },
@@ -42,16 +46,18 @@
       },
       {
         "type": "minecraft:attached_to_leaves",
-        "probability": 0.05,
-        "exclusion_radius_xz": 0,
+        "probability": 0.35,
+        "exclusion_radius_xz": 1,
         "exclusion_radius_y": 0,
         "required_empty_blocks": 1,
         "block_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:glow_lichen",
+            "Name": "minecraft:acacia_leaves",
             "Properties": {
-              "north": "true"
+              "distance": "7",
+              "persistent": "false",
+              "waterlogged": "false"
             }
           }
         },
@@ -61,16 +67,18 @@
       },
       {
         "type": "minecraft:attached_to_leaves",
-        "probability": 0.05,
-        "exclusion_radius_xz": 0,
+        "probability": 0.35,
+        "exclusion_radius_xz": 1,
         "exclusion_radius_y": 0,
         "required_empty_blocks": 1,
         "block_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:glow_lichen",
+            "Name": "minecraft:acacia_leaves",
             "Properties": {
-              "east": "true"
+              "distance": "7",
+              "persistent": "false",
+              "waterlogged": "false"
             }
           }
         },
@@ -80,16 +88,18 @@
       },
       {
         "type": "minecraft:attached_to_leaves",
-        "probability": 0.05,
-        "exclusion_radius_xz": 0,
+        "probability": 0.35,
+        "exclusion_radius_xz": 1,
         "exclusion_radius_y": 0,
         "required_empty_blocks": 1,
         "block_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:glow_lichen",
+            "Name": "minecraft:acacia_leaves",
             "Properties": {
-              "south": "true"
+              "distance": "7",
+              "persistent": "false",
+              "waterlogged": "false"
             }
           }
         },
@@ -99,16 +109,18 @@
       },
       {
         "type": "minecraft:attached_to_leaves",
-        "probability": 0.05,
-        "exclusion_radius_xz": 0,
+        "probability": 0.35,
+        "exclusion_radius_xz": 1,
         "exclusion_radius_y": 0,
         "required_empty_blocks": 1,
         "block_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:glow_lichen",
+            "Name": "minecraft:acacia_leaves",
             "Properties": {
-              "west": "true"
+              "distance": "7",
+              "persistent": "false",
+              "waterlogged": "false"
             }
           }
         },
@@ -121,104 +133,66 @@
     "ignore_vines": true,
     "minimum_size": {
       "type": "minecraft:two_layers_feature_size",
-      "limit": 2,
+      "limit": 1,
       "lower_size": 0,
       "upper_size": 2
     },
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:mangrove_roots"
-      }
-    },
-    "root_placer": {
-      "type": "minecraft:mangrove_root_placer",
-      "above_root_placement": {
-        "above_root_placement_chance": 0.15,
-        "above_root_provider": {
-          "type": "minecraft:simple_state_provider",
-          "state": {
-            "Name": "minecraft:cobweb"
-          }
-        }
-      },
-      "mangrove_root_placement": {
-        "can_grow_through": "#minecraft:mangrove_roots_can_grow_through",
-        "max_root_length": 7,
-        "max_root_width": 5,
-        "muddy_roots_in": [
-          "minecraft:mud",
-          "minecraft:muddy_mangrove_roots"
-        ],
-        "muddy_roots_provider": {
-          "type": "minecraft:simple_state_provider",
-          "state": {
-            "Name": "minecraft:muddy_mangrove_roots",
-            "Properties": {
-              "axis": "y"
-            }
-          }
-        },
-        "random_skew_chance": 0.2
-      },
-      "root_provider": {
-        "type": "minecraft:simple_state_provider",
-        "state": {
-          "Name": "minecraft:mangrove_roots",
-          "Properties": {
-            "waterlogged": "false"
-          }
-        }
-      },
-      "trunk_offset_y": {
-        "type": "minecraft:uniform",
-
-        "max_inclusive": 3,
-        "min_inclusive": 2
+        "Name": "minecraft:rooted_dirt"
       }
     },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:spruce_log",
+        "Name": "minecraft:acacia_log",
         "Properties": {
           "axis": "y"
         }
       }
     },
     "trunk_placer": {
-      "type": "minecraft:straight_trunk_placer",
+      "type": "minecraft:cherry_trunk_placer",
       "base_height": 8,
-      "height_rand_a": 5,
-      "height_rand_b": 3
+      "branch_count": {
+        "type": "minecraft:constant",
+        "value": 2
+      },
+      "branch_end_offset_from_top": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 6,
+        "min_inclusive": 4
+      },
+      "branch_horizontal_length": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 2,
+        "min_inclusive": 2
+      },
+      "branch_start_offset_from_top": {
+        "max_inclusive": 0,
+        "min_inclusive": -3
+      },
+      "height_rand_a": 2,
+      "height_rand_b": 1
     },
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:spruce_leaves",
+        "Name": "minecraft:acacia_leaves",
         "Properties": {
-          "persistent": "true",
-          "distance": "7"
+          "distance": "7",
+          "persistent": "false",
+          "waterlogged": "false"
         }
       }
     },
     "foliage_placer": {
-      "type": "minecraft:spruce_foliage_placer",
-      "radius": {
-        "type": "minecraft:uniform",
-        "min_inclusive": 2,
-        "max_inclusive": 3
-      },
-      "offset": {
-        "type": "minecraft:uniform",
-        "min_inclusive": 0,
-        "max_inclusive": 2
-      },
-      "trunk_height": {
-        "type": "minecraft:uniform",
-        "min_inclusive": 4,
-        "max_inclusive": 5
-      }
+      "type": "minecraft:random_spread_foliage_placer",
+      "foliage_height": 5,
+      "leaf_placement_attempts": 180,
+      "offset": 0,
+      "radius": 3
     }
   }
 }
