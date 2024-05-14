@@ -244,6 +244,34 @@
           }
         },
         {
+          "biome": "odyssey:cave/lumenshroom_undergrowth",
+          "parameters": {
+            "continentalness": [
+              -0.3,
+              0.3
+            ],
+            "depth": [
+              0.4, 1.0
+            ],
+            "erosion": [
+              0.7, 1
+            ],
+            "humidity": [
+              -0.3,
+              0.3
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -0.3,
+              0.2
+            ],
+            "weirdness": [
+              -0.7666667,
+              -0.4
+            ]
+          }
+        },
+        {
           "biome": "odyssey:scorchlands",
           "parameters": {
             "continentalness": [

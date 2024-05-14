@@ -5,16 +5,16 @@
       "features": [
         {
           "chance": 0.99,
-          "feature": "odyssey:darklight/tree_nyos"
+          "feature": "odyssey:cave/darklight/rift_filler"
         }
       ],
-      "default": "odyssey:darklight/tree_nyos"
+      "default": "odyssey:cave/darklight/rift_filler"
     }
   },
   "placement": [
     {
       "type": "minecraft:count_on_every_layer",
-      "count": 3
+      "count": 5
     },
     {
       "type": "minecraft:block_predicate_filter",
@@ -28,23 +28,20 @@
             "type": "minecraft:matching_blocks",
             "blocks": [
               "minecraft:air",
-              "cave_air"
+              "minecraft:cave_air"
             ],
             "offset": [
-              0, 
-              0,
+              0, 0,
               0
             ]
           },
           {
             "type": "minecraft:matching_blocks",
             "blocks": [
-              "minecraft:tuff",
-              "minecraft:deepslate"
+              "minecraft:smooth_basalt"
             ],
             "offset": [
-              0, 
-              -1,
+              0, -1,
               0
             ]
           }
