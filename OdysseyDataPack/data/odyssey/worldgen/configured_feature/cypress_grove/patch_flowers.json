@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:dual_noise_provider",
+            "noise": {
+              "amplitudes": [
+                0.02,
+                0.005,
+                0.03
+              ],
+              "firstOctave": -4
+            },
+            "scale": 1,
+            "seed": 1755,
+            "slow_noise": {
+              "amplitudes": [
+                2,
+                3,
+                2,
+                -1,
+                2,
+                -1
+              ],
+              "firstOctave": -7
+            },
+            "slow_scale": 1,
+            "states": [
+              {
+                "Name": "minecraft:dandelion"
+              },
+              {
+                "Name": "minecraft:orange_tulip"
+              },
+              {
+                "Name": "minecraft:cornflower"
+              },
+              {
+                "Name": "minecraft:white_tulip"
+              },
+              {
+                "Name": "minecraft:red_tulip"
+              },
+              {
+                "Name": "minecraft:blue_orchid"
+              }
+            ],
+            "variety": {
+              "min_inclusive": 1,
+              "max_inclusive": 1
+            }
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:air"
+            ]
+          }
+        }
+      ]
+    },
+    "tries": 10,
+    "xz_spread": 5,
+    "y_spread": 2
+  }
+}

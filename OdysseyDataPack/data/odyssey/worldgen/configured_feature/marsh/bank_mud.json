@@ -4,8 +4,8 @@
     "half_height": 3,
     "radius": {
       "type": "minecraft:uniform",
-      "max_inclusive": 4,
-      "min_inclusive": 3
+      "min_inclusive": 3,
+      "max_inclusive": 4
     },
     "state_provider": {
       "fallback": {
@@ -19,8 +19,9 @@
     "target": {
       "type": "minecraft:matching_blocks",
       "blocks": [
+        "minecraft:grass_block",
         "minecraft:dirt",
-        "minecraft:grass_block"
+        "minecraft:stone"
       ]
     }
   }
