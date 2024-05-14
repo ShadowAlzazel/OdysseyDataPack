@@ -140,7 +140,7 @@
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:rooted_dirt"
+        "Name": "minecraft:muddy_mangrove_roots"
       }
     },
     "trunk_provider": {

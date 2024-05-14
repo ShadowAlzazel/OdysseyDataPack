@@ -11,7 +11,7 @@
         "block_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:acacia_leaves",
+            "Name": "minecraft:birch_leaves",
             "Properties": {
               "distance": "7",
               "persistent": "false",
@@ -32,7 +32,7 @@
         "block_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:acacia_leaves",
+            "Name": "minecraft:birch_leaves",
             "Properties": {
               "distance": "7",
               "persistent": "false",
@@ -53,7 +53,7 @@
         "block_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:acacia_leaves",
+            "Name": "minecraft:birch_leaves",
             "Properties": {
               "distance": "7",
               "persistent": "false",
@@ -74,7 +74,7 @@
         "block_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:acacia_leaves",
+            "Name": "minecraft:birch_leaves",
             "Properties": {
               "distance": "7",
               "persistent": "false",
@@ -95,7 +95,7 @@
         "block_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:acacia_leaves",
+            "Name": "minecraft:birch_leaves",
             "Properties": {
               "distance": "7",
               "persistent": "false",
@@ -116,7 +116,7 @@
         "block_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:acacia_leaves",
+            "Name": "minecraft:birch_leaves",
             "Properties": {
               "distance": "7",
               "persistent": "false",
@@ -140,7 +140,7 @@
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:rooted_dirt"
+        "Name": "minecraft:muddy_mangrove_roots"
       }
     },
     "trunk_provider": {
@@ -179,7 +179,7 @@
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:acacia_leaves",
+        "Name": "minecraft:birch_leaves",
         "Properties": {
           "distance": "7",
           "persistent": "false",
