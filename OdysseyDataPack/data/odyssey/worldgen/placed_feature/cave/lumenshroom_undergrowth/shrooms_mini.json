@@ -1,9 +1,9 @@
 {
-  "feature": "odyssey:ordinal_plains/trees",
+  "feature": "odyssey:cave/lumenshroom_undergrowth/shrooms_mini",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 4
+      "count": 60
     },
     {
       "type": "minecraft:in_square"
@@ -13,7 +13,7 @@
       "height": {
         "type": "minecraft:uniform",
         "min_inclusive": {
-          "above_bottom": 0
+          "above_bottom": -16
         },
         "max_inclusive": {
           "absolute": 192
@@ -23,7 +23,7 @@
     {
       "type": "minecraft:environment_scan",
       "direction_of_search": "down",
-      "max_steps": 10,
+      "max_steps": 8,
       "target_condition": {
         "type": "minecraft:solid"
       },

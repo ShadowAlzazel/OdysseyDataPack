@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.45,
+        "feature": "odyssey:cave/lumenshroom_undergrowth/shroom_blue_1"
+      },
+      {
+        "chance": 0.3,
+        "feature": "odyssey:cave/lumenshroom_undergrowth/shroom_blue_2"
+      },
+      {
+        "chance": 0.25,
+        "feature": "odyssey:cave/lumenshroom_undergrowth/shroom_blue_3"
+      }
+    ],
+    "default": {
+      "feature": "odyssey:cave/lumenshroom_undergrowth/shroom_blue_2",
+      "placement": []
+    }
+  }
+}
