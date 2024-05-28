@@ -343,7 +343,8 @@
                   "if_true": {
                     "type": "minecraft:biome",
                     "biome_is": [
-                      "odyssey:lumenshroom_grove"
+                      "odyssey:lumenshroom_grove",
+                      "odyssey:cave/lumenshroom_undergrowth"
                     ]
                   },
                   "then_run": {
@@ -697,6 +698,7 @@
                 "type": "minecraft:biome",
                 "biome_is": [
                   "odyssey:lumenshroom_grove",
+                  "odyssey:cave/lumenshroom_undergrowth",
                   "odyssey:nullstone_steppes",
                   "odyssey:scorchlands"
                 ]
