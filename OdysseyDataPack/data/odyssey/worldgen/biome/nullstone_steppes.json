@@ -26,9 +26,11 @@
       "probability": 0.001
     },
     "music": {
-      "sound": "minecraft:music.nether.crimson_forest",
-      "min_delay": 12000,
-      "max_delay": 24000,
+      "sound": {
+        "sound_id": "odyssey:music.dimension.edge"
+      },
+      "min_delay": 6000,
+      "max_delay": 12000,
       "replace_current_music": false
     },
     "additions_sound": {

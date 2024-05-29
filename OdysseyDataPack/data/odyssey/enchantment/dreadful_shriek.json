@@ -1,0 +1,21 @@
+{
+  "anvil_cost": 5,
+  "description": {
+    "translate": "enchantment.odyssey.dreadful_shriek"
+  },
+  "effects": {},
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 10
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft:enchantable/head_armor",
+  "weight": 5
+}

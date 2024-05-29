@@ -1,0 +1,42 @@
+{
+  "anvil_cost": 3,
+  "description": {
+    "translate": "enchantment.odyssey.bane_of_the_swine"
+  },
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 2.5,
+            "per_level_above_first": 2.5
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#odyssey:sensitive_to_bane_of_the_swine"
+          }
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#odyssey:exclusive_set/all_damages",
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 8
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#odyssey:enchantable/melee",
+  "weight": 5
+}

@@ -1,0 +1,7 @@
+{
+  "asset_id": "odyssey:imperial",
+  "description": {
+    "translate": "trim_pattern.odyssey.imperial"
+  },
+  "template_item": "minecraft:gold_block"
+}

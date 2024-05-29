@@ -1,33 +1,33 @@
 {
-    "name": "odyssey:dig_site/tents",
-    "fallback": "minecraft:empty",
-    "elements": [
-        {
-            "weight": 2,
-            "element": {
-                "location": "odyssey:dig_site/dig_site_tent_cyan",
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty"
-            }
-        },
-        {
-            "weight": 3,
-            "element": {
-                "location": "odyssey:dig_site/dig_site_tent_white",
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty"
-            }
-        },
-        {
-            "weight": 2,
-            "element": {
-                "location": "odyssey:dig_site/dig_site_tent_yellow",
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty"
-            }
-        }
-    ]
+  "name": "odyssey:dig_site/tents",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "odyssey:dig_site/dig_site_tent_cyan",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "odyssey:dig_site/dig_site_tent_white",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "odyssey:dig_site/dig_site_tent_yellow",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
 }

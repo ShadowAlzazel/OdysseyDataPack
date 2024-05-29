@@ -20,9 +20,11 @@
     "grass_color": 6868090,
     "grass_color_modifier": "none",
     "music": {
-      "sound": "minecraft:music.overworld.cherry_grove",
-      "min_delay": 12000,
-      "max_delay": 24000,
+      "sound": {
+        "sound_id": "odyssey:music.dimension.edge"
+      },
+      "min_delay": 6000,
+      "max_delay": 12000,
       "replace_current_music": false
     },
     "additions_sound": {

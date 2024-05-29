@@ -1,88 +1,89 @@
 {
-    "has_precipitation": true,
-    "temperature": 0.4,
-    "downfall": 0.7,
-    "player_spawn_friendly": true,
-    "creature_spawn_probability": 0.4,
-    "carvers": {
-      "air": [
-          "minecraft:cave",
-          "minecraft:cave_extra_underground",
-          "minecraft:canyon"
-      ]
+  "has_precipitation": true,
+  "temperature": 0.4,
+  "downfall": 0.7,
+  "player_spawn_friendly": true,
+  "creature_spawn_probability": 0.4,
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
   },
-    "effects": {
-        "sky_color": 7972607,
-        "fog_color": 7972607,
-        "water_color": 16777215,
-        "water_fog_color": 329011,
-        "foliage_color": 3604434,
-        "grass_color": 3604434,
-        "grass_color_modifier": "none",
-        "particle": {
-            "options": {
-                "type": "minecraft:wax_off"
-            },
-            "probability": 0.001
-        },
-        "music": {
-            "sound": "minecraft:music.nether.crimson_forest",
-            "min_delay": 12000,
-            "max_delay": 24000,
-            "replace_current_music": false
-        },
-        "additions_sound": {
-            "sound": "minecraft:ambient.crimson_forest.additions",
-            "tick_chance": 0.0111
-        },
-        "mood_sound": {
-            "sound": "minecraft:ambient.cave",
-            "tick_delay": 6000,
-            "block_search_extent": 8,
-            "offset": 2.0
-        }
+  "effects": {
+    "sky_color": 7972607,
+    "fog_color": 7972607,
+    "water_color": 16777215,
+    "water_fog_color": 329011,
+    "foliage_color": 3604434,
+    "grass_color": 3604434,
+    "grass_color_modifier": "none",
+    "particle": {
+      "options": {
+        "type": "minecraft:wax_off"
+      },
+      "probability": 0.001
     },
-    "features": [
-        [],
-        [],
-        [
-            "minecraft:amethyst_geode",
-            "minecraft:forest_rock"
-        ],
-        [
-            "minecraft:monster_room",
-            "minecraft:monster_room_deep"
-        ],
-        [],
-        [
-            "odyssey:lumenshroom_grove/ring_dark_prismarine"
-        ],
-        [
-            "odyssey:generic/disk_large_blackstone",
-            "odyssey:generic/disk_mud"
-        ],
-        [],
-        [
-            "minecraft:spring_water"
-        ],
-        [
-            "minecraft:glow_lichen",
-            "odyssey:lumenshroom_grove/shrooms_tall"
-        ],
-        [
-            "minecraft:freeze_top_layer"
-        ]
-    ],
-    "spawn_costs": {},
-    "spawners": {
-        "ambient": [],
-        "axolotls": [],
-        "creature": [
-        ],
-        "misc": [],
-        "monster": [],
-        "underground_water_creature": [],
-        "water_ambient": [],
-        "water_creature": []
+    "music": {
+      "sound": {
+        "sound_id": "odyssey:music.dimension.edge"
+      },
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.crimson_forest.additions",
+      "tick_chance": 0.0111
+    },
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
     }
+  },
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:amethyst_geode",
+      "minecraft:forest_rock"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [
+      "odyssey:lumenshroom_grove/ring_dark_prismarine"
+    ],
+    [
+      "odyssey:generic/disk_large_blackstone",
+      "odyssey:generic/disk_mud"
+    ],
+    [],
+    [
+      "minecraft:spring_water"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "odyssey:lumenshroom_grove/shrooms_tall"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  }
 }

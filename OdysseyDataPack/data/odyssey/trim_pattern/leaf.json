@@ -1,7 +1,7 @@
 {
-    "asset_id": "odyssey:leaf",
-    "description": {
-        "translate": "Leaf Trim"
-    },
-    "template_item": "minecraft:book"
+  "asset_id": "odyssey:leaf",
+  "description": {
+    "translate": "trim_pattern.odyssey.leaf"
+  },
+  "template_item": "minecraft:dark_oak_leaves"
 }

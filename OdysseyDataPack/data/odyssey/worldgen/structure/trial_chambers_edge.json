@@ -66,7 +66,7 @@
           "weight": 1
         },
         {
-          "data": "minecraft:trial_chambers/spawner/melee/slime",
+          "data": "minecraft:trial_chambers/spawner/melee/spider",
           "weight": 1
         }
       ]
@@ -76,7 +76,7 @@
       "alias": "minecraft:trial_chambers/spawner/contents/small_melee",
       "targets": [
         {
-          "data": "minecraft:trial_chambers/spawner/small_melee/spider",
+          "data": "minecraft:trial_chambers/spawner/small_melee/slime",
           "weight": 1
         },
         {
@@ -132,10 +132,10 @@
   "start_height": {
     "type": "minecraft:uniform",
     "max_inclusive": {
-      "absolute": -20
+      "absolute": 64
     },
     "min_inclusive": {
-      "absolute": -40
+      "absolute": 0
     }
   },
   "start_pool": "minecraft:trial_chambers/chamber/end",

@@ -1,0 +1,10 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "jukebox_song.odyssey.gilded"
+  },
+  "length_in_seconds": 131.0,
+  "sound_event": {
+    "sound_id": "odyssey:music_disc.gilded"
+  }
+}
