@@ -12,9 +12,8 @@
           "per_level_above_first": 0.5
         },
         "attribute": "minecraft:player.block_interaction_range",
-        "name": "enchantment.odyssey.grasp",
-        "operation": "add_value",
-        "uuid": "744f9c08-318f-476f-894c-46576ff72ebd"
+        "id": "odyssey:enchantment.odyssey.grasp",
+        "operation": "add_value"
       }
     ]
   },

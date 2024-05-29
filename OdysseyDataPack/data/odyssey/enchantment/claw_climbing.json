@@ -12,9 +12,8 @@
           "per_level_above_first": 1.0
         },
         "attribute": "minecraft:generic.step_height",
-        "name": "enchantment.odyssey.claw_climbing",
-        "operation": "add_value",
-        "uuid": "00e4b0fc-2376-4cc4-8483-c33f22110166"
+        "id": "odyssey:enchantment.claw_climbing",
+        "operation": "add_value"
       }
     ]
   },

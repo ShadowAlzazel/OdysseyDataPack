@@ -12,9 +12,8 @@
           "per_level_above_first": 0.02
         },
         "attribute": "minecraft:generic.gravity",
-        "name": "enchantment.odyssey.encumbering_curse",
-        "operation": "add_value",
-        "uuid": "3a81c8a9-da3e-421b-ab56-58c677e23549"
+        "id": "odyssey:enchantment.encumbering_curse",
+        "operation": "add_value"
       }
     ]
   },

@@ -12,9 +12,8 @@
           "per_level_above_first": 0.15
         },
         "attribute": "minecraft:generic.jump_strength",
-        "name": "enchantment.odyssey.leapfrog_jump",
-        "operation": "add_value",
-        "uuid": "179ef370-4e6b-4147-9b4c-0143244e5028"
+        "id": "odyssey:enchantment.leapfrog_jump",
+        "operation": "add_value"
       },
       {
         "amount": {
@@ -23,9 +22,8 @@
           "per_level_above_first": 1.0
         },
         "attribute": "minecraft:generic.safe_fall_distance",
-        "name": "enchantment.odyssey.leapfrog_fall",
-        "operation": "add_value",
-        "uuid": "3cd49614-5cc8-4460-9528-b923bfa8ce05"
+        "id": "odyssey:enchantment.leapfrog_fall",
+        "operation": "add_value"
       }
     ]
   },
