@@ -1,0 +1,1 @@
+#execute run data get entity @s 
