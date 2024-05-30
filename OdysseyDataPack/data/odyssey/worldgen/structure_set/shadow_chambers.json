@@ -1,13 +1,13 @@
 {
   "placement": {
     "type": "minecraft:random_spread",
-    "salt": 28226662,
-    "separation": 15,
-    "spacing": 28
+    "salt": 37373737,
+    "separation": 17,
+    "spacing": 26
   },
   "structures": [
     {
-      "structure": "odyssey:dig_site",
+      "structure": "odyssey:shadow_chambers",
       "weight": 1
     }
   ]
