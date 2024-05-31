@@ -1,38 +1,32 @@
 {
-  "name": "odyssey:dig_site/tents",
+  "name": "odyssey:shadow_chambers/rooms/corner",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 2,
       "element": {
-        "location": "odyssey:dig_site/dig_site_tent_cyan",
+        "location": "odyssey:shadow_chambers/room_corner_1",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "processors": {
-          "processors": []
-        }
-      }
-    },
-    {
-      "weight": 3,
-      "element": {
-        "location": "odyssey:dig_site/dig_site_tent_white",
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "processors": {
-          "processors": []
-        }
+        "processors": "minecraft:empty"
       }
     },
     {
       "weight": 2,
       "element": {
-        "location": "odyssey:dig_site/dig_site_tent_yellow",
+        "location": "odyssey:shadow_chambers/room_corner_2",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "processors": {
-          "processors": []
-        }
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:shadow_chambers/room_corner_3",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
       }
     }
   ]

@@ -8,7 +8,9 @@
         "location": "odyssey:dig_site/dig_site_origin",
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "processors": "minecraft:empty"
+        "processors": {
+          "processors": []
+        }
       }
     }
   ]

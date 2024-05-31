@@ -1,38 +1,32 @@
 {
-  "name": "odyssey:dig_site/tents",
+  "name": "odyssey:shadow_chambers/wireframes/chamber",
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 2,
+      "weight": 4,
       "element": {
-        "location": "odyssey:dig_site/dig_site_tent_cyan",
+        "location": "odyssey:shadow_chambers/wireframe_chamber_c1",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "processors": {
-          "processors": []
-        }
-      }
-    },
-    {
-      "weight": 3,
-      "element": {
-        "location": "odyssey:dig_site/dig_site_tent_white",
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "processors": {
-          "processors": []
-        }
+        "processors": "minecraft:empty"
       }
     },
     {
       "weight": 2,
       "element": {
-        "location": "odyssey:dig_site/dig_site_tent_yellow",
+        "location": "odyssey:shadow_chambers/wireframe_chamber_h1r",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "processors": {
-          "processors": []
-        }
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "odyssey:shadow_chambers/wireframe_chamber_h1t",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
       }
     }
   ]
