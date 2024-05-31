@@ -1,11 +1,11 @@
 {
-  "name": "odyssey:shadow_chambers/rooms/corner",
+  "name": "odyssey:shadow_chambers/deco/wall",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 2,
       "element": {
-        "location": "odyssey:shadow_chambers/room_corner_1",
+        "location": "odyssey:shadow_chambers/deco_wall_1",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"
@@ -14,16 +14,25 @@
     {
       "weight": 2,
       "element": {
-        "location": "odyssey:shadow_chambers/room_corner_2",
+        "location": "odyssey:shadow_chambers/deco_wall_2",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
     },
     {
-      "weight": 1,
+      "weight": 2,
       "element": {
-        "location": "odyssey:shadow_chambers/room_corner_3",
+        "location": "odyssey:shadow_chambers/deco_wall_3",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "odyssey:shadow_chambers/deco_wall_4",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"
