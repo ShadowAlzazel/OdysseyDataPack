@@ -21,7 +21,7 @@
       }
     },
     {
-      "weight": 2,
+      "weight": 1,
       "element": {
         "location": "odyssey:shadow_chambers/deco_wall_3",
         "element_type": "minecraft:single_pool_element",
