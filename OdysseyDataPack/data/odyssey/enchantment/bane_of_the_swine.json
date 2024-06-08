@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 3,
+  "anvil_cost": 1,
   "description": {
     "translate": "enchantment.odyssey.bane_of_the_swine"
   },
@@ -37,6 +37,7 @@
   "slots": [
     "mainhand"
   ],
+  "primary_items": "#minecraft:enchantable/sword",
   "supported_items": "#odyssey:enchantable/melee",
   "weight": 5
 }

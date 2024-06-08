@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 5,
+  "anvil_cost": 4,
   "description": {
     "translate": "enchantment.odyssey.chitin"
   },
@@ -18,5 +18,5 @@
     "any"
   ],
   "supported_items": "#minecraft:enchantable/durability",
-  "weight": 2
+  "weight": 1
 }

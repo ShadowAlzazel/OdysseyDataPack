@@ -1,19 +1,19 @@
 {
-  "anvil_cost": 5,
+  "anvil_cost": 4,
   "description": {
-    "translate": "enchantment.odyssey.leapfrog"
+    "translate": "enchantment.odyssey.leap_frog"
   },
   "effects": {
     "minecraft:attributes": [
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.15,
-          "per_level_above_first": 0.15
+          "base": 0.35,
+          "per_level_above_first": 0.35
         },
         "attribute": "minecraft:generic.jump_strength",
-        "id": "odyssey:enchantment.leapfrog_jump",
-        "operation": "add_value"
+        "id": "odyssey:enchantment.leap_frog_jump",
+        "operation": "add_multiplied_base"
       },
       {
         "amount": {
@@ -22,7 +22,7 @@
           "per_level_above_first": 1.0
         },
         "attribute": "minecraft:generic.safe_fall_distance",
-        "id": "odyssey:enchantment.leapfrog_fall",
+        "id": "odyssey:enchantment.leap_frog_fall",
         "operation": "add_value"
       }
     ]
@@ -37,7 +37,7 @@
     "per_level_above_first": 10
   },
   "slots": [
-    "legs"
+    "armor"
   ],
   "supported_items": "#minecraft:enchantable/leg_armor",
   "weight": 5

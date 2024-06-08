@@ -1,7 +1,7 @@
 {
-  "anvil_cost": 5,
+  "anvil_cost": 6,
   "description": {
-    "translate": "enchantment.odyssey.vicious_vigor"
+    "translate": "enchantment.odyssey.vigor"
   },
   "effects": {},
   "max_cost": {

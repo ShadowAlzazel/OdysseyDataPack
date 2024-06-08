@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 5,
+  "anvil_cost": 4,
   "description": {
     "translate": "enchantment.odyssey.buzzy_bees"
   },
@@ -16,6 +16,7 @@
   "slots": [
     "mainhand"
   ],
+  "primary_items": "#minecraft:enchantable/sword",
   "supported_items": "#odyssey:enchantable/melee",
   "weight": 5
 }
