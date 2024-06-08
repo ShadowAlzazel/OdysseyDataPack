@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 5,
+  "anvil_cost": 8,
   "description": {
     "translate": "enchantment.odyssey.arcane_cell"
   },
@@ -16,6 +16,7 @@
   "slots": [
     "mainhand"
   ],
+  "primary_items": "#minecraft:enchantable/sword",
   "supported_items": "#odyssey:enchantable/melee",
   "weight": 5
 }

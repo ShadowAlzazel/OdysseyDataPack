@@ -1,21 +1,43 @@
 {
-  "anvil_cost": 5,
+  "anvil_cost": 2,
   "description": {
     "translate": "enchantment.odyssey.o_shiny"
   },
-  "effects": {},
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "horizontal_position": {
+            "type": "in_bounding_box"
+          },
+          "horizontal_velocity": {
+            "movement_scale": 0
+          },
+          "particle": {
+            "type": "minecraft:ominous_spawning"
+          },
+          "speed": 0.95,
+          "vertical_position": {
+            "type": "in_bounding_box"
+          },
+          "vertical_velocity": {
+            "base": 0.08
+          }
+        }
+      }
+    ]
+  },
   "max_cost": {
-    "base": 40,
-    "per_level_above_first": 10
-  },
-  "max_level": 3,
-  "min_cost": {
     "base": 15,
-    "per_level_above_first": 10
+    "per_level_above_first": 5
   },
-  "slots": [
-    "any"
-  ],
-  "supported_items": "#minecraft:enchantable/fishing",
+  "max_level": 1,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 5
+  },
+  "slots": ["any"],
+  "supported_items": "#minecraft:enchantable/durability",
   "weight": 5
 }

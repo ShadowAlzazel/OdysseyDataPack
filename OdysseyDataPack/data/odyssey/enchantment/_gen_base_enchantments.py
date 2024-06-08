@@ -28,11 +28,12 @@ melee_enchants = [
     "grasp",
     "gravity_well",
     "guarding_strike",
-    "gust",
+    "gust", 
     "hemorrhage",
     "illucidation",
     "rupturing_strike",
     "tar_n_dip",
+    "vengeful",
     "vital",
     "void_strike",
     "whirlwind",
@@ -45,13 +46,14 @@ armor_enchants = [
     "blurcise",
     "brawler",
     "brewful_breath",
+    "bulwark",
     "cowardice",
     "devastating_drop",
     "dreadful_shriek",
     "fruitful_fare",
     "ignore_pain",
     "illumineye",
-    "leapfrog",
+    "leap_frog",
     "mandiblemania",
     "molten_core",
     "opticalization",
@@ -69,8 +71,7 @@ armor_enchants = [
     "static_socks",
     "untouchable",
     "veiled_in_shadow",
-    "vengeful",
-    "vicious_vigor",
+    "vigor",
     "warcry"
 ]
 
@@ -105,10 +106,10 @@ ranged_enchants = [
 misc_enchants = [
     "chitin", # ALL
     "moonpatch", # ALL
+    "o_shiny", # ALL
     "bomb_ob", # Rod
     "hook_shot", # Rod
     "lengthy_line", # Rod
-    "o_shiny", # Rod
     "yank", # Rod
     "mirror_force", # Shield
     "void_jump", # Elytra
@@ -137,7 +138,7 @@ def create_enchantmnet_files():
 def create_json_obj(name: str, supported: str, slots: list):
     filename = f'{name}.json'
     json_obj = {
-        "anvil_cost": 5,
+        "anvil_cost": 6,
         "description": {
             "translate": f"enchantment.odyssey.{name}"
         },

@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 5,
+  "anvil_cost": 4,
   "description": {
     "translate": "enchantment.odyssey.hemorrhage"
   },
@@ -17,5 +17,5 @@
     "mainhand"
   ],
   "supported_items": "#odyssey:enchantable/blunt_melee",
-  "weight": 5
+  "weight": 4
 }
