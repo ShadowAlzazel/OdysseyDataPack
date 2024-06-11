@@ -1,7 +1,7 @@
 {
-  "anvil_cost": 8,
+  "anvil_cost": 6,
   "description": {
-    "translate": "enchantment.odyssey.pollen_guard"
+    "translate": "enchantment.odyssey.rend"
   },
   "effects": {},
   "max_cost": {
@@ -14,8 +14,8 @@
     "per_level_above_first": 10
   },
   "slots": [
-    "armor"
+    "mainhand"
   ],
-  "supported_items": "#minecraft:enchantable/armor",
+  "supported_items": "#odyssey:enchantable/ranged",
   "weight": 5
 }

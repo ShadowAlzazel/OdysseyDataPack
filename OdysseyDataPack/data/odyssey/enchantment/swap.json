@@ -1,7 +1,7 @@
 {
   "anvil_cost": 6,
   "description": {
-    "translate": "enchantment.odyssey.soul_rend"
+    "translate": "enchantment.odyssey.swap"
   },
   "effects": {},
   "max_cost": {
@@ -16,6 +16,7 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#odyssey:enchantable/ranged",
+  "primary_items": "#minecraft:enchantable/sword",
+  "supported_items": "#odyssey:enchantable/melee",
   "weight": 5
 }
