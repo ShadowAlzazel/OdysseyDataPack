@@ -14,7 +14,7 @@
     "per_level_above_first": 10
   },
   "slots": [
-    "any"
+    "armor"
   ],
   "supported_items": "#odyssey:enchantable/elytra",
   "weight": 5

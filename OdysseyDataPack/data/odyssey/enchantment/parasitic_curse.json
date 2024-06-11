@@ -1,0 +1,20 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.odyssey.encumbering_curse"
+  },
+  "effects": {},
+  "exclusive_set": "#odyssey:exclusive_set/durability_repair",
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 7
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 7,
+    "per_level_above_first": 7
+  },
+  "slots": ["any"],
+  "supported_items": "#minecraft:enchantable/durability",
+  "weight": 3
+}

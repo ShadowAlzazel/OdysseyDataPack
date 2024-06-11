@@ -1,7 +1,7 @@
 {
   "anvil_cost": 5,
   "description": {
-    "translate": "enchantment.odyssey.gale_wind"
+    "translate": "enchantment.odyssey.gale"
   },
   "effects": {},
   "max_cost": {

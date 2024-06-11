@@ -12,7 +12,7 @@ melee_enchants = [
     "bane_of_the_illager",
     "bane_of_the_sea",
     "bane_of_the_swine",
-    "blitz_shift",
+    "swap",
     "buzzy_bees",
     "budding",
     "committed",
@@ -45,11 +45,9 @@ armor_enchants = [
     "black_rose",
     "blurcise",
     "brawler",
-    "brewful_breath",
     "bulwark",
     "cowardice",
     "devastating_drop",
-    "dreadful_shriek",
     "fruitful_fare",
     "ignore_pain",
     "illumineye",
@@ -57,7 +55,6 @@ armor_enchants = [
     "mandiblemania",
     "molten_core",
     "opticalization",
-    "pollen_guard",
     "potion_barrier",
     "raging_roar",
     "reckless",
@@ -71,8 +68,7 @@ armor_enchants = [
     "static_socks",
     "untouchable",
     "veiled_in_shadow",
-    "vigor",
-    "warcry"
+    "vigor"
 ]
 
 ranged_enchants = [
@@ -87,7 +83,7 @@ ranged_enchants = [
     "double_tap",
     "entanglement",
     "fan_fire",
-    "gale_wind",
+    "gale",
     "lucky_draw",
     "luxpose",
     "overcharge",
@@ -97,22 +93,30 @@ ranged_enchants = [
     "sharpshooter",
     "single_out",
     "singularity_shot",
-    "soul_rend",
+    "rend",
     "steady_aim",
     "temporal",
     "vulnerocity",
 ]
 
-misc_enchants = [
-    "chitin", # ALL
-    "moonpatch", # ALL
-    "o_shiny", # ALL
+other_enchants = [
+    "scourer", # Rod
+    "wisdom_of_the_deep", # Rod
     "bomb_ob", # Rod
     "hook_shot", # Rod
     "lengthy_line", # Rod
     "yank", # Rod
     "mirror_force", # Shield
     "void_jump", # Elytra
+]
+
+misc_enchants = [
+    "chitin", # ALL
+    "moonpatch", # ALL
+    "o_shiny", # ALL
+    
+    "encumbering_curse",
+    "parasitic_curse"
 ]
 
 # Function to create files
@@ -128,6 +132,10 @@ def create_enchantmnet_files():
         create_json_obj(enchant, supported, slots)
     for enchant in ranged_enchants:
         supported = "#odyssey:enchantable/ranged"
+        slots = ["mainhand"]
+        create_json_obj(enchant, supported, slots)
+    for enchant in other_enchants:
+        supported = "#minecraft:enchantable/durability"
         slots = ["mainhand"]
         create_json_obj(enchant, supported, slots)
     for enchant in misc_enchants:

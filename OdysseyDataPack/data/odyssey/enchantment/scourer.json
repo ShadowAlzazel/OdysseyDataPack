@@ -1,17 +1,17 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "enchantment.odyssey.yank"
+    "translate": "enchantment.odyssey.scourer"
   },
   "effects": {},
   "max_cost": {
-    "base": 40,
+    "base": 20,
     "per_level_above_first": 10
   },
-  "max_level": 3,
+  "max_level": 4,
   "min_cost": {
-    "base": 15,
-    "per_level_above_first": 10
+    "base": 10,
+    "per_level_above_first": 5
   },
   "slots": [
     "mainhand"

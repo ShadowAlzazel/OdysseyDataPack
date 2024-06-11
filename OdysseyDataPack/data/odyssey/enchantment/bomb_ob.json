@@ -14,7 +14,7 @@
     "per_level_above_first": 10
   },
   "slots": [
-    "any"
+    "mainhand"
   ],
   "supported_items": "#minecraft:enchantable/fishing",
   "weight": 5
