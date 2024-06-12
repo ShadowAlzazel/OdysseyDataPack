@@ -1,7 +1,7 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "enchantment.odyssey.encumbering_curse"
+    "translate": "enchantment.odyssey.parasitic_curse"
   },
   "effects": {},
   "exclusive_set": "#odyssey:exclusive_set/durability_repair",

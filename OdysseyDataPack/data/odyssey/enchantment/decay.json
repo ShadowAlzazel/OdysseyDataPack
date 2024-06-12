@@ -1,7 +1,7 @@
 {
   "anvil_cost": 8,
   "description": {
-    "translate": "enchantment.odyssey.decaying_touch"
+    "translate": "enchantment.odyssey.decay"
   },
   "effects": {},
   "max_cost": {

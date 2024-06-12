@@ -1,9 +1,9 @@
 {
   "values": [
-    "#odyssey:misc",
-    "#odyssey:armor",
-    "#odyssey:melee",
-    "#odyssey:range",
-    "#odyssey:other"
+    "#odyssey:non_treasure/misc",
+    "#odyssey:non_treasure/armor",
+    "#odyssey:non_treasure/melee",
+    "#odyssey:non_treasure/range",
+    "#odyssey:non_treasure/other"
   ]
 }

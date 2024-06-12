@@ -10,7 +10,7 @@
         "affected": "victim",
         "effect": {
           "type": "minecraft:damage_item",
-          "amount": 2.0
+          "amount": 1.0
         },
         "requirements": {
           "chance": {

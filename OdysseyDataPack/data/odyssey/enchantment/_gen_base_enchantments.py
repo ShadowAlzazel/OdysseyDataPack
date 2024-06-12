@@ -6,7 +6,7 @@ dir_name = os.path.dirname(abspath)
 os.chdir(dir_name)
 
 melee_enchants = [
-    "arcane_cell",
+    "arcane_cell", 
     "asphyxiate",
     "backstabber",
     "bane_of_the_illager",
@@ -16,8 +16,9 @@ melee_enchants = [
     "buzzy_bees",
     "budding",
     "committed",
+    "conflagrate",
     "cull_the_weak",
-    "decaying_touch",
+    "decay",
     "douse",
     "echo",
     "exploding",
@@ -31,8 +32,9 @@ melee_enchants = [
     "gust", 
     "hemorrhage",
     "illucidation",
-    "rupturing_strike",
-    "tar_n_dip",
+    "invocative",
+    "rupture",
+    "pestilence"
     "vengeful",
     "vital",
     "void_strike",
@@ -40,35 +42,37 @@ melee_enchants = [
 ]
 
 armor_enchants = [
-    "antibonk",
-    "beastly",
-    "black_rose",
-    "blurcise",
-    "brawler",
-    "bulwark",
-    "cowardice",
-    "devastating_drop",
-    "fruitful_fare",
-    "ignore_pain",
-    "illumineye",
-    "leap_frog",
-    "mandiblemania",
-    "molten_core",
-    "opticalization",
-    "potion_barrier",
-    "raging_roar",
-    "reckless",
-    "relentless",
-    "root_boots",
-    "sculk_sensitive",
-    "speedy_spurs",
-    "sporeful",
-    "squidify",
-    "sslither_ssight",
-    "static_socks",
-    "untouchable",
-    "veiled_in_shadow",
-    "vigor"
+    "antibonk", # Helmet
+    "beastly", # Armor
+    "black_rose", # Chest
+    "blurcise", # Leggings
+    "brawler", # Armor
+    "bulwark", # Armor
+    "claw_climbing" # Boots
+    "cowardice", # Chest
+    "devastating_drop", # Boots
+    "fruitful_fare", # Chest
+    "heartened", # Chest
+    "ignore_pain", # Chest
+    "illumineye", # Helmet
+    "leap_frog",  # Leggings
+    "impetus", # Leggings
+    "mandiblemania", # Helmet
+    "molten_core", # Chest
+    "opticalization", # Helmet
+    "potion_barrier", # Chest
+    "reckless", # Armor
+    "relentless", # Armor
+    "root_boots", # Boots
+    "sculk_sensitive", # Helmet
+    "speedy_spurs", # Boots
+    "sporeful", # Leggings
+    "squidify", # Leggings
+    "sslither_ssight", # Helmet
+    "static_socks",  # Boots
+    "untouchable", # Chest
+    "veiled_in_shadow", # Armor
+    "vigor" # Chest
 ]
 
 ranged_enchants = [
@@ -111,12 +115,12 @@ other_enchants = [
 ]
 
 misc_enchants = [
-    "chitin", # ALL
-    "moonpatch", # ALL
-    "o_shiny", # ALL
+    "chitin", # All
+    "moonpatch", # All
+    "o_shiny", # All
     
-    "encumbering_curse",
-    "parasitic_curse"
+    "encumbering_curse", # All
+    "parasitic_curse" # All
 ]
 
 # Function to create files
