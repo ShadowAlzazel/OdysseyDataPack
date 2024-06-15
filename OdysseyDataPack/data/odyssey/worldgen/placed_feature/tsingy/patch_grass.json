@@ -1,13 +1,11 @@
 {
-  "feature": "odyssey:pantanal/patch_muddy_roots",
+  "feature": "odyssey:tsingy/patch_grass",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 3
-    },
-    {
-      "type": "minecraft:count",
-      "count": 4
+      "type": "minecraft:noise_threshold_count",
+      "above_noise": 9,
+      "below_noise": 7,
+      "noise_level": -0.5
     },
     {
       "type": "minecraft:in_square"

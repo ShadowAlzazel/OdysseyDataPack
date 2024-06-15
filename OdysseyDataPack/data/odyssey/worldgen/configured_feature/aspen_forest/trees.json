@@ -3,8 +3,12 @@
     "config": {
       "features": [
         {
-          "chance": 0.9,
+          "chance": 0.63,
           "feature": "odyssey:aspen_forest/tree_aspen"
+        },
+        {
+          "chance": 0.37,
+          "feature": "odyssey:aspen_forest/tree_aspen_birch"
         }
       ],
       "default": {

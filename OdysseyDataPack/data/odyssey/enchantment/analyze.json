@@ -1,0 +1,44 @@
+{
+  "anvil_cost": 6,
+  "description": {
+    "translate": "enchantment.odyssey.analyze"
+  },
+  "effects": {
+    "minecraft:mob_experience": [
+      {
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": {
+            "type": "minecraft:linear",
+            "base": 1.1,
+            "per_level_above_first": 0.1
+          }
+        }
+      }
+    ],
+    "minecraft:block_experience": [
+      {
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": {
+            "type": "minecraft:linear",
+            "base": 1.1,
+            "per_level_above_first": 0.1
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 20,
+    "per_level_above_first": 10
+  },
+  "max_level": 4,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 10
+  },
+  "slots": ["head"],
+  "supported_items": "#minecraft:enchantable/head_armor",
+  "weight": 3
+}

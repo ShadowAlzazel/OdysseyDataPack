@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": "odyssey:tsingy/spike_tuff"
+      }
+    ],
+    "default": {
+      "feature": "odyssey:tsingy/spike_tuff",
+      "placement": []
+    }
+  }
+}

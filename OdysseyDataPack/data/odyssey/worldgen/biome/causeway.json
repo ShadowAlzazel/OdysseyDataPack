@@ -1,7 +1,7 @@
 {
   "has_precipitation": true,
   "temperature": 0.7,
-  "downfall": 0.2,
+  "downfall": 0.3,
   "player_spawn_friendly": true,
   "creature_spawn_probability": 0.4,
   "carvers": {
@@ -16,8 +16,7 @@
     "fog_color": 12638463,
     "water_color": 1983131,
     "water_fog_color": 329011,
-    "foliage_color": 6924629,
-    "grass_color": 6003794,
+    "foliage_color": 8372562,
     "grass_color_modifier": "none",
     "music": {
       "sound": "minecraft:music.overworld.bamboo_jungle",
@@ -43,7 +42,8 @@
       "minecraft:monster_room_deep"
     ],
     [],
-    [],
+    [
+    ],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
@@ -71,22 +71,18 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel",
-      "odyssey:tsingy/disk_stone",
-      "odyssey:tsingy/ring_cyan_terracotta",
-      "odyssey:tsingy/spikes",
-      "odyssey:tsingy/spike_top"
+      "minecraft:disk_gravel"
     ],
     [],
     [
       "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen",
-      "odyssey:tsingy/trees",
-      "odyssey:tsingy/patch_grass"
+      "minecraft:glow_lichen"
     ],
-    []
+    [
+      "minecraft:freeze_top_layer"
+    ]
   ],
   "spawn_costs": {},
   "spawners": {

@@ -3,12 +3,25 @@
   "description": {
     "translate": "enchantment.odyssey.root_boots"
   },
-  "effects": {},
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.1,
+          "per_level_above_first": 0.1
+        },
+        "attribute": "minecraft:generic.knockback_resistance",
+        "id": "odyssey:enchantment.root_boots",
+        "operation": "add_multiplied_base"
+      }
+    ]
+  },
   "max_cost": {
     "base": 40,
     "per_level_above_first": 10
   },
-  "max_level": 2,
+  "max_level": 4,
   "min_cost": {
     "base": 15,
     "per_level_above_first": 10

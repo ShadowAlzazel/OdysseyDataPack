@@ -1,13 +1,13 @@
 {
-  "feature": "odyssey:pantanal/patch_muddy_roots",
+  "feature": "odyssey:tsingy/ring_cyan_terracotta",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 3
-    },
-    {
       "type": "minecraft:count",
-      "count": 4
+      "count": {
+        "type": "uniform",
+        "max_inclusive": 10,
+        "min_inclusive": 8
+      }
     },
     {
       "type": "minecraft:in_square"

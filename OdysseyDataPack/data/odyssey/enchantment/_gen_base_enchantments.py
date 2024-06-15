@@ -6,6 +6,7 @@ dir_name = os.path.dirname(abspath)
 os.chdir(dir_name)
 
 melee_enchants = [
+    "agile",
     "arcane_cell", 
     "asphyxiate",
     "backstabber",
@@ -42,6 +43,7 @@ melee_enchants = [
 ]
 
 armor_enchants = [
+    "analyze", # Helmet
     "antibonk", # Helmet
     "beastly", # Armor
     "black_rose", # Chest
