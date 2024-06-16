@@ -19,12 +19,6 @@
       "foliage_color": 5276209,
       "grass_color": 7315205,
       "grass_color_modifier": "none",
-      "particle": {
-        "options": {
-          "type": "minecraft:wax_off"
-        },
-        "probability": 0.001
-      },
       "music": {
         "sound": "minecraft:music.overworld.cherry_grove",
         "min_delay": 12000,

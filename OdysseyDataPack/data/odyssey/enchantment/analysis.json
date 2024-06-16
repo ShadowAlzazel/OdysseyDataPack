@@ -1,7 +1,7 @@
 {
   "anvil_cost": 6,
   "description": {
-    "translate": "enchantment.odyssey.analyze"
+    "translate": "enchantment.odyssey.analysis"
   },
   "effects": {
     "minecraft:mob_experience": [

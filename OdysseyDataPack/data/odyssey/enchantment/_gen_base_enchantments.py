@@ -13,9 +13,9 @@ melee_enchants = [
     "bane_of_the_illager",
     "bane_of_the_sea",
     "bane_of_the_swine",
-    "swap",
-    "buzzy_bees",
     "budding",
+    "buzzy_bees",
+    "cleave",
     "committed",
     "conflagrate",
     "cull_the_weak",
@@ -34,8 +34,9 @@ melee_enchants = [
     "hemorrhage",
     "illucidation",
     "invocative",
+    "pestilence",
     "rupture",
-    "pestilence"
+    "swap",
     "vengeful",
     "vital",
     "void_strike",
@@ -43,7 +44,7 @@ melee_enchants = [
 ]
 
 armor_enchants = [
-    "analyze", # Helmet
+    "analysis", # Helmet
     "antibonk", # Helmet
     "beastly", # Armor
     "black_rose", # Chest
@@ -57,8 +58,8 @@ armor_enchants = [
     "heartened", # Chest
     "ignore_pain", # Chest
     "illumineye", # Helmet
-    "leap_frog",  # Leggings
     "impetus", # Leggings
+    "leap_frog",  # Leggings
     "mandiblemania", # Helmet
     "molten_core", # Chest
     "opticalization", # Helmet
@@ -106,11 +107,11 @@ ranged_enchants = [
 ]
 
 other_enchants = [
-    "scourer", # Rod
-    "wisdom_of_the_deep", # Rod
     "bomb_ob", # Rod
     "hook_shot", # Rod
     "lengthy_line", # Rod
+    "scourer", # Rod
+    "wisdom_of_the_deep", # Rod
     "yank", # Rod
     "mirror_force", # Shield
     "void_jump", # Elytra

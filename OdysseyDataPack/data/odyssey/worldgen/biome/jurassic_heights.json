@@ -1,7 +1,7 @@
 {
   "has_precipitation": true,
-  "temperature": 0.8,
-  "downfall": 0.85,
+  "temperature": 0.5,
+  "downfall": 0.7,
   "player_spawn_friendly": true,
   "creature_spawn_probability": 0.4,
   "carvers": {
@@ -16,8 +16,8 @@
     "fog_color": 12638463,
     "water_color": 1426834,
     "water_fog_color": 329011,
-    "foliage_color": 9420085,
-    "grass_color": 6919445,
+    "foliage_color": 6140753,
+    "grass_color": 7913291,
     "grass_color_modifier": "none",
     "particle": {
       "options": {
@@ -54,10 +54,8 @@
     ],
     [],
     [
-      "odyssey:pantanal/ring_moss",
-      "odyssey:pantanal/ring_orange",
-      "odyssey:pantanal/lake_filler",
-      "odyssey:pantanal/ring_azalea"
+      "odyssey:jurassic_heights/disk_mud",
+      "odyssey:jurassic_heights/pool_filler"
     ],
     [
       "minecraft:ore_dirt",
@@ -93,13 +91,11 @@
       "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen",
-      "odyssey:pantanal/trees",
-      "odyssey:pantanal/patch_muddy_roots",
-      "odyssey:pantanal/disk_small_coarse_dirt",
-      "odyssey:pantanal/disk_small_podzol",
-      "odyssey:pantanal/patch_grass",
-      "odyssey:pantanal/flowers_pantanal"
+      "odyssey:jurassic_heights/trees",
+      "odyssey:jurassic_heights/shrooms",
+      "odyssey:jurassic_heights/bamboo",
+      "odyssey:jurassic_heights/patch_vegetation",
+      "minecraft:glow_lichen"
     ],
     [
       "minecraft:freeze_top_layer"
