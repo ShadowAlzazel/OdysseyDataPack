@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:edge",
+  "type": "odyssey:edge",
   "generator": {
     "type": "minecraft:noise",
     "settings": "odyssey:edge_settings",
