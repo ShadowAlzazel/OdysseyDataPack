@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "odyssey:pantanal"
+    "#odyssey:is_edge",
+    "#odyssey:is_overworld"
   ]
 }

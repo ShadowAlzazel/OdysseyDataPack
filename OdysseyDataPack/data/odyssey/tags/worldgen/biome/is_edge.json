@@ -1,15 +1,18 @@
 {
   "values": [
+    "odyssey:cave/darklight_caves",
+    "odyssey:cave/lumenshroom_undergrowth",
     "odyssey:aetherial_woods",
     "odyssey:alpha_test_zone",
-    "odyssey:marina_moor",
-    "odyssey:silmen_mire",
-    "odyssey:inazuma_forest",
     "odyssey:cardinal_fields",
-    "odyssey:ordinal_plains",
-    "odyssey:spectral_gap",
+    "odyssey:inazuma_forest",
     "odyssey:lumenshroom_grove",
+    "odyssey:marina_moor",
+    "odyssey:mytreilium_coppice",
     "odyssey:nullstone_steppes",
-    "odyssey:cave/darklight_caves"
+    "odyssey:ordinal_plains",
+    "odyssey:silmen_mire",
+    "odyssey:scorchlands",
+    "odyssey:spectral_gap"
   ]
 }

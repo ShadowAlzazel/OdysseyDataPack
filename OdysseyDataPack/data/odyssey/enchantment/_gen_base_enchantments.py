@@ -79,6 +79,7 @@ armor_enchants = [
 ]
 
 ranged_enchants = [
+    "ambush",
     "alchemy_artillery",
     "ballistics",
     "bola_shot",

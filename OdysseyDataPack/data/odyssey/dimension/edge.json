@@ -244,6 +244,35 @@
           }
         },
         {
+          "biome": "odyssey:mytreilium_coppice",
+          "parameters": {
+            "continentalness": [
+              -0.3,
+              0.3
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0.7, 1
+            ],
+            "humidity": [
+              0.0,
+              0.6
+            ],
+            "offset": 0.0,
+            "temperature": [
+              0.0,
+              0.6
+            ],
+            "weirdness": [
+              -0.7666667,
+              -0.4
+            ]
+          }
+        },
+        {
           "biome": "odyssey:cave/lumenshroom_undergrowth",
           "parameters": {
             "continentalness": [
