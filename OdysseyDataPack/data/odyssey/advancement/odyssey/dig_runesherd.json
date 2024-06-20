@@ -1,5 +1,5 @@
 {
-  "parent": "odyssey:odyssey/root",
+  "parent": "odyssey:odyssey/find_a_dig_site",
   "display": {
     "frame": "task",
     "hidden": false,
@@ -17,7 +17,7 @@
       "translate": "Ryze was here"
     },
     "description": {
-      "translate": "Dig up a runesherd found at an abandoned base"
+      "translate": "Dig up a runesherd found at an abandoned base."
     }
   },
   "criteria": {

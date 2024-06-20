@@ -1,30 +1,29 @@
 {
-    "parent": "odyssey:odyssey/root",
-    "display": {
-      "frame": "task",
-      "hidden": false,
-      "announce_to_chat": true,
-      "show_toast": true,
-      "icon": {
-        "count": 1,
-        "id": "minecraft:potion",
-        "components": {
-          "minecraft:custom_model_data": 6905317,
-          "minecraft:item_name": "pearshape_potion"
-        }
-      },
-      "title": {
-        "translate": "What is this Witchcraft?"
-      },
-      "description": {
-        "translate": "Use a boiling Cauldron to brew a new type of potion"
+  "parent": "odyssey:odyssey/root",
+  "display": {
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:custom_model_data": 6905317,
+        "minecraft:item_name": "pearshape_potion"
       }
     },
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible",
-        "conditions": {}
-      }
+    "title": {
+      "translate": "What is this Witchcraft?"
+    },
+    "description": {
+      "translate": "Use a boiling Cauldron to brew a new type of potion"
+    }
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
     }
   }
-  
+}

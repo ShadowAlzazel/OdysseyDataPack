@@ -1,0 +1,23 @@
+{
+  "feature": "odyssey:tsingy/ring_cyan_terracotta",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "uniform",
+        "max_inclusive": 10,
+        "min_inclusive": 8
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

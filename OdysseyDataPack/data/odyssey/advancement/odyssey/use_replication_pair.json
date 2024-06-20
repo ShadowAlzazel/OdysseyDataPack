@@ -1,7 +1,7 @@
 {
   "parent": "odyssey:odyssey/discharge_a_curse",
   "display": {
-    "frame": "goal",
+    "frame": "challenge",
     "hidden": false,
     "announce_to_chat": true,
     "show_toast": true,

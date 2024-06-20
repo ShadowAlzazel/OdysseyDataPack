@@ -1,0 +1,19 @@
+{
+  "anvil_cost": 24,
+  "description": {
+    "translate": "enchantment.odyssey.fealty"
+  },
+  "effects": {},
+  "max_cost": {
+    "base": 80,
+    "per_level_above_first": 25
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 60,
+    "per_level_above_first": 25
+  },
+  "slots": ["any"],
+  "supported_items": "#minecraft:enchantable/durability",
+  "weight": 1
+}

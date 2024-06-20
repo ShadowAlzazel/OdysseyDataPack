@@ -1,5 +1,5 @@
 {
-  "parent": "odyssey:odyssey/root",
+  "parent": "odyssey:odyssey/find_biome",
   "criteria": {
     "find_mansion": {
       "conditions": {
@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "minecraft:mansion"
+                "structures": "minecraft:mansion"
               }
             }
           }
@@ -21,7 +21,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "Enter the premises of a woodland mansion"
+      "translate": "Enter the premises of a woodland mansion."
     },
     "frame": "goal",
     "hidden": false,

@@ -2,6 +2,7 @@
   "values": [
     "minecraft:mending",
     "odyssey:moonpatch",
-    "odyssey:chitin"
+    "odyssey:chitin",
+    "odyssey:parasitic_curse"
   ]
 }

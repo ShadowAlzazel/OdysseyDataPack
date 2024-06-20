@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 3,
+  "anvil_cost": 4,
   "description": {
     "translate": "enchantment.odyssey.encumbering_curse"
   },
@@ -8,12 +8,12 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.02,
-          "per_level_above_first": 0.02
+          "base": 0.1,
+          "per_level_above_first": 0.1
         },
         "attribute": "minecraft:generic.gravity",
         "id": "odyssey:enchantment.encumbering_curse",
-        "operation": "add_value"
+        "operation": "add_multiplied_base"
       }
     ]
   },

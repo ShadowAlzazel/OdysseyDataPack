@@ -1,0 +1,22 @@
+{
+  "anvil_cost": 6,
+  "description": {
+    "translate": "enchantment.odyssey.conflagrate"
+  },
+  "effects": {},
+  "max_cost": {
+    "base": 36,
+    "per_level_above_first": 8
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 14,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "primary_items": "#minecraft:enchantable/sword",
+  "supported_items": "#odyssey:enchantable/melee",
+  "weight": 4
+}

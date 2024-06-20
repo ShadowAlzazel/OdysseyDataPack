@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 5,
+  "anvil_cost": 4,
   "description": {
     "translate": "enchantment.odyssey.molten_core"
   },
@@ -49,7 +49,7 @@
     "per_level_above_first": 10
   },
   "slots": [
-    "armor"
+    "chest"
   ],
   "supported_items": "#minecraft:enchantable/chest_armor",
   "weight": 5

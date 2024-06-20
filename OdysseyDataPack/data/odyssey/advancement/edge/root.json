@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "entered_edge": {
+      "conditions": {
+        "to": "odyssey:edge"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": {
+      "translate": "Arrived at a new frontier a new edge..."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:tuff"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "Edge"
+    }
+  },
+  "requirements": [
+    ["entered_edge"]
+  ]
+}

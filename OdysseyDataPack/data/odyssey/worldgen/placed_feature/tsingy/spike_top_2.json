@@ -1,0 +1,57 @@
+{
+  "feature": "odyssey:tsingy/spike_top_2",
+  "placement": [
+    {
+      "type": "count",
+      "count": 90
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0, -1,
+              0
+            ],
+            "blocks": [
+              "minecraft:tuff"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0, -2,
+              0
+            ],
+            "blocks": [
+              "minecraft:air"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0, -5,
+              0
+            ],
+            "blocks": [
+              "minecraft:tuff"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

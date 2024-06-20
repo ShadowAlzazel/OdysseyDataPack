@@ -1,0 +1,44 @@
+{
+  "parent": "odyssey:odyssey/convert_soul_steel",
+  "display": {
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bone",
+      "components": {
+        "minecraft:custom_model_data": 6906614,
+        "minecraft:item_name": "ectoplasm"
+      }
+    },
+    "title": {
+      "translate": "Who you gonna call..."
+    },
+    "description": {
+      "translate": "Kill a skeleton in the soul sand valley and collect its drop."
+    }
+  },
+  "criteria": {
+    "killed_spectre": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:skeleton"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "requirements": [
+    [
+      "killed_spectre"
+    ]
+  ]
+}

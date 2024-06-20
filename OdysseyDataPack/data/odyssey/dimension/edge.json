@@ -1,0 +1,393 @@
+{
+  "type": "odyssey:edge",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "odyssey:edge_settings",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "odyssey:aetherial_woods",
+          "parameters": {
+            "continentalness": [
+              -0.1,
+              0.3
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0.5650000000000001,
+              1
+            ],
+            "humidity": [
+              0.5,
+              0.8
+            ],
+            "offset": 0.0,
+            "temperature": [
+              0.15,
+              0.6
+            ],
+            "weirdness": [
+              -1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "biome": "odyssey:marina_moor",
+          "parameters": {
+            "continentalness": [
+              0.0,
+              0.3
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.6,
+              -0.3
+            ],
+            "humidity": [
+              0.3,
+              0.5
+            ],
+            "offset": 0.0,
+            "temperature": [
+              0.3,
+              0.6
+            ],
+            "weirdness": [
+              -0.8,
+              -0.5
+            ]
+          }
+        },
+        {
+          "biome": "odyssey:silmen_mire",
+          "parameters": {
+            "continentalness": [
+              -0.1,
+              0.3
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -1.0,
+              -0.5
+            ],
+            "humidity": [
+              0.3,
+              0.8
+            ],
+            "offset": 0.0,
+            "temperature": [
+              0.15,
+              0.6
+            ],
+            "weirdness": [
+              0.4,
+              0.7666667
+            ]
+          }
+        },
+        {
+          "biome": "odyssey:inazuma_forest",
+          "parameters": {
+            "continentalness": [
+              -0.6,
+              -0.3
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -1.0,
+              -0.5
+            ],
+            "humidity": [
+              0.3,
+              0.8
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -0.3,
+              0.3
+            ],
+            "weirdness": [
+              -1.0,
+              -0.5
+            ]
+          }
+        },
+        {
+          "biome": "odyssey:cardinal_fields",
+          "parameters": {
+            "continentalness": [
+              0.3,
+              0.6
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0.5,
+              1.0
+            ],
+            "humidity": [
+              0.0,
+              0.3
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -0.3,
+              0.0
+            ],
+            "weirdness": [
+              0.4,
+              0.7
+            ]
+          }
+        },
+        {
+          "biome": "odyssey:ordinal_plains",
+          "parameters": {
+            "continentalness": [
+              0.6,
+              1.0
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0, 0.5
+            ],
+            "humidity": [
+              0.3,
+              0.6
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -0.2,
+              0.3
+            ],
+            "weirdness": [
+              0.2,
+              0.7
+            ]
+          }
+        },
+        {
+          "biome": "odyssey:spectral_gap",
+          "parameters": {
+            "continentalness": [
+              0.2,
+              0.5
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0, 0.4
+            ],
+            "humidity": [
+              -0.8,
+              -0.5
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -0.8,
+              -0.5
+            ],
+            "weirdness": [
+              -0.8,
+              -0.5
+            ]
+          }
+        },
+        {
+          "biome": "odyssey:lumenshroom_grove",
+          "parameters": {
+            "continentalness": [
+              -0.3,
+              0.3
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0.7, 1
+            ],
+            "humidity": [
+              -0.3,
+              0.3
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -0.3,
+              0.2
+            ],
+            "weirdness": [
+              -0.7666667,
+              -0.4
+            ]
+          }
+        },
+        {
+          "biome": "odyssey:mytreilium_coppice",
+          "parameters": {
+            "continentalness": [
+              -0.3,
+              0.3
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0.7, 1
+            ],
+            "humidity": [
+              0.0,
+              0.6
+            ],
+            "offset": 0.0,
+            "temperature": [
+              0.0,
+              0.6
+            ],
+            "weirdness": [
+              -0.7666667,
+              -0.4
+            ]
+          }
+        },
+        {
+          "biome": "odyssey:cave/lumenshroom_undergrowth",
+          "parameters": {
+            "continentalness": [
+              -0.3,
+              0.3
+            ],
+            "depth": [
+              0.4, 1.0
+            ],
+            "erosion": [
+              0.7, 1
+            ],
+            "humidity": [
+              -0.3,
+              0.3
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -0.3,
+              0.2
+            ],
+            "weirdness": [
+              -0.7666667,
+              -0.4
+            ]
+          }
+        },
+        {
+          "biome": "odyssey:scorchlands",
+          "parameters": {
+            "continentalness": [
+              -1.0,
+              -0.8
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0.7, 1
+            ],
+            "humidity": [
+              -1.0,
+              -0.6
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -0.3,
+              0.2
+            ],
+            "weirdness": [
+              -0.4,
+              0.0
+            ]
+          }
+        },
+        {
+          "biome": "odyssey:nullstone_steppes",
+          "parameters": {
+            "continentalness": [
+              -0.2,
+              0.3
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -1.0,
+              -0.6
+            ],
+            "humidity": [
+              -1.0,
+              -0.6
+            ],
+            "offset": 0.0,
+            "temperature": [
+              0.5,
+              1.0
+            ],
+            "weirdness": [
+              0.5, 1
+            ]
+          }
+        },
+        {
+          "biome": "odyssey:cave/darklight_caves",
+          "parameters": {
+            "continentalness": [
+              -0.5,
+              0.5
+            ],
+            "depth": [
+              0.7, 1
+            ],
+            "erosion": [
+              0.5650000000000001,
+              1
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -0.5,
+              0.5
+            ],
+            "weirdness": [
+              -1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

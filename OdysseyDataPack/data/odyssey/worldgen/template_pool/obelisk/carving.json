@@ -1,0 +1,149 @@
+{
+  "name": "odyssey:obelisk/carving",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:obelisk/obelisk_carving_a",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:obelisk/obelisk_carving_c",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:obelisk/obelisk_carving_e",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:obelisk/obelisk_carving_f",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:obelisk/obelisk_carving_i",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:obelisk/obelisk_carving_j",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:obelisk/obelisk_carving_l",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:obelisk/obelisk_carving_o",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:obelisk/obelisk_carving_q",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:obelisk/obelisk_carving_r",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:obelisk/obelisk_carving_t",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:obelisk/obelisk_carving_v",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:obelisk/obelisk_carving_w",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "feature": "odyssey:mytreilium_coppice/flora",
+  "placement": [
+    {
+      "type": "count",
+      "count": 5
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "heightmap",
+      "heightmap": "WORLD_SURFACE"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0, -1, 0
+        ],
+        "blocks": [
+          "minecraft:grass_block",
+          "minecraft:dirt",
+          "minecraft:coarse_dirt",
+          "minecraft:crimson_nylium",
+          "minecraft:podzol",
+          "minecraft:rooted_dirt",
+          "minecraft:packed_mud",
+          "minecraft:mycelium"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

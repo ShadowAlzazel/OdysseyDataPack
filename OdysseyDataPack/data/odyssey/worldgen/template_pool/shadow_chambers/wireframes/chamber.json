@@ -28,6 +28,24 @@
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "odyssey:shadow_chambers/wireframe_chamber_h2s",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "odyssey:shadow_chambers/wireframe_chamber_f",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
     }
   ]
 }
