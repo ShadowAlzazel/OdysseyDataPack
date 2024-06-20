@@ -1,30 +1,47 @@
 {
-    "parent": "odyssey:odyssey/root",
-    "display": {
-      "frame": "task",
-      "hidden": false,
-      "announce_to_chat": true,
-      "show_toast": true,
-      "icon": {
-        "count": 1,
-        "id": "minecraft:enchanted_book",
-        "components": {
-          "minecraft:custom_model_data": 6906066,
-          "minecraft:item_name": "arcane_book"
-        }
+  "parent": "odyssey:odyssey/root",
+  "criteria": {
+    "any_enchantment": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:enchantable/durability",
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "#odyssey:is_odyssey"
+                }
+              ]
+            }
+          }
+        ]
       },
-      "title": {
-        "translate": "To Enchant or not to Enchant."
-      },
-      "description": {
-        "translate": "Apply a new Odyssey Enchantment."
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:custom_model_data": 6905501,
+        "minecraft:item_name": "arcane_book"
       }
     },
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible",
-        "conditions": {}
-      }
+    "title": {
+      "translate": "To Enchant or not to Enchant"
+    },
+    "description": {
+      "translate": "Apply an Odyssey enchantment to anything."
     }
-  }
-  
+  },
+  "requirements": [
+    [
+      "any_enchantment"
+    ]
+  ]
+}

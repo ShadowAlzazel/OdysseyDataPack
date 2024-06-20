@@ -1,7 +1,7 @@
 {
   "parent": "odyssey:odyssey/find_biome",
   "criteria": {
-    "find_mansion": {
+    "find_digsite": {
       "conditions": {
         "player": [
           {
@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structures": "minecraft:mansion"
+                "structures": "odyssey:dig_site"
               }
             }
           }
@@ -21,20 +21,20 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "Enter the premises of a woodland mansion."
+      "translate": "Find an abandoned dig site."
     },
     "frame": "goal",
     "hidden": false,
     "icon": {
       "count": 1,
-      "id": "minecraft:dark_oak_planks"
+      "id": "minecraft:coarse_dirt"
     },
     "show_toast": true,
     "title": {
-      "translate": "Who built this manor?"
+      "translate": "Dirt and Gravel"
     }
   },
   "requirements": [
-    ["find_mansion"]
+    ["find_digsite"]
   ]
 }

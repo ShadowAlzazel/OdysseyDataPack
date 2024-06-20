@@ -1,16 +1,14 @@
 {
-  "name": "odyssey:supershaft/shaft",
+  "name": "odyssey:runic_ruins/tatami_ruins",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "odyssey:supershaft/shaft_1",
+        "location": "odyssey:runic_ruins/tatami_ruins_1",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "processors": {
-          "processors": []
-        }
+        "processors": "minecraft:empty"
       }
     }
   ]

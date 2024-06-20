@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 11554477,
+    "separation": 19,
+    "spacing": 36
+  },
+  "structures": [
+    {
+      "structure": "odyssey:supershaft",
+      "weight": 1
+    }
+  ]
+}

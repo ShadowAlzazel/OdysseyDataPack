@@ -1,5 +1,5 @@
 {
-  "parent": "odyssey:odyssey/find_mansion",
+  "parent": "odyssey:odyssey/find_biome",
   "criteria": {
     "find_ancient_city": {
       "conditions": {
@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structure": "minecraft:ancient_city"
+                "structures": "minecraft:ancient_city"
               }
             }
           }
@@ -21,7 +21,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "Locate an ancient city in the deep dark"
+      "translate": "Locate an ancient city in the deep dark."
     },
     "frame": "goal",
     "hidden": false,

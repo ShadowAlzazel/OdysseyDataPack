@@ -1,16 +1,16 @@
 {
-  "name": "odyssey:supershaft/shaft",
+  "name": "odyssey:supershaft/shaft_top",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "odyssey:supershaft/shaft_1",
+        "location": "odyssey:supershaft/shaft_top",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": {
-          "processors": []
-        }
+            "processors": []
+          }
       }
     }
   ]

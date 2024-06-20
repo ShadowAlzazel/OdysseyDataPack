@@ -3,7 +3,7 @@
     "type": "minecraft:concentric_rings",
     "count": 128,
     "distance": 32,
-    "preferred_biomes": "#odyssey:has_structure",
+    "preferred_biomes": "#odyssey:has_structure/obelisk",
     "salt": 37,
     "spread": 3
   },

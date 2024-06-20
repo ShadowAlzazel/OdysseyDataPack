@@ -1,5 +1,5 @@
 {
-  "parent": "odyssey:odyssey/root",
+  "parent": "odyssey:odyssey/apply_odyssey_enchant",
   "display": {
     "frame": "task",
     "hidden": false,
@@ -9,15 +9,15 @@
       "count": 1,
       "id": "minecraft:book",
       "components": {
-        "minecraft:custom_model_data": 6905501,
-        "minecraft:item_name": "arcane_book"
+        "minecraft:custom_model_data": 6905503,
+        "minecraft:item_name": "prismatic_book"
       }
     },
     "title": {
       "translate": "Home to Tome"
     },
     "description": {
-      "translate": "Enchant an Arcane Book in the enchanting table to get a tome."
+      "translate": "Enchant a Prismatic Book in the enchanting table to get a tome."
     }
   },
   "criteria": {
