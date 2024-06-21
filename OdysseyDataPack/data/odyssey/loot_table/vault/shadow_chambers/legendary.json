@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "odyssey:vault/shadow_chambers/common",
+  "pools": [
+    {
+      "bonus_rolls": 2.0,
+      "rolls": 6.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heavy_core",
+          "functions": [],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "functions": [],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 6906503,
+                "minecraft:item_name": "imperial_armor_trim_smithing_template"
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Smithing Template",
+                "bold": false,
+                "italic": false
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 6906777,
+                "minecraft:item_name": "mithril_ingot",
+                "minecraft:rarity": "rare"
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Mithril Ingot",
+                "bold": false,
+                "italic": false
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_block",
+          "functions": [],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

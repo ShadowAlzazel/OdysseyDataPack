@@ -14,7 +14,7 @@
     "description": {
       "translate": "An Odyssey Awaits!"
     },
-    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    "background": "odyssey:textures/gui/advancements/backgrounds/tuff.png"
   },
   "criteria": {
     "crafting_table": {

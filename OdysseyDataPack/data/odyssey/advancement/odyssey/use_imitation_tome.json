@@ -1,5 +1,5 @@
 {
-  "parent": "odyssey:odyssey/convert_soul_steel",
+  "parent": "odyssey:odyssey/discharge_a_curse",
   "display": {
     "frame": "goal",
     "hidden": false,
@@ -7,17 +7,17 @@
     "show_toast": true,
     "icon": {
       "count": 1,
-      "id": "minecraft:paper",
+      "id": "minecraft:enchanted_book",
       "components": {
-        "minecraft:custom_model_data": 6906502,
-        "minecraft:item_name": "soul_steel_upgrade_template"
+        "minecraft:custom_model_data": 6906079,
+        "minecraft:item_name": "tome_of_imitation"
       }
     },
     "title": {
-      "translate": "Soulbound Smith"
+      "translate": "Two Pair"
     },
     "description": {
-      "translate": "Craft a Soul Steel tool using a Soul Steel Ingot and an Upgrade Template."
+      "translate": "Use am Imitation Tome on max level book to get the same book."
     }
   },
   "criteria": {
