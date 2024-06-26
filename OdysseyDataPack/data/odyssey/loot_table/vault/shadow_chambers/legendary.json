@@ -50,8 +50,7 @@
               "function": "set_components",
               "components": {
                 "minecraft:custom_model_data": 6906777,
-                "minecraft:item_name": "mithril_ingot",
-                "minecraft:rarity": "rare"
+                "minecraft:item_name": "mithril_ingot"
               },
               "conditions": []
             },

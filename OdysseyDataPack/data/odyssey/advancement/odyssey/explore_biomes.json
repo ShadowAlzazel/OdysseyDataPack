@@ -100,6 +100,22 @@
       },
       "trigger": "minecraft:location"
     },
+    "odyssey:grand_teton": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "odyssey:grand_teton"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
     "odyssey:hoh_rainforest": {
       "conditions": {
         "player": [
@@ -260,6 +276,9 @@
     ],
     [
       "odyssey:danakil"
+    ],
+    [
+      "odyssey:grand_teton"
     ],
     [
       "odyssey:hoh_rainforest"

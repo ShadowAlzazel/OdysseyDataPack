@@ -11,6 +11,6 @@
   },
   "start_pool": "odyssey:supershaft/origin",
   "step": "surface_structures",
-  "terrain_adaptation": "beard_thin",
+  "terrain_adaptation": "none",
   "use_expansion_hack": true
 }

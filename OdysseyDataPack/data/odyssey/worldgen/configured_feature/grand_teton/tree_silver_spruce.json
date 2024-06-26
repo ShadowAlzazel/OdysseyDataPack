@@ -1,0 +1,157 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "decorators": [
+      {
+        "type": "minecraft:attached_to_leaves",
+        "probability": 0.73,
+        "exclusion_radius_xz": 1,
+        "exclusion_radius_y": 0,
+        "required_empty_blocks": 1,
+        "block_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:dark_oak_leaves",
+            "Properties": {
+              "persistent": "false",
+              "distance": "7"
+            }
+          }
+        },
+        "directions": [
+          "north"
+        ]
+      },
+      {
+        "type": "minecraft:attached_to_leaves",
+        "probability": 0.73,
+        "exclusion_radius_xz": 1,
+        "exclusion_radius_y": 0,
+        "required_empty_blocks": 1,
+        "block_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:dark_oak_leaves",
+            "Properties": {
+              "persistent": "false",
+              "distance": "7"
+            }
+          }
+        },
+        "directions": [
+          "east"
+        ]
+      },
+      {
+        "type": "minecraft:attached_to_leaves",
+        "probability": 0.73,
+        "exclusion_radius_xz": 1,
+        "exclusion_radius_y": 0,
+        "required_empty_blocks": 1,
+        "block_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:dark_oak_leaves",
+            "Properties": {
+              "persistent": "false",
+              "distance": "7"
+            }
+          }
+        },
+        "directions": [
+          "south"
+        ]
+      },
+      {
+        "type": "minecraft:attached_to_leaves",
+        "probability": 0.73,
+        "exclusion_radius_xz": 1,
+        "exclusion_radius_y": 0,
+        "required_empty_blocks": 1,
+        "block_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:dark_oak_leaves",
+            "Properties": {
+              "persistent": "false",
+              "distance": "7"
+            }
+          }
+        },
+        "directions": [
+          "west"
+        ]
+      }
+    ],
+    "force_dirt": false,
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 11,
+      "lower_size": 1,
+      "upper_size": 6
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:rooted_dirt"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:acacia_log",
+            "Properties": {
+              "axis": "y"
+            }
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "Name": "minecraft:stripped_spruce_log",
+            "Properties": {
+              "axis": "y"
+            }
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "trunk_placer": {
+      "type": "minecraft:straight_trunk_placer",
+      "base_height": 25,
+      "height_rand_a": 3,
+      "height_rand_b": 1
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dark_oak_leaves",
+        "Properties": {
+          "distance": "7",
+          "persistent": "false",
+          "waterlogged": "false"
+        }
+      }
+    },
+    "foliage_placer": {
+      "type": "minecraft:mega_pine_foliage_placer",
+      "crown_height": {
+        "type": "minecraft:clamped_normal",
+        "deviation": 3,
+        "min_inclusive": 17,
+        "max_inclusive": 22,
+        "mean": 19
+      },
+      "offset": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 3
+      },
+      "radius": 1
+    }
+  }
+}

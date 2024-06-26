@@ -6,27 +6,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:burn_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:danger_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:brick",
-          "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6905632
-              },
-              "conditions": []
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:brick",
           "functions": [
             {
@@ -70,6 +49,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:clay_ball"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot"
         }
       ],
       "rolls": 1.0

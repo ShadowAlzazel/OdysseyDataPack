@@ -1,0 +1,35 @@
+{
+  "anvil_cost": 6,
+  "description": {
+    "translate": "enchantment.odyssey.expedite",
+    "fallback": "Expedite"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.1,
+          "per_level_above_first": 0.1
+        },
+        "attribute": "minecraft:player.block_break_speed",
+        "id": "odyssey:enchantment.expedite",
+        "operation": "add_multiplied_base"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 9
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 8,
+    "per_level_above_first": 9
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/mining",
+  "weight": 5
+}
