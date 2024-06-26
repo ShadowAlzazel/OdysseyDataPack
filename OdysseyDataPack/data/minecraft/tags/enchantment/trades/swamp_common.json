@@ -1,5 +1,7 @@
 {
   "values": [
-    "odyssey:entanglement"
+    "odyssey:entanglement",
+    "odyssey:ignore_pain",
+    "odyssey:metabolic"
   ]
 }

@@ -26,12 +26,12 @@
   },
   "exclusive_set": "#odyssey:exclusive_set/all_damages",
   "max_cost": {
-    "base": 25,
+    "base": 11,
     "per_level_above_first": 8
   },
   "max_level": 5,
   "min_cost": {
-    "base": 5,
+    "base": 2,
     "per_level_above_first": 6
   },
   "slots": [

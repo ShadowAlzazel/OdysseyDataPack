@@ -5,7 +5,7 @@
   },
   "effects": {},
   "max_cost": {
-    "base": 40,
+    "base": 20,
     "per_level_above_first": 10
   },
   "max_level": 2,

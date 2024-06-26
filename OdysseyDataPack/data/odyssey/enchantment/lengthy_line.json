@@ -3,15 +3,14 @@
   "description": {
     "translate": "enchantment.odyssey.lengthy_line"
   },
-  "effects": {},
   "max_cost": {
     "base": 40,
-    "per_level_above_first": 10
+    "per_level_above_first": 7
   },
   "max_level": 3,
   "min_cost": {
     "base": 15,
-    "per_level_above_first": 10
+    "per_level_above_first": 7
   },
   "slots": [
     "any"

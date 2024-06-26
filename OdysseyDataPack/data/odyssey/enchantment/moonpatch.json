@@ -6,13 +6,13 @@
   "effects": {},
   "exclusive_set": "#odyssey:exclusive_set/durability_repair",
   "max_cost": {
-    "base": 75,
-    "per_level_above_first": 25
+    "base": 30,
+    "per_level_above_first": 15
   },
   "max_level": 1,
   "min_cost": {
-    "base": 25,
-    "per_level_above_first": 25
+    "base": 15,
+    "per_level_above_first": 15
   },
   "slots": [
     "any"

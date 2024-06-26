@@ -5,7 +5,7 @@
     },
     "effects": {},
     "max_cost": {
-      "base": 40,
+      "base": 15,
       "per_level_above_first": 10
     },
     "max_level": 3,
@@ -18,5 +18,5 @@
     ],
     "primary_items": "#minecraft:enchantable/sword",
     "supported_items": "#odyssey:enchantable/melee",
-    "weight": 2
+    "weight": 1
   }

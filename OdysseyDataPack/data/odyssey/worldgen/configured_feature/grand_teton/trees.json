@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.76,
+        "feature": "odyssey:grand_teton/tree_silver_spruce"
+      },
+      {
+        "chance": 0.24,
+        "feature": "odyssey:grand_teton/tree_silver_fir"
+      }
+    ],
+    "default": {
+      "feature": "odyssey:grand_teton/tree_silver_spruce",
+      "placement": []
+    }
+  }
+}

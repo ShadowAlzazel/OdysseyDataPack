@@ -7,9 +7,9 @@
     "show_toast": true,
     "icon": {
       "count": 1,
-      "id": "minecraft:copper_ingot",
+      "id": "minecraft:paper",
       "components": {
-        "minecraft:custom_model_data": 6906646,
+        "minecraft:custom_model_data": 6906502,
         "minecraft:item_name": "soul_steel_upgrade_template"
       }
     },

@@ -9,8 +9,8 @@
       "count": 1,
       "id": "minecraft:book",
       "components": {
-        "minecraft:custom_model_data": 6905503,
-        "minecraft:item_name": "prismatic_book"
+        "minecraft:custom_model_data": 6906000,
+        "minecraft:item_name": "blank_tome"
       }
     },
     "title": {

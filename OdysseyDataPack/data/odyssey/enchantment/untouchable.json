@@ -3,27 +3,16 @@
   "description": {
     "translate": "enchantment.odyssey.untouchable"
   },
-  "effects": {
-    "minecraft:post_attack": [
-      {
-        "enchanted": "victim",
-        "affected": "victim",
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "odyssey:enchantment/untouchable"
-        }
-      }
-    ]
-  },
+  "effects": {},
   "exclusive_set": "#odyssey:exclusive_set/immunity_changes",
   "max_cost": {
-    "base": 40,
-    "per_level_above_first": 10
+    "base": 25,
+    "per_level_above_first": 8
   },
-  "max_level": 1,
+  "max_level": 3,
   "min_cost": {
-    "base": 15,
-    "per_level_above_first": 10
+    "base": 10,
+    "per_level_above_first": 8
   },
   "slots": [
     "armor"

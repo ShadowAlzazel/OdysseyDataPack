@@ -1,5 +1,5 @@
 {
-  "parent": "odyssey:odyssey/discharge_a_curse",
+  "parent": "odyssey:odyssey/use_imitation_tome",
   "display": {
     "frame": "challenge",
     "hidden": false,
@@ -14,10 +14,10 @@
       }
     },
     "title": {
-      "translate": "Two Pair!"
+      "translate": "Full House!"
     },
     "description": {
-      "translate": "Use a Replication Tome on a book with two or more enchants"
+      "translate": "Use a Replication Tome to copy 5 or more max level enchantments."
     }
   },
   "criteria": {

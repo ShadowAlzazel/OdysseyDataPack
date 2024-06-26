@@ -10,15 +10,31 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald"
+          "name": "minecraft:burn_pottery_sherd"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond"
+          "name": "minecraft:danger_pottery_sherd"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_sword"
+          "name": "minecraft:friend_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heartbreak_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:howl_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sheaf_pottery_sherd"
         },
         {
           "type": "minecraft:item",
@@ -26,7 +42,29 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_ingot"
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 6905632
+              },
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 6905632
+              },
+              "conditions": []
+            }
+          ]
         }
       ],
       "rolls": 1.0

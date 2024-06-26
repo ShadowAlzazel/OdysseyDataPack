@@ -57,9 +57,18 @@
       }
     },
     {
-      "weight": 2,
+      "weight": 5,
       "element": {
-        "location": "odyssey:shadow_chambers/room_corner_up_1",
+        "location": "odyssey:shadow_chambers/room_corner_7",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "odyssey:shadow_chambers/room_corner_8",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"
