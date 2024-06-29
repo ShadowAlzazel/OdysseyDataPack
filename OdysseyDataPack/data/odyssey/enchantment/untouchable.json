@@ -6,12 +6,12 @@
   "effects": {},
   "exclusive_set": "#odyssey:exclusive_set/immunity_changes",
   "max_cost": {
-    "base": 25,
+    "base": 35,
     "per_level_above_first": 8
   },
-  "max_level": 3,
+  "max_level": 1,
   "min_cost": {
-    "base": 10,
+    "base": 15,
     "per_level_above_first": 8
   },
   "slots": [
