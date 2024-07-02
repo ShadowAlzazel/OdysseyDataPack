@@ -1,47 +1,47 @@
 {
-  "name": "odyssey:shadow_chambers/rooms/half",
+  "name": "odyssey:shadow_chambers/spawner/rooms_elite",
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 5,
+      "weight": 10,
       "element": {
-        "location": "odyssey:shadow_chambers/room_half_1",
+        "location": "odyssey:shadow_chambers/spawner_skeleton_elite",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
     },
     {
-      "weight": 2,
+      "weight": 10,
       "element": {
-        "location": "odyssey:shadow_chambers/room_half_2",
+        "location": "odyssey:shadow_chambers/spawner_bogged_elite",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
     },
     {
-      "weight": 4,
+      "weight": 10,
       "element": {
-        "location": "odyssey:shadow_chambers/room_half_3",
+        "location": "odyssey:shadow_chambers/spawner_stray_elite",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
     },
     {
-      "weight": 2,
+      "weight": 10,
       "element": {
-        "location": "odyssey:shadow_chambers/room_half_library",
+        "location": "odyssey:shadow_chambers/spawner_zombie_elite",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
     },
     {
-      "weight": 1,
+      "weight": 10,
       "element": {
-        "location": "odyssey:shadow_chambers/room_half_armory",
+        "location": "odyssey:shadow_chambers/spawner_husk_elite",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"

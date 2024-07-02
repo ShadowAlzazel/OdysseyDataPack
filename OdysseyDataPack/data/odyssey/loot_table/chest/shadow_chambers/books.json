@@ -1,6 +1,6 @@
 {
   "type": "minecraft:chest",
-  "random_sequence": "odyssey:chests/shadow_chambers/common",
+  "random_sequence": "odyssey:chests/shadow_chambers/books",
   "pools": [
     {
       "bonus_rolls": 1.0,
@@ -87,9 +87,48 @@
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 6.0,
+        "max": 5.0,
         "min": 3.0
       }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 6906000,
+                "minecraft:item_name": "blank_tome"
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Blank Tome",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

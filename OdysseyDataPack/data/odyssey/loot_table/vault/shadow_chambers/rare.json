@@ -4,8 +4,24 @@
   "pools": [
     {
       "bonus_rolls": 1.0,
-      "rolls": 4.0,
+      "rolls": 5.0,
       "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 9.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 8
+        },
         {
           "type": "minecraft:item",
           "name": "minecraft:brick",
@@ -64,6 +80,15 @@
                 "bold": false,
                 "italic": false
               }
+            },
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
             }
           ],
           "weight": 3

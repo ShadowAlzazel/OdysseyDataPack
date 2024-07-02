@@ -5,6 +5,15 @@
     {
       "weight": 60,
       "element": {
+        "location": "odyssey:shadow_chambers/spawner_skeleton_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
         "location": "odyssey:shadow_chambers/spawner_bogged_1",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
@@ -14,7 +23,43 @@
     {
       "weight": 60,
       "element": {
-        "location": "odyssey:shadow_chambers/spawner_skeleton_1",
+        "location": "odyssey:shadow_chambers/spawner_stray_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "location": "odyssey:shadow_chambers/spawner_zombie_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "location": "odyssey:shadow_chambers/spawner_husk_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 60,
+      "element": {
+        "location": "odyssey:shadow_chambers/spawner_giant_spider",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "odyssey:shadow_chambers/spawner_skeleton_elite",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"
@@ -32,7 +77,25 @@
     {
       "weight": 10,
       "element": {
-        "location": "odyssey:shadow_chambers/spawner_skeleton_elite",
+        "location": "odyssey:shadow_chambers/spawner_stray_elite",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "odyssey:shadow_chambers/spawner_zombie_elite",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "odyssey:shadow_chambers/spawner_husk_elite",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"
