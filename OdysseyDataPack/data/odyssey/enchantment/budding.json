@@ -5,17 +5,18 @@
   },
   "effects": {},
   "max_cost": {
-    "base": 11,
-    "per_level_above_first": 5
+    "base": 15,
+    "per_level_above_first": 10
   },
   "max_level": 3,
   "min_cost": {
-    "base": 5,
-    "per_level_above_first": 5
+    "base": 12,
+    "per_level_above_first": 10
   },
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#odyssey:enchantable/blunt_melee",
-  "weight": 3
+  "primary_items": "#minecraft:enchantable/sword",
+  "supported_items": "#odyssey:enchantable/melee",
+  "weight": 2
 }

@@ -65,6 +65,29 @@
               "conditions": []
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 6906619,
+                "minecraft:item_name": "silver_ingot"
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Silver Ingot",
+                "bold": false,
+                "italic": false
+              }
+            }
+          ]
         }
       ],
       "rolls": 1.0

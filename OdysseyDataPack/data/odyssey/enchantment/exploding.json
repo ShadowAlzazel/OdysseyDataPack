@@ -10,7 +10,7 @@
   },
   "max_level": 3,
   "min_cost": {
-    "base": 5,
+    "base": 8,
     "per_level_above_first": 8
   },
   "slots": [
@@ -18,5 +18,5 @@
   ],
   "primary_items": "#minecraft:enchantable/sword",
   "supported_items": "#odyssey:enchantable/melee",
-  "weight": 5
+  "weight": 3
 }

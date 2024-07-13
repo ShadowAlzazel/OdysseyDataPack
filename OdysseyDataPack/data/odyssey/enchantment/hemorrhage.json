@@ -16,6 +16,7 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#odyssey:enchantable/blunt_melee",
+  "primary_items": "#minecraft:enchantable/sword",
+  "supported_items": "#odyssey:enchantable/melee",
   "weight": 3
 }

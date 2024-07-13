@@ -1,16 +1,16 @@
 {
-  "anvil_cost": 6,
+  "anvil_cost": 4,
   "description": {
     "translate": "enchantment.odyssey.fearful_finisher"
   },
   "effects": {},
   "max_cost": {
-    "base": 11,
+    "base": 14,
     "per_level_above_first": 10
   },
   "max_level": 3,
   "min_cost": {
-    "base": 5,
+    "base": 10,
     "per_level_above_first": 10
   },
   "slots": [
@@ -18,5 +18,5 @@
   ],
   "primary_items": "#minecraft:enchantable/sword",
   "supported_items": "#odyssey:enchantable/melee",
-  "weight": 5
+  "weight": 2
 }

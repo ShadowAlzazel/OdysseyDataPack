@@ -1,7 +1,8 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "enchantment.odyssey.scourer"
+    "translate": "enchantment.odyssey.scourer",
+    "fallback": "Scourer"
   },
   "effects": {},
   "max_cost": {
