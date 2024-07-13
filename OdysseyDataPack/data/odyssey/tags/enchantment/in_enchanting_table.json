@@ -1,5 +1,9 @@
 {
   "values": [
-    "#odyssey:non_treasure"
+    "#odyssey:in_table/misc",
+    "#odyssey:in_table/armor",
+    "#odyssey:in_table/melee",
+    "#odyssey:in_table/range",
+    "#odyssey:in_table/other"
   ]
 }

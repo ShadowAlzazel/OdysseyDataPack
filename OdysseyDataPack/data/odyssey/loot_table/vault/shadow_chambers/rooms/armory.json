@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "odyssey:vault/shadow_chambers/rooms/armory",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:loot/exotic_weapon",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heavy_core",
+          "functions": [],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 6906777,
+                "minecraft:item_name": "mithril_ingot"
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Mithril Ingot",
+                "bold": false,
+                "italic": false
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_block",
+          "functions": [],
+          "weight": 1
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

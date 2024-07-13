@@ -10,12 +10,12 @@
   },
   "max_level": 3,
   "min_cost": {
-    "base": 5,
+    "base": 8,
     "per_level_above_first": 7
   },
   "slots": [
     "armor"
   ],
   "supported_items": "#minecraft:enchantable/head_armor",
-  "weight": 5
+  "weight": 3
 }

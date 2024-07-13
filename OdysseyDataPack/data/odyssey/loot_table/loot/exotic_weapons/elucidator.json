@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_model_data": 6909605,
+                "minecraft:item_name": "elucidator",
+                "minecraft:rarity": "epic",
+                "minecraft:max_damage": 2797
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "PublicBukkitValues": {
+                  "odyssey:odyssey.weapon_type": "longsword"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Elucidator",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "operation": "add_value",
+                  "amount": 14.0,
+                  "id": "odyssey:item.base_attack_damage",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "operation": "add_value",
+                  "amount": -4.0,
+                  "id": "odyssey:item.reset_attack_speed",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "operation": "add_value",
+                  "amount": 1.5,
+                  "id": "odyssey:item.base_attack_speed",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:player.entity_interaction_range",
+                  "operation": "add_value",
+                  "amount": 0.3,
+                  "id": "odyssey:item.base_entity_range",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "odyssey:illucidation": 6
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

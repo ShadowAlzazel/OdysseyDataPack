@@ -1,9 +1,6 @@
 {
   "values": [
-    "#odyssey:non_treasure/misc",
-    "#odyssey:non_treasure/armor",
-    "#odyssey:non_treasure/melee",
-    "#odyssey:non_treasure/range",
-    "#odyssey:non_treasure/other"
+    "#odyssey:in_enchanting_table",
+    "#odyssey:non_table"
   ]
 }
