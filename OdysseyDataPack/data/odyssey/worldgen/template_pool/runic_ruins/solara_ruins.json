@@ -3,9 +3,27 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 1,
+      "weight": 2,
       "element": {
-        "location": "odyssey:runic_ruins/solara_ruins_1",
+        "location": "odyssey:runic_ruins/base_ruins_solara_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "odyssey:runic_ruins/base_ruins_solara_2",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "odyssey:runic_ruins/base_ruins_solara_3",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"
@@ -14,7 +32,16 @@
     {
       "weight": 1,
       "element": {
-        "location": "odyssey:runic_ruins/solara_ruins_2",
+        "location": "odyssey:runic_ruins/base_ruins_solara_big_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:runic_ruins/house_ruins_solara",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"

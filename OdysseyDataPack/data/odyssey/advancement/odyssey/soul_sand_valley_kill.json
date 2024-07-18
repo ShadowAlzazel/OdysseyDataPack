@@ -21,14 +21,17 @@
     }
   },
   "criteria": {
-    "killed_spectre": {
+    "soul_sand_valley_kill": {
       "conditions": {
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:skeleton"
+              "type": "minecraft:skeleton",
+              "location": {
+                "biomes": "minecraft:soul_sand_valley"
+              }
             }
           }
         ]
@@ -38,7 +41,7 @@
   },
   "requirements": [
     [
-      "killed_spectre"
+      "soul_sand_valley_kill"
     ]
   ]
 }

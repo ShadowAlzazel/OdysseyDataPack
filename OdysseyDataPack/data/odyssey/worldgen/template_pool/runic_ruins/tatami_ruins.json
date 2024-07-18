@@ -5,7 +5,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "odyssey:runic_ruins/tatami_ruins_1",
+        "location": "odyssey:runic_ruins/house_ruins_tatami",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"

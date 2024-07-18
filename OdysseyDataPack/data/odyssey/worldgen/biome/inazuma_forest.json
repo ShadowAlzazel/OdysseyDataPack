@@ -21,7 +21,7 @@
     "grass_color_modifier": "none",
     "particle": {
       "options": {
-        "type": "minecraft:witch"
+        "type": "minecraft:wax_off"
       },
       "probability": 0.001
     },

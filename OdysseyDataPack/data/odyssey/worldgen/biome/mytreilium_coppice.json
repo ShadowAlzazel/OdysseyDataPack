@@ -21,7 +21,7 @@
     "grass_color_modifier": "none",
     "particle": {
       "options": {
-        "type": "minecraft:witch"
+        "type": "minecraft:wax_off"
       },
       "probability": 0.001
     },
@@ -109,38 +109,7 @@
       }
     ],
     "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:sheep",
-        "maxCount": 3,
-        "minCount": 3,
-        "weight": 6
-      },
-      {
-        "type": "minecraft:pig",
-        "maxCount": 3,
-        "minCount": 3,
-        "weight": 6
-      },
-      {
-        "type": "minecraft:chicken",
-        "maxCount": 3,
-        "minCount": 3,
-        "weight": 8
-      },
-      {
-        "type": "minecraft:cow",
-        "maxCount": 3,
-        "minCount": 3,
-        "weight": 6
-      },
-      {
-        "type": "minecraft:rabbit",
-        "maxCount": 6,
-        "minCount": 4,
-        "weight": 10
-      }
-    ],
+    "creature": [],
     "misc": [],
     "monster": [
       {
@@ -169,9 +138,9 @@
       },
       {
         "type": "minecraft:breeze",
-        "maxCount": 3,
+        "maxCount": 2,
         "minCount": 1,
-        "weight": 5
+        "weight": 1
       },
       {
         "type": "minecraft:enderman",

@@ -79,17 +79,29 @@
         "type": "minecraft:spider",
         "maxCount": 6,
         "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:stray",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 200
+      },
+      {
+        "type": "minecraft:skeleton",
+        "maxCount": 6,
+        "minCount": 4,
         "weight": 200
       },
       {
         "type": "minecraft:breeze",
-        "maxCount": 3,
+        "maxCount": 2,
         "minCount": 1,
-        "weight": 5
+        "weight": 1
       },
       {
         "type": "minecraft:enderman",
-        "maxCount": 4,
+        "maxCount": 2,
         "minCount": 1,
         "weight": 10
       }

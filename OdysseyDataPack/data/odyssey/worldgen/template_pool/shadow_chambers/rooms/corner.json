@@ -3,7 +3,7 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 3,
+      "weight": 2,
       "element": {
         "location": "odyssey:shadow_chambers/room_corner_1",
         "element_type": "minecraft:single_pool_element",
@@ -21,7 +21,7 @@
       }
     },
     {
-      "weight": 1,
+      "weight": 2,
       "element": {
         "location": "odyssey:shadow_chambers/room_corner_3",
         "element_type": "minecraft:single_pool_element",
@@ -30,7 +30,7 @@
       }
     },
     {
-      "weight": 1,
+      "weight": 2,
       "element": {
         "location": "odyssey:shadow_chambers/room_corner_4",
         "element_type": "minecraft:single_pool_element",
@@ -57,7 +57,7 @@
       }
     },
     {
-      "weight": 5,
+      "weight": 2,
       "element": {
         "location": "odyssey:shadow_chambers/room_corner_7",
         "element_type": "minecraft:single_pool_element",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "weight": 6,
+      "weight": 5,
       "element": {
         "location": "odyssey:shadow_chambers/room_corner_9",
         "element_type": "minecraft:single_pool_element",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "weight": 6,
+      "weight": 5,
       "element": {
         "location": "odyssey:shadow_chambers/room_corner_10",
         "element_type": "minecraft:single_pool_element",
@@ -96,6 +96,51 @@
       "weight": 3,
       "element": {
         "location": "odyssey:shadow_chambers/room_corner_11",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "odyssey:shadow_chambers/room_corner_12",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:shadow_chambers/room_corner_13",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "odyssey:shadow_chambers/room_corner_14",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "odyssey:shadow_chambers/room_corner_15",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:shadow_chambers/room_corner_16",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"

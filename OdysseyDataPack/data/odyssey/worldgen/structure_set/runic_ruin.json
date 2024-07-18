@@ -1,9 +1,9 @@
 {
   "placement": {
     "type": "minecraft:random_spread",
-    "salt": 370666,
-    "separation": 11,
-    "spacing": 22
+    "salt": 37503705,
+    "separation": 7,
+    "spacing": 10
   },
   "structures": [
     {
@@ -16,6 +16,14 @@
     },
     {
       "structure": "odyssey:runic_ruins/tatami_ruins",
+      "weight": 2
+    },
+    {
+      "structure": "odyssey:runic_ruins/jaezhou_ruins",
+      "weight": 1
+    },
+    {
+      "structure": "odyssey:runic_ruins/soraciela_ruins",
       "weight": 2
     }
   ]
