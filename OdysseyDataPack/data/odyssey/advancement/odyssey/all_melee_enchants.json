@@ -443,6 +443,23 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "enchantment_magic_touch": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanted_book",
+            "predicates": {
+              "minecraft:stored_enchantments": [
+                {
+                  "enchantments": "odyssey:magic_touch"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "enchantment_pestilence": {
       "conditions": {
         "items": [
@@ -662,6 +679,9 @@
     ],
     [
       "enchantment_invocative"
+    ],
+    [
+      "enchantment_magic_touch"
     ],
     [
       "enchantment_pestilence"

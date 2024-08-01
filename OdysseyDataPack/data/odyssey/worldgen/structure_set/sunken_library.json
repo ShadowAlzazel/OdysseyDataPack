@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 404101303,
+    "separation": 22,
+    "spacing": 33
+  },
+  "structures": [
+    {
+      "structure": "odyssey:sunken_library",
+      "weight": 1
+    }
+  ]
+}

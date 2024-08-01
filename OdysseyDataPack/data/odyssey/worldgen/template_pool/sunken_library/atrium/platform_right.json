@@ -1,0 +1,15 @@
+{
+  "name": "odyssey:sunken_library/atrium/platform_right",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:sunken_library/atrium_platform_r1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

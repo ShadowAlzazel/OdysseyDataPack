@@ -1,16 +1,17 @@
 {
-  "anvil_cost": 6,
+  "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.odyssey.conflagrate"
+    "translate": "enchantment.odyssey.magic_touch",
+    "fallback": "Magic Touch"
   },
   "effects": {},
   "max_cost": {
-    "base": 15,
+    "base": 11,
     "per_level_above_first": 8
   },
-  "max_level": 3,
+  "max_level": 5,
   "min_cost": {
-    "base": 10,
+    "base": 2,
     "per_level_above_first": 8
   },
   "slots": [
@@ -18,5 +19,5 @@
   ],
   "primary_items": "#minecraft:enchantable/sword",
   "supported_items": "#odyssey:enchantable/melee",
-  "weight": 2
+  "weight": 3
 }
