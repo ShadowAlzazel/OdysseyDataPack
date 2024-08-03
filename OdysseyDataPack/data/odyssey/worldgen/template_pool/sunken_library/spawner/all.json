@@ -1,11 +1,11 @@
 {
-  "name": "odyssey:sunken_library/bridge/platform",
+  "name": "odyssey:sunken_library/spawner/all",
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 1,
+      "weight": 3,
       "element": {
-        "location": "odyssey:sunken_library/bridge_platform_1",
+        "location": "odyssey:sunken_library/spawner_skeleton_library",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"
@@ -14,7 +14,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "odyssey:sunken_library/bridge_platform_2",
+        "location": "odyssey:sunken_library/spawner_vanguard_library",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"
@@ -23,7 +23,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "odyssey:sunken_library/bridge_platform_3",
+        "location": "odyssey:sunken_library/spawner_giant_spider_library",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"
