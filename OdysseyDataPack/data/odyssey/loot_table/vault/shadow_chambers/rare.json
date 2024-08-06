@@ -23,26 +23,25 @@
           "weight": 8
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/silver_ingot",
           "functions": [
             {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6906619,
-                "minecraft:item_name": "silver_ingot"
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 2.0
               },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Silver Ingot",
-                "bold": false,
-                "italic": false
-              }
-            },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/titanium_ingot",
+          "functions": [
             {
               "add": false,
               "count": {
@@ -53,100 +52,33 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:brick",
-          "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6905632
-              },
-              "conditions": []
-            }
-          ],
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:paper",
-          "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6906503,
-                "minecraft:item_name": "imperial_armor_trim_smithing_template"
-              },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Smithing Template",
-                "bold": false,
-                "italic": false
-              }
-            }
-          ],
           "weight": 3
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:book",
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/imperial_armor_trim_smithing_template",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/blank_tome",
           "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6906000,
-                "minecraft:item_name": "blank_tome"
-              },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Blank Tome",
-                "bold": false,
-                "italic": false
-              }
-            },
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 3.0
+                "max": 4.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 3
+          "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/iridium_ingot",
           "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6906878,
-                "minecraft:item_name": "iridium_ingot"
-              },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Iridium Ingot",
-                "bold": false,
-                "italic": false
-              }
-            },
             {
               "add": false,
               "count": {
@@ -157,40 +89,23 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 3
+          "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/mithril_ingot",
           "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6906777,
-                "minecraft:item_name": "mithril_ingot"
-              },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Mithril Ingot",
-                "bold": false,
-                "italic": false
-              }
-            },
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
+                "max": 2.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 3
+          "weight": 2
         },
         {
           "type": "minecraft:item",

@@ -1,7 +1,0 @@
-{
-  "asset_id": "odyssey:alpine",
-  "description": {
-    "translate": "trim_pattern.odyssey.alpine"
-  },
-  "template_item": "minecraft:book"
-}

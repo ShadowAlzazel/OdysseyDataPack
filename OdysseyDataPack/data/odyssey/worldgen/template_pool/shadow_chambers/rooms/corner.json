@@ -145,6 +145,15 @@
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "odyssey:shadow_chambers/room_corner_17",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
     }
   ]
 }

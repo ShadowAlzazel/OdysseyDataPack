@@ -35,26 +35,9 @@
           "weight": 5
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:book",
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/blank_tome",
           "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6906000,
-                "minecraft:item_name": "blank_tome"
-              },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Blank Tome",
-                "bold": false,
-                "italic": false
-              }
-            },
             {
               "add": false,
               "count": {
@@ -65,135 +48,71 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 4
+          "weight": 1
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/ruby",
           "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6905106,
-                "minecraft:item_name": "ruby"
-              },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Ruby",
-                "bold": false,
-                "italic": false
-              }
-            },
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
+                "max": 4.0,
                 "min": 2.0
               },
               "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "weight": 1
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/jade",
           "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6905107,
-                "minecraft:item_name": "jade"
-              },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Jade",
-                "bold": false,
-                "italic": false
-              }
-            },
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
+                "max": 4.0,
                 "min": 2.0
               },
               "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "weight": 1
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/kunzite",
           "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6905108,
-                "minecraft:item_name": "kunzite"
-              },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Kunzite",
-                "bold": false,
-                "italic": false
-              }
-            },
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
+                "max": 4.0,
                 "min": 2.0
               },
               "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "weight": 1
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/alexandrite",
           "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6905109,
-                "minecraft:item_name": "alexandrite"
-              },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Alexandrite",
-                "bold": false,
-                "italic": false
-              }
-            },
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
+                "max": 4.0,
                 "min": 2.0
               },
               "function": "minecraft:set_count"
             }
-          ]
+          ],
+          "weight": 1
         },
         {
           "type": "minecraft:item",
@@ -202,48 +121,17 @@
           "weight": 3
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/titanium_ingot",
           "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6906879,
-                "minecraft:item_name": "titanium_ingot"
-              },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Titanium Ingot",
-                "bold": false,
-                "italic": false
-              }
-            },
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 3.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
-            }
-          ],
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:brick",
-          "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6905632
-              },
-              "conditions": []
             }
           ],
           "weight": 2
@@ -274,6 +162,16 @@
               "function": "minecraft:set_count"
             }
           ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/mithril_ingot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/imperial_armor_trim_smithing_template",
           "weight": 1
         },
         {
@@ -387,54 +285,6 @@
           ],
           "name": "minecraft:diamond_shovel",
           "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:paper",
-          "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6906503,
-                "minecraft:item_name": "imperial_armor_trim_smithing_template"
-              },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Smithing Template",
-                "bold": false,
-                "italic": false
-              }
-            }
-          ],
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
-          "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6906777,
-                "minecraft:item_name": "mithril_ingot"
-              },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Mithril Ingot",
-                "bold": false,
-                "italic": false
-              }
-            }
-          ],
-          "weight": 1
         }
       ]
     }

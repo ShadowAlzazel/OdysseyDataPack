@@ -6,55 +6,19 @@
       "bonus_rolls": 1.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:trial_key",
-          "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6906707,
-                "minecraft:item_name": "shadow_trial_key"
-              },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Shadow Trial Key",
-                "bold": false,
-                "italic": false
-              }
-            }
-          ],
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/shadow_trial_key",
           "weight": 9
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/silver_ingot",
           "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6906619,
-                "minecraft:item_name": "silver_ingot"
-              },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Silver Ingot",
-                "bold": false,
-                "italic": false
-              }
-            },
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 3.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"

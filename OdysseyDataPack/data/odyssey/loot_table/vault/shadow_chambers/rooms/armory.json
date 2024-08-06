@@ -23,25 +23,17 @@
           "weight": 1
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/mithril_ingot",
           "functions": [
             {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6906777,
-                "minecraft:item_name": "mithril_ingot"
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
               },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Mithril Ingot",
-                "bold": false,
-                "italic": false
-              }
+              "function": "minecraft:set_count"
             }
           ],
           "weight": 2
