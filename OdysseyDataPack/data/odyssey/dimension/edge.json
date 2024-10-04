@@ -127,6 +127,36 @@
           }
         },
         {
+          "biome": "odyssey:faded_bog",
+          "parameters": {
+            "continentalness": [
+              0.0,
+              0.6
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.5,
+              0.5
+            ],
+            "humidity": [
+              -0.3,
+              0.3
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -0.3,
+              0.0
+            ],
+            "weirdness": [
+              0.4,
+              0.9
+            ]
+          }
+        },
+        {
           "biome": "odyssey:cardinal_fields",
           "parameters": {
             "continentalness": [

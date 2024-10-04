@@ -1,9 +1,54 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "enchantment.odyssey.moonpatch"
+    "translate": "enchantment.odyssey.moonpatch",
+    "fallback": "Moonopatch"
   },
-  "effects": {},
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:change_item_damage",
+          "amount": -1
+        },
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "can_see_sky": true
+                }
+              }
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": 12000,
+                "max": 24000
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:weather_check",
+              "clear": true,
+              "thundering": false,
+              "raining": false
+            },
+            {
+              "chance": {
+                "type": "minecraft:enchantment_level",
+                "amount": 0.05
+              },
+              "condition": "minecraft:random_chance"
+            }
+          ]
+        }
+      }
+    ]
+  },
   "exclusive_set": "#odyssey:exclusive_set/durability_repair",
   "max_cost": {
     "base": 30,
@@ -14,9 +59,7 @@
     "base": 15,
     "per_level_above_first": 15
   },
-  "slots": [
-    "any"
-  ],
+  "slots": ["any"],
   "supported_items": "#minecraft:enchantable/durability",
   "weight": 1
 }

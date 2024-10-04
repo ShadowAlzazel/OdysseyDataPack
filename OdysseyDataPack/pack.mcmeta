@@ -1,11 +1,12 @@
 {
   "features": {
     "enabled": [
-      "minecraft:trade_rebalance"
+      "minecraft:trade_rebalance",
+      "minecraft:winter_drop"
     ]
   },
   "pack": {
-    "pack_format": 48,
+    "pack_format": 56,
     "description": {
       "translate": "The Odyssey accompanying datapack!"
     }

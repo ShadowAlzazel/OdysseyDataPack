@@ -4,13 +4,11 @@
   "downfall": 0.5,
   "player_spawn_friendly": true,
   "creature_spawn_probability": 0.4,
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
   "effects": {
     "sky_color": 7972607,
     "fog_color": 12638463,
@@ -43,8 +41,7 @@
       "minecraft:monster_room_deep"
     ],
     [],
-    [
-    ],
+    [],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",

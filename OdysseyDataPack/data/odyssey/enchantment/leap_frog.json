@@ -11,8 +11,8 @@
           "base": 0.35,
           "per_level_above_first": 0.35
         },
-        "attribute": "minecraft:generic.jump_strength",
-        "id": "odyssey:enchantment.leap_frog_jump",
+        "attribute": "minecraft:jump_strength",
+        "id": "odyssey:enchantment.leap_frog.jump",
         "operation": "add_multiplied_base"
       },
       {
@@ -21,8 +21,8 @@
           "base": 2.0,
           "per_level_above_first": 1.0
         },
-        "attribute": "minecraft:generic.safe_fall_distance",
-        "id": "odyssey:enchantment.leap_frog_fall",
+        "attribute": "minecraft:safe_fall_distance",
+        "id": "odyssey:enchantment.leap_frog.fall",
         "operation": "add_value"
       }
     ]

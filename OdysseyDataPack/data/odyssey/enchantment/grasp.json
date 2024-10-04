@@ -11,8 +11,8 @@
           "base": 1.0,
           "per_level_above_first": 0.5
         },
-        "attribute": "minecraft:player.block_interaction_range",
-        "id": "odyssey:enchantment.odyssey.grasp",
+        "attribute": "minecraft:block_interaction_range",
+        "id": "odyssey:enchantment.grasp",
         "operation": "add_value"
       }
     ]

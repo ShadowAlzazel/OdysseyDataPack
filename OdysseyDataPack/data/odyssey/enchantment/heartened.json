@@ -11,7 +11,7 @@
           "base": 0.1,
           "per_level_above_first": 0.1
         },
-        "attribute": "minecraft:generic.max_health",
+        "attribute": "minecraft:max_health",
         "id": "odyssey:enchantment.heartened",
         "operation": "add_multiplied_base"
       }

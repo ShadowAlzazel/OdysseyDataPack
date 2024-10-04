@@ -12,7 +12,7 @@
           "base": 0.1,
           "per_level_above_first": 0.1
         },
-        "attribute": "minecraft:player.block_break_speed",
+        "attribute": "minecraft:block_break_speed",
         "id": "odyssey:enchantment.expedite",
         "operation": "add_multiplied_base"
       }
