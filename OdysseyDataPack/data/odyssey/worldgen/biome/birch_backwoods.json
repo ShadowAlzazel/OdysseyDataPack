@@ -17,12 +17,18 @@
     "foliage_color": 8572226,
     "grass_color": 9294183,
     "grass_color_modifier": "none",
-    "music": {
-      "sound": "minecraft:music.overworld.meadow",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    },
+    "music": [
+      {
+        "data": {
+          "max_delay": 12000,
+          "min_delay": 6000,
+          "replace_current_music": false,
+          "sound": "minecraft:music.overworld.meadow"
+        },
+        "weight": 1
+      }
+    ],
+    "music_volume": 1.0,
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,

@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_name": "silver_chestplate",
+                "minecraft:equippable": {
+                  "asset_id": "odyssey:silver",
+                  "slot": "chest",
+                  "equip_sound": "item.armor.equip_chain"
+                },
+                "minecraft:item_model": "odyssey:silver_chestplate"
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Silver Chestplate",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "amount": 6,
+                  "id": "odyssey:item.base_armor.chestplate",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "minecraft:armor_toughness",
+                  "operation": "add_value",
+                  "amount": 1,
+                  "id": "odyssey:item.base_armor_toughness.chestplate",
+                  "slot": "chest"
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

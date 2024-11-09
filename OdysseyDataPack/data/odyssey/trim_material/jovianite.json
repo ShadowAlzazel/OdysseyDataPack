@@ -1,0 +1,8 @@
+{
+  "asset_name": "jovianite",
+  "description": {
+    "color": "#c2dd17",
+    "translate": "Jovianite"
+  },
+  "ingredient": "minecraft:jigsaw"
+}

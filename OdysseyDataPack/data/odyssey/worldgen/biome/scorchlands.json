@@ -23,14 +23,19 @@
       },
       "probability": 0.001
     },
-    "music": {
-      "sound": {
-        "sound_id": "odyssey:music.dimension.edge"
-      },
-      "min_delay": 6000,
-      "max_delay": 12000,
-      "replace_current_music": false
-    },
+      "music": [
+      {
+        "data": {
+          "max_delay": 12000,
+          "min_delay": 6000,
+          "replace_current_music": false,
+          "sound": {
+            "sound_id": "odyssey:music.dimension.edge"
+          }
+        },
+        "weight": 1
+      }
+    ],
     "additions_sound": {
       "sound": "minecraft:ambient.crimson_forest.additions",
       "tick_chance": 0.0111
