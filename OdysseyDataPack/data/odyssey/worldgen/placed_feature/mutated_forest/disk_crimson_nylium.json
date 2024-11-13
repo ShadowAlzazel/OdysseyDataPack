@@ -1,20 +1,17 @@
 {
-    "feature": "odyssey:mutated/patch_vegetation",
-    "placement": [
+    "feature": "odyssey:mutated_forest/disk_crimson_nylium",
+    "placement": [ 
+      
       {
         "type": "minecraft:count",
         "count": 1
-      },
-      {
-        "type": "minecraft:rarity_filter",
-        "chance": 2
       },
       {
         "type": "minecraft:in_square"
       },
       {
         "type": "minecraft:heightmap",
-        "heightmap": "MOTION_BLOCKING"
+        "heightmap": "WORLD_SURFACE_WG"
       },
       {
         "type": "minecraft:biome"

@@ -1,10 +1,9 @@
 {
-    "feature": "odyssey:mutated/disk_crimson_nylium",
-    "placement": [ 
-      
+    "feature": "odyssey:mutated_forest/patch_grass",
+    "placement": [
       {
         "type": "minecraft:count",
-        "count": 1
+        "count": 3
       },
       {
         "type": "minecraft:in_square"

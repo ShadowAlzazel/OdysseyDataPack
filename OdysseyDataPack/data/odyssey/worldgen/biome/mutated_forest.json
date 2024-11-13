@@ -63,7 +63,7 @@
       "odyssey:generic/disk_podzol",
       "odyssey:generic/disk_dirt_path",
       "odyssey:generic/disk_rooted_dirt",
-      "odyssey:mutated/disk_crimson_nylium"
+      "odyssey:mutated_forest/disk_crimson_nylium"
     ],
     [
       "minecraft:ore_dirt",
@@ -101,10 +101,10 @@
     ],
     [
       "minecraft:glow_lichen",
-      "odyssey:mutated/trees",
-      "odyssey:mutated/patch_crimson_roots",
-      "odyssey:mutated/patch_grass_normal",
-      "odyssey:mutated/patch_vegetation",
+      "odyssey:mutated_forest/trees",
+      "odyssey:mutated_forest/patch_crimson_roots",
+      "odyssey:mutated_forest/patch_grass_normal",
+      "odyssey:mutated_forest/patch_vegetation",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal"
     ],
