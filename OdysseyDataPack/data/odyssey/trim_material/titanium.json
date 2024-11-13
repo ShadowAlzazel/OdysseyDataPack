@@ -2,7 +2,8 @@
   "asset_name": "titanium",
   "description": {
     "color": "#d9d9bd",
-    "translate": "Titanium"
+    "translate": "trim_material.odyssey.titanium",
+    "fallback": "Titanium Material"
   },
   "ingredient": "minecraft:jigsaw"
 }

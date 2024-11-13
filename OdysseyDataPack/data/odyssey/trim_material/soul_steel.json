@@ -1,0 +1,9 @@
+{
+  "asset_name": "soul_steel",
+  "description": {
+    "color": "#607590",
+    "translate": "trim_material.odyssey.soul_steel",
+    "fallback": "Soul Steel Material"
+  },
+  "ingredient": "minecraft:jigsaw"
+}

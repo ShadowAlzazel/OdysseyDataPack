@@ -2,7 +2,8 @@
   "asset_name": "iridium",
   "description": {
     "color": "#842ec9",
-    "translate": "Iridium"
+    "translate": "trim_material.odyssey.iridium",
+    "fallback": "Iridium Material"
   },
   "ingredient": "minecraft:jigsaw"
 }

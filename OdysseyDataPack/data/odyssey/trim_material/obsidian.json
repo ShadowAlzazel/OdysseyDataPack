@@ -2,7 +2,8 @@
   "asset_name": "obsidian",
   "description": {
     "color": "#271e3d",
-    "translate": "Obsidian"
+    "translate": "trim_material.odyssey.obsidian",
+    "fallback": "Obsidian Material"
   },
   "ingredient": "minecraft:jigsaw"
 }
