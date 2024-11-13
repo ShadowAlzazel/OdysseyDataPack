@@ -1,5 +1,5 @@
 {
-    "feature": "odyssey:inazuma/flowers_gems",
+    "feature": "odyssey:inazuma_forest/flowers_pink",
     "placement": [
       {
         "type": "minecraft:count",
@@ -7,7 +7,7 @@
       },
       {
         "type": "minecraft:rarity_filter",
-        "chance": 2
+        "chance": 3
       },
       {
         "type": "minecraft:in_square"

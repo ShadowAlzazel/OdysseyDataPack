@@ -1,16 +1,16 @@
 {
-  "feature": "odyssey:alpha/trees",
+  "feature": "odyssey:inazuma_forest/trees",
   "placement": [
     {
       "type": "count",
-      "count": 4
+      "count": 11
     },
     {
       "type": "minecraft:in_square"
     },
     {
       "type": "heightmap",
-      "heightmap": "WORLD_SURFACE_WG"
+      "heightmap": "WORLD_SURFACE"
     },
     {
       "type": "minecraft:block_predicate_filter",
@@ -23,7 +23,7 @@
           "minecraft:grass_block",
           "minecraft:dirt",
           "minecraft:coarse_dirt",
-          "minecraft:rooted_dirt"
+          "minecraft:moss_block"
         ]
       }
     },

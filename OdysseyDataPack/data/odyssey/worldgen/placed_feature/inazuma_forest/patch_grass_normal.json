@@ -1,5 +1,5 @@
 {
-  "feature": "odyssey:inazuma/patch_grass",
+  "feature": "odyssey:inazuma_forest/patch_grass",
   "placement": [
     {
       "type": "minecraft:count",

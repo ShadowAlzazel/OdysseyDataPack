@@ -4,15 +4,15 @@
     "features": [
       {
         "chance": 0.45,
-        "feature": "odyssey:inazuma/brush_birch"
+        "feature": "odyssey:inazuma_forest/brush_birch"
       },
       {
         "chance": 0.55,
-        "feature": "odyssey:inazuma/brush_purple"
+        "feature": "odyssey:inazuma_forest/brush_purple"
       }
     ],
     "default": {
-      "feature": "odyssey:inazuma/brush_purple",
+      "feature": "odyssey:inazuma_forest/brush_purple",
       "placement": []
     }
   }

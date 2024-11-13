@@ -95,18 +95,18 @@
     [],
     [
       "minecraft:glow_lichen",
-      "odyssey:inazuma/trees",
-      "odyssey:inazuma/patch_grass_normal",
-      "odyssey:inazuma/patch_azalea",
+      "odyssey:inazuma_forest/trees",
+      "odyssey:inazuma_forest/patch_grass_normal",
+      "odyssey:inazuma_forest/patch_azalea",
       "minecraft:flower_cherry",
-      "odyssey:inazuma/flowers_gems",
-      "odyssey:inazuma/flowers_pink",
-      "odyssey:inazuma/flowers_blue",
-      "odyssey:inazuma/brushes"
+      "odyssey:inazuma_forest/flowers_gems",
+      "odyssey:inazuma_forest/flowers_pink",
+      "odyssey:inazuma_forest/flowers_blue",
+      "odyssey:inazuma_forest/brushes"
     ],
     [
       "minecraft:freeze_top_layer",
-      "odyssey:inazuma/glow_vines_trees"
+      "odyssey:inazuma_forest/glow_vines_trees"
     ]
   ],
   "spawn_costs": {},

@@ -3,7 +3,6 @@
     "odyssey:cave/darklight_caves",
     "odyssey:cave/lumenshroom_undergrowth",
     "odyssey:aetherial_woods",
-    "odyssey:alpha_test_zone",
     "odyssey:cardinal_fields",
     "odyssey:inazuma_forest",
     "odyssey:lumenshroom_grove",
@@ -13,6 +12,7 @@
     "odyssey:ordinal_plains",
     "odyssey:silmen_mire",
     "odyssey:scorchlands",
-    "odyssey:spectral_gap"
+    "odyssey:spectral_gap",
+    "odyssey:faded_bog"
   ]
 }
