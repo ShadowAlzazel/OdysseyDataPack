@@ -24,7 +24,7 @@
         "count": 1,
         "id": "minecraft:diamond_sword",
         "components": {
-          "minecraft:custom_model_data": 6905745,
+          "minecraft:item_model": "odyssey:diamond_claymore",
           "minecraft:item_name": "diamond_claymore"
         }
       },

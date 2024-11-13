@@ -9,7 +9,7 @@
       "count": 1,
       "id": "minecraft:potion",
       "components": {
-        "minecraft:custom_model_data": 6905317,
+        "minecraft:item_model": "odyssey:pearshape_potion",
         "minecraft:item_name": "pearshape_potion"
       }
     },

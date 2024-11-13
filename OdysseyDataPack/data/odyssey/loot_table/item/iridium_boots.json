@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_name": "iridium_boots",
+                "minecraft:equippable": {
+                  "asset_id": "odyssey:iridium",
+                  "slot": "feet",
+                  "equip_sound": "item.armor.equip_chain"
+                },
+                "minecraft:item_model": "odyssey:iridium_boots"
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Iridium Boots",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "amount": 3,
+                  "id": "odyssey:item.base_armor.boots",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "minecraft:armor_toughness",
+                  "operation": "add_value",
+                  "amount": 2,
+                  "id": "odyssey:item.base_armor_toughness.boots",
+                  "slot": "feet"
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

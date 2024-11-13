@@ -95,32 +95,15 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:book",
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/blank_tome",
           "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6906000,
-                "minecraft:item_name": "blank_tome"
-              },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Blank Tome",
-                "bold": false,
-                "italic": false
-              }
-            },
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 3.0
+                "max": 4.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }

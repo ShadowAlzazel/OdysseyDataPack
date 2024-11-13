@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_name": "runesherd",
+                "minecraft:item_model": "odyssey:runesherd"
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Unknown Runesherd",
+                "bold": false,
+                "italic": false
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

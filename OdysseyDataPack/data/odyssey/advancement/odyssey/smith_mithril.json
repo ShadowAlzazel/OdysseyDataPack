@@ -1,0 +1,29 @@
+{
+  "parent": "odyssey:odyssey/find_obelisk",
+  "display": {
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:paper",
+      "components": {
+        "minecraft:item_model": "odyssey:mithril_upgrade_template",
+        "minecraft:item_name": "mithril_upgrade_template"
+      }
+    },
+    "title": {
+      "translate": "Khazad-dum"
+    },
+    "description": {
+      "translate": "Create a Mithril tool using a Mithril Ingot from a Shadow Chamber and an Upgrade Template."
+    }
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

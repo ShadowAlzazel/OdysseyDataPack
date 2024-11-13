@@ -5,30 +5,9 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:brick",
-          "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6905632
-              },
-              "conditions": []
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:brick",
-          "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6905632
-              },
-              "conditions": []
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "odyssey:loot/unknown_runesherd",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -59,27 +38,9 @@
           "name": "minecraft:copper_ingot"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
-          "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6906619,
-                "minecraft:item_name": "silver_ingot"
-              },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Silver Ingot",
-                "bold": false,
-                "italic": false
-              }
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/silver_ingot",
+          "weight": 1
         }
       ],
       "rolls": 1.0

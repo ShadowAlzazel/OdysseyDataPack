@@ -9,7 +9,7 @@
       "count": 1,
       "id": "minecraft:book",
       "components": {
-        "minecraft:custom_model_data": 6906000,
+        "minecraft:item_model": "odyssey:blank_tome",
         "minecraft:item_name": "blank_tome"
       }
     },

@@ -573,6 +573,65 @@
                   "if_true": {
                     "type": "minecraft:biome",
                     "biome_is": [
+                      "odyssey:faded_bog"
+                    ]
+                  },
+                  "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:noise_threshold",
+                          "max_threshold": -0.178,
+                          "min_threshold": -4.92,
+                          "noise": "odyssey:faded_bog/pool"
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:mud"
+                          }
+                        }
+                      },
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:noise_threshold",
+                          "max_threshold": 0.212,
+                          "min_threshold": -0.178,
+                          "noise": "odyssey:faded_bog/pool"
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:pale_moss_block"
+                          }
+                        }
+                      },
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:noise_threshold",
+                          "max_threshold": 0.243,
+                          "min_threshold": 0.137,
+                          "noise": "odyssey:faded_bog/surface"
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:pale_moss_block"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:biome",
+                    "biome_is": [
                       "odyssey:cave/darklight_caves"
                     ]
                   },

@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_name": "titanium_leggings",
+                "minecraft:equippable": {
+                  "asset_id": "odyssey:titanium",
+                  "slot": "legs",
+                  "equip_sound": "item.armor.equip_chain"
+                },
+                "minecraft:item_model": "odyssey:titanium_leggings"
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Titanium Leggings",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "amount": 5,
+                  "id": "odyssey:item.base_armor.leggings",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "minecraft:armor_toughness",
+                  "operation": "add_value",
+                  "amount": 1,
+                  "id": "odyssey:item.base_armor_toughness.leggings",
+                  "slot": "legs"
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

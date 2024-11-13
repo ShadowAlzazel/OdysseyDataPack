@@ -11,7 +11,7 @@
           "base": 0.1,
           "per_level_above_first": 0.1
         },
-        "attribute": "minecraft:generic.knockback_resistance",
+        "attribute": "minecraft:knockback_resistance",
         "id": "odyssey:enchantment.root_boots",
         "operation": "add_multiplied_base"
       }

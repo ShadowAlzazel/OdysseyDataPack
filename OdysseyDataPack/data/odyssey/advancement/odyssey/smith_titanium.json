@@ -1,0 +1,29 @@
+{
+  "parent": "odyssey:odyssey/find_biome",
+  "display": {
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:paper",
+      "components": {
+        "minecraft:item_model": "odyssey:titanium_upgrade_template",
+        "minecraft:item_name": "titanium_upgrade_template"
+      }
+    },
+    "title": {
+      "translate": "Light, Hard, and Fast"
+    },
+    "description": {
+      "translate": "Create a Titanium tool using a Titanium Ingot from a Trial Chamber and an Upgrade Template."
+    }
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

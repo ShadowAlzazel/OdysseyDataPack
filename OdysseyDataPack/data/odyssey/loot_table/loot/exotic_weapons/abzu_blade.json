@@ -10,7 +10,7 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 6909602,
+                "minecraft:item_model": "odyssey:abzu_blade",
                 "minecraft:item_name": "abzu_blade",
                 "minecraft:rarity": "epic",
                 "minecraft:max_damage": 3109
@@ -38,28 +38,28 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "minecraft:generic.attack_damage",
+                  "attribute": "minecraft:attack_damage",
                   "operation": "add_value",
                   "amount": 21.0,
                   "id": "odyssey:item.base_attack_damage",
                   "slot": "mainhand"
                 },
                 {
-                  "attribute": "minecraft:generic.attack_speed",
+                  "attribute": "minecraft:attack_speed",
                   "operation": "add_value",
                   "amount": -4.0,
                   "id": "odyssey:item.reset_attack_speed",
                   "slot": "mainhand"
                 },
                 {
-                  "attribute": "minecraft:generic.attack_speed",
+                  "attribute": "minecraft:attack_speed",
                   "operation": "add_value",
                   "amount": 0.8,
                   "id": "odyssey:item.base_attack_speed",
                   "slot": "mainhand"
                 },
                 {
-                  "attribute": "minecraft:player.entity_interaction_range",
+                  "attribute": "minecraft:entity_interaction_range",
                   "operation": "add_value",
                   "amount": 0.7,
                   "id": "odyssey:item.base_entity_range",

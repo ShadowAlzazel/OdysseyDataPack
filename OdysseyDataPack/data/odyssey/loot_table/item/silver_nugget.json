@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_name": "silver_nugget",
+                "minecraft:item_model": "odyssey:silver_nugget"
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Silver Nugget",
+                "bold": false,
+                "italic": false
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

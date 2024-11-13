@@ -5,7 +5,7 @@
   },
   "effects": {},
   "max_cost": {
-    "base": 12,
+    "base": 14,
     "per_level_above_first": 7
   },
   "max_level": 4,
@@ -17,5 +17,5 @@
     "armor"
   ],
   "supported_items": "#minecraft:enchantable/armor",
-  "weight": 5
+  "weight": 4
 }

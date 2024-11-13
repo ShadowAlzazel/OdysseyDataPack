@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_name": "tome_of_replication",
+                "minecraft:item_model": "odyssey:tome_of_replication"
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Tome Of Replication",
+                "bold": false,
+                "italic": false
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -4,13 +4,11 @@
   "downfall": 0.7,
   "player_spawn_friendly": true,
   "creature_spawn_probability": 0.4,
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
   "effects": {
     "sky_color": 7972607,
     "fog_color": 12638463,
@@ -25,12 +23,18 @@
       },
       "probability": 0.001
     },
-    "music": {
-      "sound": "minecraft:music.overworld.jungle",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    },
+    "music": [
+      {
+        "data": {
+          "max_delay": 12000,
+          "min_delay": 6000,
+          "replace_current_music": false,
+          "sound": "minecraft:music.overworld.bamboo_jungle"
+        },
+        "weight": 1
+      }
+    ],
+    "music_volume": 1.0,
     "additions_sound": {
       "sound": "minecraft:ambient.warped_forest.loop",
       "tick_chance": 0.0111

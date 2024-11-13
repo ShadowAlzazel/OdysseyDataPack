@@ -1,16 +1,14 @@
 {
-  "has_precipitation": true,
+  "has_precipitation": false,
   "temperature": 0.3,
   "downfall": 0.3,
   "player_spawn_friendly": true,
   "creature_spawn_probability": 0.4,
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
   "effects": {
     "sky_color": 7972607,
     "fog_color": 13151999,
@@ -19,14 +17,20 @@
     "foliage_color": 10742494,
     "grass_color": 6868090,
     "grass_color_modifier": "none",
-    "music": {
-      "sound": {
-        "sound_id": "odyssey:music.dimension.edge"
-      },
-      "min_delay": 6000,
-      "max_delay": 12000,
-      "replace_current_music": false
-    },
+    "music": [
+      {
+        "data": {
+          "max_delay": 12000,
+          "min_delay": 6000,
+          "replace_current_music": false,
+          "sound": {
+            "sound_id": "odyssey:music.dimension.edge"
+          }
+        },
+        "weight": 1
+      }
+    ],
+    "music_volume": 1.0,
     "additions_sound": {
       "sound": "minecraft:ambient.crimson_forest.additions",
       "tick_chance": 0.0111
@@ -103,16 +107,28 @@
     "misc": [],
     "monster": [
       {
-        "type": "minecraft:breeze",
-        "maxCount": 4,
-        "minCount": 1,
-        "weight": 5
+        "type": "minecraft:stray",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 200
       },
       {
-        "type": "minecraft:stray",
-        "maxCount": 4,
+        "type": "minecraft:skeleton",
+        "maxCount": 6,
         "minCount": 4,
-        "weight": 130
+        "weight": 200
+      },
+      {
+        "type": "minecraft:breeze",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 10
       }
     ],
     "underground_water_creature": [],

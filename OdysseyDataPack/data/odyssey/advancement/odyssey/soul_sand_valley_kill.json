@@ -7,9 +7,9 @@
     "show_toast": true,
     "icon": {
       "count": 1,
-      "id": "minecraft:bone",
+      "id": "minecraft:rotten_flesh",
       "components": {
-        "minecraft:custom_model_data": 6906614,
+        "minecraft:item_model": "odyssey:ectoplasm",
         "minecraft:item_name": "ectoplasm"
       }
     },
@@ -21,14 +21,17 @@
     }
   },
   "criteria": {
-    "killed_spectre": {
+    "soul_sand_valley_kill": {
       "conditions": {
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:skeleton"
+              "type": "minecraft:skeleton",
+              "location": {
+                "biomes": "minecraft:soul_sand_valley"
+              }
             }
           }
         ]
@@ -38,7 +41,7 @@
   },
   "requirements": [
     [
-      "killed_spectre"
+      "soul_sand_valley_kill"
     ]
   ]
 }

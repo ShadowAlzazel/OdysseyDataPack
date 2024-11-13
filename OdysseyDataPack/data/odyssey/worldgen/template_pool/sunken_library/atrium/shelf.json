@@ -1,0 +1,60 @@
+{
+  "name": "odyssey:sunken_library/atrium/shelf",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "odyssey:sunken_library/atrium_shelf_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "odyssey:sunken_library/atrium_shelf_2",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "odyssey:sunken_library/atrium_shelf_3",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "odyssey:sunken_library/atrium_shelf_4",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:sunken_library/atrium_shelf_5",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:sunken_library/atrium_shelf_6",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

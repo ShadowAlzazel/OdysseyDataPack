@@ -9,7 +9,7 @@
       "count": 1,
       "id": "minecraft:paper",
       "components": {
-        "minecraft:custom_model_data": 6906502,
+        "minecraft:item_model": "odyssey:soul_steel_upgrade_template",
         "minecraft:item_name": "soul_steel_upgrade_template"
       }
     },
@@ -17,7 +17,7 @@
       "translate": "Soulbound Smith"
     },
     "description": {
-      "translate": "Craft a Soul Steel tool using a Soul Steel Ingot and an Upgrade Template."
+      "translate": "Create a Soul Steel tool using a Soul Steel Ingot and an Upgrade Template."
     }
   },
   "criteria": {

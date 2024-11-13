@@ -1,22 +1,22 @@
 {
-    "anvil_cost": 8,
-    "description": {
-      "translate": "enchantment.odyssey.pestilence"
-    },
-    "effects": {},
-    "max_cost": {
-      "base": 15,
-      "per_level_above_first": 10
-    },
-    "max_level": 3,
-    "min_cost": {
-      "base": 15,
-      "per_level_above_first": 10
-    },
-    "slots": [
-      "mainhand"
-    ],
-    "primary_items": "#minecraft:enchantable/sword",
-    "supported_items": "#odyssey:enchantable/melee",
-    "weight": 1
-  }
+  "anvil_cost": 8,
+  "description": {
+    "translate": "enchantment.odyssey.pestilence"
+  },
+  "effects": {},
+  "max_cost": {
+    "base": 15,
+    "per_level_above_first": 10
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "primary_items": "#minecraft:enchantable/sword",
+  "supported_items": "#odyssey:enchantable/melee",
+  "weight": 2
+}

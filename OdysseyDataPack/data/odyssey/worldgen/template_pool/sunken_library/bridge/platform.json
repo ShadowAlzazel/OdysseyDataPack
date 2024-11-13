@@ -1,0 +1,33 @@
+{
+  "name": "odyssey:sunken_library/bridge/platform",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:sunken_library/bridge_platform_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:sunken_library/bridge_platform_2",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:sunken_library/bridge_platform_3",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

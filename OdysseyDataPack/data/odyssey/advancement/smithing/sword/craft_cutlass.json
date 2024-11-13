@@ -24,7 +24,8 @@
       "count": 1,
       "id": "minecraft:diamond_sword",
       "components": {
-        "minecraft:custom_model_data": 6905748
+        "minecraft:item_model": "odyssey:diamond_cutlass",
+        "minecraft:item_name": "diamond_cutlass"
       }
     },
     "show_toast": true,

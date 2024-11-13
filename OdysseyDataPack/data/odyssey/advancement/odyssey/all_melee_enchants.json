@@ -443,6 +443,23 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "enchantment_magic_touch": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanted_book",
+            "predicates": {
+              "minecraft:stored_enchantments": [
+                {
+                  "enchantments": "odyssey:magic_touch"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "enchantment_pestilence": {
       "conditions": {
         "items": [
@@ -572,8 +589,8 @@
       "count": 1,
       "id": "minecraft:iron_sword",
       "components": {
-        "minecraft:custom_model_data": 6907653,
-        "minecraft:item_name": "mithril_sword",
+        "minecraft:item_name": "mithril_longsword",
+        "minecraft:item_model": "odyssey:mithril_longsword",
         "minecraft:enchantment_glint_override": true
       }
     },
@@ -662,6 +679,9 @@
     ],
     [
       "enchantment_invocative"
+    ],
+    [
+      "enchantment_magic_touch"
     ],
     [
       "enchantment_pestilence"

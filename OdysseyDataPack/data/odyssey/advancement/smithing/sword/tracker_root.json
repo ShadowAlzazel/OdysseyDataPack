@@ -66,10 +66,7 @@
       "hidden": false,
       "icon": {
         "count": 1,
-        "id": "minecraft:netherite_sword",
-        "components": {
-          "minecraft:custom_model_data": 6905753
-        }
+        "id": "minecraft:netherite_sword"
       },
       "show_toast": true,
       "title": {

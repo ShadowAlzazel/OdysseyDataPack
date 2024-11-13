@@ -1,0 +1,29 @@
+{
+  "parent": "odyssey:odyssey/discharge_a_curse",
+  "display": {
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:item_model": "odyssey:tome_of_promotion",
+        "minecraft:item_name": "tome_of_promotion"
+      }
+    },
+    "title": {
+      "translate": "En Passant"
+    },
+    "description": {
+      "translate": "Use a Promotion Tome to get something to the max!"
+    }
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

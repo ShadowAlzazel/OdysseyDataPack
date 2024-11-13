@@ -5,13 +5,13 @@
   },
   "effects": {},
   "max_cost": {
-    "base": 13,
-    "per_level_above_first": 7
+    "base": 16,
+    "per_level_above_first": 8
   },
   "max_level": 4,
   "min_cost": {
     "base": 7,
-    "per_level_above_first": 7
+    "per_level_above_first": 8
   },
   "slots": [
     "armor"
