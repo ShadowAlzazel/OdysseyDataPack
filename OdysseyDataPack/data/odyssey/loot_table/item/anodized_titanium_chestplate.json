@@ -24,7 +24,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Anodized_Titanium Chestplate",
+                "text": "Anodized Titanium Chestplate",
                 "bold": false,
                 "italic": false
               }

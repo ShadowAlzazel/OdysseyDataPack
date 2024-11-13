@@ -60,7 +60,7 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 6906067,
+                "minecraft:item_model": "odyssey:arcane_book",
                 "minecraft:item_name": "arcane_book"
               },
               "conditions": []

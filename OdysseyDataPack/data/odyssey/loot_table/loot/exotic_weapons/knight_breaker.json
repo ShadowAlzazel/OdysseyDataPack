@@ -10,7 +10,7 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 6909600,
+                "minecraft:item_model": "odyssey:knight_breaker",
                 "minecraft:item_name": "knight_breaker",
                 "minecraft:rarity": "epic",
                 "minecraft:max_damage": 1009

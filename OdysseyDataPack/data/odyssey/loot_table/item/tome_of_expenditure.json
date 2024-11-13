@@ -5,13 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:enchanted_book",
+          "name": "minecraft:paper",
           "functions": [
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 6906073,
-                "minecraft:item_name": "tome_of_expenditure"
+                "minecraft:item_name": "tome_of_expenditure",
+                "minecraft:item_model": "odyssey:tome_of_expenditure"
               },
               "conditions": []
             },
@@ -19,7 +19,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Tome of Expenditure",
+                "text": "Tome Of Expenditure",
                 "bold": false,
                 "italic": false
               }

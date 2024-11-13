@@ -9,7 +9,7 @@
       "count": 1,
       "id": "minecraft:rotten_flesh",
       "components": {
-        "minecraft:custom_model_data": 6903620,
+        "minecraft:item_model": "odyssey:warden_entrails",
         "minecraft:item_name": "warden_entrails"
       }
     },

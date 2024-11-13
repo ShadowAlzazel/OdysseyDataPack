@@ -7,9 +7,9 @@
     "show_toast": true,
     "icon": {
       "count": 1,
-      "id": "minecraft:bone",
+      "id": "minecraft:rotten_flesh",
       "components": {
-        "minecraft:custom_model_data": 6906614,
+        "minecraft:item_model": "odyssey:ectoplasm",
         "minecraft:item_name": "ectoplasm"
       }
     },

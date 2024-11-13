@@ -9,7 +9,7 @@
       "count": 1,
       "id": "minecraft:paper",
       "components": {
-        "minecraft:custom_model_data": 6906505,
+        "minecraft:item_model": "odyssey:iridium_upgrade_template",
         "minecraft:item_name": "iridium_upgrade_template"
       }
     },

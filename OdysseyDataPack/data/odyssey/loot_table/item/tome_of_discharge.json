@@ -5,13 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:enchanted_book",
+          "name": "minecraft:paper",
           "functions": [
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 6906067,
-                "minecraft:item_name": "tome_of_discharge"
+                "minecraft:item_name": "tome_of_discharge",
+                "minecraft:item_model": "odyssey:tome_of_discharge"
               },
               "conditions": []
             },
@@ -19,7 +19,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Tome of Discharge",
+                "text": "Tome Of Discharge",
                 "bold": false,
                 "italic": false
               }

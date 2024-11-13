@@ -5,32 +5,15 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/iridium_ingot",
           "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6906878,
-                "minecraft:item_name": "iridium_ingot"
-              },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Iridium Ingot",
-                "bold": false,
-                "italic": false
-              }
-            },
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 3.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }

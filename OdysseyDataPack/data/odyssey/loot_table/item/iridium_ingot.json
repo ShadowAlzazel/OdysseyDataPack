@@ -10,8 +10,8 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 6906878,
-                "minecraft:item_name": "iridium_ingot"
+                "minecraft:item_name": "iridium_ingot",
+                "minecraft:item_model": "odyssey:iridium_ingot"
               },
               "conditions": []
             },

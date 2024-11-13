@@ -10,8 +10,8 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 6905107,
-                "minecraft:item_name": "jade"
+                "minecraft:item_name": "jade",
+                "minecraft:item_model": "odyssey:jade"
               },
               "conditions": []
             },

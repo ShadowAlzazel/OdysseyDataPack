@@ -6,9 +6,14 @@ abspath = os.path.abspath(__file__)
 dir_name = os.path.dirname(abspath)
 os.chdir(dir_name)
 
+# --------------------------------------------------------------------------
+# --------------------------------------------------------------------------
+# --------------------------------------------------------------------------
+
+
 # List
 equippables = ['helmet', 'chestplate', 'leggings', 'boots']
-materials = ['silver', 'copper', 'titanium', 'anodized_titanium', 'iridium', 'mithril']
+materials = ['silver', 'copper', 'soul_steel', 'titanium', 'anodized_titanium', 'iridium', 'mithril']
 
 # Maps
 body_slots = {
@@ -26,14 +31,20 @@ base_armor_values = {
 material_multipliers = {
     'silver': 2,
     'copper': 1.5,
+    'soul_steel': 2.5,
     'titanium': 2.5,
     'anodized_titanium': 2.5,
     'iridium': 3,
     'mithril': 3,
 }
 
+# --------------------------------------------------------------------------
+# --------------------------------------------------------------------------
+# --------------------------------------------------------------------------
+
+
 # Creation Function
-def write_file(material, equippable):
+def create_armor_file(material, equippable):
     # Create item file name
     filename = f'{material}_{equippable}.json'
     # Vars from maps
@@ -72,7 +83,7 @@ def write_file(material, equippable):
         "function": "minecraft:set_name",
         "entity": "this",
         "name": {
-            "text": f'{material} {equippable}'.title(),
+            "text": f'{material} {equippable}'.replace("_", " ").title(),
             "bold": False,
             "italic": False
         }
@@ -104,18 +115,16 @@ def write_file(material, equippable):
         set_name, 
         set_attributes
     ]
-    
     # Write
     text = json.dumps(base_json, indent=2)
-    # Write the text to opened file
     with open(filename, 'w') as file:
         file.write(text)   
 
 # Function to loop through all combinations
-def creation_loop():
+def populate_files():
     for mat in materials:
         for equip in equippables:
-            write_file(mat, equip)
+            create_armor_file(mat, equip)
         
 # Main
 def main():
@@ -127,7 +136,7 @@ def main():
     # Input
     if answer == "y":
         print("Ok")
-        creation_loop() 
+        populate_files() 
         
 # Main
 if __name__ == "__main__":

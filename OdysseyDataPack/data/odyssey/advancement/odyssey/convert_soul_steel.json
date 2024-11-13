@@ -9,7 +9,7 @@
       "count": 1,
       "id": "minecraft:iron_ingot",
       "components": {
-        "minecraft:custom_model_data": 6906618,
+        "minecraft:item_model": "odyssey:soul_steel_ingot",
         "minecraft:item_name": "soul_steel_ingot"
       }
     },

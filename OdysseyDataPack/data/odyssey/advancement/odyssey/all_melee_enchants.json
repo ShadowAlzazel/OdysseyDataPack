@@ -589,8 +589,8 @@
       "count": 1,
       "id": "minecraft:iron_sword",
       "components": {
-        "minecraft:custom_model_data": 6907653,
-        "minecraft:item_name": "mithril_sword",
+        "minecraft:item_name": "mithril_longsword",
+        "minecraft:item_model": "odyssey:mithril_longsword",
         "minecraft:enchantment_glint_override": true
       }
     },

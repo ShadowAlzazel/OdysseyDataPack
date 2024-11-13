@@ -9,7 +9,7 @@
       "count": 1,
       "id": "minecraft:enchanted_book",
       "components": {
-        "minecraft:custom_model_data": 6906079,
+        "minecraft:item_model": "odyssey:tome_of_imitation",
         "minecraft:item_name": "tome_of_imitation"
       }
     },

@@ -28,7 +28,7 @@
       "count": 1,
       "id": "minecraft:enchanted_book",
       "components": {
-        "minecraft:custom_model_data": 6905501,
+        "minecraft:item_model": "odyssey:arcane_book",
         "minecraft:item_name": "arcane_book"
       }
     },

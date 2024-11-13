@@ -10,7 +10,7 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 6909601,
+                "minecraft:item_model": "odyssey:shogun_lightning",
                 "minecraft:item_name": "shogun_lightning",
                 "minecraft:rarity": "epic",
                 "minecraft:max_damage": 2111

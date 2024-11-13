@@ -15,37 +15,20 @@
           "weight": 3
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/titanium_ingot",
           "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6906879,
-                "minecraft:item_name": "titanium_ingot"
-              },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Titanium Ingot",
-                "bold": false,
-                "italic": false
-              }
-            },
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 3.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 3
+          "weight": 2
         },
         {
           "type": "minecraft:item",

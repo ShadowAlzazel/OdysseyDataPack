@@ -10,7 +10,7 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 6909603,
+                "minecraft:item_model": "odyssey:excalibur",
                 "minecraft:item_name": "excalibur",
                 "minecraft:rarity": "epic",
                 "minecraft:max_damage": 2357

@@ -10,8 +10,8 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 6906000,
-                "minecraft:item_name": "blank_tome"
+                "minecraft:item_name": "blank_tome",
+                "minecraft:item_model": "odyssey:blank_tome"
               },
               "conditions": []
             },

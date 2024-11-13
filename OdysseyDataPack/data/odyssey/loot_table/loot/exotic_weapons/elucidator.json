@@ -10,7 +10,7 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 6909605,
+                "minecraft:item_model": "odyssey:elucidator",
                 "minecraft:item_name": "elucidator",
                 "minecraft:rarity": "epic",
                 "minecraft:max_damage": 2797

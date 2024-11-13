@@ -9,7 +9,7 @@
       "count": 1,
       "id": "minecraft:brick",
       "components": {
-        "minecraft:custom_model_data": 6901453,
+        "minecraft:item_model": "odyssey:assault_runesherd",
         "minecraft:item_name": "assault_runesherd"
       }
     },

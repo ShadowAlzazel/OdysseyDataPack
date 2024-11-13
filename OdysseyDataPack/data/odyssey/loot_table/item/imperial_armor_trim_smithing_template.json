@@ -10,8 +10,8 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 6906503,
-                "minecraft:item_name": "imperial_armor_trim_smithing_template"
+                "minecraft:item_name": "imperial_armor_trim_smithing_template",
+                "minecraft:item_model": "odyssey:imperial_armor_trim_smithing_template"
               },
               "conditions": []
             },
@@ -19,7 +19,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Smithing Template",
+                "text": "Imperial Armor Trim Smithing Template",
                 "bold": false,
                 "italic": false
               }

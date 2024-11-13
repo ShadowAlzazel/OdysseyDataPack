@@ -92,33 +92,20 @@
           "name": "minecraft:ominous_bottle"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/iridium_ingot",
           "functions": [
             {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6906878,
-                "minecraft:item_name": "iridium_ingot"
-              },
-              "conditions": []
-            },
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "text": "Iridium Ingot",
-                "bold": false,
-                "italic": false
-              }
-            },
-            {
               "add": false,
-              "count": 1.0,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 1.0
+              },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 1
+          "weight": 2
         }
       ],
       "rolls": 1.0

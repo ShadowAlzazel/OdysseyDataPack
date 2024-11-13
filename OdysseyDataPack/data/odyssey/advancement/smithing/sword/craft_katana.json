@@ -24,7 +24,8 @@
       "count": 1,
       "id": "minecraft:diamond_sword",
       "components": {
-        "minecraft:custom_model_data": 6905744
+        "minecraft:item_model": "odyssey:diamond_katana",
+        "minecraft:item_name": "diamond_katana"
       }
     },
     "show_toast": true,

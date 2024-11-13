@@ -9,7 +9,7 @@
       "count": 1,
       "id": "minecraft:paper",
       "components": {
-        "minecraft:custom_model_data": 6906504,
+        "minecraft:item_model": "odyssey:titanium_upgrade_template",
         "minecraft:item_name": "titanium_upgrade_template"
       }
     },

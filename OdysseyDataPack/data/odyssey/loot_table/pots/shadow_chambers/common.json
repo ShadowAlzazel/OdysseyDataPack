@@ -39,18 +39,9 @@
           "weight": 100
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:brick",
-          "functions": [
-            {
-              "function": "set_components",
-              "components": {
-                "minecraft:custom_model_data": 6905632
-              },
-              "conditions": []
-            }
-          ],
-          "weight": 50
+          "type": "minecraft:loot_table",
+          "value": "odyssey:loot/unknown_runesherd",
+          "weight": 30
         },
         {
           "type": "minecraft:item",

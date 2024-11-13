@@ -10,7 +10,7 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 6909604,
+                "minecraft:item_model": "odyssey:frost_fang",
                 "minecraft:item_name": "frost_fang",
                 "minecraft:rarity": "epic",
                 "minecraft:max_damage": 1019

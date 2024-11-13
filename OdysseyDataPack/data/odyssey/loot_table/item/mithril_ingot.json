@@ -10,8 +10,8 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 6906777,
-                "minecraft:item_name": "mithril_ingot"
+                "minecraft:item_name": "mithril_ingot",
+                "minecraft:item_model": "odyssey:mithril_ingot"
               },
               "conditions": []
             },

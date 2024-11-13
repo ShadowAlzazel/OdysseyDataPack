@@ -10,8 +10,8 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 6906619,
-                "minecraft:item_name": "silver_ingot"
+                "minecraft:item_name": "silver_ingot",
+                "minecraft:item_model": "odyssey:silver_ingot"
               },
               "conditions": []
             },

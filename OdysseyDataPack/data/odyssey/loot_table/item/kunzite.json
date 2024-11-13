@@ -10,8 +10,8 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 6905108,
-                "minecraft:item_name": "kunzite"
+                "minecraft:item_name": "kunzite",
+                "minecraft:item_model": "odyssey:kunzite"
               },
               "conditions": []
             },

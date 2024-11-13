@@ -10,8 +10,8 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 6905106,
-                "minecraft:item_name": "ruby"
+                "minecraft:item_name": "ruby",
+                "minecraft:item_model": "odyssey:ruby"
               },
               "conditions": []
             },

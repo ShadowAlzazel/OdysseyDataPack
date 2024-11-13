@@ -10,7 +10,7 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 6909602,
+                "minecraft:item_model": "odyssey:abzu_blade",
                 "minecraft:item_name": "abzu_blade",
                 "minecraft:rarity": "epic",
                 "minecraft:max_damage": 3109

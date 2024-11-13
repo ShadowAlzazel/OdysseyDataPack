@@ -5,13 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:enchanted_book",
+          "name": "minecraft:paper",
           "functions": [
             {
               "function": "set_components",
               "components": {
-                "minecraft:custom_model_data": 6906079,
-                "minecraft:item_name": "tome_of_imitation"
+                "minecraft:item_name": "tome_of_imitation",
+                "minecraft:item_model": "odyssey:tome_of_imitation"
               },
               "conditions": []
             },
@@ -19,7 +19,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Tome of Imitation",
+                "text": "Tome Of Imitation",
                 "bold": false,
                 "italic": false
               }

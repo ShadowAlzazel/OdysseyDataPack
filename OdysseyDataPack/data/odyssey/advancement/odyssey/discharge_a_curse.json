@@ -9,7 +9,7 @@
       "count": 1,
       "id": "minecraft:enchanted_book",
       "components": {
-        "minecraft:custom_model_data": 6906067,
+        "minecraft:item_model": "odyssey:tome_of_discharge",
         "minecraft:item_name": "tome_of_discharge"
       }
     },
