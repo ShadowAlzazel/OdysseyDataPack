@@ -93,11 +93,11 @@
       "minecraft:spring_water"
     ],
     [
-      "odyssey:redwood/tree_cores",
-      "odyssey:redwood/redwood_top",
-      "odyssey:redwood/sequoia_top",
-      "odyssey:redwood/trees",
-      "odyssey:redwood/patch_vegatation",
+      "odyssey:redwood_forest/tree_cores",
+      "odyssey:redwood_forest/redwood_top",
+      "odyssey:redwood_forest/sequoia_top",
+      "odyssey:redwood_forest/trees",
+      "odyssey:redwood_forest/patch_vegatation",
       "minecraft:glow_lichen",
       "minecraft:flower_default",
       "minecraft:patch_grass_taiga",

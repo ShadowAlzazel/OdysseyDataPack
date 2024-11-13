@@ -4,15 +4,15 @@
       "features": [
         {
           "chance": 0.45,
-          "feature": "odyssey:redwood/redwood_core"
+          "feature": "odyssey:redwood_forest/redwood_core"
         },
         {
           "chance": 0.55,
-          "feature": "odyssey:redwood/sequoia_core"
+          "feature": "odyssey:redwood_forest/sequoia_core"
         }
       ],
       "default": {
-        "feature": "odyssey:redwood/redwood_core",
+        "feature": "odyssey:redwood_forest/redwood_core",
         "placement": []
       }
     }
