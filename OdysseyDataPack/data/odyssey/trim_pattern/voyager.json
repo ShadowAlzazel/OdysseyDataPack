@@ -1,0 +1,8 @@
+{
+  "asset_id": "odyssey:voyager",
+  "description": {
+    "translate": "trim_pattern.odyssey.voyager",
+    "fallback": "Voyager Armor Trim"
+  },
+  "template_item": "minecraft:trial_key"
+}

@@ -12,25 +12,31 @@
                 "data": {
                   "Name": "minecraft:short_grass"
                 },
-                "weight": 14
+                "weight": 25
               },
               {
                 "data": {
                   "Name": "minecraft:tall_grass"
                 },
-                "weight": 2
+                "weight": 5
               },
               {
                 "data": {
                   "Name": "minecraft:crimson_roots"
                 },
-                "weight": 12
+                "weight": 20
               },
               {
                 "data": {
                   "Name": "minecraft:torchflower"
                 },
-                "weight": 1
+                "weight": 2
+              },
+              {
+                "data": {
+                  "Name": "minecraft:open_eyeblossom"
+                },
+                "weight": 2
               }
             ]
           }
