@@ -4,5 +4,5 @@
     "translate": "trim_pattern.odyssey.arcane",
     "fallback": "Arcane Armor Trim"
   },
-  "template_item": "minecraft:book"
+  "template_item": "minecraft:trial_key"
 }

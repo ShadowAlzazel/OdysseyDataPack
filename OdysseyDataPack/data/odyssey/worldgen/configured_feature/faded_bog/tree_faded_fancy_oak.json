@@ -4,8 +4,8 @@
     "decorators": [
       {
         "type": "minecraft:pale_moss",
-        "ground_probability": 0.4,
-        "leaves_probability": 0.15,
+        "ground_probability": 0.6,
+        "leaves_probability": 0.65,
         "trunk_probability": 0.8
       },
       {
@@ -38,7 +38,7 @@
     },
     "trunk_placer": {
       "type": "minecraft:fancy_trunk_placer",
-      "base_height": 15,
+      "base_height": 11,
       "height_rand_a": 6,
       "height_rand_b": 4
     },

@@ -1,0 +1,9 @@
+{
+  "asset_name": "anodized_titanium",
+  "description": {
+    "color": "#2744cb",
+    "translate": "trim_material.odyssey.alexandrite",
+    "fallback": "Anodized Titanium Material"
+  },
+  "ingredient": "minecraft:jigsaw"
+}

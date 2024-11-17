@@ -2,7 +2,8 @@
   "asset_name": "kunzite",
   "description": {
     "color": "#f2afe2",
-    "translate": "Kunzite"
+    "translate": "trim_material.odyssey.kunzite",
+    "fallback": "Kunzite Material"
   },
   "ingredient": "minecraft:jigsaw"
 }

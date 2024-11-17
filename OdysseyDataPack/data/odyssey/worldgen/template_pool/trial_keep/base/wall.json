@@ -1,0 +1,24 @@
+{
+  "name": "odyssey:trial_keep/base/wall",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:trial_keep/trial_keep_base_wall_l1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:trial_keep/trial_keep_base_wall_r1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "asset_id": "odyssey:spine",
+  "description": {
+    "translate": "trim_pattern.odyssey.spine",
+    "fallback": "Spine Weapon Trim"
+  },
+  "template_item": "minecraft:enchanted_golden_apple"
+}

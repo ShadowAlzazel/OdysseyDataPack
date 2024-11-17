@@ -2,7 +2,8 @@
   "asset_name": "jade",
   "description": {
     "color": "#002e1e",
-    "translate": "Jade"
+    "translate": "trim_material.odyssey.jade",
+    "fallback": "Jade Material"
   },
   "ingredient": "minecraft:jigsaw"
 }

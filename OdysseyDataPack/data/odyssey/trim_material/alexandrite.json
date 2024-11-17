@@ -2,7 +2,8 @@
   "asset_name": "alexandrite",
   "description": {
     "color": "#533a7b",
-    "translate": "Alexandrite"
+    "translate": "trim_material.odyssey.alexandrite",
+    "fallback": "Alexandrite Material"
   },
   "ingredient": "minecraft:jigsaw"
 }

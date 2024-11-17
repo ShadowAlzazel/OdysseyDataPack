@@ -1,0 +1,9 @@
+{
+  "asset_name": "soul_quartz",
+  "description": {
+    "color": "#138285",
+    "translate": "trim_material.odyssey.soul_quartz",
+    "fallback": "Soul Quartz Material"
+  },
+  "ingredient": "minecraft:jigsaw"
+}

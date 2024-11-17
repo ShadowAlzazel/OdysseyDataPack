@@ -1,0 +1,15 @@
+{
+  "name": "odyssey:trial_keep/base/tower",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "odyssey:trial_keep/trial_keep_base_tower_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

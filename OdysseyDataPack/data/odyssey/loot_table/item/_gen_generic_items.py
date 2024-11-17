@@ -41,7 +41,22 @@ LOOT_ITEMS = [
     "tome_of_extraction",
     "tome_of_imitation",
     "tome_of_promotion",
-    "tome_of_replication"
+    "tome_of_replication",
+    "blade_part_upgrade_template",
+    "handle_part_upgrade_template",
+    "pommel_part_upgrade_template",
+    "hilt_part_upgrade_template",
+    "empty_part_upgrade_template",
+    "voyager_part_pattern",
+    "danger_part_pattern",
+    "seraph_part_pattern",
+    "marauder_part_pattern",
+    "crusader_part_pattern",
+    "vandal_part_pattern",
+    "imperial_part_pattern",
+    "fancy_part_pattern",
+    "humble_part_pattern",
+    "empty_part_pattern"
 ]
 
 ITEM_OVERRIDES = {
@@ -75,7 +90,22 @@ ITEM_OVERRIDES = {
     "tome_of_extraction": "paper",
     "tome_of_imitation": "paper",
     "tome_of_promotion": "paper",
-    "tome_of_replication": "paper"
+    "tome_of_replication": "paper",
+    "blade_part_upgrade_template": "paper",
+    "handle_part_upgrade_template": "paper",
+    "pommel_part_upgrade_template": "paper",
+    "hilt_part_upgrade_template": "paper",
+    "empty_part_upgrade_template": "paper",
+    "voyager_part_pattern": "paper",
+    "danger_part_pattern": "paper",
+    "seraph_part_pattern": "paper",
+    "marauder_part_pattern": "paper",
+    "crusader_part_pattern": "paper",
+    "vandal_part_pattern": "paper",
+    "imperial_part_pattern": "paper",
+    "fancy_part_pattern": "paper",
+    "humble_part_pattern": "paper",
+    "empty_part_pattern": "paper"
 }
 
 # --------------------------------------------------------------------------

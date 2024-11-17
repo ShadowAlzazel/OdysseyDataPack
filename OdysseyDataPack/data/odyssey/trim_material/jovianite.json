@@ -2,7 +2,8 @@
   "asset_name": "jovianite",
   "description": {
     "color": "#c2dd17",
-    "translate": "Jovianite"
+    "translate": "trim_material.odyssey.jovianite",
+    "fallback": "Jovianite Material"
   },
   "ingredient": "minecraft:jigsaw"
 }

@@ -15,7 +15,7 @@
               "west": "none"
             }
           },
-          "weight": 25
+          "weight": 30
         },
         {
           "data": {
@@ -37,6 +37,12 @@
             "Name": "minecraft:fern"
           },
           "weight": 7
+        },
+        {
+          "data": {
+            "Name": "minecraft:open_eyeblossom"
+          },
+          "weight": 2
         }
       ]
     }

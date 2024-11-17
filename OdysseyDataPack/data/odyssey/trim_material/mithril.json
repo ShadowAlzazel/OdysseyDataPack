@@ -2,7 +2,8 @@
   "asset_name": "mithril",
   "description": {
     "color": "#e2fad0",
-    "translate": "Mithril"
+    "translate": "trim_material.odyssey.mithril",
+    "fallback": "Mithril Material"
   },
   "ingredient": "minecraft:jigsaw"
 }

@@ -1,0 +1,31 @@
+{
+  "feature": "odyssey:inazuma_forest/brushes",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 2
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "state": {
+          "Properties": {
+            "stage": "0"
+          },
+          "Name": "minecraft:cherry_sapling"
+        },
+        "type": "minecraft:would_survive"
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
