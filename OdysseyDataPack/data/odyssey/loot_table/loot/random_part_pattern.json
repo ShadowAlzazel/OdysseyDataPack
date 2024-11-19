@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "odyssey:loot/random_part_pattern",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/voyager_part_pattern",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/danger_part_pattern",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/seraph_part_pattern",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/marauder_part_pattern",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/crusader_part_pattern",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/vandal_part_pattern",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/imperial_part_pattern",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/fancy_part_pattern",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/humble_part_pattern",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

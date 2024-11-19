@@ -1,14 +1,10 @@
 {
-  "type": "minecraft:archaeology",
+  "type": "minecraft:chest",
+  "random_sequence": "odyssey:pots/dig_site",
   "pools": [
     {
       "bonus_rolls": 0.0,
       "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:stick"
-        },
-
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald"
@@ -23,19 +19,11 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:clay_ball"
+          "name": "minecraft:gold_ingot"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_sword"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_pickaxe"
         },
         {
           "type": "minecraft:loot_table",
@@ -70,6 +58,5 @@
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "odyssey:archaeology/dig_site"
+  ]
 }
