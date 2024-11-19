@@ -1,11 +1,9 @@
 {
   "placement": {
-    "type": "minecraft:concentric_rings",
-    "count": 2048,
-    "distance": 8,
-    "preferred_biomes": "#odyssey:has_structure/obelisk",
+    "type": "minecraft:random_spread",
     "salt": 37,
-    "spread": 6
+    "spacing": 49,
+    "separation": 21
   },
   "structures": [
     {

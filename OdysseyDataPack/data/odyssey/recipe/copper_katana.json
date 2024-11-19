@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "katana",
+  "key": {
+    "X": "minecraft:copper_ingot",
+    "#": "minecraft:stick",
+    "C": "minecraft:copper_ingot"
+  },
+  "pattern": [
+    "  X",
+    "CX ",
+    "#  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:golden_sword",
+    "components": {
+      "minecraft:item_model": "odyssey:copper_katana",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "katana",
+          "blade",
+          "handle",
+          "hilt",
+          "pommel",
+          "no_trim"
+        ]
+      },
+      "minecraft:item_name": "copper_katana",
+      "minecraft:custom_name": "{\"text\": \"Copper Katana\", \"italic\": False}",
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "slot": "mainhand",
+          "id": "odyssey:item.attack_damage",
+          "amount": 6.5,
+          "operation": "add_value"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "slot": "mainhand",
+          "id": "odyssey:item.reset_attack_speed",
+          "amount": -4.0,
+          "operation": "add_value"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "slot": "mainhand",
+          "id": "odyssey:item.attack_speed",
+          "amount": 1.8,
+          "operation": "add_value"
+        }
+      ],
+      "minecraft:max_damage": 198
+    }
+  },
+  "show_notification": true
+}

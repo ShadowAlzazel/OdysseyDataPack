@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "longsword",
+  "key": {
+    "X": "#minecraft:planks",
+    "#": "minecraft:stick"
+  },
+  "pattern": [
+    "  X",
+    " X ",
+    "#  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:wooden_sword",
+    "components": {
+      "minecraft:item_model": "odyssey:wooden_longsword",
+      "minecraft:custom_model_data": {
+        "strings": [
+          "longsword",
+          "blade",
+          "handle",
+          "hilt",
+          "pommel",
+          "no_trim"
+        ]
+      },
+      "minecraft:item_name": "wooden_longsword",
+      "minecraft:custom_name": "{\"text\": \"Wooden Longsword\", \"italic\": False}",
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "slot": "mainhand",
+          "id": "odyssey:item.attack_damage",
+          "amount": 5.0,
+          "operation": "add_value"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "slot": "mainhand",
+          "id": "odyssey:item.reset_attack_speed",
+          "amount": -4.0,
+          "operation": "add_value"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "slot": "mainhand",
+          "id": "odyssey:item.attack_speed",
+          "amount": 1.5,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "show_notification": true
+}
