@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beef",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_name": "dog_spinach",
+                "minecraft:item_model": "odyssey:dog_spinach",
+                "minecraft:consumable": {
+                  "consume_seconds": 0.8
+                },
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 2.0,
+                  "can_always_eat": false
+                }
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Dog Spinach",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Clifford is going to pack a hefty punch.",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

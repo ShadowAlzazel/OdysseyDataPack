@@ -30,6 +30,7 @@ LOOT_ITEMS = [
     "soul_steel_ingot",
     "titanium_ingot",
     "shadow_trial_key",
+    # Smithing
     "arcane_armor_trim_smithing_template",
     "danger_armor_trim_smithing_template",
     "imperial_armor_trim_smithing_template",
@@ -37,12 +38,14 @@ LOOT_ITEMS = [
     "soul_steel_upgrade_template",
     "titanium_upgrade_template",
     "iridium_upgrade_template",
+    # Enchanting
     "tome_of_discharge",
     "tome_of_expenditure",
     "tome_of_extraction",
     "tome_of_imitation",
     "tome_of_promotion",
     "tome_of_replication",
+    # Tool Parts
     "blade_part_upgrade_template",
     "handle_part_upgrade_template",
     "pommel_part_upgrade_template",
