@@ -10,10 +10,10 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:item_model": "odyssey:frost_fang",
-                "minecraft:item_name": "frost_fang",
+                "minecraft:item_model": "odyssey:shogun_lightning",
+                "minecraft:item_name": "shogun_lightning",
                 "minecraft:rarity": "epic",
-                "minecraft:max_damage": 1019
+                "minecraft:max_damage": 2111
               },
               "conditions": []
             },
@@ -21,7 +21,7 @@
               "function": "minecraft:set_custom_data",
               "tag": {
                 "PublicBukkitValues": {
-                  "odyssey:odyssey.weapon_type": "dagger"
+                  "odyssey:odyssey.weapon_type": "katana"
                 }
               }
             },
@@ -29,10 +29,20 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Frost Fang",
+                "text": "Shogun Lightning",
                 "bold": false,
                 "italic": false
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [{
+                "text": "Strike first. The only thing they can hear is thunder.",
+                "bold": false,
+                "italic": false
+              }],
+              "mode": "replace_all"
             },
             {
               "function": "minecraft:set_attributes",
@@ -40,7 +50,7 @@
                 {
                   "attribute": "minecraft:attack_damage",
                   "operation": "add_value",
-                  "amount": 10.0,
+                  "amount": 12.0,
                   "id": "odyssey:item.base_attack_damage",
                   "slot": "mainhand"
                 },
@@ -54,14 +64,14 @@
                 {
                   "attribute": "minecraft:attack_speed",
                   "operation": "add_value",
-                  "amount": 3.0,
+                  "amount": 1.7,
                   "id": "odyssey:item.base_attack_speed",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "minecraft:entity_interaction_range",
                   "operation": "add_value",
-                  "amount": -0.1,
+                  "amount": 0.3,
                   "id": "odyssey:item.base_entity_range",
                   "slot": "mainhand"
                 }
@@ -70,7 +80,8 @@
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "odyssey:freezing_aspect": 4
+                "odyssey:vital": 4,
+                "odyssey:committed": 4
               }
             }
           ],

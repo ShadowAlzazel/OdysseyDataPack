@@ -8,32 +8,32 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "odyssey:loot/exotic_weapons/knight_breaker",
+          "value": "odyssey:item/knight_breaker",
           "weight": 2
         },
         {
           "type": "minecraft:loot_table",
-          "value": "odyssey:loot/exotic_weapons/shogun_lightning",
+          "value": "odyssey:item/shogun_lightning",
           "weight": 2
         },
         {
           "type": "minecraft:loot_table",
-          "value": "odyssey:loot/exotic_weapons/abzu_blade",
+          "value": "odyssey:item/abzu_blade",
           "weight": 2
         },
         {
           "type": "minecraft:loot_table",
-          "value": "odyssey:loot/exotic_weapons/excalibur",
+          "value": "odyssey:item/excalibur",
           "weight": 2
         },
         {
           "type": "minecraft:loot_table",
-          "value": "odyssey:loot/exotic_weapons/frost_fang",
+          "value": "odyssey:item/frost_fang",
           "weight": 2
         },
         {
           "type": "minecraft:loot_table",
-          "value": "odyssey:loot/exotic_weapons/elucidator",
+          "value": "odyssey:item/elucidator",
           "weight": 2
         }
       ]

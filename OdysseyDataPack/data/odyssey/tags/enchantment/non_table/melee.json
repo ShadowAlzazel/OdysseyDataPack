@@ -1,11 +1,14 @@
 {
   "values": [
     "odyssey:arcane_cell",
-    "odyssey:cleave",
     "odyssey:conflagrate",
     "odyssey:decay",
+    "odyssey:frog_fright",
+    "odyssey:frosty_fuse", 
     "odyssey:guarding_strike",
     "odyssey:pestilence",
-    "odyssey:magic_touch"
+    "odyssey:asphyxiate",
+    "odyssey:budding",
+    "odyssey:douse"
   ]
 }

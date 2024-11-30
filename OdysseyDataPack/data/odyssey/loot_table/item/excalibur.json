@@ -10,10 +10,10 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:item_model": "odyssey:shogun_lightning",
-                "minecraft:item_name": "shogun_lightning",
+                "minecraft:item_model": "odyssey:excalibur",
+                "minecraft:item_name": "excalibur",
                 "minecraft:rarity": "epic",
-                "minecraft:max_damage": 2111
+                "minecraft:max_damage": 2357
               },
               "conditions": []
             },
@@ -21,7 +21,7 @@
               "function": "minecraft:set_custom_data",
               "tag": {
                 "PublicBukkitValues": {
-                  "odyssey:odyssey.weapon_type": "katana"
+                  "odyssey:odyssey.weapon_type": "longsword"
                 }
               }
             },
@@ -29,10 +29,20 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Shogun Lightning",
+                "text": "Excalibur",
                 "bold": false,
                 "italic": false
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [{
+                "text": "This master crafted sword is waiting for a worthy owner.",
+                "bold": false,
+                "italic": false
+              }],
+              "mode": "replace_all"
             },
             {
               "function": "minecraft:set_attributes",
@@ -40,7 +50,7 @@
                 {
                   "attribute": "minecraft:attack_damage",
                   "operation": "add_value",
-                  "amount": 12.0,
+                  "amount": 15.0,
                   "id": "odyssey:item.base_attack_damage",
                   "slot": "mainhand"
                 },
@@ -54,7 +64,7 @@
                 {
                   "attribute": "minecraft:attack_speed",
                   "operation": "add_value",
-                  "amount": 1.7,
+                  "amount": 1.4,
                   "id": "odyssey:item.base_attack_speed",
                   "slot": "mainhand"
                 },
@@ -70,8 +80,7 @@
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "odyssey:vital": 4,
-                "odyssey:committed": 4
+                "minecraft:smite": 10
               }
             }
           ],

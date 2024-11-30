@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "odyssey:loot/mithril_gear",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:loot/mithril_armor",
+          "weight": 4
+        }
+      ]
+    }
+  ]
+}

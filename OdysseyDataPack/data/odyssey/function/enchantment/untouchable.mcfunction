@@ -1,0 +1,1 @@
+data modify entity @s HurtTime set value 50s

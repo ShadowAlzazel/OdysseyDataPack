@@ -35,6 +35,16 @@
               }
             },
             {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [{
+                "text": "A dark yet living blade capable of destroying foes or friends.",
+                "bold": false,
+                "italic": false
+              }],
+              "mode": "replace_all"
+            },
+            {
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
