@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_name": "earl_lily_boba_tea",
+                "minecraft:item_model": "odyssey:earl_lily_boba_tea",
+                "minecraft:consumable": {
+                  "consume_seconds": 0.8
+                },
+                "minecraft:food": {
+                  "nutrition": 2,
+                  "saturation": 5.0,
+                  "can_always_eat": false
+                }
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Earl Lily Boba Tea",
+                "bold": false,
+                "italic": false
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

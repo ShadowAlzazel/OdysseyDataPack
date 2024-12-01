@@ -10,10 +10,10 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:item_model": "odyssey:excalibur",
-                "minecraft:item_name": "excalibur",
+                "minecraft:item_model": "odyssey:knight_breaker",
+                "minecraft:item_name": "knight_breaker",
                 "minecraft:rarity": "epic",
-                "minecraft:max_damage": 2357
+                "minecraft:max_damage": 1009
               },
               "conditions": []
             },
@@ -21,7 +21,7 @@
               "function": "minecraft:set_custom_data",
               "tag": {
                 "PublicBukkitValues": {
-                  "odyssey:odyssey.weapon_type": "longsword"
+                  "odyssey:odyssey.weapon_type": "dagger"
                 }
               }
             },
@@ -29,10 +29,20 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Excalibur",
+                "text": "Knight Breaker",
                 "bold": false,
                 "italic": false
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [{
+                "text": "A knight is always vulnerable from behind or when in bed.",
+                "bold": false,
+                "italic": false
+              }],
+              "mode": "replace_all"
             },
             {
               "function": "minecraft:set_attributes",
@@ -40,7 +50,7 @@
                 {
                   "attribute": "minecraft:attack_damage",
                   "operation": "add_value",
-                  "amount": 15.0,
+                  "amount": 9.0,
                   "id": "odyssey:item.base_attack_damage",
                   "slot": "mainhand"
                 },
@@ -54,14 +64,14 @@
                 {
                   "attribute": "minecraft:attack_speed",
                   "operation": "add_value",
-                  "amount": 1.4,
+                  "amount": 3.0,
                   "id": "odyssey:item.base_attack_speed",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "minecraft:entity_interaction_range",
                   "operation": "add_value",
-                  "amount": 0.3,
+                  "amount": -0.1,
                   "id": "odyssey:item.base_entity_range",
                   "slot": "mainhand"
                 }
@@ -70,7 +80,7 @@
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "minecraft:smite": 10
+                "odyssey:rupture": 5
               }
             }
           ],

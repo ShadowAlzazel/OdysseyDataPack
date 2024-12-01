@@ -35,14 +35,14 @@
                 {
                   "attribute": "minecraft:armor",
                   "operation": "add_value",
-                  "amount": 6,
+                  "amount": 7,
                   "id": "odyssey:item.base_armor.leggings",
                   "slot": "legs"
                 },
                 {
                   "attribute": "minecraft:armor_toughness",
                   "operation": "add_value",
-                  "amount": 2,
+                  "amount": 3,
                   "id": "odyssey:item.base_armor_toughness.leggings",
                   "slot": "legs"
                 }

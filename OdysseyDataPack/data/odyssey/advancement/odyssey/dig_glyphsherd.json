@@ -9,15 +9,15 @@
       "count": 1,
       "id": "minecraft:brick",
       "components": {
-        "minecraft:item_model": "odyssey:assault_runesherd",
-        "minecraft:item_name": "assault_runesherd"
+        "minecraft:item_model": "odyssey:glyphsherd",
+        "minecraft:item_name": "assault_glyphsherd"
       }
     },
     "title": {
-      "translate": "Ryze was here"
+      "translate": "Its time to dududududu..."
     },
     "description": {
-      "translate": "Dig up a runesherd found at a ruined base."
+      "translate": "Dig up a glyphsherd found at a Ruined Base."
     }
   },
   "criteria": {

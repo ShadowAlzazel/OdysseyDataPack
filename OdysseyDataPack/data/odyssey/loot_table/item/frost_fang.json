@@ -10,10 +10,10 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:item_model": "odyssey:elucidator",
-                "minecraft:item_name": "elucidator",
+                "minecraft:item_model": "odyssey:frost_fang",
+                "minecraft:item_name": "frost_fang",
                 "minecraft:rarity": "epic",
-                "minecraft:max_damage": 2797
+                "minecraft:max_damage": 1019
               },
               "conditions": []
             },
@@ -21,7 +21,7 @@
               "function": "minecraft:set_custom_data",
               "tag": {
                 "PublicBukkitValues": {
-                  "odyssey:odyssey.weapon_type": "longsword"
+                  "odyssey:odyssey.weapon_type": "dagger"
                 }
               }
             },
@@ -29,10 +29,20 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Elucidator",
+                "text": "Frost Fang",
                 "bold": false,
                 "italic": false
               }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [{
+                "text": "An ornate tooth perfectly crafted to deal with bitter enemies.",
+                "bold": false,
+                "italic": false
+              }],
+              "mode": "replace_all"
             },
             {
               "function": "minecraft:set_attributes",
@@ -40,7 +50,7 @@
                 {
                   "attribute": "minecraft:attack_damage",
                   "operation": "add_value",
-                  "amount": 14.0,
+                  "amount": 10.0,
                   "id": "odyssey:item.base_attack_damage",
                   "slot": "mainhand"
                 },
@@ -54,14 +64,14 @@
                 {
                   "attribute": "minecraft:attack_speed",
                   "operation": "add_value",
-                  "amount": 1.5,
+                  "amount": 3.0,
                   "id": "odyssey:item.base_attack_speed",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "minecraft:entity_interaction_range",
                   "operation": "add_value",
-                  "amount": 0.3,
+                  "amount": -0.1,
                   "id": "odyssey:item.base_entity_range",
                   "slot": "mainhand"
                 }
@@ -70,7 +80,7 @@
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "odyssey:illucidation": 6
+                "odyssey:freezing_aspect": 4
               }
             }
           ],

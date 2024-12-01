@@ -1,3 +1,0 @@
-Terralith=True
-Incendium=True
-Continents=True

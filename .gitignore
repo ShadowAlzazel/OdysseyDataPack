@@ -26,3 +26,6 @@ __pycache__
 .env/
 env/
 venv/
+
+# Datapack zips
+.zip

@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_name": "spider_eye_boba",
+                "minecraft:item_model": "odyssey:spider_eye_boba",
+                "minecraft:consumable": {
+                  "consume_seconds": 0.8
+                },
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 3.0,
+                  "can_always_eat": false
+                }
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Spider Eye Boba",
+                "bold": false,
+                "italic": false
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

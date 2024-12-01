@@ -35,7 +35,7 @@
                 {
                   "attribute": "minecraft:armor",
                   "operation": "add_value",
-                  "amount": 6,
+                  "amount": 5,
                   "id": "odyssey:item.base_armor.chestplate",
                   "slot": "chest"
                 },

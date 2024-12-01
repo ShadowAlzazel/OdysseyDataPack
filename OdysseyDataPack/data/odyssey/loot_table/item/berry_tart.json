@@ -5,13 +5,21 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:brick",
+          "name": "minecraft:cookie",
           "functions": [
             {
               "function": "set_components",
               "components": {
-                "minecraft:item_name": "runesherd",
-                "minecraft:item_model": "odyssey:runesherd"
+                "minecraft:item_name": "berry_tart",
+                "minecraft:item_model": "odyssey:berry_tart",
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6
+                },
+                "minecraft:food": {
+                  "nutrition": 3,
+                  "saturation": 5.5,
+                  "can_always_eat": false
+                }
               },
               "conditions": []
             },
@@ -19,7 +27,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Unknown Runesherd",
+                "text": "Berry Tart",
                 "bold": false,
                 "italic": false
               }

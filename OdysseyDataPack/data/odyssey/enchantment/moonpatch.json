@@ -40,7 +40,7 @@
             {
               "chance": {
                 "type": "minecraft:enchantment_level",
-                "amount": 0.05
+                "amount": 0.1
               },
               "condition": "minecraft:random_chance"
             }

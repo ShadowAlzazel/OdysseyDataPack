@@ -42,7 +42,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "odyssey:loot/unknown_runesherd",
+          "value": "odyssey:loot/unknown_glyphsherd",
           "weight": 2
         },
         {

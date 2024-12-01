@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_cod",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_name": "fish_n_chips",
+                "minecraft:item_model": "odyssey:fish_n_chips",
+                "minecraft:consumable": {
+                  "consume_seconds": 1.6
+                },
+                "minecraft:food": {
+                  "nutrition": 8,
+                  "saturation": 13.0,
+                  "can_always_eat": false
+                }
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Fish N Chips",
+                "bold": false,
+                "italic": false
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

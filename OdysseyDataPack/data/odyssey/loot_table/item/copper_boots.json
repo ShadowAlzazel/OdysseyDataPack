@@ -42,7 +42,7 @@
                 {
                   "attribute": "minecraft:armor_toughness",
                   "operation": "add_value",
-                  "amount": 0,
+                  "amount": 1,
                   "id": "odyssey:item.base_armor_toughness.boots",
                   "slot": "feet"
                 }

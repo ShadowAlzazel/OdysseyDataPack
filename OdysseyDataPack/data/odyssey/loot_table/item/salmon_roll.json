@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_salmon",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_name": "salmon_roll",
+                "minecraft:item_model": "odyssey:salmon_roll",
+                "minecraft:consumable": {
+                  "consume_seconds": 1.2
+                },
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 6.0,
+                  "can_always_eat": false
+                }
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Salmon Roll",
+                "bold": false,
+                "italic": false
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

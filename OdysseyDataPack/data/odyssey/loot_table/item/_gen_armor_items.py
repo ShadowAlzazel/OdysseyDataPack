@@ -22,20 +22,29 @@ body_slots = {
     'leggings': 'legs', 
     'boots': 'feet'
 }
-base_armor_values = {
-    'helmet': 1, 
-    'chestplate': 3,
-    'leggings': 2,
-    'boots': 1 
+body_index = {
+    'helmet': 0, 
+    'chestplate': 1,
+    'leggings': 2, 
+    'boots': 3
 }
-material_multipliers = {
-    'silver': 2,
-    'copper': 1.5,
-    'soul_steel': 2.5,
-    'titanium': 2.5,
-    'anodized_titanium': 2.5,
-    'iridium': 3,
-    'mithril': 3,
+ARMOR_VALUES = {
+    'copper': [2, 4, 3, 1],
+    'silver': [3, 5, 3, 2], 
+    'soul_steel': [3, 7, 6, 3],
+    'titanium': [3, 7, 6, 3], 
+    'anodized_titanium': [3, 7, 6, 3],
+    'iridium': [4, 9, 7, 4],
+    'mithril': [4, 8, 6, 3]
+}
+TOUGHNESS_VALUES = {
+    'copper': [1, 1, 1, 1],
+    'silver': [1, 1, 1, 1], 
+    'soul_steel': [2, 2, 2, 2],
+    'titanium': [2, 2, 2, 2], 
+    'anodized_titanium': [2, 2, 2, 2],
+    'iridium': [3, 3, 3, 3],
+    'mithril': [4, 4, 4, 4]
 }
 
 # --------------------------------------------------------------------------
@@ -88,8 +97,9 @@ def create_armor_file(material, equippable):
             "italic": False
         }
     }
-    armor_value = math.ceil(base_armor_values[equippable] * material_multipliers[material])
-    armor_toughness = math.floor(material_multipliers[material] - 1)
+    value_index = body_index[equippable]
+    armor_value = ARMOR_VALUES[material][value_index]
+    armor_toughness = TOUGHNESS_VALUES[material][value_index]
     set_attributes = {
         "function": "minecraft:set_attributes",
         "modifiers": [
