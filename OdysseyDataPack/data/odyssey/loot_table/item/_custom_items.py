@@ -32,7 +32,13 @@ CUSTOM_ITEMS = [
     "soul_spice"
     # Equipment
     "titanium_musket",
-    "auto_crossbow"
+    "auto_crossbow",
+    "compact_crossbow",
+    "musket",
+    "arcane_wand",
+    "arcane_blade",
+    "arcane_scepter",
+    "grappling_hook"
 ]
 
 
