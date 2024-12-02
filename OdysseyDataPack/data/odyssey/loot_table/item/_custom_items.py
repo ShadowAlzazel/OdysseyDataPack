@@ -31,14 +31,18 @@ CUSTOM_ITEMS = [
     "soul_omamori",
     "soul_spice"
     # Equipment
-    "titanium_musket",
+    "grappling_hook",
+    "tinkered_musket",
+    "tinkered_bow",
     "auto_crossbow",
     "compact_crossbow",
-    "musket",
+    "alchemical_driver", #AKA alchemical bolter
+    "explosive_arrow"
     "arcane_wand",
     "arcane_blade",
     "arcane_scepter",
-    "grappling_hook"
+    "warping_wand",
+    "void_linked_kunai"
 ]
 
 

@@ -1,0 +1,28 @@
+[
+  {
+    "function": "minecraft:enchant_with_levels",
+    "levels": {
+      "type": "minecraft:uniform",
+      "min": 4,
+      "max": 9
+    },
+    "options": "#odyssey:in_table/melee"
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "minecraft:item_model": "odyssey:arcane_book",
+      "minecraft:item_name": "arcane_book"
+    },
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "text": "Arcane Book",
+      "bold": false,
+      "italic": false
+    }
+  }
+]

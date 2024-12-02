@@ -29,3 +29,8 @@ venv/
 
 # Datapack zips
 .zip
+
+# Editor
+
+.vscode/
+.vscode

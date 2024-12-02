@@ -25,6 +25,7 @@ LOOT_ITEMS = [
     "mithril_ingot",
     "neptunian",
     "ruby",
+    "soul_crystal",
     "silver_ingot",
     "silver_nugget",
     "soul_steel_ingot",
@@ -61,6 +62,7 @@ LOOT_ITEMS = [
     "fancy_part_pattern",
     "humble_part_pattern",
     "empty_part_pattern"
+    #Glyphic
 ]
 
 ITEM_OVERRIDES = {
