@@ -68,7 +68,19 @@ ITEMS = [
     ItemData("humble_part_pattern", "paper"),
     ItemData("empty_part_pattern", "paper"),
     # Glyphic
+    ItemData("assault_glyphsherd", "brick",[AttributesComponent([Modifier("attack_damage", 1, "mainhand", "glyph.slot")])]),
     ItemData("guard_glyphsherd", "brick",[AttributesComponent([Modifier("armor", 1, "armor", "glyph.slot")])]),
+    ItemData("finesse_glyphsherd", "brick",[AttributesComponent([Modifier("attack_speed", 0.2, "armor", "glyph.slot")])]),
+    ItemData("swift_glyphsherd", "brick",[AttributesComponent([Modifier("movement_speed", 0.02, "armor", "glyph.slot")])]),
+    ItemData("vitality_glyphsherd", "brick",[AttributesComponent([Modifier("max_health", 2.0, "armor", "glyph.slot")])]),
+    ItemData("steadfast_glyphsherd", "brick",[AttributesComponent([Modifier("knockback_resistance", 0.2, "armor", "glyph.slot")])]),
+    ItemData("force_glyphsherd", "brick",[AttributesComponent([Modifier("attack_knockback", 0.5, "mainhand", "glyph.slot")])]),
+    ItemData("break_glyphsherd", "brick",[AttributesComponent([Modifier("block_break_speed", 0.5, "mainhand", "glyph.slot")])]),
+    ItemData("grasp_glyphsherd", "brick",[AttributesComponent([Modifier("block_interaction_range", 1.0, "mainhand", "glyph.slot")])]),
+    ItemData("jump_glyphsherd", "brick",[AttributesComponent([Modifier("jump_strength", 0.3, "armor", "glyph.slot")])]),
+    ItemData("gravity_glyphsherd", "brick",[AttributesComponent([Modifier("gravity", -0.01, "armor", "glyph.slot")])]),
+    ItemData("range_glyphsherd", "brick",[AttributesComponent([Modifier("entity_interaction_range", 0.5, "mainhand", "glyph.slot")])]),
+    ItemData("size_glyphsherd", "brick",[AttributesComponent([Modifier("scale", 0.25, "armor", "glyph.slot")])]),
     # Food
     ItemData("bacon", "cooked_porkchop",[FoodComponent(8.0, 3, 1.2)]),
     ItemData("berry_tart", "cookie",[FoodComponent(5.5, 3, 1.6)]),
@@ -106,6 +118,8 @@ def main():
     create_armor_files(ARMOR_MATERIALS, ARMOR_PIECES)
     # Check
     file_checker()
+    # Kotlin .txt
+    
     
         
 # Main
