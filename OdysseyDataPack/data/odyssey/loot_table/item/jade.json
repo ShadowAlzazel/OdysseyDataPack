@@ -8,7 +8,7 @@
           "name": "minecraft:emerald",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "jade",
                 "minecraft:item_model": "odyssey:jade"

@@ -8,7 +8,7 @@
           "name": "minecraft:apple",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "fruit_bowl",
                 "minecraft:item_model": "odyssey:fruit_bowl",

@@ -8,7 +8,7 @@
           "name": "minecraft:cooked_chicken",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "shoyu_ramen",
                 "minecraft:item_model": "odyssey:shoyu_ramen",

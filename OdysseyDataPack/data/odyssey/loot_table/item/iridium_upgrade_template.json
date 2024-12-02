@@ -10,8 +10,8 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "soul_steel_upgrade_template",
-                "minecraft:item_model": "odyssey:soul_steel_upgrade_template"
+                "minecraft:item_name": "iridium_upgrade_template",
+                "minecraft:item_model": "odyssey:iridium_upgrade_template"
               },
               "conditions": []
             },
@@ -19,7 +19,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Soul Steel Upgrade Template",
+                "text": "Iridium Upgrade Template",
                 "bold": false,
                 "italic": false
               }

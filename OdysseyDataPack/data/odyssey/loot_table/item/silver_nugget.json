@@ -8,7 +8,7 @@
           "name": "minecraft:iron_nugget",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "silver_nugget",
                 "minecraft:item_model": "odyssey:silver_nugget"

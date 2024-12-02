@@ -47,24 +47,7 @@ CUSTOM_ITEMS = [
 
 
 def file_checker():
-    global CUSTOM_ITEMS
     for item in CUSTOM_ITEMS:
         file_path = f'{item}.json'
         if not os.path.exists(file_path):
             print(f'WARNING: The file for [{item}] does not exist!')
-
-
-# Main
-def main():
-    # Prompt 
-    print("This will check if these items exist.")
-    print("Proceed (y/n) . . .")
-    answer = input()
-    # Input
-    if answer == "y":
-        print("Ok")
-        file_checker() 
-        
-# Main
-if __name__ == "__main__":
-    main()

@@ -8,7 +8,7 @@
           "name": "minecraft:salmon",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "salmon_nigiri",
                 "minecraft:item_model": "odyssey:salmon_nigiri",

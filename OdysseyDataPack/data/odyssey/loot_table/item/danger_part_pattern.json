@@ -8,7 +8,7 @@
           "name": "minecraft:paper",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "danger_part_pattern",
                 "minecraft:item_model": "odyssey:danger_part_pattern"

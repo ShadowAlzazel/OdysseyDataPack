@@ -8,7 +8,7 @@
           "name": "minecraft:cookie",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "chocolate_mochi",
                 "minecraft:item_model": "odyssey:chocolate_mochi",

@@ -72,7 +72,7 @@ def create_item_file(item_name: str):
     }
     # function jsons
     set_components = {
-        "function": "set_components",
+        "function": "minecraft:set_components",
         "components": {
             "minecraft:item_name": item_name,
             "minecraft:item_model": f'odyssey:{item_name}',

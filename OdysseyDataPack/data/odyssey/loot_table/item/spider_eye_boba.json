@@ -8,7 +8,7 @@
           "name": "minecraft:spider_eye",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "spider_eye_boba",
                 "minecraft:item_model": "odyssey:spider_eye_boba",

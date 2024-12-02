@@ -8,7 +8,7 @@
           "name": "minecraft:paper",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "arcane_armor_trim_smithing_template",
                 "minecraft:item_model": "odyssey:arcane_armor_trim_smithing_template"

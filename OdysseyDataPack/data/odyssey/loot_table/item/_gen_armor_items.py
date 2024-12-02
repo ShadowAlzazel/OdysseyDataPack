@@ -76,7 +76,7 @@ def create_armor_file(material, equippable):
     }
     # function jsons
     set_components = {
-        "function": "set_components",
+        "function": "minecraft:set_components",
         "components": {
             "minecraft:item_name": item_name,
             "minecraft:equippable": {

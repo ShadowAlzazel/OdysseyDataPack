@@ -8,7 +8,7 @@
           "name": "minecraft:cookie",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "oolong_orchid_boba_tea",
                 "minecraft:item_model": "odyssey:oolong_orchid_boba_tea",

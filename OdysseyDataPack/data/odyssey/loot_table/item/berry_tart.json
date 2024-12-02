@@ -8,7 +8,7 @@
           "name": "minecraft:cookie",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "berry_tart",
                 "minecraft:item_model": "odyssey:berry_tart",

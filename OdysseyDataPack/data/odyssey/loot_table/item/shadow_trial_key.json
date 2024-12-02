@@ -8,7 +8,7 @@
           "name": "minecraft:trial_key",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "shadow_trial_key",
                 "minecraft:item_model": "odyssey:shadow_trial_key"

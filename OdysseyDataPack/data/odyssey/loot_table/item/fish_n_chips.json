@@ -8,7 +8,7 @@
           "name": "minecraft:cooked_cod",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "fish_n_chips",
                 "minecraft:item_model": "odyssey:fish_n_chips",
