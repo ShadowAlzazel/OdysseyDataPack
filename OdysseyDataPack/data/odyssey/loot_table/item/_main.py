@@ -68,7 +68,7 @@ ITEMS = [
     ItemData("humble_part_pattern", "paper"),
     ItemData("empty_part_pattern", "paper"),
     # Glyphic
-    
+    ItemData("guard_glyphsherd", "brick",[AttributesComponent([Modifier("armor", 1, "armor", "glyph.slot")])]),
     # Food
     ItemData("bacon", "cooked_porkchop",[FoodComponent(8.0, 3, 1.2)]),
     ItemData("berry_tart", "cookie",[FoodComponent(5.5, 3, 1.6)]),
@@ -94,10 +94,16 @@ ITEMS = [
     ItemData("cornflower_ceylon_boba_tea", "cookie",[FoodComponent(5.0, 2, 0.8)])
 ]
 
+# List
+ARMOR_PIECES = ['helmet', 'chestplate', 'leggings', 'boots']
+ARMOR_MATERIALS = ['silver', 'copper', 'soul_steel', 'titanium', 'anodized_titanium', 'iridium', 'mithril']
+
+
 # Main
 def main():
     # Run 
-    populate_files(ITEMS)
+    create_new_item_files(ITEMS)
+    create_armor_files(ARMOR_MATERIALS, ARMOR_PIECES)
     # Check
     file_checker()
     

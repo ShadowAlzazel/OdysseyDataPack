@@ -5,18 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_boots",
+          "name": "minecraft:brick",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "titanium_boots",
-                "minecraft:item_model": "odyssey:titanium_boots",
-                "minecraft:equippable": {
-                  "asset_id": "odyssey:titanium",
-                  "slot": "feet",
-                  "equip_sound": "item.armor.equip_chain"
-                }
+                "minecraft:item_name": "guard_glyphsherd",
+                "minecraft:item_model": "odyssey:guard_glyphsherd"
               },
               "conditions": []
             },
@@ -24,7 +19,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Titanium Boots",
+                "text": "Guard Glyphsherd",
                 "bold": false,
                 "italic": false
               }
@@ -35,16 +30,9 @@
                 {
                   "attribute": "minecraft:armor",
                   "operation": "add_value",
-                  "amount": 3,
-                  "id": "odyssey:odyssey.item.boots.armor",
-                  "slot": "feet"
-                },
-                {
-                  "attribute": "minecraft:armor_toughness",
-                  "operation": "add_value",
-                  "amount": 2,
-                  "id": "odyssey:odyssey.item.boots.armor_toughness",
-                  "slot": "feet"
+                  "amount": 1,
+                  "id": "odyssey:glyph.slot",
+                  "slot": "armor"
                 }
               ]
             }

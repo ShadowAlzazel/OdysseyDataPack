@@ -8,15 +8,15 @@
           "name": "minecraft:iron_boots",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "anodized_titanium_boots",
+                "minecraft:item_model": "odyssey:anodized_titanium_boots",
                 "minecraft:equippable": {
                   "asset_id": "odyssey:anodized_titanium",
                   "slot": "feet",
                   "equip_sound": "item.armor.equip_chain"
-                },
-                "minecraft:item_model": "odyssey:anodized_titanium_boots"
+                }
               },
               "conditions": []
             },
@@ -36,14 +36,14 @@
                   "attribute": "minecraft:armor",
                   "operation": "add_value",
                   "amount": 3,
-                  "id": "odyssey:item.base_armor.boots",
+                  "id": "odyssey:odyssey.item.boots.armor",
                   "slot": "feet"
                 },
                 {
                   "attribute": "minecraft:armor_toughness",
                   "operation": "add_value",
                   "amount": 2,
-                  "id": "odyssey:item.base_armor_toughness.boots",
+                  "id": "odyssey:odyssey.item.boots.armor_toughness",
                   "slot": "feet"
                 }
               ]

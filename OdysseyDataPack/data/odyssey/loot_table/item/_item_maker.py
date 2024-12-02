@@ -4,6 +4,8 @@ import math
 from dataclasses import dataclass, field
 from typing import Optional, Union, Dict
 
+from _item_data import *
+
 # --------------------------------------------------------------------------
 # --------------------------------------------------------------------------
 # --------------------------------------------------------------------------
@@ -40,6 +42,20 @@ class EquippableComponent:
     asset_id: str
     slot: str
     
+@dataclass
+class AttributesComponent:
+    modifiers: list = field(default_factory=list)
+    
+# --------------------------------------------------------------------------
+
+@dataclass
+class Modifier:
+    attribute: str
+    amount: str
+    slot: str
+    keyId: str
+    operation: str="add_value"    
+    
 # --------------------------------------------------------------------------
 
 def get_components_obj(data_components: list):
@@ -64,9 +80,7 @@ def get_components_obj(data_components: list):
         "conditions": []
     }
     # Finish 
-    return components_obj
-        
-# --------------------------------------------------------------------------                
+    return components_obj                
 
 def new_food_component(component: FoodComponent):
     return {
@@ -89,10 +103,19 @@ def new_consumable_component(component: ConsumableComponent):
         "consume_seconds": float(component.consume_seconds)
     }
 
+def new_modifier_list(modifiers: list[Modifier]):
+    modifier_list = []
+    for x in modifiers:
+        obj = {
+            "attribute": f'minecraft:{x.attribute}',
+            "operation": x.operation,
+            "amount": x.amount,
+            "id": f'odyssey:{x.keyId}',
+            "slot": x.slot
+        }
+        modifier_list.append(obj)
+    return modifier_list
 
-# --------------------------------------------------------------------------
-# --------------------------------------------------------------------------
-# --------------------------------------------------------------------------
 
 # Basic Loot/Item Json 
 def create_item_obj(item_data: ItemData) -> dict:
@@ -129,10 +152,20 @@ def create_item_obj(item_data: ItemData) -> dict:
         }
     } 
     functions.append(set_name)
+    # Set Attributes
+    for x in item_components:
+        if isinstance(x, AttributesComponent):   
+            set_attributes = {
+                "function": "minecraft:set_attributes",
+                "modifiers": new_modifier_list(x.modifiers)
+            }
+            functions.append(set_attributes)
     # Merge
     item_json["pools"][0]["entries"][0]["functions"] = functions
     # Finish
     return item_json
+
+# --------------------------------------------------------------------------
 
 
 def generate_item_file(item_data: ItemData) -> None:
@@ -142,7 +175,8 @@ def generate_item_file(item_data: ItemData) -> None:
         f.write(item)
     return
 
-def populate_files(item_list: [ItemData]) -> None:
+
+def create_new_item_files(item_list: [ItemData]) -> None:
     # Prompt 
     print("Confirm creation of new files? This will overwrite old files!")
     print(f"Will create {len(item_list)} items.")
@@ -157,3 +191,29 @@ def populate_files(item_list: [ItemData]) -> None:
     else:
         print("Exiting...")
     return
+
+
+def generate_new_armor_file(material: str, armor_piece: str):
+    # Get Data
+    item_name = f'{material}_{armor_piece}'
+    slot = f'{BODY_SLOT_MAP[armor_piece]}'
+    index = PIECE_INDEX[armor_piece]
+    armor_val = ARMOR_VALUES[material][index]
+    toughness_val = TOUGHNESS_VALUES[material][index]
+    keyId = f'odyssey.item.{armor_piece}'
+    # Create ItemData
+    modifiers = [
+        Modifier("armor", armor_val, slot, f'{keyId}.armor'),
+        Modifier("armor_toughness", toughness_val, slot, f'{keyId}.armor_toughness')
+    ]
+    override_item = f'iron_{armor_piece}'
+    components = [AttributesComponent(modifiers), EquippableComponent(material, slot)]
+    data = ItemData(item_name, override_item, components)
+    # Create file
+    generate_item_file(data)   
+
+
+def create_armor_files(materials: list[str], pieces: list[str]) -> None:
+    for material in materials:
+        for armor_piece in pieces:
+            generate_new_armor_file(material, armor_piece)
