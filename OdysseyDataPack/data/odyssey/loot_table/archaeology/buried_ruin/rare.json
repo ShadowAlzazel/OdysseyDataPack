@@ -6,12 +6,11 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "odyssey:loot/random_glyphsherd",
+          "value": "odyssey:loot/random_part_pattern",
           "weight": 1
         }
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "odyssey:archaeology/dig_site"
+  ]
 }

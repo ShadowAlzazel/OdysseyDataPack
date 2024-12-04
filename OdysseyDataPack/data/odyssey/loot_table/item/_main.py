@@ -50,6 +50,8 @@ ITEMS = [
     ItemData("tome_of_extraction", "paper"),
     ItemData("tome_of_imitation", "paper"),
     ItemData("tome_of_promotion", "paper"),
+    ItemData("tome_of_avarice", "paper"),
+    ItemData("tome_of_harmony", "paper"),
     ItemData("tome_of_replication", "paper"),
     # Tool Parts
     ItemData("blade_part_upgrade_template", "paper"),
@@ -68,6 +70,19 @@ ITEMS = [
     ItemData("humble_part_pattern", "paper"),
     ItemData("empty_part_pattern", "paper"),
     # Glyphic
+    ItemData("glazed_orb", "brick"),
+    ItemData("glazed_rods", "brick"), 
+    ItemData("glazed_key", "brick"), 
+    ItemData("glazed_skull", "brick"), 
+    ItemData("glazed_dowel", "brick"), 
+    ItemData("glazed_totem", "brick"), 
+    ItemData("clay_orb", "clay_ball"),
+    ItemData("clay_rods", "clay_ball"), 
+    ItemData("clay_key", "clay_ball"), 
+    ItemData("clay_skull", "clay_ball"), 
+    ItemData("clay_dowel", "clay_ball"), 
+    ItemData("clay_totem", "clay_ball"), 
+    # Glyphsherds
     ItemData("assault_glyphsherd", "brick",[AttributesComponent([Modifier("attack_damage", 1, "mainhand", "glyph.slot")])]),
     ItemData("guard_glyphsherd", "brick",[AttributesComponent([Modifier("armor", 1, "armor", "glyph.slot")])]),
     ItemData("finesse_glyphsherd", "brick",[AttributesComponent([Modifier("attack_speed", 0.2, "armor", "glyph.slot")])]),
@@ -119,8 +134,10 @@ def main():
     # Check
     file_checker()
     # Kotlin .txt
-    
-    
+    to_text_line = lambda x : f'val {x.item_name.upper()} = DataItem("{x.item_name}") \n'
+    lines = [to_text_line(x) for x in ITEMS]
+    with open("_kotlin.txt", 'w') as f:
+        f.writelines(lines)
         
 # Main
 if __name__ == "__main__":

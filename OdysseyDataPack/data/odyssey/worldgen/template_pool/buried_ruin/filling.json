@@ -1,0 +1,15 @@
+{
+  "name": "odyssey:buried_ruin/filling",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "odyssey:buried_ruin/buried_ruin_empty_filling",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "odyssey:buried_ruin_sand_loot"
+      }
+    }
+  ]
+}

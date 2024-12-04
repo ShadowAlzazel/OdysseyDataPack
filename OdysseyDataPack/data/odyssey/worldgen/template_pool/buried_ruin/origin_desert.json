@@ -1,0 +1,24 @@
+{
+  "name": "odyssey:buried_ruin/origin_desert",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:buried_ruin/buried_ruin_top_desert_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "processors": "odyssey:buried_ruin_sand_loot"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:buried_ruin/buried_ruin_top_desert_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "processors": "odyssey:buried_ruin_sand_loot"
+      }
+    }
+  ]
+}

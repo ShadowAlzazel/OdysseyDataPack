@@ -5,38 +5,6 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:stick"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:gold_nugget"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:clay_ball"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_sword"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_pickaxe"
-        },
-        {
           "type": "minecraft:loot_table",
           "value": "odyssey:item/ruby",
           "weight": 1
@@ -59,6 +27,11 @@
         {
           "type": "minecraft:loot_table",
           "value": "odyssey:item/silver_ingot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:loot/random_glyphsherd",
           "weight": 1
         },
         {
