@@ -200,7 +200,7 @@ def generate_new_armor_file(material: str, armor_piece: str):
     index = PIECE_INDEX[armor_piece]
     armor_val = ARMOR_VALUES[material][index]
     toughness_val = TOUGHNESS_VALUES[material][index]
-    keyId = f'odyssey.item.{armor_piece}'
+    keyId = f'item.{armor_piece}'
     # Create ItemData
     modifiers = [
         Modifier("armor", armor_val, slot, f'{keyId}.armor'),

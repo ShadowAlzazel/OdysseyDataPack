@@ -10,8 +10,8 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "arcane_armor_trim_smithing_template",
-                "minecraft:item_model": "odyssey:arcane_armor_trim_smithing_template"
+                "minecraft:item_name": "jewel_weapon_trim_smithing_template",
+                "minecraft:item_model": "odyssey:jewel_weapon_trim_smithing_template"
               },
               "conditions": []
             },
@@ -19,7 +19,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Arcane Armor Trim Smithing Template",
+                "text": "Jewel Weapon Trim Smithing Template",
                 "bold": false,
                 "italic": false
               }

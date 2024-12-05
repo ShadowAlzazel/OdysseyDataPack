@@ -36,14 +36,14 @@
                   "attribute": "minecraft:armor",
                   "operation": "add_value",
                   "amount": 4,
-                  "id": "odyssey:odyssey.item.chestplate.armor",
+                  "id": "odyssey:item.chestplate.armor",
                   "slot": "chest"
                 },
                 {
                   "attribute": "minecraft:armor_toughness",
                   "operation": "add_value",
                   "amount": 1,
-                  "id": "odyssey:odyssey.item.chestplate.armor_toughness",
+                  "id": "odyssey:item.chestplate.armor_toughness",
                   "slot": "chest"
                 }
               ]

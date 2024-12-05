@@ -5,7 +5,7 @@
       "rules": [
         {
           "input_predicate": {
-            "block": "minecraft:sand",
+            "block": "minecraft:structure_void",
             "predicate_type": "minecraft:random_block_match",
             "probability": 0.125
           },
@@ -18,7 +18,7 @@
         },
         {
           "input_predicate": {
-            "block": "minecraft:sand",
+            "block": "minecraft:structure_void",
             "predicate_type": "minecraft:random_block_match",
             "probability": 0.125
           },
@@ -31,7 +31,7 @@
         },
         {
           "input_predicate": {
-            "block": "minecraft:sand",
+            "block": "minecraft:structure_void",
             "predicate_type": "minecraft:random_block_match",
             "probability": 0.01
           },

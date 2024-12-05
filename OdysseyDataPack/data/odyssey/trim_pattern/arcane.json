@@ -1,8 +1,0 @@
-{
-  "asset_id": "odyssey:arcane",
-  "description": {
-    "translate": "trim_pattern.odyssey.arcane",
-    "fallback": "Arcane Armor Trim"
-  },
-  "template_item": "minecraft:trial_key"
-}

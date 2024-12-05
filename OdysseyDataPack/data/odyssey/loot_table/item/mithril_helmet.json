@@ -36,14 +36,14 @@
                   "attribute": "minecraft:armor",
                   "operation": "add_value",
                   "amount": 4,
-                  "id": "odyssey:odyssey.item.helmet.armor",
+                  "id": "odyssey:item.helmet.armor",
                   "slot": "head"
                 },
                 {
                   "attribute": "minecraft:armor_toughness",
                   "operation": "add_value",
                   "amount": 4,
-                  "id": "odyssey:odyssey.item.helmet.armor_toughness",
+                  "id": "odyssey:item.helmet.armor_toughness",
                   "slot": "head"
                 }
               ]
