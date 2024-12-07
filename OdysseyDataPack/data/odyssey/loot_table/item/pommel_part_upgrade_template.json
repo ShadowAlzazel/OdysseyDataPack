@@ -1,14 +1,15 @@
 {
+  "type": "chest",
   "pools": [
     {
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:paper",
+          "name": "minecraft:gold_ingot",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "pommel_part_upgrade_template",
                 "minecraft:item_model": "odyssey:pommel_part_upgrade_template"

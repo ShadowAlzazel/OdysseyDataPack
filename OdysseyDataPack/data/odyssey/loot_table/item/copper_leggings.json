@@ -1,4 +1,5 @@
 {
+  "type": "chest",
   "pools": [
     {
       "bonus_rolls": 0.0,
@@ -8,15 +9,15 @@
           "name": "minecraft:iron_leggings",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "copper_leggings",
+                "minecraft:item_model": "odyssey:copper_leggings",
                 "minecraft:equippable": {
                   "asset_id": "odyssey:copper",
                   "slot": "legs",
                   "equip_sound": "item.armor.equip_chain"
-                },
-                "minecraft:item_model": "odyssey:copper_leggings"
+                }
               },
               "conditions": []
             },
@@ -36,14 +37,14 @@
                   "attribute": "minecraft:armor",
                   "operation": "add_value",
                   "amount": 3,
-                  "id": "odyssey:item.base_armor.leggings",
+                  "id": "odyssey:item.leggings.armor",
                   "slot": "legs"
                 },
                 {
                   "attribute": "minecraft:armor_toughness",
                   "operation": "add_value",
                   "amount": 1,
-                  "id": "odyssey:item.base_armor_toughness.leggings",
+                  "id": "odyssey:item.leggings.armor_toughness",
                   "slot": "legs"
                 }
               ]

@@ -1,4 +1,5 @@
 {
+  "type": "chest",
   "pools": [
     {
       "bonus_rolls": 0.0,
@@ -8,7 +9,7 @@
           "name": "minecraft:rotten_flesh",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "coagulated_blood",
                 "minecraft:item_model": "odyssey:coagulated_blood"

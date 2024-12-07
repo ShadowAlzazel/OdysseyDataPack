@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:loot/random_part_pattern",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

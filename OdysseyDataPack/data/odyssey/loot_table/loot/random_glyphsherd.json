@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "odyssey:loot/random_glyphsherd",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/assault_glyphsherd",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/guard_glyphsherd",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/finesse_glyphsherd",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/swift_glyphsherd",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/vitality_glyphsherd",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/steadfast_glyphsherd",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/force_glyphsherd",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/break_glyphsherd",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/grasp_glyphsherd",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/jump_glyphsherd",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/gravity_glyphsherd",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/range_glyphsherd",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/size_glyphsherd",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

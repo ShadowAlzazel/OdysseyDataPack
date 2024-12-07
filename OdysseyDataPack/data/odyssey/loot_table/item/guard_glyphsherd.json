@@ -1,0 +1,47 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "guard_glyphsherd",
+                "minecraft:item_model": "odyssey:guard_glyphsherd"
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Guard Glyphsherd",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "amount": 1,
+                  "id": "odyssey:glyph.slot",
+                  "slot": "armor"
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

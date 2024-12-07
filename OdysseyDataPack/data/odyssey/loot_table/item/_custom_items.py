@@ -2,16 +2,11 @@ import os
 import json
 import math
 
-abspath = os.path.abspath(__file__)
-dir_name = os.path.dirname(abspath)
-os.chdir(dir_name)
-
 # --------------------------------------------------------------------------
 # --------------------------------------------------------------------------
 # --------------------------------------------------------------------------
 
-
-CUSTOM_ITEMS = [
+_CUSTOM_ITEMS = [
     # Exotics
     "abzu_blade",
     "elucidator",
@@ -29,38 +24,24 @@ CUSTOM_ITEMS = [
     "irradiated_fruit",
     "sculk_heart",
     "soul_omamori",
-    "soul_spice"
+    "soul_spice",
     # Equipment
-    "titanium_musket",
+    "grappling_hook",
+    "tinkered_musket",
+    "tinkered_bow",
     "auto_crossbow",
     "compact_crossbow",
-    "musket",
+    "alchemical_driver", #AKA alchemical bolter
     "arcane_wand",
     "arcane_blade",
     "arcane_scepter",
-    "grappling_hook"
+    "warping_wand",
+    "void_linked_kunai",
 ]
 
 
 def file_checker():
-    global CUSTOM_ITEMS
-    for item in CUSTOM_ITEMS:
+    for item in _CUSTOM_ITEMS:
         file_path = f'{item}.json'
         if not os.path.exists(file_path):
             print(f'WARNING: The file for [{item}] does not exist!')
-
-
-# Main
-def main():
-    # Prompt 
-    print("This will check if these items exist.")
-    print("Proceed (y/n) . . .")
-    answer = input()
-    # Input
-    if answer == "y":
-        print("Ok")
-        file_checker() 
-        
-# Main
-if __name__ == "__main__":
-    main()

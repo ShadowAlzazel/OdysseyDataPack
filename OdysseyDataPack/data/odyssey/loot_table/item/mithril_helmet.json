@@ -1,4 +1,5 @@
 {
+  "type": "chest",
   "pools": [
     {
       "bonus_rolls": 0.0,
@@ -8,15 +9,15 @@
           "name": "minecraft:iron_helmet",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "mithril_helmet",
+                "minecraft:item_model": "odyssey:mithril_helmet",
                 "minecraft:equippable": {
                   "asset_id": "odyssey:mithril",
                   "slot": "head",
                   "equip_sound": "item.armor.equip_chain"
-                },
-                "minecraft:item_model": "odyssey:mithril_helmet"
+                }
               },
               "conditions": []
             },
@@ -36,14 +37,14 @@
                   "attribute": "minecraft:armor",
                   "operation": "add_value",
                   "amount": 4,
-                  "id": "odyssey:item.base_armor.helmet",
+                  "id": "odyssey:item.helmet.armor",
                   "slot": "head"
                 },
                 {
                   "attribute": "minecraft:armor_toughness",
                   "operation": "add_value",
                   "amount": 4,
-                  "id": "odyssey:item.base_armor_toughness.helmet",
+                  "id": "odyssey:item.helmet.armor_toughness",
                   "slot": "head"
                 }
               ]

@@ -29,3 +29,11 @@ venv/
 
 # Datapack zips
 .zip
+
+# Devops
+_kotlin.txt
+
+
+# Editor
+.vscode/
+.vscode

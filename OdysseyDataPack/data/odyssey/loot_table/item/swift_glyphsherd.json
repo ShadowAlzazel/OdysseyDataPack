@@ -1,0 +1,47 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "swift_glyphsherd",
+                "minecraft:item_model": "odyssey:swift_glyphsherd"
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Swift Glyphsherd",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:movement_speed",
+                  "operation": "add_value",
+                  "amount": 0.02,
+                  "id": "odyssey:glyph.slot",
+                  "slot": "armor"
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

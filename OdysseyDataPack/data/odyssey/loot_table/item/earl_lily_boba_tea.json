@@ -1,4 +1,5 @@
 {
+  "type": "chest",
   "pools": [
     {
       "bonus_rolls": 0.0,
@@ -8,7 +9,7 @@
           "name": "minecraft:cookie",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "earl_lily_boba_tea",
                 "minecraft:item_model": "odyssey:earl_lily_boba_tea",

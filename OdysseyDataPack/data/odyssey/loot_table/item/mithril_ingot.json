@@ -1,4 +1,5 @@
 {
+  "type": "chest",
   "pools": [
     {
       "bonus_rolls": 0.0,
@@ -8,7 +9,7 @@
           "name": "minecraft:iron_ingot",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "mithril_ingot",
                 "minecraft:item_model": "odyssey:mithril_ingot"
