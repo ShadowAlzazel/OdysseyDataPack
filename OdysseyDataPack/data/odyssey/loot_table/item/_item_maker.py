@@ -11,7 +11,7 @@ from _item_data import *
 # --------------------------------------------------------------------------
 
 @dataclass
-class ItemData:
+class DataItem:
     item_name: str
     item_override: str
     components: list = field(default_factory=list)
@@ -118,10 +118,11 @@ def new_modifier_list(modifiers: list[Modifier]):
 
 
 # Basic Loot/Item Json 
-def create_item_obj(item_data: ItemData) -> dict:
+def create_item_obj(item_data: DataItem) -> dict:
     # First obj to make
     override_item = f'minecraft:{item_data.item_override}'
     item_json = {
+        "type": "chest",
         "pools": [{
             "bonus_rolls": 0.0,
             "entries": [{
@@ -168,7 +169,7 @@ def create_item_obj(item_data: ItemData) -> dict:
 # --------------------------------------------------------------------------
 
 
-def generate_item_file(item_data: ItemData) -> None:
+def generate_item_file(item_data: DataItem) -> None:
     file_name = f'{item_data.item_name}.json'
     item = json.dumps(create_item_obj(item_data), indent=2)
     with open(file_name, 'w') as f:
@@ -176,7 +177,7 @@ def generate_item_file(item_data: ItemData) -> None:
     return
 
 
-def create_new_item_files(item_list: [ItemData]) -> None:
+def create_new_item_files(item_list: [DataItem]) -> None:
     # Prompt 
     print("Confirm creation of new files? This will overwrite old files!")
     print(f"Will create {len(item_list)} items.")
@@ -184,7 +185,7 @@ def create_new_item_files(item_list: [ItemData]) -> None:
     answer = input()
     # Input
     if answer == "y":
-        print("Ok")
+        print("Starting generation of items...")
         for x in item_list:
             generate_item_file(x)
         print("Finished generating item files.")
@@ -201,14 +202,14 @@ def generate_new_armor_file(material: str, armor_piece: str):
     armor_val = ARMOR_VALUES[material][index]
     toughness_val = TOUGHNESS_VALUES[material][index]
     keyId = f'item.{armor_piece}'
-    # Create ItemData
+    # Create DataItem
     modifiers = [
         Modifier("armor", armor_val, slot, f'{keyId}.armor'),
         Modifier("armor_toughness", toughness_val, slot, f'{keyId}.armor_toughness')
     ]
     override_item = f'iron_{armor_piece}'
     components = [AttributesComponent(modifiers), EquippableComponent(material, slot)]
-    data = ItemData(item_name, override_item, components)
+    data = DataItem(item_name, override_item, components)
     # Create file
     generate_item_file(data)   
 

@@ -1,11 +1,12 @@
 {
+  "type": "chest",
   "pools": [
     {
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:paper",
+          "name": "minecraft:gold_ingot",
           "functions": [
             {
               "function": "minecraft:set_components",

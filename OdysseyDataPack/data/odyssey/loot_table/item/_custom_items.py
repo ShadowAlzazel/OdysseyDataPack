@@ -6,7 +6,7 @@ import math
 # --------------------------------------------------------------------------
 # --------------------------------------------------------------------------
 
-CUSTOM_ITEMS = [
+_CUSTOM_ITEMS = [
     # Exotics
     "abzu_blade",
     "elucidator",
@@ -24,7 +24,7 @@ CUSTOM_ITEMS = [
     "irradiated_fruit",
     "sculk_heart",
     "soul_omamori",
-    "soul_spice"
+    "soul_spice",
     # Equipment
     "grappling_hook",
     "tinkered_musket",
@@ -32,17 +32,16 @@ CUSTOM_ITEMS = [
     "auto_crossbow",
     "compact_crossbow",
     "alchemical_driver", #AKA alchemical bolter
-    "explosive_arrow"
     "arcane_wand",
     "arcane_blade",
     "arcane_scepter",
     "warping_wand",
-    "void_linked_kunai"
+    "void_linked_kunai",
 ]
 
 
 def file_checker():
-    for item in CUSTOM_ITEMS:
+    for item in _CUSTOM_ITEMS:
         file_path = f'{item}.json'
         if not os.path.exists(file_path):
             print(f'WARNING: The file for [{item}] does not exist!')
