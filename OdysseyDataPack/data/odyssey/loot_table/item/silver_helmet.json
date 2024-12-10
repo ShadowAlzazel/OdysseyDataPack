@@ -17,7 +17,8 @@
                   "asset_id": "odyssey:silver",
                   "slot": "head",
                   "equip_sound": "item.armor.equip_chain"
-                }
+                },
+                "minecraft:max_damage": 148
               },
               "conditions": []
             },

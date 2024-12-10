@@ -17,6 +17,7 @@ PIECE_INDEX = {
     'leggings': 2, 
     'boots': 3
 }
+BASE_ARMOR_DURABILITY = [165, 240, 225, 195]
 
 # Values
 ARMOR_VALUES = {
@@ -36,4 +37,15 @@ TOUGHNESS_VALUES = {
     'anodized_titanium': [2, 2, 2, 2],
     'iridium': [3, 3, 3, 3],
     'mithril': [4, 4, 4, 4]
+}
+DURABILITY_VALUES = {
+    'copper': 0.7, 
+    'silver': 0.9, 
+    'soul_steel': 1.6, 
+    'titanium': 1.9, 
+    'anodized_titanium': 1.9, 
+    #diamond: 2.2
+    #netherite: 2.47
+    'iridium': 3.7, 
+    'mithril': 2.3, 
 }

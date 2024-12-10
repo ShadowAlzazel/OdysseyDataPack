@@ -38,6 +38,10 @@ class ConsumableComponent:
     consume_seconds: float=2.4
     
 @dataclass
+class MaxDamageComponent:
+    max_damage: int
+    
+@dataclass
 class EquippableComponent:
     asset_id: str
     slot: str
@@ -73,6 +77,8 @@ def get_components_obj(data_components: list):
             components["minecraft:item_model"] = f'{namespace}:{x.item_model}'
         elif isinstance(x, ItemNameComponent):
             components["minecraft:item_name"] = x.item_name
+        elif isinstance(x, MaxDamageComponent):
+            components["minecraft:max_damage"] = x.max_damage
     # Merge    
     components_obj = {
         "function": "minecraft:set_components",
@@ -201,6 +207,7 @@ def generate_new_armor_file(material: str, armor_piece: str):
     index = PIECE_INDEX[armor_piece]
     armor_val = ARMOR_VALUES[material][index]
     toughness_val = TOUGHNESS_VALUES[material][index]
+    durability_val = int(BASE_ARMOR_DURABILITY[index] * DURABILITY_VALUES[material])
     keyId = f'item.{armor_piece}'
     # Create DataItem
     modifiers = [
@@ -208,7 +215,12 @@ def generate_new_armor_file(material: str, armor_piece: str):
         Modifier("armor_toughness", toughness_val, slot, f'{keyId}.armor_toughness')
     ]
     override_item = f'iron_{armor_piece}'
-    components = [AttributesComponent(modifiers), EquippableComponent(material, slot)]
+
+    components = [
+        AttributesComponent(modifiers),
+        EquippableComponent(material, slot),
+        MaxDamageComponent(durability_val)
+    ]
     data = DataItem(item_name, override_item, components)
     # Create file
     generate_item_file(data)   
