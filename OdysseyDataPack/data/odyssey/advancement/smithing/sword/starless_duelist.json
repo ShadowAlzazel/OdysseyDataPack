@@ -1,0 +1,64 @@
+{
+  "parent": "odyssey:smithing/sword/craft_cutlass",
+  "criteria": {
+    "starless_duelist": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:swords",
+            "components": {
+              "minecraft:item_name": "iridium_cutlass",
+              "minecraft:item_model": "odyssey:iridium_cutlass",
+              "minecraft:custom_model_data": {
+                "strings": [
+                  "cutlass",
+                  "imperial_blade",
+                  "handle",
+                  "voyager_hilt",
+                  "crusader_pommel",
+                  "no_trim"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_sword",
+      "components": {
+        "minecraft:item_name": "iridium_cutlass",
+        "minecraft:item_model": "odyssey:iridium_cutlass",
+        "minecraft:custom_model_data": {
+          "strings": [
+            "cutlass",
+            "imperial_blade",
+            "handle",
+            "voyager_hilt",
+            "crusader_pommel",
+            "no_trim"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Starless Duelist"
+    },
+    "description": {
+      "translate": "Craft an Iridium cutlass and apply an Imperial Blade, Voyager Hilt, and Crusader Pommel"
+    }
+  },
+  "requirements": [
+    [
+      "starless_duelist"
+    ]
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "parent": "odyssey:odyssey/obtain_any_weapon_pattern",
+  "criteria": {
+    "hilt_part_upgrade_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_ingot",
+            "components": {
+              "minecraft:item_name": "hilt_part_upgrade_template",
+              "minecraft:item_model": "odyssey:hilt_part_upgrade_template"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "blade_part_upgrade_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_ingot",
+            "components": {
+              "minecraft:item_name": "blade_part_upgrade_template",
+              "minecraft:item_model": "odyssey:blade_part_upgrade_template"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "pommel_part_upgrade_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_ingot",
+            "components": {
+              "minecraft:item_name": "pommel_part_upgrade_template",
+              "minecraft:item_model": "odyssey:pommel_part_upgrade_template"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "handle_part_upgrade_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_ingot",
+            "components": {
+              "minecraft:item_name": "handle_part_upgrade_template",
+              "minecraft:item_model": "odyssey:handle_part_upgrade_template"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:gold_ingot",
+      "components": {
+        "minecraft:item_model": "odyssey:hilt_part_upgrade_template",
+        "minecraft:item_name": "hilt_part_upgrade_template"
+      }
+    },
+    "title": {
+      "translate": "Blades and Hilts"
+    },
+    "description": {
+      "translate": "Craft any part upgrade template."
+    }
+  },
+  "requirements": [
+    [
+      "hilt_part_upgrade_template",
+      "blade_part_upgrade_template",
+      "pommel_part_upgrade_template",
+      "handle_part_upgrade_template"
+    ]
+  ]
+}

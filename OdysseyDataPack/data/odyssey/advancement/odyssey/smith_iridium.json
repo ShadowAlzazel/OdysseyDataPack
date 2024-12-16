@@ -1,5 +1,5 @@
 {
-  "parent": "odyssey:odyssey/smith_titanium",
+  "parent": "odyssey:odyssey/obtain_iridium",
   "display": {
     "frame": "goal",
     "hidden": false,

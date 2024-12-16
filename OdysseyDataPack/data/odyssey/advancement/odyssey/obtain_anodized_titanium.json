@@ -1,0 +1,35 @@
+{
+  "parent": "odyssey:odyssey/obtain_titanium",
+  "criteria": {
+    "craft_katana": {
+      "conditions": {
+        "ingredients": [],
+        "recipe_id": "odyssey:anodized_titanium_furnace"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "Deep Blue"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_ingot",
+      "components": {
+        "minecraft:item_model": "odyssey:heated_titanium_ingot",
+        "minecraft:item_name": "heated_titanium_ingot"
+      }
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "Heat a peice of titanium in the furnace; then heat it again to get its anodized form."
+    }
+  },
+  "requirements": [
+    ["craft_katana"]
+  ]
+}

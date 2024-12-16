@@ -1,14 +1,10 @@
 {
-  "parent": "odyssey:smithing/sword/tracker_root",
+  "parent": "odyssey:smithing/sword/sword_root",
   "criteria": {
     "craft_saber": {
       "conditions": {
-        "ingredients": [
-          {
-            "item": {}
-          }
-        ],
-        "recipe_id":"odyssey:weapons/stone_saber"
+        "ingredients": [],
+        "recipe_id": "odyssey:diamond_saber"
       },
       "trigger": "minecraft:recipe_crafted"
     }
@@ -34,8 +30,6 @@
     }
   },
   "requirements": [
-    [
-      "craft_saber"
-    ]
+    ["craft_saber"]
   ]
 }

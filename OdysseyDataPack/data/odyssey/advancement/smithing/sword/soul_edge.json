@@ -1,0 +1,62 @@
+{
+  "parent": "odyssey:smithing/sword/craft_katana",
+  "criteria": {
+    "soul_edge": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:swords",
+            "components": {
+              "minecraft:item_name": "soul_steel_katana",
+              "minecraft:item_model": "odyssey:soul_steel_katana",
+              "minecraft:custom_model_data": {
+                "strings": [
+                  "katana",
+                  "danger_blade",
+                  "handle",
+                  "humble_hilt",
+                  "marauder_pommel",
+                  "no_trim"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_sword",
+      "components": {
+        "minecraft:item_model": "odyssey:soul_steel_katana",
+        "minecraft:item_name": "soul_steel_katana",
+        "minecraft:custom_model_data": {
+          "strings": [
+            "katana",
+            "danger_blade",
+            "handle",
+            "humble_hilt",
+            "marauder_pommel",
+            "no_trim"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Soul Edge"
+    },
+    "description": {
+      "translate": "Craft a soul steel katana and apply a Danger Blade, Humble Hilt, and Marauder Pommel"
+    }
+  },
+  "requirements": [
+    ["soul_edge"]
+  ]
+}

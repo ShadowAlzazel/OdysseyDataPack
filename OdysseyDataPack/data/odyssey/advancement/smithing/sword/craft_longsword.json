@@ -1,10 +1,10 @@
 {
   "parent": "odyssey:smithing/sword/sword_root",
   "criteria": {
-    "craft_katana": {
+    "craft_longsword": {
       "conditions": {
         "ingredients": [],
-        "recipe_id": "odyssey:diamond_katana"
+        "recipe_id": "odyssey:diamond_longsword"
       },
       "trigger": "minecraft:recipe_crafted"
     }
@@ -12,7 +12,7 @@
   "display": {
     "announce_to_chat": false,
     "description": {
-      "translate": "advancments.odyssey.smithing.sword.craft_katana.description"
+      "translate": "Craft a longsword"
     },
     "frame": "task",
     "hidden": false,
@@ -20,16 +20,18 @@
       "count": 1,
       "id": "minecraft:diamond_sword",
       "components": {
-        "minecraft:item_model": "odyssey:diamond_katana",
-        "minecraft:item_name": "diamond_katana"
+        "minecraft:item_model": "odyssey:diamond_longsword",
+        "minecraft:item_name": "diamond_longsword"
       }
     },
     "show_toast": true,
     "title": {
-      "translate": "advancments.odyssey.smithing.sword.craft_katana.title"
+      "translate": "A trusty tool"
     }
   },
   "requirements": [
-    ["craft_katana"]
+    [
+      "craft_longsword"
+    ]
   ]
 }

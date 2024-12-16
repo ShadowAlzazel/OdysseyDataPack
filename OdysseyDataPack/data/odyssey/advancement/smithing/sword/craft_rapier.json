@@ -1,14 +1,10 @@
 {
-  "parent": "odyssey:smithing/sword/tracker_root",
+  "parent": "odyssey:smithing/sword/sword_root",
   "criteria": {
     "craft_rapier": {
       "conditions": {
-        "ingredients": [
-          {
-            "item": {}
-          }
-        ],
-        "recipe_id":"odyssey:weapons/stone_rapier"
+        "ingredients": [],
+        "recipe_id": "odyssey:diamond_rapier"
       },
       "trigger": "minecraft:recipe_crafted"
     }
@@ -34,8 +30,6 @@
     }
   },
   "requirements": [
-    [
-      "craft_rapier"
-    ]
+    ["craft_rapier"]
   ]
 }
