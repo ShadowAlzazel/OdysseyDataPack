@@ -53,6 +53,7 @@ ITEMS = [
     DataItem("soul_steel_upgrade_template", "paper"),
     DataItem("titanium_upgrade_template", "paper"),
     DataItem("iridium_upgrade_template", "paper"),
+    DataItem("crystal_alloy_upgrade_template", "paper"),
     # Enchanting
     DataItem("tome_of_discharge", "enchanted_book"),
     DataItem("tome_of_expenditure", "enchanted_book"),
