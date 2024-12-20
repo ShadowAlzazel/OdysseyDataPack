@@ -1,0 +1,60 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "crystal_alloy_leggings",
+                "minecraft:item_model": "odyssey:crystal_alloy_leggings",
+                "minecraft:equippable": {
+                  "asset_id": "odyssey:crystal_alloy",
+                  "slot": "legs",
+                  "equip_sound": "item.armor.equip_chain"
+                },
+                "minecraft:max_damage": 405
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Crystal Alloy Leggings",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "amount": 6,
+                  "id": "odyssey:item.leggings.armor",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "minecraft:armor_toughness",
+                  "operation": "add_value",
+                  "amount": 2,
+                  "id": "odyssey:item.leggings.armor_toughness",
+                  "slot": "legs"
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

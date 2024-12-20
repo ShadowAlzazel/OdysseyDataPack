@@ -24,6 +24,7 @@ ARMOR_VALUES = {
     'copper': [2, 4, 3, 1],
     'silver': [3, 5, 3, 2], 
     'soul_steel': [3, 7, 6, 3],
+    'crystal_alloy': [3, 7, 6, 3], 
     'titanium': [3, 7, 6, 3], 
     'anodized_titanium': [3, 7, 6, 3],
     'iridium': [4, 9, 7, 4],
@@ -33,6 +34,7 @@ TOUGHNESS_VALUES = {
     'copper': [1, 1, 1, 1],
     'silver': [1, 1, 1, 1], 
     'soul_steel': [2, 2, 2, 2],
+    'crystal_alloy': [2, 2, 2, 2], 
     'titanium': [2, 2, 2, 2], 
     'anodized_titanium': [2, 2, 2, 2],
     'iridium': [3, 3, 3, 3],
@@ -42,6 +44,7 @@ DURABILITY_VALUES = {
     'copper': 0.7, 
     'silver': 0.9, 
     'soul_steel': 1.6, 
+    'crystal_alloy': 1.8, 
     'titanium': 1.9, 
     'anodized_titanium': 1.9, 
     #diamond: 2.2

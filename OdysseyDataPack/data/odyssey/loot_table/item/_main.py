@@ -37,6 +37,7 @@ ITEMS = [
     DataItem("soul_steel_ingot", "iron_ingot"),
     DataItem("titanium_ingot", "iron_ingot"),
     DataItem("shadow_trial_key", "trial_key"),
+    DataItem("crystal_alloy_ingot", "iron_ingot"),
     # Smithing
     DataItem("imperial_armor_trim_smithing_template", "paper"),
     DataItem("voyager_armor_trim_smithing_template", "paper"),
@@ -157,7 +158,7 @@ CUSTOM: list[DataItem] = [
 
 # List
 ARMOR_PIECES = ['helmet', 'chestplate', 'leggings', 'boots']
-ARMOR_MATERIALS = ['silver', 'copper', 'soul_steel', 'titanium', 'anodized_titanium', 'iridium', 'mithril']
+ARMOR_MATERIALS = ['silver', 'copper', 'soul_steel', 'titanium', 'anodized_titanium', 'iridium', 'mithril', 'crystal_alloy']
 
 
 # Main

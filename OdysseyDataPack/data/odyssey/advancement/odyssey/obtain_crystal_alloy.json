@@ -1,0 +1,44 @@
+{
+  "parent": "odyssey:odyssey/root",
+  "criteria": {
+    "crystal_alloy_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_ingot",
+            "components": {
+              "minecraft:item_name": "crystal_alloy_ingot",
+              "minecraft:item_model": "odyssey:crystal_alloy_ingot"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_ingot",
+      "components": {
+        "minecraft:item_model": "odyssey:crystal_alloy_ingot",
+        "minecraft:item_name": "crystal_alloy_ingot"
+      }
+    },
+    "title": {
+      "translate": "Arcanic Metal"
+    },
+    "description": {
+      "translate": "Craft a crystal alloy using gold, a diamond, and amethyst."
+    }
+  },
+  "requirements": [
+    [
+      "crystal_alloy_ingot"
+    ]
+  ]
+}
