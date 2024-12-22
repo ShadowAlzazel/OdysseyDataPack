@@ -29,7 +29,7 @@
                     },
                     "argument2": {
                       "type": "minecraft:add",
-                      "argument1": "odyssey:edge/gills/base",
+                      "argument1": "odyssey:edge/regions/gills",
                       "argument2": 23.4375
                     }
                   },

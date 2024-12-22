@@ -11,7 +11,7 @@
         "argument1": 0.89,
         "argument2": {
           "type": "minecraft:add",
-          "argument1": "odyssey:edge/strings/3d_noise",
+          "argument1": "odyssey:edge/regions/strings_3d_noise",
           "argument2": {
             "type": "minecraft:mul",
             "argument1": 0.03,
@@ -29,7 +29,7 @@
       },
       "argument2": {
         "type": "minecraft:add",
-        "argument1": -0.04,
+        "argument1": -0.05,
         "argument2": {
           "type": "minecraft:mul",
           "argument1": -1,

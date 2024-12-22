@@ -5,8 +5,12 @@ Created by ShadowAlzazel
 
 # CREDITS
 
-Original Terrain for Edge heavily inspired by Shattered Lands https://modrinth.com/datapack/shattered-lands by DevuProjects
-New Base Terrain inspired by Snapshot Potato (24w14potato)
+WORLDGEN: 
+
+-Huge thanks to @Unnecessarymb for magic numbers and custom density
+-Original Idea for Edge heavily inspired by Shattered Lands https://modrinth.com/datapack/shattered-lands by DevuProjects
+-New Base Terrain inspired by Snapshot Potato (24w14potato)
+
 
 
 MUSIC:

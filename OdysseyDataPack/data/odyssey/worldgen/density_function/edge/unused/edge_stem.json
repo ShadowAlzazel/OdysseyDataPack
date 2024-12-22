@@ -37,7 +37,7 @@
                     "argument2": {
                       "type": "minecraft:add",
                       "argument1": 0.14,
-                      "argument2": "odyssey:edge/stem/base"
+                      "argument2": "odyssey:edge/regions/stem"
                     }
                   }
                 }

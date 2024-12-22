@@ -12,7 +12,7 @@
   },
   "argument2": {
     "type": "minecraft:add",
-    "argument1": "odyssey:edge/stem/stem_peaks",
+    "argument1": "odyssey:edge/regions/stem_peaks",
     "argument2": {
       "type": "minecraft:mul",
       "argument1": {

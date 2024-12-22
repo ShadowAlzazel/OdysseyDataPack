@@ -3,7 +3,7 @@
   "argument1": 0.0373,
   "argument2": {
     "type": "minecraft:mul",
-    "argument1": 1.17,
+    "argument1": 1.07,
     "argument2": {
       "type": "minecraft:add",
       "argument1": 0.01,
@@ -29,11 +29,11 @@
                   }
                 }
               },
-              "argument2": "odyssey:edge/gills/factor"
+              "argument2": "odyssey:edge/regions/gills_factor"
             }
           }
         },
-        "argument2": "odyssey:edge/gills/3d_noise"
+        "argument2": "odyssey:edge/regions/gills_3d_noise"
       }
     }
   }

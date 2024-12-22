@@ -2,14 +2,14 @@
   "type": "minecraft:squeeze",
   "argument": {
     "type": "minecraft:mul",
-    "argument1": 0.64,
+    "argument1": 0.69,
     "argument2": {
       "type": "minecraft:interpolated",
       "argument": {
         "type": "minecraft:blend_density",
         "argument": {
           "type": "minecraft:add",
-          "argument1": -0.1,
+          "argument1": -0.09,
           "argument2": {
             "type": "minecraft:mul",
             "argument1": {
@@ -17,7 +17,7 @@
               "from_y": -128,
               "to_y": -64,
               "from_value": 0,
-              "to_value": 1.5
+              "to_value": 1.182
             },
             "argument2": {
               "type": "minecraft:add",
@@ -38,28 +38,25 @@
                     "type": "minecraft:add",
                     "argument1": {
                       "type": "minecraft:add",
-                      "argument1": 0.169,
-                      "argument2": "minecraft:end/base_3d_noise"
-                    },
-                    "argument2": {
-                      "type": "minecraft:add",
                       "argument1": {
-                        "type": "minecraft:range_choice",
-                        "input": "minecraft:overworld/erosion",
-                        "min_inclusive": -2,
-                        "max_exclusive": -0.6,
-                        "when_in_range": "odyssey:edge/strings/base",
-                        "when_out_of_range": 0
+                        "type": "minecraft:add",
+                        "argument1": 0.169,
+                        "argument2": "minecraft:end/base_3d_noise"
                       },
                       "argument2": {
-                        "type": "minecraft:range_choice",
-                        "input": "minecraft:overworld/continents",
-                        "min_inclusive": 0.6,
-                        "max_exclusive": 2,
-                        "when_in_range": "odyssey:edge/gills/base",
-                        "when_out_of_range": 0
+                        "type": "minecraft:mul",
+                        "argument1": 0,
+                        "argument2": {
+                          "type": "minecraft:range_choice",
+                          "input": "minecraft:overworld/depth",
+                          "min_inclusive": -0.3,
+                          "max_exclusive": 0.3,
+                          "when_in_range": "odyssey:edge/world/linea",
+                          "when_out_of_range": 0
+                        }
                       }
-                    }
+                    },
+                    "argument2": "odyssey:edge/noise_router/edge_regions"
                   }
                 }
               }
