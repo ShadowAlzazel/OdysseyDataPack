@@ -2,7 +2,6 @@
   "has_precipitation": true,
   "temperature": 0.3,
   "downfall": 0.5,
-  "player_spawn_friendly": true,
   "creature_spawn_probability": 0.3,
   "carvers": [
     "minecraft:cave",

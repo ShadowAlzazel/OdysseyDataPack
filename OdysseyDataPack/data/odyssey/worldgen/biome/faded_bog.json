@@ -2,7 +2,6 @@
   "has_precipitation": false,
   "temperature": 0.8,
   "downfall": 0.6,
-  "player_spawn_friendly": false,
   "creature_spawn_probability": 0.4,
   "carvers": [
     "minecraft:cave",
@@ -70,7 +69,8 @@
       "odyssey:faded_bog/trees",
       "odyssey:faded_bog/patch_vegetation",
       "odyssey:faded_bog/patch_flowers",
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "odyssey:cave/hanging_moss"
     ],
     []
   ],

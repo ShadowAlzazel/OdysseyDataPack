@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:range_choice",
+      "input": "minecraft:overworld/caves/pillars",
+      "max_exclusive": 0.076,
+      "min_inclusive": -1000000.0,
+      "when_in_range": "odyssey:edge/caves/pillars",
+      "when_out_of_range": 0.0
+    },
+    "argument2": 0
+  },
+  "argument2": 0.0
+}

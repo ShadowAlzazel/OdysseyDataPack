@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 3943634,
+    "separation": 16,
+    "spacing": 26
+  },
+  "structures": [
+    {
+      "structure": "odyssey:line_mine",
+      "weight": 1
+    }
+  ]
+}

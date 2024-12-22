@@ -1,0 +1,17 @@
+{
+  "type": "add",
+  "argument1": "odyssey:edge/world/linea",
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": 1.1,
+    "argument2": {
+      "type": "minecraft:shifted_noise",
+      "noise": "minecraft:badlands_surface",
+      "xz_scale": 4,
+      "y_scale": 1,
+      "shift_x": 0.99,
+      "shift_y": 0.99,
+      "shift_z": 0.99
+    }
+  }
+}

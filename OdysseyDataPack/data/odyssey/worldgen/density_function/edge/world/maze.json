@@ -1,9 +1,9 @@
 {
   "type": "minecraft:add",
-  "argument1": "odyssey:edge/world/grid",
+  "argument1": "odyssey:edge/world/3d_grid",
   "argument2": {
     "type": "minecraft:mul",
-    "argument1": 0.2,
+    "argument1": 1,
     "argument2": {
       "type": "minecraft:noise",
       "noise": "odyssey:world/maze",

@@ -2,7 +2,6 @@
   "has_precipitation": true,
   "temperature": 0.4,
   "downfall": 0.7,
-  "player_spawn_friendly": true,
   "creature_spawn_probability": 0.4,
   "carvers": [
     "minecraft:cave",
@@ -65,7 +64,8 @@
     [],
     [
       "minecraft:glow_lichen",
-      "odyssey:cave/lumenshroom_undergrowth/shrooms_mini"
+      "odyssey:cave/lumenshroom_undergrowth/shrooms_mini",
+      "odyssey:cave/hanging_moss"
     ],
     [
       "minecraft:freeze_top_layer"

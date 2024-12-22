@@ -7,11 +7,70 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "odyssey:aetherial_woods",
+          "biome": "odyssey:lumenshroom_grove",
           "parameters": {
             "continentalness": [
               -0.3,
               0.3
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0.7, 1
+            ],
+            "humidity": [
+              -0.3,
+              0.3
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -0.3,
+              0.2
+            ],
+            "weirdness": [
+              -0.7,
+              -0.4
+            ]
+          }
+        },
+        {
+          "biome": "odyssey:aetherial_woods",
+          "parameters": {
+            "continentalness": [
+              0.0,
+              0.6
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              -0.5,
+              0.0
+            ],
+            "humidity": [
+              -0.3,
+              0.0
+            ],
+            "offset": 0.0,
+            "temperature": [
+              0.0,
+              0.4
+            ],
+            "weirdness": [
+              0.4,
+              0.9
+            ]
+          }
+        },
+        {
+          "biome": "odyssey:faded_bog",
+          "parameters": {
+            "continentalness": [
+              -0.6,
+              -0.3
             ],
             "depth": [
               -0.005,
@@ -127,36 +186,6 @@
           }
         },
         {
-          "biome": "odyssey:faded_bog",
-          "parameters": {
-            "continentalness": [
-              0.0,
-              0.6
-            ],
-            "depth": [
-              -0.005,
-              0
-            ],
-            "erosion": [
-              -0.5,
-              0.0
-            ],
-            "humidity": [
-              -0.3,
-              0.0
-            ],
-            "offset": 0.0,
-            "temperature": [
-              0.0,
-              0.4
-            ],
-            "weirdness": [
-              0.4,
-              0.9
-            ]
-          }
-        },
-        {
           "biome": "odyssey:cardinal_fields",
           "parameters": {
             "continentalness": [
@@ -241,35 +270,6 @@
             "weirdness": [
               -0.8,
               -0.5
-            ]
-          }
-        },
-        {
-          "biome": "odyssey:lumenshroom_grove",
-          "parameters": {
-            "continentalness": [
-              -0.3,
-              0.3
-            ],
-            "depth": [
-              -0.005,
-              0
-            ],
-            "erosion": [
-              0.7, 1
-            ],
-            "humidity": [
-              -0.3,
-              0.3
-            ],
-            "offset": 0.0,
-            "temperature": [
-              -0.3,
-              0.2
-            ],
-            "weirdness": [
-              -0.7,
-              -0.4
             ]
           }
         },
