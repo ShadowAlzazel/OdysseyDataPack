@@ -1,15 +1,15 @@
 {
   "type": "minecraft:add",
-  "argument1": -0.0,
+  "argument1": 0.0,
   "argument2": {
     "type": "minecraft:mul",
-    "argument1": 1.25,
+    "argument1": 1.03,
     "argument2": {
       "type": "minecraft:mul",
       "argument1": {
         "type": "minecraft:y_clamped_gradient",
         "from_y": -32,
-        "to_y": 78,
+        "to_y": 200,
         "from_value": 1,
         "to_value": 0
       },
@@ -17,15 +17,22 @@
         "type": "minecraft:mul",
         "argument1": {
           "type": "minecraft:y_clamped_gradient",
-          "from_y": 78,
+          "from_y": 200,
           "to_y": -32,
           "from_value": 1,
           "to_value": 0
         },
         "argument2": {
           "type": "minecraft:mul",
-          "argument1": "odyssey:edge/world/linea",
-          "argument2": 1
+          "argument1": 1,
+          "argument2": {
+            "type": "minecraft:range_choice",
+            "input": "odyssey:edge/world/double_string",
+            "min_inclusive": -0.0304,
+            "max_exclusive": 0.0198,
+            "when_in_range": -4,
+            "when_out_of_range": 0
+          }
         }
       }
     }

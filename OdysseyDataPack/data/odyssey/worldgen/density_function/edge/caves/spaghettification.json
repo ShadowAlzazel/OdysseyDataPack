@@ -1,15 +1,15 @@
 {
   "type": "minecraft:add",
-  "argument1": -0.0,
+  "argument1": -0.3,
   "argument2": {
     "type": "minecraft:mul",
-    "argument1": 1.25,
+    "argument1": 1.03,
     "argument2": {
       "type": "minecraft:mul",
       "argument1": {
         "type": "minecraft:y_clamped_gradient",
-        "from_y": -32,
-        "to_y": 78,
+        "from_y": -128,
+        "to_y": -32,
         "from_value": 1,
         "to_value": 0
       },
@@ -17,8 +17,8 @@
         "type": "minecraft:mul",
         "argument1": {
           "type": "minecraft:y_clamped_gradient",
-          "from_y": 78,
-          "to_y": -32,
+          "from_y": -32,
+          "to_y": -128,
           "from_value": 1,
           "to_value": 0
         },
