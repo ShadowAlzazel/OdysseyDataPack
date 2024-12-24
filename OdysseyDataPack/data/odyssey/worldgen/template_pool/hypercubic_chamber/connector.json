@@ -1,0 +1,89 @@
+{
+    "name": "odyssey:hypercubic_chamber/connector",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 10,
+        "element": {
+          "location": "odyssey:hypercubic_chamber/hypercubic_connector_non_gen",
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 30,
+        "element": {
+          "location": "odyssey:hypercubic_chamber/hypercubic_connector",
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 30,
+        "element": {
+          "location": "odyssey:hypercubic_chamber/hypercubic_connector_top",
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },
+
+      {
+        "weight": 1,
+        "element": {
+          "location": "odyssey:hypercubic_chamber/hypercubic_connector_offset_bl",
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "odyssey:hypercubic_chamber/hypercubic_connector_offset_br",
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "odyssey:hypercubic_chamber/hypercubic_connector_offset_tr",
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "odyssey:hypercubic_chamber/hypercubic_connector_offset_tl",
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "odyssey:hypercubic_chamber/hypercubic_connector_offset_cr",
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "odyssey:hypercubic_chamber/hypercubic_connector_offset_cl",
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,15 @@
+{
+  "name": "odyssey:hypercubic_chamber/threat",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "odyssey:hypercubic_chamber/hypercubic_chamber_threat_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

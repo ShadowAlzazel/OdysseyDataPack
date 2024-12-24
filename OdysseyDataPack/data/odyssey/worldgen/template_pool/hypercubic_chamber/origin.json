@@ -1,0 +1,17 @@
+{
+  "name": "odyssey:hypercubic_chamber/origin",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:hypercubic_chamber/hypercubic_start_room_1_p",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

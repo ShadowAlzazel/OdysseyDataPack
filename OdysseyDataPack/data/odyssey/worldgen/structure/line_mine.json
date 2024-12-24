@@ -27,7 +27,7 @@
     }
   },
   "start_pool": "odyssey:line_mine/origin",
-  "step": "surface_structures",
+  "step": "underground_structures",
   "terrain_adaptation": "bury",
   "use_expansion_hack": true
 }
