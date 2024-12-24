@@ -73,8 +73,22 @@
           },
           "argument2": {
             "type": "add",
-            "argument1": 0,
-            "argument2": 0
+            "argument1": {
+              "type": "minecraft:range_choice",
+              "input": "odyssey:edge/world/sky_veins",
+              "min_inclusive": 0.084,
+              "max_exclusive": 0.236,
+              "when_in_range": "odyssey:edge/features/aurora",
+              "when_out_of_range": 0
+            },
+            "argument2": {
+              "type": "minecraft:range_choice",
+              "input": "minecraft:overworld/continents",
+              "min_inclusive": -0.233,
+              "max_exclusive": 0.233,
+              "when_in_range": "odyssey:edge/caves/lines",
+              "when_out_of_range": 0
+            }
           }
         }
       }

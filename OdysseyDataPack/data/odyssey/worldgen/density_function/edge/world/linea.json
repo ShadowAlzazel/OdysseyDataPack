@@ -7,8 +7,8 @@
       "argument1": {
         "type": "minecraft:noise",
         "noise": "odyssey:world/xtrala",
-        "xz_scale": 0,
-        "y_scale": 0
+        "xz_scale": 2,
+        "y_scale": 1
       },
       "argument2": {
         "type": "minecraft:mul",
@@ -31,7 +31,7 @@
   },
   "argument2": {
     "type": "minecraft:mul",
-    "argument1": 3,
+    "argument1": 4,
     "argument2": {
       "type": "minecraft:noise",
       "noise": "odyssey:world/beta",
