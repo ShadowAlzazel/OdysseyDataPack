@@ -7,7 +7,7 @@
       "argument1": {
         "type": "minecraft:mul",
         "argument1": 2.0,
-        "argument2": "odyssey:edge/world/linea"
+        "argument2": "odyssey:edge/world/pixelated"
       },
       "argument2": {
         "type": "minecraft:add",

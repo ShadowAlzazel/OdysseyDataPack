@@ -24,7 +24,7 @@
         },
         "argument2": {
           "type": "minecraft:mul",
-          "argument1": "odyssey:edge/world/linea",
+          "argument1": "odyssey:edge/world/pixelated",
           "argument2": 1
         }
       }

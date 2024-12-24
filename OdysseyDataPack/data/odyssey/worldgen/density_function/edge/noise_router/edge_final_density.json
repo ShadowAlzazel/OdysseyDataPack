@@ -53,20 +53,28 @@
         "argument2": {
           "type": "minecraft:add",
           "argument1": {
-            "type": "minecraft:range_choice",
-            "input": "odyssey:edge/world/double_string",
-            "min_inclusive": -0.0301,
-            "max_exclusive": 0.0197,
-            "when_in_range": "odyssey:edge/caves/slices",
-            "when_out_of_range": 0
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:range_choice",
+              "input": "odyssey:edge/world/double_string",
+              "min_inclusive": -0.0301,
+              "max_exclusive": 0.0197,
+              "when_in_range": "odyssey:edge/caves/slices",
+              "when_out_of_range": 0
+            },
+            "argument2": {
+              "type": "minecraft:range_choice",
+              "input": "odyssey:edge/features/deresolution",
+              "min_inclusive": 0.612,
+              "max_exclusive": 2.5,
+              "when_in_range": "odyssey:edge/features/deresolution",
+              "when_out_of_range": 0
+            }
           },
           "argument2": {
-            "type": "minecraft:range_choice",
-            "input": "odyssey:edge/caves/deresolution",
-            "min_inclusive": 0.612,
-            "max_exclusive": 2.5,
-            "when_in_range": "odyssey:edge/caves/deresolution",
-            "when_out_of_range": 0
+            "type": "add",
+            "argument1": 0,
+            "argument2": 0
           }
         }
       }
