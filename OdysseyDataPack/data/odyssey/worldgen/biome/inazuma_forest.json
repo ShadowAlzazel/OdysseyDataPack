@@ -53,7 +53,8 @@
     [
       "minecraft:amethyst_geode",
       "odyssey:generic/diamond_geode",
-      "minecraft:forest_rock"
+      "minecraft:forest_rock",
+      "odyssey:generic/coral_geodes"
     ],
     [
       "minecraft:monster_room",

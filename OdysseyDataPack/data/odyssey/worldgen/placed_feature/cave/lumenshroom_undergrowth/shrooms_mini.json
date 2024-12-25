@@ -38,6 +38,26 @@
       "y_spread": 1
     },
     {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0, -1, 0
+        ],
+        "blocks": [
+          "minecraft:grass_block",
+          "minecraft:dirt",
+          "minecraft:coarse_dirt",
+          "minecraft:tuff",
+          "minecraft:calcite",
+          "minecraft:deepslate",
+          "minecraft:cobbled_deepslate",
+          "minecraft:mud",
+          "minecraft:mycelium"
+        ]
+      }
+    },
+    {
       "type": "minecraft:biome"
     }
   ]

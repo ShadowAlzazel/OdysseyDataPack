@@ -1,9 +1,9 @@
 {
-  "feature": "odyssey:generic/diamond_geode",
+  "feature": "odyssey:generic/coral_geodes",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 11
+      "chance": 10
     },
     {
       "type": "minecraft:in_square"
@@ -13,10 +13,10 @@
       "height": {
         "type": "minecraft:uniform",
         "max_inclusive": {
-          "absolute": 46
+          "absolute": 60
         },
         "min_inclusive": {
-          "above_bottom": 6
+          "above_bottom": 0
         }
       }
     },

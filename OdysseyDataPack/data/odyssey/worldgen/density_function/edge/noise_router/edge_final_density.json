@@ -4,7 +4,7 @@
     "type": "minecraft:add",
     "argument1": {
       "type": "minecraft:mul",
-      "argument1": 0.71,
+      "argument1": 0.89,
       "argument2": {
         "type": "minecraft:add",
         "argument1": {
@@ -13,7 +13,7 @@
             "type": "minecraft:blend_density",
             "argument": {
               "type": "minecraft:add",
-              "argument1": -0.092,
+              "argument1": -0.08,
               "argument2": {
                 "type": "minecraft:mul",
                 "argument1": {
@@ -24,26 +24,34 @@
                   "to_value": 1.182
                 },
                 "argument2": {
-                  "type": "minecraft:mul",
-                  "argument1": {
-                    "type": "minecraft:y_clamped_gradient",
-                    "from_y": 0,
-                    "to_y": 228,
-                    "from_value": 1,
-                    "to_value": 0
-                  },
+                  "type": "minecraft:add",
+                  "argument1": 0.11,
                   "argument2": {
                     "type": "minecraft:add",
-                    "argument1": {
-                      "type": "minecraft:add",
+                    "argument1": -0.11,
+                    "argument2": {
+                      "type": "minecraft:mul",
                       "argument1": {
-                        "type": "minecraft:add",
-                        "argument1": 0.169,
-                        "argument2": "minecraft:end/base_3d_noise"
+                        "type": "minecraft:y_clamped_gradient",
+                        "from_y": 0,
+                        "to_y": 228,
+                        "from_value": 1,
+                        "to_value": 0
                       },
-                      "argument2": "odyssey:edge/noise_router/edge_regions"
-                    },
-                    "argument2": "odyssey:edge/noise_router/caves"
+                      "argument2": {
+                        "type": "minecraft:add",
+                        "argument1": {
+                          "type": "minecraft:add",
+                          "argument1": {
+                            "type": "minecraft:add",
+                            "argument1": 0.169,
+                            "argument2": "minecraft:end/base_3d_noise"
+                          },
+                          "argument2": "odyssey:edge/noise_router/edge_regions"
+                        },
+                        "argument2": "odyssey:edge/noise_router/caves"
+                      }
+                    }
                   }
                 }
               }

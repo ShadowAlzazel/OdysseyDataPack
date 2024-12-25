@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "odyssey:spawner/sunken_library/rare",
+  "pools": [
+    {
+      "bonus_rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:loot/random_part_pattern",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:loot/random_tome",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:loot/library_tome",
+          "weight": 2
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

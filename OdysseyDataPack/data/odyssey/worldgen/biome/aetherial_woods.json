@@ -52,7 +52,8 @@
     [],
     [
       "minecraft:amethyst_geode",
-      "odyssey:generic/diamond_geode"
+      "odyssey:generic/diamond_geode",
+      "odyssey:generic/coral_geodes"
     ],
     [
       "minecraft:monster_room",
@@ -68,7 +69,7 @@
     [
       "odyssey:aetherial_woods/trees",
       "odyssey:aetherial_woods/patch_vegetation",
-       "minecraft:glow_lichen",
+      "minecraft:glow_lichen",
       "odyssey:cave/lumenshroom_undergrowth/shrooms_mini",
       "odyssey:cave/hanging_moss"
     ],

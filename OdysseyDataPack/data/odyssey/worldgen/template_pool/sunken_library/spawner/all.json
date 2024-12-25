@@ -3,7 +3,7 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 3,
+      "weight": 5,
       "element": {
         "location": "odyssey:sunken_library/spawner_skeleton_library",
         "element_type": "minecraft:single_pool_element",
@@ -12,7 +12,7 @@
       }
     },
     {
-      "weight": 1,
+      "weight": 2,
       "element": {
         "location": "odyssey:sunken_library/spawner_vanguard_library",
         "element_type": "minecraft:single_pool_element",
@@ -21,9 +21,27 @@
       }
     },
     {
-      "weight": 1,
+      "weight": 2,
       "element": {
         "location": "odyssey:sunken_library/spawner_giant_spider_library",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "odyssey:sunken_library/spawner_creaking_library",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "odyssey:sunken_library/spawner_wither_skeleton_library",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"

@@ -61,6 +61,11 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "odyssey:item/voyager_armor_trim_smithing_template",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "odyssey:item/blank_tome",
           "functions": [
             {
