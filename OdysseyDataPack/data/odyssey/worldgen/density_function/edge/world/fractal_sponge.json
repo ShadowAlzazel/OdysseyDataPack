@@ -1,0 +1,331 @@
+{
+  "type": "minecraft:range_choice",
+  "input": {
+    "type": "minecraft:mul",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:add",
+          "argument1": {
+            "type": "minecraft:shifted_noise",
+            "noise": "odyssey:world/grid",
+            "xz_scale": 7.401486830834377e-17,
+            "y_scale": 7.401486830834377e-17,
+            "shift_x": 1.01,
+            "shift_y": 0.99,
+            "shift_z": 0.99
+          },
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": -1,
+            "argument2": {
+              "type": "minecraft:noise",
+              "noise": "odyssey:world/grid",
+              "xz_scale": 0,
+              "y_scale": 0
+            }
+          }
+        },
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:shifted_noise",
+              "noise": "odyssey:world/grid",
+              "xz_scale": 7.401486830834377e-17,
+              "y_scale": 7.401486830834377e-17,
+              "shift_x": 0.99,
+              "shift_y": 1.01,
+              "shift_z": 0.99
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": -1,
+              "argument2": {
+                "type": "minecraft:noise",
+                "noise": "odyssey:world/grid",
+                "xz_scale": 0,
+                "y_scale": 0
+              }
+            }
+          },
+          "argument2": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:shifted_noise",
+              "noise": "odyssey:world/grid",
+              "xz_scale": 7.401486830834377e-17,
+              "y_scale": 7.401486830834377e-17,
+              "shift_x": 0.99,
+              "shift_y": 0.99,
+              "shift_z": 1.01
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": -1,
+              "argument2": {
+                "type": "minecraft:noise",
+                "noise": "odyssey:world/grid",
+                "xz_scale": 0,
+                "y_scale": 0
+              }
+            }
+          }
+        }
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:add",
+          "argument1": {
+            "type": "minecraft:shifted_noise",
+            "noise": "odyssey:world/grid",
+            "xz_scale": 1.2335811384723961e-17,
+            "y_scale": 1.2335811384723961e-17,
+            "shift_x": 1.01,
+            "shift_y": 0.99,
+            "shift_z": 0.99
+          },
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": -1,
+            "argument2": {
+              "type": "minecraft:shifted_noise",
+              "noise": "odyssey:world/grid",
+              "xz_scale": 3.700743415417188e-17,
+              "y_scale": 3.700743415417188e-17,
+              "shift_x": 1.01,
+              "shift_y": 0.99,
+              "shift_z": 0.99
+            }
+          }
+        },
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:shifted_noise",
+              "noise": "odyssey:world/grid",
+              "xz_scale": 1.2335811384723961e-17,
+              "y_scale": 1.2335811384723961e-17,
+              "shift_x": 0.99,
+              "shift_y": 1.01,
+              "shift_z": 0.99
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": -1,
+              "argument2": {
+                "type": "minecraft:shifted_noise",
+                "noise": "odyssey:world/grid",
+                "xz_scale": 3.700743415417188e-17,
+                "y_scale": 3.700743415417188e-17,
+                "shift_x": 0.99,
+                "shift_y": 1.01,
+                "shift_z": 0.99
+              }
+            }
+          },
+          "argument2": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:shifted_noise",
+              "noise": "odyssey:world/grid",
+              "xz_scale": 1.2335811384723961e-17,
+              "y_scale": 1.2335811384723961e-17,
+              "shift_x": 0.99,
+              "shift_y": 0.99,
+              "shift_z": 1.01
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": -1,
+              "argument2": {
+                "type": "minecraft:shifted_noise",
+                "noise": "odyssey:world/grid",
+                "xz_scale": 3.700743415417188e-17,
+                "y_scale": 3.700743415417188e-17,
+                "shift_x": 0.99,
+                "shift_y": 0.99,
+                "shift_z": 1.01
+              }
+            }
+          }
+        }
+      }
+    },
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:add",
+          "argument1": {
+            "type": "minecraft:shifted_noise",
+            "noise": "odyssey:world/grid",
+            "xz_scale": 4.11193712824132e-18,
+            "y_scale": 4.11193712824132e-18,
+            "shift_x": 1.01,
+            "shift_y": 0.99,
+            "shift_z": 0.99
+          },
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": -1,
+            "argument2": {
+              "type": "minecraft:shifted_noise",
+              "noise": "odyssey:world/grid",
+              "xz_scale": 1.2335811384723961e-17,
+              "y_scale": 1.2335811384723961e-17,
+              "shift_x": 1.01,
+              "shift_y": 0.99,
+              "shift_z": 0.99
+            }
+          }
+        },
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:shifted_noise",
+              "noise": "odyssey:world/grid",
+              "xz_scale": 4.11193712824132e-18,
+              "y_scale": 4.11193712824132e-18,
+              "shift_x": 0.99,
+              "shift_y": 1.01,
+              "shift_z": 0.99
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": -1,
+              "argument2": {
+                "type": "minecraft:shifted_noise",
+                "noise": "odyssey:world/grid",
+                "xz_scale": 1.2335811384723961e-17,
+                "y_scale": 1.2335811384723961e-17,
+                "shift_x": 0.99,
+                "shift_y": 1.01,
+                "shift_z": 0.99
+              }
+            }
+          },
+          "argument2": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:shifted_noise",
+              "noise": "odyssey:world/grid",
+              "xz_scale": 4.11193712824132e-18,
+              "y_scale": 4.11193712824132e-18,
+              "shift_x": 0.99,
+              "shift_y": 0.99,
+              "shift_z": 1.01
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": -1,
+              "argument2": {
+                "type": "minecraft:shifted_noise",
+                "noise": "odyssey:world/grid",
+                "xz_scale": 1.2335811384723961e-17,
+                "y_scale": 1.2335811384723961e-17,
+                "shift_x": 0.99,
+                "shift_y": 0.99,
+                "shift_z": 1.01
+              }
+            }
+          }
+        }
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:add",
+          "argument1": {
+            "type": "minecraft:shifted_noise",
+            "noise": "odyssey:world/grid",
+            "xz_scale": 1.3706457094137734e-18,
+            "y_scale": 1.3706457094137734e-18,
+            "shift_x": 1.01,
+            "shift_y": 0.99,
+            "shift_z": 0.99
+          },
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": -1,
+            "argument2": {
+              "type": "minecraft:shifted_noise",
+              "noise": "odyssey:world/grid",
+              "xz_scale": 4.11193712824132e-18,
+              "y_scale": 4.11193712824132e-18,
+              "shift_x": 1.01,
+              "shift_y": 0.99,
+              "shift_z": 0.99
+            }
+          }
+        },
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:shifted_noise",
+              "noise": "odyssey:world/grid",
+              "xz_scale": 1.3706457094137734e-18,
+              "y_scale": 1.3706457094137734e-18,
+              "shift_x": 0.99,
+              "shift_y": 1.01,
+              "shift_z": 0.99
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": -1,
+              "argument2": {
+                "type": "minecraft:shifted_noise",
+                "noise": "odyssey:world/grid",
+                "xz_scale": 4.11193712824132e-18,
+                "y_scale": 4.11193712824132e-18,
+                "shift_x": 0.99,
+                "shift_y": 1.01,
+                "shift_z": 0.99
+              }
+            }
+          },
+          "argument2": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:shifted_noise",
+              "noise": "odyssey:world/grid",
+              "xz_scale": 1.3706457094137734e-18,
+              "y_scale": 1.3706457094137734e-18,
+              "shift_x": 0.99,
+              "shift_y": 0.99,
+              "shift_z": 1.01
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": -1,
+              "argument2": {
+                "type": "minecraft:shifted_noise",
+                "noise": "odyssey:world/grid",
+                "xz_scale": 4.11193712824132e-18,
+                "y_scale": 4.11193712824132e-18,
+                "shift_x": 0.99,
+                "shift_y": 0.99,
+                "shift_z": 1.01
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "min_inclusive": 0,
+  "max_exclusive": 5e-324,
+  "when_in_range": 0,
+  "when_out_of_range": 1
+}

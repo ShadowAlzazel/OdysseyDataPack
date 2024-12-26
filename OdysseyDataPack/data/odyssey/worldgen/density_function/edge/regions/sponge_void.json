@@ -1,0 +1,24 @@
+{
+  "type": "mul",
+  "argument1": -4,
+  "argument2": {
+    "type": "quarter_negative",
+    "argument": {
+      "type": "mul",
+      "argument1": -4,
+      "argument2": {
+        "type": "clamp",
+        "min": -2.0,
+        "max": 0.5,
+        "input": {
+          "type": "range_choice",
+          "input": "odyssey:edge/cache/fractal_sponge_range",
+          "min_inclusive": 0.0863,
+          "max_exclusive": 1000000.0,
+          "when_in_range": "odyssey:edge/world/fractal_sponge",
+          "when_out_of_range": 0
+        }
+      }
+    }
+  }
+}
