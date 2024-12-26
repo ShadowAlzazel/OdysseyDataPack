@@ -120,7 +120,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value":"odyssey:loot/random_gems",
+          "value":"odyssey:loot/random_gem",
           "functions": [
             {
               "add": false,

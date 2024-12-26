@@ -23,7 +23,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "odyssey:loot/random_gems",
+          "value": "odyssey:loot/random_gem",
           "weight": 1,
           "functions": [
             {
@@ -69,7 +69,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "odyssey:loot/random_gems",
+          "value": "odyssey:loot/random_gem",
           "weight": 5
         },
         {

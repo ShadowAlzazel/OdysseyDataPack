@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "odyssey:aspen_forest",
+    "odyssey:birch_backwoods",
+    "odyssey:aetherial_woods",
+    "odyssey:inazuma_forest",
+    "odyssey:marina_moor",
+    "odyssey:lumenshroom_grove",
+    "odyssey:cardinal_fields",
+    "odyssey:ordinal_plains",
+    "odyssey:mytreilium_coppice",
+    "#minecraft:is_forest",
+    "#minecraft:is_hill",
+    "#minecraft:is_jungle",
+    "#minecraft:is_mountain",
+    "#minecraft:is_savanna",
+    "#minecraft:is_taiga"
+  ]
+}

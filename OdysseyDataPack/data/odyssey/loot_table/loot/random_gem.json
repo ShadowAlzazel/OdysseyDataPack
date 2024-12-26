@@ -1,6 +1,6 @@
 {
   "type": "minecraft:chest",
-  "random_sequence": "odyssey:loot/random_gems",
+  "random_sequence": "odyssey:loot/random_gem",
   "pools": [
     {
       "bonus_rolls": 0.0,

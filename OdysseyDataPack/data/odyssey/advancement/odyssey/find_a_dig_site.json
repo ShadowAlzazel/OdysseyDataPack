@@ -21,7 +21,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "Find an abandoned dig site."
+      "translate": "Find an Illager dig site."
     },
     "frame": "goal",
     "hidden": false,

@@ -5,6 +5,16 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 1
+        },
+        {
           "type": "minecraft:loot_table",
           "value": "odyssey:item/ruby",
           "weight": 1
@@ -27,6 +37,11 @@
         {
           "type": "minecraft:loot_table",
           "value": "odyssey:item/silver_ingot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:loot/random_glyphsherd",
           "weight": 1
         },
         {

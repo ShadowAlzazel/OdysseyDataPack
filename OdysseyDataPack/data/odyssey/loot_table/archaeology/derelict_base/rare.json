@@ -7,11 +7,16 @@
         {
           "type": "minecraft:loot_table",
           "value": "odyssey:loot/random_part_pattern",
-          "weight": 3
+          "weight": 2
         },
         {
           "type": "minecraft:loot_table",
-          "value": "odyssey:item/danger_armor_trim_smithing_template",
+          "value": "odyssey:loot/random_glyphsherd",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/leaf_armor_trim_smithing_template",
           "weight": 1
         }
       ],
