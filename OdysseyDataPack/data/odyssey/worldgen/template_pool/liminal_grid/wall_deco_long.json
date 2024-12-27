@@ -1,0 +1,42 @@
+{
+  "name": "odyssey:liminal_grid/wall_deco_long",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "location": "odyssey:liminal_grid/liminal_grid_wall_deco_long_empty",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "odyssey:liminal_grid/liminal_grid_wall_deco_long_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "odyssey:liminal_grid/liminal_grid_wall_deco_long_2",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:liminal_grid/liminal_grid_wall_deco_long_3",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
