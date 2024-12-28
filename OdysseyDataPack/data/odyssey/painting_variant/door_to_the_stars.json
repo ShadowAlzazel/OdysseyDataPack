@@ -1,4 +1,12 @@
 {
+ "title": {
+    "color": "yellow",
+    "translate": "painting.odyssey.door_to_the_stars.title"
+  },
+  "author": {
+    "color": "gray",
+    "translate": "painting.odyssey.door_to_the_stars.author"
+  },
   "asset_id": "odyssey:door_to_the_stars",
   "height": 2,
   "width": 3

@@ -1,4 +1,12 @@
 {
+  "title": {
+    "color": "yellow",
+    "translate": "painting.odyssey.the_bodies.title"
+  },
+  "author": {
+    "color": "gray",
+    "translate": "painting.odyssey.the_bodies.author"
+  },
   "asset_id": "odyssey:the_bodies",
   "height": 3,
   "width": 1

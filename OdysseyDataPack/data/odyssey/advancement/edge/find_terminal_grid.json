@@ -1,7 +1,7 @@
 {
   "parent": "odyssey:edge/find_biome",
   "criteria": {
-    "find_shadow_chambers": {
+    "find_terminal_grid": {
       "conditions": {
         "player": [
           {
@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structures": "odyssey:shadow_chambers"
+                "structures": "odyssey:terminal_grid"
               }
             }
           }
@@ -21,25 +21,25 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "Locate the dark underground dungeon of the Shadow Monarch"
+      "translate": "Locate the facility that was used for enderdimensional research"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "hidden": false,
     "icon": {
       "count": 1,
-      "id": "minecraft:polished_deepslate",
+      "id": "minecraft:resin_block",
       "components": {
         "minecraft:enchantment_glint_override": true
       }
     },
     "show_toast": true,
     "title": {
-      "translate": "Shadow Realm"
+      "translate": "Corrupted End"
     }
   },
   "requirements": [
     [
-      "find_shadow_chambers"
+      "find_terminal_grid"
     ]
   ]
 }

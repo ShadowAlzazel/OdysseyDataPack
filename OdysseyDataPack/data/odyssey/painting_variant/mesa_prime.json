@@ -1,4 +1,12 @@
 {
+  "title": {
+    "color": "yellow",
+    "translate": "painting.odyssey.mesa_prime.title"
+  },
+  "author": {
+    "color": "gray",
+    "translate": "painting.odyssey.mesa_prime.author"
+  },
   "asset_id": "odyssey:mesa_prime",
   "height": 1,
   "width": 1
