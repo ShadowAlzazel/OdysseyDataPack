@@ -1,11 +1,11 @@
 {
-  "name": "odyssey:liminal_grid/core_6",
+  "name": "odyssey:terminal_grid/core_6",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "odyssey:liminal_grid/liminal_grid_core_h6",
+        "location": "odyssey:terminal_grid/terminal_grid_core_h6",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"

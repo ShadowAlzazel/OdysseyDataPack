@@ -1,11 +1,11 @@
 {
-  "name": "odyssey:liminal_grid/wall_deco_long",
+  "name": "odyssey:terminal_grid/compartment",
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 5,
+      "weight": 2,
       "element": {
-        "location": "odyssey:liminal_grid/liminal_grid_wall_deco_long_empty",
+        "location": "odyssey:terminal_grid/terminal_grid_compartment_1",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"
@@ -14,7 +14,7 @@
     {
       "weight": 2,
       "element": {
-        "location": "odyssey:liminal_grid/liminal_grid_wall_deco_long_1",
+        "location": "odyssey:terminal_grid/terminal_grid_compartment_2",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"
@@ -23,16 +23,25 @@
     {
       "weight": 2,
       "element": {
-        "location": "odyssey:liminal_grid/liminal_grid_wall_deco_long_2",
+        "location": "odyssey:terminal_grid/terminal_grid_compartment_3",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
     },
     {
-      "weight": 1,
+      "weight": 2,
       "element": {
-        "location": "odyssey:liminal_grid/liminal_grid_wall_deco_long_3",
+        "location": "odyssey:terminal_grid/terminal_grid_compartment_4",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "odyssey:terminal_grid/terminal_grid_compartment_5",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"

@@ -7,7 +7,7 @@
   },
   "structures": [
     {
-      "structure": "odyssey:liminal_grid",
+      "structure": "odyssey:terminal_grid",
       "weight": 1
     }
   ]
