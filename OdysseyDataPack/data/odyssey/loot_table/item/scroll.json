@@ -6,13 +6,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:quartz",
+          "name": "minecraft:paper",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "soul_crystal",
-                "minecraft:item_model": "odyssey:soul_crystal"
+                "minecraft:item_name": "scroll",
+                "minecraft:item_model": "odyssey:scroll",
+                "minecraft:consumable": {
+                  "consume_seconds": 1.2,
+                  "sound": "minecraft:item.book.page_turn",
+                  "animation": "block"
+                }
               },
               "conditions": []
             },
@@ -20,7 +25,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Soul Crystal",
+                "text": "Scroll",
                 "bold": false,
                 "italic": false
               }

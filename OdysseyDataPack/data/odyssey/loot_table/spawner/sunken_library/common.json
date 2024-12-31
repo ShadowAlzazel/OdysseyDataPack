@@ -7,6 +7,18 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "value": "odyssey:item/blank_tome",
+          "functions": [],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/scroll",
+          "functions": [],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "odyssey:loot/random_tome",
           "weight": 2
         },

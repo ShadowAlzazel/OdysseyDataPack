@@ -31,7 +31,9 @@ _CUSTOM_ITEMS = [
     "tinkered_bow",
     "auto_crossbow",
     "compact_crossbow",
-    "alchemical_driver", #AKA alchemical bolter
+    "alchemical_bolter", 
+    "alchemical_driver", 
+    "alchemical_diffuser", 
     "arcane_wand",
     "arcane_blade",
     "arcane_scepter",

@@ -21,7 +21,7 @@ ITEMS = [
     DataItem("anodized_titanium_ingot", "iron_ingot"),
     DataItem("coagulated_blood", "rotten_flesh"),
     DataItem("ectoplasm", "rotten_flesh"),
-    DataItem("soul_crystal", "quartz"),
+    DataItem("soul_quartz", "quartz"),
     DataItem("heated_titanium_ingot", "iron_ingot"),
     DataItem("iridium_ingot", "iron_ingot"),
     DataItem("blank_tome", "book"),
@@ -155,6 +155,7 @@ CUSTOM: list[DataItem] = [
     DataItem("arcane_scepter", "stick"),
     DataItem("warping_wand", "stick"),
     DataItem("void_linked_kunai", "iron_sword"),
+    DataItem("scroll", "paper")
 ]
 
 # List
