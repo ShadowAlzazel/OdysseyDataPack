@@ -31,7 +31,7 @@
             }
           ],
           "name": "minecraft:paper",
-          "weight": 15
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -47,7 +47,39 @@
             }
           ],
           "name": "minecraft:book",
-          "weight": 15
+          "weight": 25
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/scroll",
+          "weight": 15,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "weight": 12,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -144,6 +176,11 @@
             }
           ],
           "name": "minecraft:book",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:loot/library_tome",
           "weight": 1
         }
       ],

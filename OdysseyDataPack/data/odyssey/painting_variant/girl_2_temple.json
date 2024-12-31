@@ -1,4 +1,12 @@
 {
+  "title": {
+    "color": "yellow",
+    "translate": "painting.odyssey.girl_2_temple.title"
+  },
+  "author": {
+    "color": "gray",
+    "translate": "painting.odyssey.girl_2_temple.author"
+  },
   "asset_id": "odyssey:girl_2_temple",
   "height": 2,
   "width": 1

@@ -1,0 +1,65 @@
+{
+  "parent": "odyssey:odyssey/obtain_iridium",
+  "criteria": {
+    "iridium_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_helmet",
+            "components": {
+              "minecraft:item_model": "odyssey:iridium_helmet",
+              "minecraft:item_name": "iridium_helmet"
+            }
+          },
+          {
+            "items": "minecraft:iron_chestplate",
+            "components": {
+              "minecraft:item_model": "odyssey:iridium_chestplate",
+              "minecraft:item_name": "iridium_chestplate"
+            }
+          },
+          {
+            "items": "minecraft:iron_leggings",
+            "components": {
+              "minecraft:item_model": "odyssey:iridium_leggings",
+              "minecraft:item_name": "iridium_leggings"
+            }
+          },
+          {
+            "items": "minecraft:iron_boots",
+            "components": {
+              "minecraft:item_model": "odyssey:iridium_boots",
+              "minecraft:item_name": "iridium_boots"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_chestplate",
+      "components": {
+        "minecraft:item_model": "odyssey:iridium_chestplate",
+        "minecraft:item_name": "iridium_chestplate"
+      }
+    },
+    "title": {
+      "translate": "Approaching Supermassive"
+    },
+    "description": {
+      "translate": "Adorn a full set of iridium armor."
+    }
+  },
+  "requirements": [
+    [
+      "iridium_armor"
+    ]
+  ]
+}

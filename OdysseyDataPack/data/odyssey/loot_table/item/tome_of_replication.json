@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:paper",
+          "name": "minecraft:enchanted_book",
           "functions": [
             {
               "function": "minecraft:set_components",

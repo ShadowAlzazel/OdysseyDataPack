@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:range_choice",
+  "input": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:noise",
+      "noise": "odyssey:world/grid",
+      "xz_scale": 0,
+      "y_scale": 0
+    },
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": -1,
+      "argument2": {
+        "type": "minecraft:shifted_noise",
+        "noise": "odyssey:world/grid",
+        "xz_scale": 1.1102230246251565e-16,
+        "y_scale": 0,
+        "shift_x": 0.99,
+        "shift_y": 0,
+        "shift_z": 0.99
+      }
+    }
+  },
+  "min_inclusive": 0,
+  "max_exclusive": 5e-324,
+  "when_in_range": 1,
+  "when_out_of_range": 0
+}

@@ -94,6 +94,11 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "odyssey:item/voyager_armor_trim_smithing_template",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "odyssey:item/mithril_ingot",
           "functions": [
             {

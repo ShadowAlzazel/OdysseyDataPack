@@ -1,0 +1,9 @@
+{
+  "asset_name": "crystal_alloy",
+  "description": {
+    "color": "#6668c1",
+    "translate": "trim_material.odyssey.crystal_alloy",
+    "fallback": "Crystal Alloy Material"
+  },
+  "ingredient": "minecraft:jigsaw"
+}

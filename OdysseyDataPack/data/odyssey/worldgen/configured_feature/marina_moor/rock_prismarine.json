@@ -1,9 +1,8 @@
 {
-    "type": "forest_rock",
-    "config": {
-        "state": {
-            "Name": "minecraft:prismarine"
-        }
+  "type": "forest_rock",
+  "config": {
+    "state": {
+      "Name": "minecraft:prismarine"
     }
   }
-  
+}

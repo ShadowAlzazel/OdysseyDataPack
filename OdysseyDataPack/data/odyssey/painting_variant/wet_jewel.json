@@ -1,4 +1,12 @@
 {
+  "title": {
+    "color": "yellow",
+    "translate": "painting.odyssey.wet_jewel.title"
+  },
+  "author": {
+    "color": "gray",
+    "translate": "painting.odyssey.wet_jewel.author"
+  },
   "asset_id": "odyssey:wet_jewel",
   "height": 1,
   "width": 1

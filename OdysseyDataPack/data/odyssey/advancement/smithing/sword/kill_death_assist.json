@@ -1,0 +1,64 @@
+{
+  "parent": "odyssey:smithing/sword/craft_sickle",
+  "criteria": {
+    "kill_death_assist": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:swords",
+            "components": {
+              "minecraft:item_name": "crystal_alloy_sickle",
+              "minecraft:item_model": "odyssey:crystal_alloy_sickle",
+              "minecraft:custom_model_data": {
+                "strings": [
+                  "sickle",
+                  "imperial_blade",
+                  "handle",
+                  "humble_hilt",
+                  "danger_pommel",
+                  "no_trim"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_sword",
+      "components": {
+        "minecraft:item_model": "odyssey:crystal_alloy_sickle",
+        "minecraft:item_name": "crystal_alloy_sickle",
+        "minecraft:custom_model_data": {
+          "strings": [
+            "sickle",
+            "imperial_blade",
+            "handle",
+            "humble_hilt",
+            "danger_pommel",
+            "no_trim"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Kill Death Assist"
+    },
+    "description": {
+      "translate": "Craft a Crystal Alloy sickle and apply an Imperial Blade, Danger Hilt, and Danger Pommel"
+    }
+  },
+  "requirements": [
+    [
+      "kill_death_assist"
+    ]
+  ]
+}

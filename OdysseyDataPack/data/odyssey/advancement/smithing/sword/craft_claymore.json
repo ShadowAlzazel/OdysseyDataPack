@@ -1,41 +1,37 @@
 {
-    "parent": "odyssey:smithing/sword/tracker_root",
-    "criteria": {
-      "craft_stone_claymore": {
-        "conditions": {
-          "ingredients": [
-            {
-              "item": {}
-            }
-          ],
-          "recipe_id":"odyssey:weapons/stone_claymore"
-        },
-        "trigger": "minecraft:recipe_crafted"
+  "parent": "odyssey:smithing/sword/sword_root",
+  "criteria": {
+    "craft_claymore": {
+      "conditions": {
+        "ingredients": [],
+        "recipe_id": "odyssey:diamond_claymore"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancments.odyssey.smithing.sword.craft_claymore.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond_sword",
+      "components": {
+        "minecraft:item_model": "odyssey:diamond_claymore",
+        "minecraft:item_name": "diamond_claymore"
       }
     },
-    "display": {
-      "announce_to_chat": false,
-      "description": {
-        "translate": "advancments.odyssey.smithing.sword.craft_claymore.description"
-      },
-      "frame": "task",
-      "hidden": false,
-      "icon": {
-        "count": 1,
-        "id": "minecraft:diamond_sword",
-        "components": {
-          "minecraft:item_model": "odyssey:diamond_claymore",
-          "minecraft:item_name": "diamond_claymore"
-        }
-      },
-      "show_toast": true,
-      "title": {
-        "translate": "advancments.odyssey.smithing.sword.craft_claymore.title"
-      }
-    },
-    "requirements": [
-      [
-        "craft_stone_claymore"
-      ]
+    "show_toast": true,
+    "title": {
+      "translate": "advancments.odyssey.smithing.sword.craft_claymore.title"
+    }
+  },
+  "requirements": [
+    [
+      "craft_claymore"
     ]
+  ]
 }

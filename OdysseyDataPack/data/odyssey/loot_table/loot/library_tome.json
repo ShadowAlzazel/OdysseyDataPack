@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "odyssey:loot/library_tome",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/tome_of_discharge",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/tome_of_promotion",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/tome_of_expenditure",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/tome_of_imitation",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/tome_of_extraction",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/tome_of_replication",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

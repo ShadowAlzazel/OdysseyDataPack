@@ -17,7 +17,8 @@
                   "asset_id": "odyssey:iridium",
                   "slot": "legs",
                   "equip_sound": "item.armor.equip_chain"
-                }
+                },
+                "minecraft:max_damage": 832
               },
               "conditions": []
             },

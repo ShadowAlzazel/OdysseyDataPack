@@ -1,0 +1,35 @@
+{
+  "parent": "odyssey:smithing/sword/sword_root",
+  "criteria": {
+    "craft_kriegsmesser": {
+      "conditions": {
+        "ingredients": [],
+        "recipe_id": "odyssey:diamond_kriegsmesser"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "Craft a kriegsmesser"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond_sword",
+      "components": {
+        "minecraft:item_model": "odyssey:diamond_kriegsmesser",
+        "minecraft:item_name": "diamond_kriegsmesser"
+      }
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "Big Knife Actually"
+    }
+  },
+  "requirements": [
+    ["craft_kriegsmesser"]
+  ]
+}

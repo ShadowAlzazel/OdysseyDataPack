@@ -1,0 +1,35 @@
+{
+  "parent": "odyssey:smithing/sword/sword_root",
+  "criteria": {
+    "craft_sickle": {
+      "conditions": {
+        "ingredients": [],
+        "recipe_id": "odyssey:diamond_sickle"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "Craft a sickle"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond_sword",
+      "components": {
+        "minecraft:item_model": "odyssey:diamond_sickle",
+        "minecraft:item_name": "diamond_sickle"
+      }
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "Reap what you sow"
+    }
+  },
+  "requirements": [
+    ["craft_sickle"]
+  ]
+}

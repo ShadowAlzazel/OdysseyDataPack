@@ -1,0 +1,13 @@
+{
+  "type": "cache_once",
+  "argument": {
+    "type": "add",
+    "argument1": -0.36,
+    "argument2": {
+      "type": "minecraft:noise",
+      "noise": "odyssey:world/fractal_fade",
+      "xz_scale": 1,
+      "y_scale": 0
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "parent": "odyssey:smithing/sword/craft_saber",
+  "criteria": {
+    "silver_striker": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:swords",
+            "components": {
+              "minecraft:item_name": "silver_saber",
+              "minecraft:item_model": "odyssey:silver_saber",
+              "minecraft:custom_model_data": {
+                "strings": [
+                  "saber",
+                  "imperial_blade",
+                  "handle",
+                  "vandal_hilt",
+                  "humble_pommel",
+                  "no_trim"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_sword",
+      "components": {
+        "minecraft:item_name": "silver_saber",
+        "minecraft:item_model": "odyssey:silver_saber",
+        "minecraft:custom_model_data": {
+          "strings": [
+            "saber",
+            "imperial_blade",
+            "handle",
+            "vandal_hilt",
+            "humble_pommel",
+            "no_trim"
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Silver Striker"
+    },
+    "description": {
+      "translate": "Craft a Silver Saber and apply an Imperial Blade, Vandal Hilt, and Humble Pommel"
+    }
+  },
+  "requirements": [
+    [
+      "silver_striker"
+    ]
+  ]
+}

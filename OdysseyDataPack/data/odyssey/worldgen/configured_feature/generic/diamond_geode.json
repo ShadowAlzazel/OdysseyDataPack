@@ -36,14 +36,12 @@
         {
           "Name": "minecraft:tube_coral_fan",
           "Properties": {
-            "facing": "up",
             "waterlogged": "true"
           }
         },
         {
           "Name": "minecraft:tube_coral_fan",
           "Properties": {
-            "facing": "up",
             "waterlogged": "true"
           }
         }

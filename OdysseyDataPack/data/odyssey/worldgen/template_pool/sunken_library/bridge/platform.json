@@ -3,7 +3,7 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 1,
+      "weight": 2,
       "element": {
         "location": "odyssey:sunken_library/bridge_platform_1",
         "element_type": "minecraft:single_pool_element",
@@ -12,7 +12,7 @@
       }
     },
     {
-      "weight": 1,
+      "weight": 2,
       "element": {
         "location": "odyssey:sunken_library/bridge_platform_2",
         "element_type": "minecraft:single_pool_element",
@@ -21,9 +21,18 @@
       }
     },
     {
-      "weight": 1,
+      "weight": 2,
       "element": {
         "location": "odyssey:sunken_library/bridge_platform_3",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:sunken_library/bridge_platform_ruined",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"

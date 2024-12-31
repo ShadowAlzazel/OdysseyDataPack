@@ -17,7 +17,8 @@
                   "asset_id": "odyssey:soul_steel",
                   "slot": "feet",
                   "equip_sound": "item.armor.equip_chain"
-                }
+                },
+                "minecraft:max_damage": 312
               },
               "conditions": []
             },

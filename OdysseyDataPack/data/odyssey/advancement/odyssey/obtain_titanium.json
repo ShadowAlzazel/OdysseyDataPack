@@ -1,0 +1,44 @@
+{
+  "parent": "odyssey:odyssey/root",
+  "criteria": {
+    "titanium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_ingot",
+            "components": {
+              "minecraft:item_name": "titanium_ingot",
+              "minecraft:item_model": "odyssey:titanium_ingot"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_ingot",
+      "components": {
+        "minecraft:item_model": "odyssey:titanium_ingot",
+        "minecraft:item_name": "titanium_ingot"
+      }
+    },
+    "title": {
+      "translate": "I am TITAAA NIII UUUMMM"
+    },
+    "description": {
+      "translate": "Obtain an ingot of titanium from either trials or lost miners."
+    }
+  },
+  "requirements": [
+    [
+      "titanium_ingot"
+    ]
+  ]
+}

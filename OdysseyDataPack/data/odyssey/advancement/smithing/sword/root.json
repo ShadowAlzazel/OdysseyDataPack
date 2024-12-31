@@ -1,90 +1,90 @@
 {
-    "parent": "odyssey:smithing/root",
-    "criteria": {
-      "craft_wooden_sword": {
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:wooden_sword"
-              ]
-            }
-          ]
-        },
-        "trigger": "minecraft:inventory_changed"
+  "parent": "odyssey:smithing/root",
+  "criteria": {
+    "craft_wooden_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_sword"
+            ]
+          }
+        ]
       },
-      "craft_stone_sword": {
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:stone_sword"
-              ]
-            }
-          ]
-        },
-        "trigger": "minecraft:inventory_changed"
-      },
-      "craft_iron_sword": {
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:iron_sword"
-              ]
-            }
-          ]
-        },
-        "trigger": "minecraft:inventory_changed"
-      },
-      "craft_golden_sword": {
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:golden_sword"
-              ]
-            }
-          ]
-        },
-        "trigger": "minecraft:inventory_changed"
-      },
-      "craft_diamond_sword": {
-        "conditions": {
-          "items": [
-            {
-              "items": [
-                "minecraft:diamond_sword"
-              ]
-            }
-          ]
-        },
-        "trigger": "minecraft:inventory_changed"
-      }
+      "trigger": "minecraft:inventory_changed"
     },
-    "display": {
-      "announce_to_chat": true,
-      "description": {
-        "translate": "advancments.odyssey.smithing.sword.root.description"
+    "craft_stone_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_sword"
+            ]
+          }
+        ]
       },
-      "frame": "task",
-      "hidden": false,
-      "icon": {
-        "count": 1,
-        "id": "minecraft:iron_sword"
-      },
-      "show_toast": true,
-      "title": {
-        "translate": "advancments.odyssey.smithing.sword.root.title"
-      }
+      "trigger": "minecraft:inventory_changed"
     },
-    "requirements": [
-      [
-        "craft_wooden_sword",
-        "craft_stone_sword",
-        "craft_iron_sword",
-        "craft_golden_sword",
-        "craft_diamond_sword"
-      ]
+    "craft_iron_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_golden_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_diamond_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancments.odyssey.smithing.sword.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:stone_sword"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancments.odyssey.smithing.sword.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "craft_wooden_sword",
+      "craft_stone_sword",
+      "craft_iron_sword",
+      "craft_golden_sword",
+      "craft_diamond_sword"
     ]
+  ]
 }

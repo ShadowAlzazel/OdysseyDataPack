@@ -1,5 +1,5 @@
 {
-  "parent": "odyssey:odyssey/find_biome",
+  "parent": "odyssey:odyssey/obtain_titanium",
   "display": {
     "frame": "goal",
     "hidden": false,

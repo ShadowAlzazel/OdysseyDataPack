@@ -1,0 +1,44 @@
+{
+  "parent": "odyssey:smithing/sword/root",
+  "criteria": {
+    "iron_longsword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_sword",
+            "components": {
+              "minecraft:item_name": "iron_longsword",
+              "minecraft:item_model": "odyssey:iron_longsword"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_sword",
+      "components": {
+        "minecraft:item_model": "odyssey:iron_longsword",
+        "minecraft:item_name": "iron_longsword"
+      }
+    },
+    "title": {
+      "translate": "Sword Journeyman"
+    },
+    "description": {
+      "translate": "Craft an Iron Longsword - A moderate yet effective weapon."
+    }
+  },
+  "requirements": [
+    [
+      "iron_longsword"
+    ]
+  ]
+}

@@ -24,6 +24,38 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "odyssey:item/jovianite",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/neptunian",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "odyssey:item/silver_ingot",
           "functions": [
             {
@@ -57,6 +89,11 @@
         {
           "type": "minecraft:loot_table",
           "value": "odyssey:item/imperial_armor_trim_smithing_template",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/voyager_armor_trim_smithing_template",
           "weight": 2
         },
         {

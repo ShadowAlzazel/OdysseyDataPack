@@ -3,7 +3,7 @@
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 60
+      "count": 40
     },
     {
       "type": "minecraft:in_square"
@@ -16,7 +16,7 @@
           "above_bottom": -16
         },
         "max_inclusive": {
-          "absolute": 192
+          "absolute": 128
         }
       }
     },
@@ -36,6 +36,26 @@
       "type": "minecraft:random_offset",
       "xz_spread": 0,
       "y_spread": 1
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0, -1, 0
+        ],
+        "blocks": [
+          "minecraft:grass_block",
+          "minecraft:dirt",
+          "minecraft:coarse_dirt",
+          "minecraft:tuff",
+          "minecraft:calcite",
+          "minecraft:deepslate",
+          "minecraft:cobbled_deepslate",
+          "minecraft:mud",
+          "minecraft:mycelium"
+        ]
+      }
     },
     {
       "type": "minecraft:biome"

@@ -2,7 +2,6 @@
   "has_precipitation": false,
   "temperature": 0.7,
   "downfall": 0.7,
-  "player_spawn_friendly": true,
   "creature_spawn_probability": 0.1,
   "carvers": [
     "minecraft:cave",
@@ -55,7 +54,8 @@
     ],
     [
       "minecraft:amethyst_geode",
-      "odyssey:generic/diamond_geode"
+      "odyssey:generic/diamond_geode",
+      "odyssey:generic/coral_geodes"
     ],
     [
       "minecraft:monster_room",
@@ -70,7 +70,8 @@
     [],
     [
       "minecraft:glow_lichen",
-      "odyssey:nullstone/pool_vegetation"
+      "odyssey:nullstone/pool_vegetation",
+      "odyssey:cave/hanging_moss"
     ],
     []
   ],

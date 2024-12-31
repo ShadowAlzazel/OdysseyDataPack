@@ -1,0 +1,88 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "odyssey:vault/hypercubic_chamber/rare",
+  "pools": [
+    {
+      "bonus_rolls": 1.0,
+      "rolls": 3.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/jovianite",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/neptunian",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald_block",
+          "functions": [],
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_block",
+          "functions": [],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/blank_tome",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,6 @@
   "has_precipitation": false,
   "temperature": 0.3,
   "downfall": 0.3,
-  "player_spawn_friendly": true,
   "creature_spawn_probability": 0.4,
   "carvers": [
     "minecraft:cave",
@@ -49,7 +48,8 @@
       "minecraft:amethyst_geode",
       "odyssey:generic/diamond_geode",
       "odyssey:marina_moor/rock_tuff",
-      "odyssey:marina_moor/rock_prismarine"
+      "odyssey:marina_moor/rock_prismarine",
+      "odyssey:generic/coral_geodes"
     ],
     [
       "minecraft:monster_room",

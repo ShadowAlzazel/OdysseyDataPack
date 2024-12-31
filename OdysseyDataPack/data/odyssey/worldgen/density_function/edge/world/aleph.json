@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:noise",
+  "noise": "odyssey:world/aleph",
+  "xz_scale": 162.0625,
+  "y_scale": 0
+}

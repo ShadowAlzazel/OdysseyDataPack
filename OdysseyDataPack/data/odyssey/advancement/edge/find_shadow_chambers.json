@@ -21,9 +21,9 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "Locate a dark underground dungeon; the Shadow Chambers"
+      "translate": "Locate the dark underground dungeon of the Shadow Monarch"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "hidden": false,
     "icon": {
       "count": 1,

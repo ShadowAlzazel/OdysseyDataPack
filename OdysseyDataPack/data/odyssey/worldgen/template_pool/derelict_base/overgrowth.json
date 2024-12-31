@@ -1,0 +1,22 @@
+{
+  "name": "odyssey:derelict_base/overgrowth",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "minecraft:trees_birch_and_oak",
+        "projection": "terrain_matching"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "feature": "minecraft:trees_meadow",
+        "projection": "terrain_matching"
+      }
+    }
+  ]
+}

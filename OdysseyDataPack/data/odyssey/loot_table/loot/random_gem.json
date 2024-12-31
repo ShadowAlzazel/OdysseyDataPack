@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "odyssey:loot/random_gem",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/kunzite",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/ruby",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/jade",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/alexandrite",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

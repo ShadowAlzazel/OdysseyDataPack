@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 696969,
+    "spacing": 45,
+    "separation": 21
+  },
+  "structures": [
+    {
+      "structure": "odyssey:terminal_grid",
+      "weight": 1
+    }
+  ]
+}

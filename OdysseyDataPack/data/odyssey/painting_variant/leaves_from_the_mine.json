@@ -1,4 +1,12 @@
 {
+  "title": {
+    "color": "yellow",
+    "translate": "painting.odyssey.leaves_from_the_mine.title"
+  },
+  "author": {
+    "color": "gray",
+    "translate": "painting.odyssey.leaves_from_the_mine.author"
+  },
   "asset_id": "odyssey:leaves_from_the_mine",
   "height": 2,
   "width": 2

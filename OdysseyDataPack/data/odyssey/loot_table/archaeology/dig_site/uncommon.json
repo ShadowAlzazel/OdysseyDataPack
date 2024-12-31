@@ -31,11 +31,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "odyssey:loot/random_glyphsherd",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "odyssey:loot/random_part_pattern",
           "weight": 1
         }

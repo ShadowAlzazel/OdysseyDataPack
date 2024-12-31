@@ -1,6 +1,5 @@
 {
   "aquifers_enabled": false,
-  "deepslate_enabled": true,
   "ore_veins_enabled": true,
   "sea_level": -128,
   "disable_mob_generation": false,
@@ -13,7 +12,6 @@
     },
     "Name": "minecraft:water"
   },
-  "bedrock_roof_position": -2147483648,
   "noise": {
     "size_vertical": 1,
     "size_horizontal": 4,

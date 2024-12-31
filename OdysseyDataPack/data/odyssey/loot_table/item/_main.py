@@ -21,7 +21,7 @@ ITEMS = [
     DataItem("anodized_titanium_ingot", "iron_ingot"),
     DataItem("coagulated_blood", "rotten_flesh"),
     DataItem("ectoplasm", "rotten_flesh"),
-    DataItem("soul_crystal", "quartz"),
+    DataItem("soul_quartz", "quartz"),
     DataItem("heated_titanium_ingot", "iron_ingot"),
     DataItem("iridium_ingot", "iron_ingot"),
     DataItem("blank_tome", "book"),
@@ -37,6 +37,7 @@ ITEMS = [
     DataItem("soul_steel_ingot", "iron_ingot"),
     DataItem("titanium_ingot", "iron_ingot"),
     DataItem("shadow_trial_key", "trial_key"),
+    DataItem("crystal_alloy_ingot", "iron_ingot"),
     # Smithing
     DataItem("imperial_armor_trim_smithing_template", "paper"),
     DataItem("voyager_armor_trim_smithing_template", "paper"),
@@ -52,15 +53,16 @@ ITEMS = [
     DataItem("soul_steel_upgrade_template", "paper"),
     DataItem("titanium_upgrade_template", "paper"),
     DataItem("iridium_upgrade_template", "paper"),
+    DataItem("crystal_alloy_upgrade_template", "paper"),
     # Enchanting
-    DataItem("tome_of_discharge", "paper"),
-    DataItem("tome_of_expenditure", "paper"),
-    DataItem("tome_of_extraction", "paper"),
-    DataItem("tome_of_imitation", "paper"),
-    DataItem("tome_of_promotion", "paper"),
-    DataItem("tome_of_avarice", "paper"),
-    DataItem("tome_of_harmony", "paper"),
-    DataItem("tome_of_replication", "paper"),
+    DataItem("tome_of_discharge", "enchanted_book"),
+    DataItem("tome_of_expenditure", "enchanted_book"),
+    DataItem("tome_of_extraction", "enchanted_book"),
+    DataItem("tome_of_imitation", "enchanted_book"),
+    DataItem("tome_of_promotion", "enchanted_book"),
+    DataItem("tome_of_avarice", "enchanted_book"),
+    DataItem("tome_of_harmony", "enchanted_book"),
+    DataItem("tome_of_replication", "enchanted_book"),
     # Tool Parts
     DataItem("blade_part_upgrade_template", "gold_ingot"),
     DataItem("handle_part_upgrade_template", "gold_ingot"),
@@ -153,11 +155,12 @@ CUSTOM: list[DataItem] = [
     DataItem("arcane_scepter", "stick"),
     DataItem("warping_wand", "stick"),
     DataItem("void_linked_kunai", "iron_sword"),
+    DataItem("scroll", "paper")
 ]
 
 # List
 ARMOR_PIECES = ['helmet', 'chestplate', 'leggings', 'boots']
-ARMOR_MATERIALS = ['silver', 'copper', 'soul_steel', 'titanium', 'anodized_titanium', 'iridium', 'mithril']
+ARMOR_MATERIALS = ['silver', 'copper', 'soul_steel', 'titanium', 'anodized_titanium', 'iridium', 'mithril', 'crystal_alloy']
 
 
 # Main

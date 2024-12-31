@@ -2,7 +2,6 @@
   "has_precipitation": false,
   "temperature": 0.5,
   "downfall": 0.7,
-  "player_spawn_friendly": true,
   "creature_spawn_probability": 0.4,
   "carvers": [
     "minecraft:cave",
@@ -72,11 +71,13 @@
       "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen",
       "odyssey:silmen_mire/trees",
       "odyssey:silmen_mire/patch_vegetation",
       "odyssey:silmen_mire/lake_vegetation",
-      "odyssey:silmen_mire/glow_vines_trees"
+      "odyssey:silmen_mire/glow_vines_trees",
+      "minecraft:glow_lichen",
+      "odyssey:cave/lumenshroom_undergrowth/shrooms_mini",
+      "odyssey:cave/hanging_moss"
     ],
     [
       "minecraft:freeze_top_layer"

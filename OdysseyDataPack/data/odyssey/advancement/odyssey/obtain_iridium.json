@@ -1,0 +1,44 @@
+{
+  "parent": "odyssey:odyssey/obtain_titanium",
+  "criteria": {
+    "iridium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_ingot",
+            "components": {
+              "minecraft:item_name": "iridium_ingot",
+              "minecraft:item_model": "odyssey:iridium_ingot"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_ingot",
+      "components": {
+        "minecraft:item_model": "odyssey:iridium_ingot",
+        "minecraft:item_name": "iridium_ingot"
+      }
+    },
+    "title": {
+      "translate": "A farmer's metal"
+    },
+    "description": {
+      "translate": "Obtain an ingot of iridium from ominous trail chambers."
+    }
+  },
+  "requirements": [
+    [
+      "iridium_ingot"
+    ]
+  ]
+}

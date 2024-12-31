@@ -7,6 +7,11 @@
         {
           "type": "minecraft:loot_table",
           "value": "odyssey:loot/random_part_pattern",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/danger_armor_trim_smithing_template",
           "weight": 1
         }
       ],

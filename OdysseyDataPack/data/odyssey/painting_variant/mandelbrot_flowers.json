@@ -1,4 +1,12 @@
 {
+  "title": {
+    "color": "yellow",
+    "translate": "painting.odyssey.mandelbrot_flowers.title"
+  },
+  "author": {
+    "color": "gray",
+    "translate": "painting.odyssey.mandelbrot_flowers.author"
+  },
   "asset_id": "odyssey:mandelbrot_flowers",
   "height": 2,
   "width": 2

@@ -1,0 +1,42 @@
+{
+  "parent": "odyssey:odyssey/find_biome",
+  "criteria": {
+    "find_derelict_base": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "odyssey:derelict_base/solara"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "Locate an abondoned base of a previous $A$3241."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:stripped_oak_log"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "What was once was"
+    }
+  },
+  "requirements": [
+    [
+      "find_derelict_base"
+    ]
+  ]
+}

@@ -1,16 +1,15 @@
 {
-    "type": "minecraft:random_selector",
-    "config": {
-      "features": [
-        {
-          "chance": 0.36,
-          "feature": "odyssey:marina_moor/tree_small_fork"
-        }
-      ],
-      "default": {
-        "feature": "odyssey:marina_moor/tree_small_fork",
-        "placement": []
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.36,
+        "feature": "odyssey:marina_moor/tree_small_fork"
       }
+    ],
+    "default": {
+      "feature": "odyssey:marina_moor/tree_small_fork",
+      "placement": []
     }
+  }
 }
-  

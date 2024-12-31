@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:add",
+  "argument1": 0.00,
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": 0.615,
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": -32,
+        "to_y": 100,
+        "from_value": 1,
+        "to_value": 0
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:y_clamped_gradient",
+          "from_y": 100,
+          "to_y": -32,
+          "from_value": 1,
+          "to_value": 0
+        },
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": "odyssey:edge/world/lines",
+          "argument2": 2.0
+        }
+      }
+    }
+  }
+}

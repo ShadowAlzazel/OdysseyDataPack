@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:range_choice",
+    "input": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:noise",
+        "noise": "odyssey:world/xtrala",
+        "xz_scale": 2,
+        "y_scale": 1
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": -1,
+        "argument2": {
+          "type": "minecraft:shifted_noise",
+          "noise": "odyssey:world/xtrala",
+          "xz_scale": 1.1102230246251565e-16,
+          "y_scale": 1.1102230246251565e-16,
+          "shift_x": 0.98,
+          "shift_y": 0.98,
+          "shift_z": 0.98
+        }
+      }
+    },
+    "min_inclusive": 0,
+    "max_exclusive": 5e-324,
+    "when_in_range": 1,
+    "when_out_of_range": -1
+  },
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": 4,
+    "argument2": {
+      "type": "minecraft:noise",
+      "noise": "odyssey:world/beta",
+      "xz_scale": 324.125,
+      "y_scale": 1
+    }
+  }
+}

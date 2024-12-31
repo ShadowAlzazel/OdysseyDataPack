@@ -1,20 +1,16 @@
 {
-  "parent": "odyssey:smithing/sword/tracker_root",
+  "parent": "odyssey:smithing/sword/sword_root",
   "criteria": {
     "craft_cutlass": {
       "conditions": {
-        "ingredients": [
-          {
-            "item": {}
-          }
-        ],
-        "recipe_id":"odyssey:weapons/stone_cutlass"
+        "ingredients": [],
+        "recipe_id": "odyssey:diamond_cutlass"
       },
       "trigger": "minecraft:recipe_crafted"
     }
   },
   "display": {
-    "announce_to_chat": false,
+    "announce_to_chat": true,
     "description": {
       "translate": "advancments.odyssey.smithing.sword.craft_cutlass.description"
     },

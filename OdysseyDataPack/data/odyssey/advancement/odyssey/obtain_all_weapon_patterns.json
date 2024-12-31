@@ -1,0 +1,181 @@
+{
+  "parent": "odyssey:odyssey/obtain_any_weapon_pattern",
+  "criteria": {
+    "humble_part_pattern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:paper",
+            "components": {
+              "minecraft:item_name": "humble_part_pattern",
+              "minecraft:item_model": "odyssey:humble_part_pattern"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "fancy_part_pattern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:paper",
+            "components": {
+              "minecraft:item_name": "fancy_part_pattern",
+              "minecraft:item_model": "odyssey:fancy_part_pattern"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "imperial_part_pattern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:paper",
+            "components": {
+              "minecraft:item_name": "imperial_part_pattern",
+              "minecraft:item_model": "odyssey:imperial_part_pattern"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "vandal_part_pattern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:paper",
+            "components": {
+              "minecraft:item_name": "vandal_part_pattern",
+              "minecraft:item_model": "odyssey:vandal_part_pattern"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "crusader_part_pattern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:paper",
+            "components": {
+              "minecraft:item_name": "crusader_part_pattern",
+              "minecraft:item_model": "odyssey:crusader_part_pattern"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "marauder_part_pattern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:paper",
+            "components": {
+              "minecraft:item_name": "marauder_part_pattern",
+              "minecraft:item_model": "odyssey:marauder_part_pattern"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "seraph_part_pattern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:paper",
+            "components": {
+              "minecraft:item_name": "seraph_part_pattern",
+              "minecraft:item_model": "odyssey:seraph_part_pattern"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "danger_part_pattern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:paper",
+            "components": {
+              "minecraft:item_name": "danger_part_pattern",
+              "minecraft:item_model": "odyssey:danger_part_pattern"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "voyager_part_pattern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:paper",
+            "components": {
+              "minecraft:item_name": "voyager_part_pattern",
+              "minecraft:item_model": "odyssey:voyager_part_pattern"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:rabbit_hide",
+      "components": {
+        "minecraft:item_model": "odyssey:danger_part_pattern",
+        "minecraft:item_name": "danger_part_pattern",
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Perhaps the archives are now complete"
+    },
+    "description": {
+      "translate": "Collect all weapon part patterns."
+    }
+  },
+  "requirements": [
+    [
+      "voyager_part_pattern"
+    ],
+    [
+      "danger_part_pattern"
+    ],
+    [
+      "marauder_part_pattern"
+    ],
+    [
+      "crusader_part_pattern"
+    ],
+    [
+      "vandal_part_pattern"
+    ],
+    [
+      "imperial_part_pattern"
+    ],
+    [
+      "fancy_part_pattern"
+    ],
+    [
+      "humble_part_pattern"
+    ],
+    [
+      "seraph_part_pattern"
+    ]
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:add",
+  "argument1": 0.0373,
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": 1.07,
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": 0.01,
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:mul",
+          "argument1": 4,
+          "argument2": {
+            "type": "minecraft:quarter_negative",
+            "argument": {
+              "type": "minecraft:mul",
+              "argument1": {
+                "type": "minecraft:abs",
+                "argument": {
+                  "type": "minecraft:mul",
+                  "argument1": 0.05,
+                  "argument2": {
+                    "type": "minecraft:noise",
+                    "noise": "odyssey:math/elevation",
+                    "xz_scale": 2,
+                    "y_scale": 1
+                  }
+                }
+              },
+              "argument2": "odyssey:edge/regions/gills_factor"
+            }
+          }
+        },
+        "argument2": "odyssey:edge/regions/gills_3d_noise"
+      }
+    }
+  }
+}

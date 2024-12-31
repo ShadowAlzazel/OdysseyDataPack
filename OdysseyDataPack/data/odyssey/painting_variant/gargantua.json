@@ -1,4 +1,12 @@
 {
+  "title": {
+    "color": "yellow",
+    "translate": "painting.odyssey.gargantua.title"
+  },
+  "author": {
+    "color": "gray",
+    "translate": "painting.odyssey.gargantua.author"
+  },
   "asset_id": "odyssey:gargantua",
   "height": 2,
   "width": 2

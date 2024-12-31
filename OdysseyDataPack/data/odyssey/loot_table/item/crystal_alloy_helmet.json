@@ -1,0 +1,60 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "crystal_alloy_helmet",
+                "minecraft:item_model": "odyssey:crystal_alloy_helmet",
+                "minecraft:equippable": {
+                  "asset_id": "odyssey:crystal_alloy",
+                  "slot": "head",
+                  "equip_sound": "item.armor.equip_chain"
+                },
+                "minecraft:max_damage": 297
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Crystal Alloy Helmet",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "amount": 3,
+                  "id": "odyssey:item.helmet.armor",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:armor_toughness",
+                  "operation": "add_value",
+                  "amount": 2,
+                  "id": "odyssey:item.helmet.armor_toughness",
+                  "slot": "head"
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -2,7 +2,6 @@
   "has_precipitation": false,
   "temperature": 0.8,
   "downfall": 0.0,
-  "player_spawn_friendly": true,
   "creature_spawn_probability": 0.4,
   "carvers": [
     "minecraft:cave",
@@ -53,7 +52,8 @@
     [],
     [
       "minecraft:amethyst_geode",
-      "odyssey:generic/diamond_geode"
+      "odyssey:generic/diamond_geode",
+      "odyssey:generic/coral_geodes"
     ],
     [
       "minecraft:monster_room",
@@ -69,9 +69,10 @@
     [],
     [],
     [
-      "minecraft:glow_lichen",
       "odyssey:ordinal_plains/trees",
-      "odyssey:ordinal_plains/patch_vegetation"
+      "odyssey:ordinal_plains/patch_vegetation",
+      "minecraft:glow_lichen",
+      "odyssey:cave/lumenshroom_undergrowth/shrooms_mini"
     ],
     [
       "odyssey:ordinal_plains/tree_filler",

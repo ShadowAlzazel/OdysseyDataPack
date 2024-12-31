@@ -8,9 +8,7 @@
         "location": "odyssey:supershaft/shaft_top",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "processors": {
-            "processors": []
-          }
+        "processors": "minecraft:empty"
       }
     }
   ]

@@ -1,0 +1,24 @@
+{
+  "name": "odyssey:derelict_base/solara/path",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "odyssey:derelict_base/derelict_base_solara_path_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "odyssey:derelict_base/derelict_base_solara_path_2",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

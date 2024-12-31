@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 28226662,
+    "separation": 47,
+    "spacing": 69
+  },
+  "structures": [
+    {
+      "structure": "odyssey:derelict_base/soraciela",
+      "weight": 1
+    },
+    {
+      "structure": "odyssey:derelict_base/solara",
+      "weight": 1
+    }
+  ]
+}

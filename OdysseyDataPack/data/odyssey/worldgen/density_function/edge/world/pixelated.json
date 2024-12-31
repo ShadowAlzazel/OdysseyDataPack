@@ -1,0 +1,51 @@
+{
+  "type": "add",
+  "argument1": {
+    "type": "minecraft:mul",
+    "argument1": 1,
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": 1,
+        "argument2": {
+          "type": "minecraft:add",
+          "argument1": "odyssey:edge/world/3d_grid",
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": 1,
+            "argument2": {
+              "type": "minecraft:noise",
+              "noise": "odyssey:world/lima",
+              "xz_scale": 324.125,
+              "y_scale": 0
+            }
+          }
+        }
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": 0.3,
+        "argument2": {
+          "type": "minecraft:noise",
+          "noise": "odyssey:world/petra",
+          "xz_scale": 162.0625,
+          "y_scale": 0
+        }
+      }
+    }
+  },
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": 1.1,
+    "argument2": {
+      "type": "minecraft:shifted_noise",
+      "noise": "minecraft:badlands_surface",
+      "xz_scale": 4,
+      "y_scale": 1,
+      "shift_x": 0.99,
+      "shift_y": 0.99,
+      "shift_z": 0.99
+    }
+  }
+}

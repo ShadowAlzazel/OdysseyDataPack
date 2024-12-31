@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:mul",
+  "argument1": 1,
+  "argument2": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": 1,
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": "odyssey:edge/world/3d_grid",
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": 1,
+          "argument2": {
+            "type": "minecraft:noise",
+            "noise": "odyssey:world/lima",
+            "xz_scale": 324.125,
+            "y_scale": 0
+          }
+        }
+      }
+    },
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": 0.33,
+      "argument2": {
+        "type": "minecraft:noise",
+        "noise": "odyssey:world/aleph",
+        "xz_scale": 162.0625,
+        "y_scale": 0
+      }
+    }
+  }
+}

@@ -17,7 +17,8 @@
                   "asset_id": "odyssey:mithril",
                   "slot": "chest",
                   "equip_sound": "item.armor.equip_chain"
-                }
+                },
+                "minecraft:max_damage": 552
               },
               "conditions": []
             },

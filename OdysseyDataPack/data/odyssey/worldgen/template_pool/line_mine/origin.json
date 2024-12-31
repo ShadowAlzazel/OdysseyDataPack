@@ -1,0 +1,17 @@
+{
+  "name": "odyssey:line_mine/origin",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:line_mine/line_mine_entrance",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

@@ -37,7 +37,7 @@
                     "argument2": {
                       "type": "minecraft:add",
                       "argument1": 0.1415,
-                      "argument2": "odyssey:edge/gills/3d_noise"
+                      "argument2": "odyssey:edge/regions/gills"
                     }
                   }
                 }

@@ -9,8 +9,8 @@
       "count": 1,
       "id": "minecraft:potion",
       "components": {
-        "minecraft:item_model": "odyssey:pearshape_potion",
-        "minecraft:item_name": "pearshape_potion"
+        "minecraft:item_model": "odyssey:crystalline_potion",
+        "minecraft:item_name": "crystalline_potion"
       }
     },
     "title": {

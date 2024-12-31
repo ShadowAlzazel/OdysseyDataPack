@@ -1,0 +1,45 @@
+{
+  "parent": "odyssey:edge/find_biome",
+  "criteria": {
+    "find_hypercubic_chamber": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "odyssey:hypercubic_chamber"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "Find the dungeon that seemingly exists"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:white_concrete",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "Cooper is not Here"
+    }
+  },
+  "requirements": [
+    [
+      "find_hypercubic_chamber"
+    ]
+  ]
+}

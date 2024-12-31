@@ -1,20 +1,16 @@
 {
-  "parent": "odyssey:smithing/sword/tracker_root",
+  "parent": "odyssey:smithing/sword/sword_root",
   "criteria": {
     "craft_katana": {
       "conditions": {
-        "ingredients": [
-          {
-            "item": {}
-          }
-        ],
-        "recipe_id":"odyssey:weapons/stone_katana"
+        "ingredients": [],
+        "recipe_id": "odyssey:diamond_katana"
       },
       "trigger": "minecraft:recipe_crafted"
     }
   },
   "display": {
-    "announce_to_chat": false,
+    "announce_to_chat": true,
     "description": {
       "translate": "advancments.odyssey.smithing.sword.craft_katana.description"
     },
@@ -34,8 +30,6 @@
     }
   },
   "requirements": [
-    [
-      "craft_katana"
-    ]
+    ["craft_katana"]
   ]
 }

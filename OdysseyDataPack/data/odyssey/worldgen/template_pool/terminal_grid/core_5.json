@@ -1,0 +1,15 @@
+{
+  "name": "odyssey:terminal_grid/core_5",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:terminal_grid/terminal_grid_core_h5",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
