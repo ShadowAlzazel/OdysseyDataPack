@@ -1,0 +1,336 @@
+{
+  "type": "minecraft:cache_2d",
+  "argument": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:square",
+          "argument": "odyssey:edge/spongelands/x"
+        },
+        "argument2": {
+          "type": "minecraft:square",
+          "argument": "odyssey:edge/spongelands/z"
+        }
+      },
+      "points": [
+        {
+          "location": 1,
+          "derivative": 0.5,
+          "value": 1
+        },
+        {
+          "location": 2,
+          "derivative": 0.35355339059327373,
+          "value": 1.4142135623730951
+        },
+        {
+          "location": 4,
+          "derivative": 0.25,
+          "value": 2
+        },
+        {
+          "location": 8,
+          "derivative": 0.17677669529663687,
+          "value": 2.8284271247461903
+        },
+        {
+          "location": 16,
+          "derivative": 0.125,
+          "value": 4
+        },
+        {
+          "location": 32,
+          "derivative": 0.08838834764831843,
+          "value": 5.656854249492381
+        },
+        {
+          "location": 64,
+          "derivative": 0.0625,
+          "value": 8
+        },
+        {
+          "location": 128,
+          "derivative": 0.044194173824159216,
+          "value": 11.313708498984761
+        },
+        {
+          "location": 256,
+          "derivative": 0.03125,
+          "value": 16
+        },
+        {
+          "location": 512,
+          "derivative": 0.022097086912079608,
+          "value": 22.627416997969522
+        },
+        {
+          "location": 1024,
+          "derivative": 0.015625,
+          "value": 32
+        },
+        {
+          "location": 2048,
+          "derivative": 0.011048543456039804,
+          "value": 45.254833995939045
+        },
+        {
+          "location": 4096,
+          "derivative": 0.0078125,
+          "value": 64
+        },
+        {
+          "location": 8192,
+          "derivative": 0.005524271728019902,
+          "value": 90.50966799187809
+        },
+        {
+          "location": 16384,
+          "derivative": 0.00390625,
+          "value": 128
+        },
+        {
+          "location": 32768,
+          "derivative": 0.002762135864009951,
+          "value": 181.01933598375618
+        },
+        {
+          "location": 65536,
+          "derivative": 0.001953125,
+          "value": 256
+        },
+        {
+          "location": 131072,
+          "derivative": 0.0013810679320049755,
+          "value": 362.03867196751236
+        },
+        {
+          "location": 262144,
+          "derivative": 0.0009765625,
+          "value": 512
+        },
+        {
+          "location": 524288,
+          "derivative": 0.0006905339660024878,
+          "value": 724.0773439350247
+        },
+        {
+          "location": 1048576,
+          "derivative": 0.00048828125,
+          "value": 1024
+        },
+        {
+          "location": 2097152,
+          "derivative": 0.0003452669830012439,
+          "value": 1448.1546878700494
+        },
+        {
+          "location": 4194304,
+          "derivative": 0.000244140625,
+          "value": 2048
+        },
+        {
+          "location": 8388608,
+          "derivative": 0.00017263349150062194,
+          "value": 2896.309375740099
+        },
+        {
+          "location": 16777216,
+          "derivative": 0.0001220703125,
+          "value": 4096
+        },
+        {
+          "location": 33554432,
+          "derivative": 0.00008631674575031097,
+          "value": 5792.618751480198
+        },
+        {
+          "location": 67108864,
+          "derivative": 0.00006103515625,
+          "value": 8192
+        },
+        {
+          "location": 134217728,
+          "derivative": 0.000043158372875155485,
+          "value": 11585.237502960395
+        },
+        {
+          "location": 268435456,
+          "derivative": 0.000030517578125,
+          "value": 16384
+        },
+        {
+          "location": 536870912,
+          "derivative": 0.000021579186437577742,
+          "value": 23170.47500592079
+        },
+        {
+          "location": 1073741824,
+          "derivative": 0.0000152587890625,
+          "value": 32768
+        },
+        {
+          "location": 2147483648,
+          "derivative": 0.000010789593218788871,
+          "value": 46340.95001184158
+        },
+        {
+          "location": 4294967296,
+          "derivative": 0.00000762939453125,
+          "value": 65536
+        },
+        {
+          "location": 8589934592,
+          "derivative": 0.000005394796609394436,
+          "value": 92681.90002368316
+        },
+        {
+          "location": 17179869184,
+          "derivative": 0.000003814697265625,
+          "value": 131072
+        },
+        {
+          "location": 34359738368,
+          "derivative": 0.000002697398304697218,
+          "value": 185363.80004736633
+        },
+        {
+          "location": 68719476736,
+          "derivative": 0.0000019073486328125,
+          "value": 262144
+        },
+        {
+          "location": 137438953472,
+          "derivative": 0.000001348699152348609,
+          "value": 370727.60009473265
+        },
+        {
+          "location": 274877906944,
+          "derivative": 9.5367431640625e-7,
+          "value": 524288
+        },
+        {
+          "location": 549755813888,
+          "derivative": 6.743495761743044e-7,
+          "value": 741455.2001894653
+        },
+        {
+          "location": 1099511627776,
+          "derivative": 4.76837158203125e-7,
+          "value": 1048576
+        },
+        {
+          "location": 2199023255552,
+          "derivative": 3.371747880871522e-7,
+          "value": 1482910.4003789306
+        },
+        {
+          "location": 4398046511104,
+          "derivative": 2.384185791015625e-7,
+          "value": 2097152
+        },
+        {
+          "location": 8796093022208,
+          "derivative": 1.685873940435761e-7,
+          "value": 2965820.800757861
+        },
+        {
+          "location": 17592186044416,
+          "derivative": 1.1920928955078125e-7,
+          "value": 4194304
+        },
+        {
+          "location": 35184372088832,
+          "derivative": 8.429369702178806e-8,
+          "value": 5931641.601515722
+        },
+        {
+          "location": 70368744177664,
+          "derivative": 5.960464477539063e-8,
+          "value": 8388608
+        },
+        {
+          "location": 140737488355328,
+          "derivative": 4.214684851089403e-8,
+          "value": 11863283.203031445
+        },
+        {
+          "location": 281474976710656,
+          "derivative": 2.9802322387695312e-8,
+          "value": 16777216
+        },
+        {
+          "location": 562949953421312,
+          "derivative": 2.1073424255447014e-8,
+          "value": 23726566.40606289
+        },
+        {
+          "location": 1125899906842624,
+          "derivative": 1.4901161193847656e-8,
+          "value": 33554432
+        },
+        {
+          "location": 2251799813685248,
+          "derivative": 1.0536712127723507e-8,
+          "value": 47453132.81212578
+        },
+        {
+          "location": 4503599627370496,
+          "derivative": 7.450580596923828e-9,
+          "value": 67108864
+        },
+        {
+          "location": 9007199254740992,
+          "derivative": 5.2683560638617535e-9,
+          "value": 94906265.62425156
+        },
+        {
+          "location": 18014398509481984,
+          "derivative": 3.725290298461914e-9,
+          "value": 134217728
+        },
+        {
+          "location": 36028797018963970,
+          "derivative": 2.6341780319308768e-9,
+          "value": 189812531.24850312
+        },
+        {
+          "location": 72057594037927940,
+          "derivative": 1.862645149230957e-9,
+          "value": 268435456
+        },
+        {
+          "location": 144115188075855870,
+          "derivative": 1.3170890159654384e-9,
+          "value": 379625062.49700624
+        },
+        {
+          "location": 288230376151711740,
+          "derivative": 9.313225746154785e-10,
+          "value": 536870912
+        },
+        {
+          "location": 576460752303423500,
+          "derivative": 6.585445079827192e-10,
+          "value": 759250124.9940125
+        },
+        {
+          "location": 1152921504606847000,
+          "derivative": 4.656612873077393e-10,
+          "value": 1073741824
+        },
+        {
+          "location": 2305843009213694000,
+          "derivative": 3.292722539913596e-10,
+          "value": 1518500249.988025
+        },
+        {
+          "location": 4611686018427388000,
+          "derivative": 2.3283064365386963e-10,
+          "value": 2147483648
+        }
+      ]
+    }
+  }
+}

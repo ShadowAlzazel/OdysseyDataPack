@@ -1,0 +1,354 @@
+{
+  "type": "minecraft:mul",
+  "argument1": {
+    "type": "minecraft:add",
+    "argument1": "odyssey:edge/spongelands/b",
+    "argument2": {
+      "type": "minecraft:shifted_noise",
+      "noise": "odyssey:world/spongelands_base",
+      "xz_scale": 3.2311742677852644e-27,
+      "y_scale": 0,
+      "shift_x": 1,
+      "shift_y": 0,
+      "shift_z": 0
+    }
+  },
+  "argument2": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": {
+        "type": "minecraft:abs",
+        "argument": {
+          "type": "minecraft:add",
+          "argument1": "odyssey:edge/spongelands/b",
+          "argument2": {
+            "type": "minecraft:shifted_noise",
+            "noise": "odyssey:world/spongelands_base",
+            "xz_scale": 0,
+            "y_scale": 0,
+            "shift_x": 0,
+            "shift_y": 0,
+            "shift_z": 3.2311742677852644e-27
+          }
+        }
+      },
+      "points": [
+        {
+          "location": 9.313225746154785e-10,
+          "derivative": -1152921504606847000,
+          "value": 1073741824
+        },
+        {
+          "location": 1.3170890159654386e-9,
+          "derivative": -576460752303423400,
+          "value": 759250124.9940124
+        },
+        {
+          "location": 1.862645149230957e-9,
+          "derivative": -288230376151711740,
+          "value": 536870912
+        },
+        {
+          "location": 2.634178031930877e-9,
+          "derivative": -144115188075855860,
+          "value": 379625062.4970062
+        },
+        {
+          "location": 3.725290298461914e-9,
+          "derivative": -72057594037927940,
+          "value": 268435456
+        },
+        {
+          "location": 5.268356063861754e-9,
+          "derivative": -36028797018963964,
+          "value": 189812531.2485031
+        },
+        {
+          "location": 7.450580596923828e-9,
+          "derivative": -18014398509481984,
+          "value": 134217728
+        },
+        {
+          "location": 1.0536712127723509e-8,
+          "derivative": -9007199254740991,
+          "value": 94906265.62425154
+        },
+        {
+          "location": 1.4901161193847656e-8,
+          "derivative": -4503599627370496,
+          "value": 67108864
+        },
+        {
+          "location": 2.1073424255447017e-8,
+          "derivative": -2251799813685247.8,
+          "value": 47453132.81212577
+        },
+        {
+          "location": 2.9802322387695312e-8,
+          "derivative": -1125899906842624,
+          "value": 33554432
+        },
+        {
+          "location": 4.2146848510894035e-8,
+          "derivative": -562949953421311.94,
+          "value": 23726566.406062886
+        },
+        {
+          "location": 5.960464477539063e-8,
+          "derivative": -281474976710656,
+          "value": 16777216
+        },
+        {
+          "location": 8.429369702178807e-8,
+          "derivative": -140737488355327.98,
+          "value": 11863283.203031443
+        },
+        {
+          "location": 1.1920928955078125e-7,
+          "derivative": -70368744177664,
+          "value": 8388608
+        },
+        {
+          "location": 1.6858739404357614e-7,
+          "derivative": -35184372088831.996,
+          "value": 5931641.6015157215
+        },
+        {
+          "location": 2.384185791015625e-7,
+          "derivative": -17592186044416,
+          "value": 4194304
+        },
+        {
+          "location": 3.371747880871523e-7,
+          "derivative": -8796093022207.999,
+          "value": 2965820.8007578608
+        },
+        {
+          "location": 4.76837158203125e-7,
+          "derivative": -4398046511104,
+          "value": 2097152
+        },
+        {
+          "location": 6.743495761743046e-7,
+          "derivative": -2199023255551.9998,
+          "value": 1482910.4003789304
+        },
+        {
+          "location": 9.5367431640625e-7,
+          "derivative": -1099511627776,
+          "value": 1048576
+        },
+        {
+          "location": 0.0000013486991523486091,
+          "derivative": -549755813887.99994,
+          "value": 741455.2001894652
+        },
+        {
+          "location": 0.0000019073486328125,
+          "derivative": -274877906944,
+          "value": 524288
+        },
+        {
+          "location": 0.0000026973983046972182,
+          "derivative": -137438953471.99998,
+          "value": 370727.6000947326
+        },
+        {
+          "location": 0.000003814697265625,
+          "derivative": -68719476736,
+          "value": 262144
+        },
+        {
+          "location": 0.0000053947966093944364,
+          "derivative": -34359738367.999996,
+          "value": 185363.8000473663
+        },
+        {
+          "location": 0.00000762939453125,
+          "derivative": -17179869184,
+          "value": 131072
+        },
+        {
+          "location": 0.000010789593218788873,
+          "derivative": -8589934591.999999,
+          "value": 92681.90002368315
+        },
+        {
+          "location": 0.0000152587890625,
+          "derivative": -4294967296,
+          "value": 65536
+        },
+        {
+          "location": 0.000021579186437577746,
+          "derivative": -2147483647.9999998,
+          "value": 46340.950011841574
+        },
+        {
+          "location": 0.000030517578125,
+          "derivative": -1073741824,
+          "value": 32768
+        },
+        {
+          "location": 0.00004315837287515549,
+          "derivative": -536870911.99999994,
+          "value": 23170.475005920787
+        },
+        {
+          "location": 0.00006103515625,
+          "derivative": -268435456,
+          "value": 16384
+        },
+        {
+          "location": 0.00008631674575031098,
+          "derivative": -134217727.99999999,
+          "value": 11585.237502960394
+        },
+        {
+          "location": 0.0001220703125,
+          "derivative": -67108864,
+          "value": 8192
+        },
+        {
+          "location": 0.00017263349150062197,
+          "derivative": -33554431.999999996,
+          "value": 5792.618751480197
+        },
+        {
+          "location": 0.000244140625,
+          "derivative": -16777216,
+          "value": 4096
+        },
+        {
+          "location": 0.00034526698300124393,
+          "derivative": -8388607.999999999,
+          "value": 2896.3093757400984
+        },
+        {
+          "location": 0.00048828125,
+          "derivative": -4194304,
+          "value": 2048
+        },
+        {
+          "location": 0.0006905339660024879,
+          "derivative": -2097151.9999999998,
+          "value": 1448.1546878700492
+        },
+        {
+          "location": 0.0009765625,
+          "derivative": -1048576,
+          "value": 1024
+        },
+        {
+          "location": 0.0013810679320049757,
+          "derivative": -524287.99999999994,
+          "value": 724.0773439350246
+        },
+        {
+          "location": 0.001953125,
+          "derivative": -262144,
+          "value": 512
+        },
+        {
+          "location": 0.0027621358640099515,
+          "derivative": -131071.99999999999,
+          "value": 362.0386719675123
+        },
+        {
+          "location": 0.00390625,
+          "derivative": -65536,
+          "value": 256
+        },
+        {
+          "location": 0.005524271728019903,
+          "derivative": -32767.999999999996,
+          "value": 181.01933598375615
+        },
+        {
+          "location": 0.0078125,
+          "derivative": -16384,
+          "value": 128
+        },
+        {
+          "location": 0.011048543456039806,
+          "derivative": -8191.999999999999,
+          "value": 90.50966799187808
+        },
+        {
+          "location": 0.015625,
+          "derivative": -4096,
+          "value": 64
+        },
+        {
+          "location": 0.02209708691207961,
+          "derivative": -2047.9999999999998,
+          "value": 45.25483399593904
+        },
+        {
+          "location": 0.03125,
+          "derivative": -1024,
+          "value": 32
+        },
+        {
+          "location": 0.04419417382415922,
+          "derivative": -511.99999999999994,
+          "value": 22.62741699796952
+        },
+        {
+          "location": 0.0625,
+          "derivative": -256,
+          "value": 16
+        },
+        {
+          "location": 0.08838834764831845,
+          "derivative": -127.99999999999999,
+          "value": 11.31370849898476
+        },
+        {
+          "location": 0.125,
+          "derivative": -64,
+          "value": 8
+        },
+        {
+          "location": 0.1767766952966369,
+          "derivative": -31.999999999999996,
+          "value": 5.65685424949238
+        },
+        {
+          "location": 0.25,
+          "derivative": -16,
+          "value": 4
+        },
+        {
+          "location": 0.3535533905932738,
+          "derivative": -7.999999999999999,
+          "value": 2.82842712474619
+        },
+        {
+          "location": 0.5,
+          "derivative": -4,
+          "value": 2
+        },
+        {
+          "location": 0.7071067811865476,
+          "derivative": -1.9999999999999998,
+          "value": 1.414213562373095
+        },
+        {
+          "location": 1,
+          "derivative": -1,
+          "value": 1
+        },
+        {
+          "location": 1.414213562373095,
+          "derivative": -0.5000000000000001,
+          "value": 0.7071067811865476
+        },
+        {
+          "location": 2,
+          "derivative": -0.25,
+          "value": 0.5
+        }
+      ]
+    }
+  }
+}

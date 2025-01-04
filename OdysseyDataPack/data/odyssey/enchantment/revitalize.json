@@ -1,17 +1,18 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "enchantment.odyssey.brawler"
+    "translate": "enchantment.odyssey.revitalize",
+    "fallback": "Revitalize"
   },
   "effects": {},
   "max_cost": {
-    "base": 15,
-    "per_level_above_first": 6
+    "base": 17,
+    "per_level_above_first": 8
   },
-  "max_level": 3,
+  "max_level": 4,
   "min_cost": {
-    "base": 10,
-    "per_level_above_first": 6
+    "base": 12,
+    "per_level_above_first": 8
   },
   "slots": [
     "armor"

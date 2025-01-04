@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:mul",
+  "argument1": -1,
+  "argument2": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": 0.0073,
+      "argument2": "odyssey:edge/spongelands/e_r"
+    },
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:cube",
+        "argument": 612008
+      },
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:cube",
+          "argument": -612008
+        },
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": -0.0073,
+          "argument2": "odyssey:edge/spongelands/e_r"
+        }
+      }
+    }
+  }
+}

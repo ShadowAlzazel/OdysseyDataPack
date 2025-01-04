@@ -1,0 +1,21 @@
+{
+  "type": "mul",
+  "argument1": -4,
+  "argument2": {
+    "type": "quarter_negative",
+    "argument": {
+      "type": "mul",
+      "argument1": -4,
+      "argument2": {
+        "type": "clamp",
+        "min": -2.0,
+        "max": 0.5,
+        "input": {
+          "type": "mul",
+          "argument1": 1,
+          "argument2": "odyssey:edge/world/fractal_sponge"
+        }
+      }
+    }
+  }
+}
