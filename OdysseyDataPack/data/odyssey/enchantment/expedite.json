@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 6,
+  "anvil_cost": 4,
   "description": {
     "translate": "enchantment.odyssey.expedite",
     "fallback": "Expedite"
@@ -9,8 +9,8 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.1,
-          "per_level_above_first": 0.1
+          "base": 0.5,
+          "per_level_above_first": 0.5
         },
         "attribute": "minecraft:block_break_speed",
         "id": "odyssey:enchantment.expedite",
@@ -22,7 +22,7 @@
     "base": 25,
     "per_level_above_first": 9
   },
-  "max_level": 2,
+  "max_level": 4,
   "min_cost": {
     "base": 8,
     "per_level_above_first": 9

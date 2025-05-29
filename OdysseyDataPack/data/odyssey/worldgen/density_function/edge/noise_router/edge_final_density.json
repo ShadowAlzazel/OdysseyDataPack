@@ -109,10 +109,10 @@
       "argument1": "odyssey:edge/noise_router/void",
       "argument2": {
         "type": "minecraft:range_choice",
-        "input": "odyssey:edge/cache/fractal_sponge_range",
-        "min_inclusive": 0.0863,
+        "input": "odyssey:edge/spongelands/region",
+        "min_inclusive": 0.0032,
         "max_exclusive": 1000000.0,
-        "when_in_range": "odyssey:edge/regions/sponge_void",
+        "when_in_range": "odyssey:edge/regions/spongelands",
         "when_out_of_range": 0
       }
     }

@@ -143,7 +143,7 @@ ITEMS = [
 CUSTOM: list[DataItem] = [
     # TEMP TODO Equipment
     DataItem("tinkered_bow", "bow"),
-    DataItem("grappling_hook", "crossbow"),
+    DataItem("chain_hook", "crossbow"),
     DataItem("tinkered_musket", "crossbow"),
     DataItem("auto_crossbow", "crossbow"),
     DataItem("compact_crossbow", "crossbow"),
@@ -155,7 +155,7 @@ CUSTOM: list[DataItem] = [
     DataItem("arcane_scepter", "stick"),
     DataItem("warping_wand", "stick"),
     DataItem("void_linked_kunai", "iron_sword"),
-    DataItem("scroll", "paper")
+    DataItem("scroll", "paper"),
 ]
 
 # List

@@ -33,7 +33,6 @@
             },
             {
               "condition": "minecraft:weather_check",
-              "clear": true,
               "thundering": false,
               "raining": false
             },

@@ -11,8 +11,8 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "grappling_hook",
-                "minecraft:item_model": "odyssey:grappling_hook"
+                "minecraft:item_name": "chain_hook",
+                "minecraft:item_model": "odyssey:chain_hook"
               },
               "conditions": []
             },
@@ -20,7 +20,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Grappling Hook",
+                "text": "Chain Hook",
                 "bold": false,
                 "italic": false
               }

@@ -1,11 +1,9 @@
 {
   "features": {
-    "enabled": [
-      
-    ]
+    "enabled": []
   },
   "pack": {
-    "pack_format": 61,
+    "pack_format": 79,
     "description": {
       "translate": "The Odyssey accompanying datapack!"
     }
