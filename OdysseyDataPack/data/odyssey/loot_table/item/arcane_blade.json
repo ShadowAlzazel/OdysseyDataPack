@@ -12,7 +12,13 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "arcane_blade",
-                "minecraft:item_model": "odyssey:arcane_blade"
+                "minecraft:item_model": "odyssey:arcane_blade",
+                "minecraft:use_cooldown": {
+                  "seconds": 1.0,
+                  "cooldown_group": "odyssey:arcane_blade"
+                },
+                "!minecraft:max_stack_size": {},
+                "minecraft:max_damage": 405
               },
               "conditions": []
             },
