@@ -1,8 +1,8 @@
 {
   "anvil_cost": 1,
   "description": {
-    "translate": "enchantment.odyssey.magic_touch",
-    "fallback": "Magic Touch"
+    "translate": "enchantment.odyssey.magic_aspect",
+    "fallback": "Magic Aspect"
   },
   "effects": {},
   "max_cost": {

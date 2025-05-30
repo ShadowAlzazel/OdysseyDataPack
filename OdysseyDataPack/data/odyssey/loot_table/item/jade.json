@@ -12,7 +12,8 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "jade",
-                "minecraft:item_model": "odyssey:jade"
+                "minecraft:item_model": "odyssey:jade",
+                "minecraft:provides_trim_material": "odyssey:jade"
               },
               "conditions": []
             },

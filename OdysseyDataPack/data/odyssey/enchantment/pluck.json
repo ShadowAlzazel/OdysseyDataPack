@@ -1,8 +1,8 @@
 {
   "anvil_cost": 16,
   "description": {
-    "translate": "enchantment.odyssey.pluck_pocket",
-    "fallback": "Pluck Pocket"
+    "translate": "enchantment.odyssey.pluck",
+    "fallback": "Pluck"
   },
   "effects": {},
   "max_cost": {
