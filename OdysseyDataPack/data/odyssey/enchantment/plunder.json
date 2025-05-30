@@ -1,8 +1,8 @@
 {
   "anvil_cost": 16,
   "description": {
-    "translate": "enchantment.odyssey.pluck",
-    "fallback": "Pluck"
+    "translate": "enchantment.odyssey.plunder",
+    "fallback": "Plunder"
   },
   "effects": {},
   "max_cost": {
@@ -11,12 +11,12 @@
   },
   "max_level": 1,
   "min_cost": {
-    "base": 18,
+    "base": 23,
     "per_level_above_first": 8
   },
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#minecraft:enchantable/mining",
-  "weight": 2
+  "supported_items": "#minecraft:enchantable/weapon",
+  "weight": 1
 }

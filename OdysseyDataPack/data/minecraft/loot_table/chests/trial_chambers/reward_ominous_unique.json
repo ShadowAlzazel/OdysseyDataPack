@@ -22,6 +22,17 @@
         },
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "odyssey:fealty"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:enchanted_golden_apple",
           "weight": 3
         },

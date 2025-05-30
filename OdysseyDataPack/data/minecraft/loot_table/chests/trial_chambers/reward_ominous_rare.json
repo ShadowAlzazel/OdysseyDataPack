@@ -77,7 +77,8 @@
                 "minecraft:punch",
                 "minecraft:smite",
                 "minecraft:looting",
-                "minecraft:multishot"
+                "minecraft:multishot",
+                "odyssey:fealty"
               ]
             }
           ],
@@ -91,7 +92,8 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:breach",
-                "minecraft:density"
+                "minecraft:density",
+                "odyssey:fealty"
               ]
             }
           ],
@@ -127,6 +129,17 @@
             }
           ],
           "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "odyssey:fealty"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 1
         },
         {
           "type": "minecraft:item",

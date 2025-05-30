@@ -127,7 +127,8 @@
                 "minecraft:efficiency",
                 "minecraft:fortune",
                 "minecraft:silk_touch",
-                "minecraft:feather_falling"
+                "minecraft:feather_falling",
+                "odyssey:fealty"
               ]
             }
           ],
