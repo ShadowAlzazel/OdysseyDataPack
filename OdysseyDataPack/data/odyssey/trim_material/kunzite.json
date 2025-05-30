@@ -4,6 +4,5 @@
     "color": "#f2afe2",
     "translate": "trim_material.odyssey.kunzite",
     "fallback": "Kunzite Material"
-  },
-  "ingredient": "minecraft:jigsaw"
+  }
 }

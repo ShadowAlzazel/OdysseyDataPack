@@ -4,6 +4,5 @@
     "color": "#cf142e",
     "translate": "trim_material.odyssey.ruby",
     "fallback": "Ruby Material"
-  },
-  "ingredient": "minecraft:jigsaw"
+  }
 }

@@ -4,6 +4,5 @@
     "color": "#d9d9bd",
     "translate": "trim_material.odyssey.titanium",
     "fallback": "Titanium Material"
-  },
-  "ingredient": "minecraft:jigsaw"
+  }
 }

@@ -4,6 +4,5 @@
     "color": "#c2dd17",
     "translate": "trim_material.odyssey.jovianite",
     "fallback": "Jovianite Material"
-  },
-  "ingredient": "minecraft:jigsaw"
+  }
 }
