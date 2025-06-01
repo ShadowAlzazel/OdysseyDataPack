@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "odyssey:loot/random_part_upgrade_template",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/blade_part_upgrade_template",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/hilt_part_upgrade_template",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/pommel_part_upgrade_template",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

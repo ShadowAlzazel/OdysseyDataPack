@@ -52,6 +52,11 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "odyssey:loot/random_part_upgrade_template",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "odyssey:item/silver_ingot",
           "weight": 1
         },
