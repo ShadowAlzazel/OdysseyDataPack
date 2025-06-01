@@ -1,34 +1,28 @@
 {
   "has_precipitation": true,
-  "temperature": 0.6,
-  "downfall": 0.6,
-  "creature_spawn_probability": 0.4,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "creature_spawn_probability": 0.2,
   "carvers": [
     "minecraft:cave",
     "minecraft:cave_extra_underground",
     "minecraft:canyon"
   ],
   "effects": {
-    "sky_color": 7972607,
-    "fog_color": 7972607,
-    "water_color": 1983131,
+    "sky_color": 7842047,
+    "fog_color": 12638463,
+    "water_color": 4159204,
     "water_fog_color": 329011,
-    "foliage_color": 13746279,
-    "grass_color": 13746279,
-    "grass_color_modifier": "dark_forest",
-    "particle": {
-      "options": {
-        "type": "minecraft:wax_off"
-      },
-      "probability": 0.002
-    },
+    "foliage_color": 13500312,
+    "grass_color": 16771187,
+    "grass_color_modifier": "none",
     "music": [
       {
         "data": {
           "max_delay": 12000,
           "min_delay": 6000,
           "replace_current_music": false,
-          "sound": "minecraft:music.overworld.bamboo_jungle"
+          "sound": "minecraft:music.overworld.cherry_grove"
         },
         "weight": 1
       }
@@ -49,21 +43,14 @@
     [],
     [],
     [
-      "minecraft:amethyst_geode",
-      "minecraft:forest_rock"
+      "minecraft:amethyst_geode"
     ],
     [
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
     [],
-    [
-      "odyssey:generic/disk_coarse_dirt",
-      "odyssey:generic/disk_podzol",
-      "odyssey:generic/disk_dirt_path",
-      "odyssey:generic/disk_rooted_dirt",
-      "odyssey:mutated_forest/disk_crimson_nylium"
-    ],
+    [],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
@@ -92,7 +79,8 @@
       "minecraft:underwater_magma",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-      "odyssey:generic/disk_tuff"
+      "odyssey:generic/patch_rooted_dirt",
+      "odyssey:great_plains/ground_patch"
     ],
     [],
     [
@@ -100,61 +88,46 @@
     ],
     [
       "minecraft:glow_lichen",
-      "odyssey:mutated_forest/trees",
-      "odyssey:mutated_forest/patch_crimson_roots",
-      "odyssey:mutated_forest/patch_grass_normal",
-      "odyssey:mutated_forest/patch_vegetation",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal"
+      "odyssey:great_plains/patch_dry_grass",
+      "odyssey:great_plains/patch_tall_grass",
+      "odyssey:great_plains/patch_vegetation",
+      "odyssey:great_plains/trees",
+      "minecraft:patch_pumpkin",
+      "minecraft:patch_berry_common"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ],
   "spawn_costs": {},
   "spawners": {
-    "ambient": [
-      {
-        "type": "minecraft:bat",
-        "maxCount": 8,
-        "minCount": 8,
-        "weight": 10
-      }
-    ],
+    "ambient": [],
     "axolotls": [],
     "creature": [
       {
         "type": "minecraft:sheep",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 12
-      },
-      {
-        "type": "minecraft:pig",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:chicken",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
+        "maxCount": 3,
+        "minCount": 3,
+        "weight": 6
       },
       {
         "type": "minecraft:cow",
-        "maxCount": 4,
+        "maxCount": 3,
+        "minCount": 3,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:rabbit",
+        "maxCount": 6,
         "minCount": 4,
-        "weight": 8
+        "weight": 2
       }
     ],
     "misc": [],
     "monster": [
       {
         "type": "minecraft:spider",
-        "maxCount": 5,
+        "maxCount": 4,
         "minCount": 4,
-        "weight": 120
+        "weight": 100
       },
       {
         "type": "minecraft:skeleton",
@@ -163,22 +136,16 @@
         "weight": 100
       },
       {
-        "type": "minecraft:creeper",
+        "type": "minecraft:slime",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 40
+        "weight": 100
       },
       {
         "type": "minecraft:enderman",
         "maxCount": 4,
         "minCount": 1,
-        "weight": 15
-      },
-      {
-        "type": "minecraft:witch",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 30
+        "weight": 10
       }
     ],
     "underground_water_creature": [

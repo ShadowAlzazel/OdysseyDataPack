@@ -57,8 +57,8 @@
     ],
     [],
     [
-      "odyssey:jurassic_heights/disk_mud",
-      "odyssey:jurassic_heights/pool_filler"
+      "odyssey:jurassic_overgrowth/disk_mud",
+      "odyssey:jurassic_overgrowth/pool_filler"
     ],
     [
       "minecraft:ore_dirt",
@@ -94,10 +94,10 @@
       "minecraft:spring_water"
     ],
     [
-      "odyssey:jurassic_heights/trees",
-      "odyssey:jurassic_heights/shrooms",
-      "odyssey:jurassic_heights/bamboo",
-      "odyssey:jurassic_heights/patch_vegetation",
+      "odyssey:jurassic_overgrowth/trees",
+      "odyssey:jurassic_overgrowth/shrooms",
+      "odyssey:jurassic_overgrowth/bamboo",
+      "odyssey:jurassic_overgrowth/patch_vegetation",
       "minecraft:glow_lichen"
     ],
     [

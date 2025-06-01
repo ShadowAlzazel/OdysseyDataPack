@@ -4,15 +4,15 @@
     "features": [
       {
         "chance": 0.5,
-        "feature": "odyssey:jurassic_heights/shroom_red"
+        "feature": "odyssey:jurassic_overgrowth/shroom_red"
       },
       {
         "chance": 0.5,
-        "feature": "odyssey:jurassic_heights/shroom_brown"
+        "feature": "odyssey:jurassic_overgrowth/shroom_brown"
       }
     ],
     "default": {
-      "feature": "odyssey:jurassic_heights/shroom_brown",
+      "feature": "odyssey:jurassic_overgrowth/shroom_brown",
       "placement": []
     }
   }

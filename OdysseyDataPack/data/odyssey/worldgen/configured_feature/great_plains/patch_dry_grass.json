@@ -10,33 +10,15 @@
             "entries": [
               {
                 "data": {
-                  "Name": "minecraft:glow_lichen",
-                  "Properties": {
-                    "down": "true",
-                    "waterlogged": "true"
-                  }
+                  "Name": "minecraft:tall_dry_grass"
                 },
-                "weight": 21
+                "weight": 11
               },
               {
                 "data": {
-                  "Name": "minecraft:sea_pickle",
-                  "Properties": {
-                    "pickles": "2",
-                    "waterlogged": "true"
-                  }
+                  "Name": "minecraft:short_dry_grass"
                 },
                 "weight": 4
-              },
-              {
-                "data": {
-                  "Name": "minecraft:sea_pickle",
-                  "Properties": {
-                    "pickles": "1",
-                    "waterlogged": "true"
-                  }
-                },
-                "weight": 1
               }
             ]
           }
@@ -49,16 +31,17 @@
             "type": "minecraft:all_of",
             "predicates": [
               {
-                "type": "minecraft:matching_fluids",
-                "fluids": [
-                  "minecraft:water"
-                ]
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
               },
               {
                 "type": "minecraft:matching_blocks",
                 "blocks": [
-                  "minecraft:calcite",
-                  "minecraft:diorite"
+                  "minecraft:grass_block",
+                  "minecraft:podzol",
+                  "minecraft:dirt",
+                  "minecraft:coarse_dirt",
+                  "minecraft:rooted_dirt"
                 ],
                 "offset": [
                   0,
@@ -71,8 +54,8 @@
         }
       ]
     },
-    "tries": 80,
-    "xz_spread": 7,
+    "tries": 60,
+    "xz_spread": 6,
     "y_spread": 2
   }
 }

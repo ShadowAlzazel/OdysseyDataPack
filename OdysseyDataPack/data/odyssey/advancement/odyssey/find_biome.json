@@ -113,6 +113,22 @@
       },
       "trigger": "minecraft:location"
     },
+    "odyssey:great_plains": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "odyssey:grand_teton"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
     "odyssey:hoh_rainforest": {
       "conditions": {
         "player": [
@@ -129,7 +145,7 @@
       },
       "trigger": "minecraft:location"
     },
-    "odyssey:jurassic_heights": {
+    "odyssey:jurassic_overgrowth": {
       "conditions": {
         "player": [
           {
@@ -137,7 +153,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "odyssey:jurassic_heights"
+                "biomes": "odyssey:jurassic_overgrowth"
               }
             }
           }
@@ -266,8 +282,9 @@
       "odyssey:cypress_grove",
       "odyssey:danakil",
       "odyssey:grand_teton",
+      "odyssey:great_plains",
       "odyssey:hoh_rainforest",
-      "odyssey:jurassic_heights",
+      "odyssey:jurassic_overgrowth",
       "odyssey:marsh",
       "odyssey:mutated_forest",
       "odyssey:pantanal",

@@ -57,7 +57,7 @@
       "placements_require_layer0_alternate": false,
       "outer_wall_distance": 16,
       "distribution_points": 5,
-      "point_offset": 0,
+      "point_offset": 1,
       "min_gen_offset": -16,
       "max_gen_offset": 16,
       "invalid_blocks_threshold": 1

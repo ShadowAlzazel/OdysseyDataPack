@@ -4,15 +4,15 @@
     "features": [
       {
         "chance": 0.4,
-        "feature": "odyssey:jurassic_heights/tree_fancy"
+        "feature": "odyssey:jurassic_overgrowth/tree_fancy"
       },
       {
         "chance": 0.6,
-        "feature": "odyssey:jurassic_heights/tree_skiny"
+        "feature": "odyssey:jurassic_overgrowth/tree_skiny"
       }
     ],
     "default": {
-      "feature": "odyssey:jurassic_heights/tree_fancy",
+      "feature": "odyssey:jurassic_overgrowth/tree_fancy",
       "placement": []
     }
   }

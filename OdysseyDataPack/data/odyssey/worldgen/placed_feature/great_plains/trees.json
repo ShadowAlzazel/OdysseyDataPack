@@ -1,16 +1,20 @@
 {
-  "feature": "odyssey:jurassic_heights/shrooms",
+  "feature": "odyssey:great_plains/trees",
   "placement": [
     {
       "type": "count",
-      "count": 5
+      "count": 2
     },
     {
       "type": "minecraft:in_square"
     },
     {
+      "type": "minecraft:rarity_filter",
+      "chance": 30
+    },
+    {
       "type": "heightmap",
-      "heightmap": "WORLD_SURFACE_WG"
+      "heightmap": "OCEAN_FLOOR_WG"
     },
     {
       "type": "minecraft:block_predicate_filter",
@@ -22,10 +26,7 @@
         "blocks": [
           "minecraft:grass_block",
           "minecraft:dirt",
-          "minecraft:coarse_dirt",
-          "minecraft:moss_block",
-          "minecraft:podzol",
-          "minecraft:mud"
+          "minecraft:coarse_dirt"
         ]
       }
     },
