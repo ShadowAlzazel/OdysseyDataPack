@@ -3,7 +3,8 @@
   "values": [
     "odyssey:redwood_forest",
     "odyssey:aspen_forest",
-    "odyssey:birch_backwoods",
+    "odyssey:wildwoods",
+    "odyssey:ubsunur_hollow",
     "odyssey:great_plains",
     "#minecraft:is_forest",
     "#minecraft:is_hill",

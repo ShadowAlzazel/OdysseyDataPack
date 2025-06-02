@@ -4,15 +4,15 @@
     "features": [
       {
         "chance": 0.5,
-        "feature": "odyssey:birch_backwoods/tree_tall_birch"
+        "feature": "odyssey:wildwoods/tree_tall_birch"
       },
       {
         "chance": 0.5,
-        "feature": "odyssey:birch_backwoods/tree_tall_blob"
+        "feature": "odyssey:wildwoods/tree_tall_blob"
       }
     ],
     "default": {
-      "feature": "odyssey:birch_backwoods/tree_tall_birch",
+      "feature": "odyssey:wildwoods/tree_tall_birch",
       "placement": []
     }
   }

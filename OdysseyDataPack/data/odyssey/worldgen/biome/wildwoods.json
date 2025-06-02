@@ -2,7 +2,6 @@
   "has_precipitation": true,
   "temperature": 0.8,
   "downfall": 0.4,
-  "player_spawn_friendly": true,
   "creature_spawn_probability": 0.4,
   "carvers": [
     "minecraft:cave",
@@ -11,11 +10,11 @@
   ],
   "effects": {
     "sky_color": 7972607,
-    "fog_color": 12638463,
-    "water_color": 4159204,
-    "water_fog_color": 329011,
-    "foliage_color": 8572226,
-    "grass_color": 9294183,
+    "fog_color": 10333380,
+    "water_color": 5204640,
+    "water_fog_color": 5796496,
+    "foliage_color": 13500277,
+    "grass_color": 12112231,
     "grass_color_modifier": "none",
     "music": [
       {
@@ -86,11 +85,18 @@
     ],
     [
       "minecraft:glow_lichen",
-      "odyssey:birch_backwoods/trees",
+      "minecraft:wildflowers_birch_forest",
+      "odyssey:wildwoods/trees",
       "odyssey:generic/random_green_blocks",
-      "odyssey:generic/fallen_birch_trunk",
-      "odyssey:birch_backwoods/flowers_birch",
-      "odyssey:generic/patch_grass"
+      "odyssey:wildwoods/flowers_birch",
+      "odyssey:generic/patch_grass",
+      "minecraft:patch_bush",
+      "minecraft:patch_grass_forest",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_pumpkin",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_firefly_bush_near_water"
     ],
     [
       "minecraft:freeze_top_layer"

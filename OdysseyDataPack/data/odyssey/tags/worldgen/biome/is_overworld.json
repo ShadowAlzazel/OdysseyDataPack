@@ -2,7 +2,7 @@
   "values": [
     "odyssey:aspen_forest",
     "odyssey:bayou",
-    "odyssey:birch_backwoods",
+    "odyssey:wildwoods",
     "odyssey:chocolate_hills",
     "odyssey:cypress_grove",
     "odyssey:danakil",
@@ -16,6 +16,7 @@
     "odyssey:redwood_forest",
     "odyssey:sierra",
     "odyssey:tsingy",
+    "odyssey:ubsunur_hollow",
     "odyssey:zhangjiajie"
   ]
 }

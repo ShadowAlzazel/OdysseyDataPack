@@ -1,16 +1,20 @@
 {
-  "feature": "odyssey:birch_backwoods/trees",
+  "feature": "odyssey:ubsunur_hollow/trees",
   "placement": [
     {
       "type": "count",
-      "count": 8
+      "count": 5
     },
     {
       "type": "minecraft:in_square"
     },
     {
+      "type": "minecraft:rarity_filter",
+      "chance": 30
+    },
+    {
       "type": "heightmap",
-      "heightmap": "WORLD_SURFACE"
+      "heightmap": "OCEAN_FLOOR_WG"
     },
     {
       "type": "minecraft:block_predicate_filter",
@@ -23,8 +27,8 @@
           "minecraft:grass_block",
           "minecraft:dirt",
           "minecraft:coarse_dirt",
-          "minecraft:rooted_dirt",
-          "minecraft:moss_block"
+          "minecraft:podzol",
+          "minecraft:mud"
         ]
       }
     },

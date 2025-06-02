@@ -1,9 +1,9 @@
 {
-    "feature": "odyssey:generic/fallen_birch_trunk",
+    "feature": "odyssey:wildwoods/fallen_tree",
     "placement": [     
       {
         "type": "minecraft:rarity_filter",
-        "chance": 10
+        "chance": 6
       },
       {
         "type": "minecraft:count",
