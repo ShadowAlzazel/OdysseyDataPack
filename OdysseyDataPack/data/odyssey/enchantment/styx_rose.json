@@ -1,7 +1,8 @@
 {
   "anvil_cost": 8,
   "description": {
-    "translate": "enchantment.odyssey.black_rose"
+    "translate": "enchantment.odyssey.styx_rose",
+    "fallback": "Styx Rose"
   },
   "effects": {},
   "max_cost": {
