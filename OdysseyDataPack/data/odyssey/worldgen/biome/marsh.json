@@ -2,7 +2,7 @@
   "has_precipitation": true,
   "temperature": 0.5,
   "downfall": 0.5,
-  "creature_spawn_probability": 0.4,
+  "creature_spawn_probability": 0.2,
   "carvers": [
     "minecraft:cave",
     "minecraft:cave_extra_underground",
@@ -13,7 +13,7 @@
     "fog_color": 12638463,
     "water_color": 6721171,
     "water_fog_color": 329011,
-    "foliage_color": 9291836,
+    "foliage_color": 5359676,
     "grass_color": 10537020,
     "grass_color_modifier": "none",
     "music": [

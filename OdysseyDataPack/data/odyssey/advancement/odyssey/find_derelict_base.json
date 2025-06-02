@@ -21,7 +21,8 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "Locate an abondoned base of a previous $A$3241."
+      "translate": "translate.test.test",
+      "fallback": "Locate an abondoned base of a bygone wanderer."
     },
     "frame": "goal",
     "hidden": false,
