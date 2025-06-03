@@ -23,10 +23,12 @@
       }
     },
     "title": {
-      "translate": "Hephaestus' Disciple"
+      "translate": "advancements.odyssey.smith_with_any_part.title",
+      "fallback": "Disciple of the forge god."
     },
     "description": {
-      "translate": "Use a weapon part pattern and a part upgrade template to modify a weapon's part."
+      "translate": "advancements.odyssey.smith_with_any_part.description",
+      "fallback": "Use a weapon part pattern and a part upgrade template to customize a weapon."
     }
   },
   "requirements": [

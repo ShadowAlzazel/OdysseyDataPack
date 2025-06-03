@@ -3,7 +3,6 @@
   "criteria": {
     "craft_claymore": {
       "conditions": {
-        "ingredients": [],
         "recipe_id": "odyssey:diamond_claymore"
       },
       "trigger": "minecraft:recipe_crafted"
