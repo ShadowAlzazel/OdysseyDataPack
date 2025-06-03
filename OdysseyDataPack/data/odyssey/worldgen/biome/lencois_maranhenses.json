@@ -1,7 +1,7 @@
 {
   "has_precipitation": false,
-  "temperature": 0.8,
-  "downfall": 0.0,
+  "temperature": 0.7,
+  "downfall": 0.5,
   "creature_spawn_probability": 0.4,
   "carvers": [
     "minecraft:cave",
@@ -9,12 +9,12 @@
     "minecraft:canyon"
   ],
   "effects": {
-    "sky_color": 7972607,
-    "fog_color": 12638463,
-    "water_color": 11854910,
+    "sky_color": 8760050,
+    "fog_color": 12636912,
+    "water_color": 2349719,
     "water_fog_color": 329011,
-    "foliage_color": 10149742,
-    "grass_color": 15851810,
+    "foliage_color": 9420085,
+    "grass_color": 6919445,
     "grass_color_modifier": "none",
     "music": [
       {
@@ -46,16 +46,7 @@
       "minecraft:monster_room_deep"
     ],
     [],
-    [
-      "odyssey:danakil/disk_red_sandstone",
-      "odyssey:danakil/disk_diorite",
-      "odyssey:danakil/disk_granite",
-      "odyssey:danakil/disk_orange",
-      "odyssey:danakil/disk_yellow",
-      "odyssey:danakil/lake_filler",
-      "odyssey:danakil/ring_yellow_water",
-      "odyssey:danakil/ring_yellow_ground"
-    ],
+    [],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
@@ -82,6 +73,8 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
+      "odyssey:lencois_maranhenses/mud_bank",
+      "odyssey:lencois_maranhenses/water_filler",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
@@ -90,9 +83,7 @@
       "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen",
-      "odyssey:danakil/mounds",
-      "odyssey:danakil/rock_granite"
+      "minecraft:glow_lichen"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -120,34 +111,10 @@
     "misc": [],
     "monster": [
       {
-        "type": "minecraft:zombie",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 95
-      },
-      {
-        "type": "minecraft:zombie_villager",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 5
-      },
-      {
-        "type": "minecraft:creeper",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 100
-      },
-      {
         "type": "minecraft:slime",
         "maxCount": 4,
         "minCount": 4,
         "weight": 100
-      },
-      {
-        "type": "minecraft:enderman",
-        "maxCount": 4,
-        "minCount": 1,
-        "weight": 10
       }
     ],
     "underground_water_creature": [
