@@ -1,0 +1,58 @@
+[
+  {
+    "function": "minecraft:sequence",
+    "functions": [
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "seraph_blade"
+          ],
+          "mode": "replace_section",
+          "offset": 1,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.2
+          }
+        ]
+      },
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "voyager_blade"
+          ],
+          "mode": "replace_section",
+          "offset": 1,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.2
+          }
+        ]
+      },
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "marauder_blade"
+          ],
+          "mode": "replace_section",
+          "offset": 1,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.2
+          }
+        ]
+      }
+    ]
+  }
+]

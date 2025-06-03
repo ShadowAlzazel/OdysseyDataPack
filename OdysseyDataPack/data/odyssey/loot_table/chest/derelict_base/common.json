@@ -1,10 +1,27 @@
 {
   "type": "minecraft:chest",
-  "random_sequence": "odyssey:pots/dig_site",
+  "random_sequence": "odyssey:derelict_base/common",
   "pools": [
     {
       "bonus_rolls": 1.0,
       "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "odyssey:loot/custom_weapon_parts",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.4
+                }
+              ]
+            }
+          ],
+          "weight": 3
+        },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_shovel",
@@ -23,31 +40,97 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald",
-          "weight": 1
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 7.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 2
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 5.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 11.0,
+                "min": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_nugget",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 16.0,
+                "min": 9.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 7.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "weight": 2
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 9.0,
+                "min": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "weight": 3
         },
         {
@@ -58,6 +141,17 @@
         {
           "type": "minecraft:loot_table",
           "value": "odyssey:item/silver_ingot",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 7.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
           "weight": 1
         },
         {

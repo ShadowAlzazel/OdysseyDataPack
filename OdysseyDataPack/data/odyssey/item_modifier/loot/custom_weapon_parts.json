@@ -1,0 +1,15 @@
+[
+  {
+    "function": "minecraft:sequence",
+    "functions": [
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/set_default_parts"
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/random_blade_part"
+      }
+    ]
+  }
+]
