@@ -275,6 +275,22 @@
         ]
       },
       "trigger": "minecraft:location"
+    },
+    "odyssey:ubsunur_hollow": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "odyssey:ubsunur_hollow"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
     }
   },
   "requirements": [
@@ -325,6 +341,9 @@
     ],
     [
       "odyssey:zhangjiajie"
+    ],
+    [
+      "odyssey:ubsunur_hollow"
     ]
   ]
 }

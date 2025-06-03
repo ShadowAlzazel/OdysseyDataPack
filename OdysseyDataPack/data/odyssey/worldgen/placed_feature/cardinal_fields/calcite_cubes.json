@@ -1,5 +1,5 @@
 {
-  "feature": "odyssey:cardinal_fields/calcite_cubes",
+  "feature": "odyssey:cardinal_fields/calcite_cube_bottom",
   "placement": [
     {
       "type": "count",

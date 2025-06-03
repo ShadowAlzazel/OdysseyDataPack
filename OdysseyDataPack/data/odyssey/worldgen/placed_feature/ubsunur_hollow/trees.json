@@ -3,14 +3,14 @@
   "placement": [
     {
       "type": "count",
-      "count": 5
+      "count": 4
     },
     {
       "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:rarity_filter",
-      "chance": 30
+      "chance": 16
     },
     {
       "type": "heightmap",
@@ -28,7 +28,8 @@
           "minecraft:dirt",
           "minecraft:coarse_dirt",
           "minecraft:podzol",
-          "minecraft:mud"
+          "minecraft:mud",
+          "minecraft:tuff"
         ]
       }
     },
