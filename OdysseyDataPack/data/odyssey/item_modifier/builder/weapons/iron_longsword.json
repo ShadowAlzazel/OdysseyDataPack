@@ -10,7 +10,7 @@
     "function": "minecraft:set_name",
     "entity": "this",
     "name": {
-      "text": "Iron lencois_maranhenses",
+      "text": "Iron Longsword",
       "bold": false,
       "italic": false
     }
