@@ -74,8 +74,6 @@
                     {
                       "type": "minecraft:matching_blocks",
                       "blocks": [
-                        "minecraft:dirt",
-                        "minecraft:grass_block",
                         "minecraft:air",
                         "minecraft:smooth_red_sandstone",
                         "minecraft:orange_terracotta"
@@ -89,8 +87,6 @@
                     {
                       "type": "minecraft:matching_blocks",
                       "blocks": [
-                        "minecraft:dirt",
-                        "minecraft:grass_block",
                         "minecraft:air",
                         "minecraft:smooth_red_sandstone",
                         "minecraft:orange_terracotta"
@@ -104,8 +100,6 @@
                     {
                       "type": "minecraft:matching_blocks",
                       "blocks": [
-                        "minecraft:dirt",
-                        "minecraft:grass_block",
                         "minecraft:air",
                         "minecraft:smooth_red_sandstone",
                         "minecraft:orange_terracotta"
@@ -119,8 +113,6 @@
                     {
                       "type": "minecraft:matching_blocks",
                       "blocks": [
-                        "minecraft:dirt",
-                        "minecraft:grass_block",
                         "minecraft:air",
                         "minecraft:smooth_red_sandstone",
                         "minecraft:orange_terracotta"
