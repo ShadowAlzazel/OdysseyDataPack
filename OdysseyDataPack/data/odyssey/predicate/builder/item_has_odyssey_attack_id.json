@@ -1,0 +1,16 @@
+{
+  "condition": "match_tool",
+  "predicate": {
+    "predicates": {
+      "attribute_modifiers": {
+        "modifiers": {
+          "contains": [
+            {
+              "id": "odyssey:item.base_attack_damage"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

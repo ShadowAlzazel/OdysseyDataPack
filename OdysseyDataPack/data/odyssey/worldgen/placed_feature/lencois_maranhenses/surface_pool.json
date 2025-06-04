@@ -37,19 +37,6 @@
           {
             "type": "minecraft:matching_blocks",
             "offset": [
-              0, 3,
-              0
-            ],
-            "blocks": [
-              "minecraft:dirt",
-              "minecraft:coarse_dirt",
-              "minecraft:sand",
-              "minecraft:stone"
-            ]
-          },
-          {
-            "type": "minecraft:matching_blocks",
-            "offset": [
               0, 2,
               0
             ],

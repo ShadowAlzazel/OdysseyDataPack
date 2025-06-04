@@ -1,0 +1,37 @@
+[
+  {
+    "function": "minecraft:sequence",
+    "functions": [
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/iron_longsword",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/iron_saber",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/iron_dagger",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.333333
+          }
+        ]
+      }
+    ]
+  }
+]

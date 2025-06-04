@@ -11,11 +11,32 @@
           "functions": [
             {
               "function": "minecraft:reference",
-              "name": "odyssey:loot/custom_weapon_parts",
+              "name": "odyssey:loot/set_new_custom_weapon",
               "conditions": [
                 {
                   "condition": "random_chance",
-                  "chance": 0.4
+                  "chance": 0.7
+                }
+              ]
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "odyssey:loot/set_new_custom_weapon"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "odyssey:loot/set_new_custom_parts",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.9
                 }
               ]
             }
@@ -71,6 +92,24 @@
         },
         {
           "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 11.0,
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 1
+        }
+      ],
+      "rolls": 3.0
+    },
+    {
+      "bonus_rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "minecraft:gold_nugget",
           "functions": [
             {
@@ -115,7 +154,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -131,7 +170,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 3
+          "weight": 4
         },
         {
           "type": "minecraft:loot_table",
@@ -152,27 +191,15 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 1
+          "weight": 3
         },
         {
           "type": "minecraft:loot_table",
           "value": "odyssey:loot/random_part_pattern",
           "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 11.0,
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "minecraft:book",
-          "weight": 1
         }
       ],
-      "rolls": 3.0
+      "rolls": 1.0
     }
   ]
 }

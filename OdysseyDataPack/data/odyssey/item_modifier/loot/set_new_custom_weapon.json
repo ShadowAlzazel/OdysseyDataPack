@@ -1,0 +1,14 @@
+[
+  {
+    "function": "filtered",
+    "item_filter": {
+      "items": "minecraft:iron_sword"
+    },
+    "modifier": [
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/random_iron_sword"
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "function": "minecraft:sequence",
+    "functions": [
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/parts/set_default_parts"
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/parts/random_blade_part",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.55
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/parts/random_hilt_part",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.55
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/parts/random_pommel_part",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.55
+          }
+        ]
+      }
+    ]
+  }
+]

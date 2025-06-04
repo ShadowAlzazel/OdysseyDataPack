@@ -1,0 +1,160 @@
+[
+  {
+    "function": "minecraft:sequence",
+    "functions": [
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "crusader_blade"
+          ],
+          "mode": "replace_section",
+          "offset": 1,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.11111111111
+          }
+        ]
+      },
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "danger_blade"
+          ],
+          "mode": "replace_section",
+          "offset": 1,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.11111111111
+          }
+        ]
+      },
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "fancy_blade"
+          ],
+          "mode": "replace_section",
+          "offset": 1,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.11111111111
+          }
+        ]
+      },
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "humble_blade"
+          ],
+          "mode": "replace_section",
+          "offset": 1,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.11111111111
+          }
+        ]
+      },
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "imperial_blade"
+          ],
+          "mode": "replace_section",
+          "offset": 1,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.11111111111
+          }
+        ]
+      },
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "marauder_blade"
+          ],
+          "mode": "replace_section",
+          "offset": 1,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.11111111111
+          }
+        ]
+      },
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "seraph_blade"
+          ],
+          "mode": "replace_section",
+          "offset": 1,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.11111111111
+          }
+        ]
+      },
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "vandal_blade"
+          ],
+          "mode": "replace_section",
+          "offset": 1,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.11111111111
+          }
+        ]
+      },
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "voyager_blade"
+          ],
+          "mode": "replace_section",
+          "offset": 1,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.11111111111
+          }
+        ]
+      }
+    ]
+  }
+]
