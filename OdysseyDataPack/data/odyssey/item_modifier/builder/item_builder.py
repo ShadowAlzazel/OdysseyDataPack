@@ -3,6 +3,7 @@ import os
 from dataclasses import dataclass
 from typing import Dict, Any, List, Optional
 
+
 @dataclass
 class ToolMaterial:
     name_pre: str
@@ -185,6 +186,8 @@ class ItemBuilderGenerator:
                 # Create filename
                 filename = f"{material_key}_{tool_key}.json"
                 sub_dir = f"{output_dir}/{tool_key}"
+                if not os.path.exists(sub_dir):
+                    os.makedirs(sub_dir, exist_ok=True)
                 filepath = os.path.join(sub_dir, filename)
                 
                 # Write to file
@@ -294,6 +297,12 @@ class ItemBuilderGenerator:
 
 # Usage examples and main execution
 if __name__ == "__main__":
+    # Script local 
+    abspath = os.path.abspath(__file__)
+    dir_name = os.path.dirname(abspath)
+    os.chdir(dir_name)
+
+    # Start
     generator = ItemBuilderGenerator()
     
     # Show what will be generated

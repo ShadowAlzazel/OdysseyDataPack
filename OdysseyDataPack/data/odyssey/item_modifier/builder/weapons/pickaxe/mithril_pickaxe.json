@@ -1,0 +1,53 @@
+[
+  {
+    "function": "set_components",
+    "components": {
+      "minecraft:item_model": "odyssey:mithril_pickaxe",
+      "minecraft:item_name": "mithril_pickaxe",
+      "minecraft:max_damage": 1789
+    }
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "text": "Mithril Pickaxe",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "odyssey:item.base_attack_damage",
+        "attribute": "minecraft:attack_damage",
+        "amount": 7.0,
+        "slot": "mainhand",
+        "operation": "add_value"
+      },
+      {
+        "id": "odyssey:item.reset_attack_speed",
+        "attribute": "minecraft:attack_speed",
+        "amount": -4.0,
+        "slot": "mainhand",
+        "operation": "add_value"
+      },
+      {
+        "id": "odyssey:item.base_attack_speed",
+        "attribute": "minecraft:attack_speed",
+        "amount": 1.2,
+        "slot": "mainhand",
+        "operation": "add_value"
+      },
+      {
+        "id": "odyssey:item.base_entity_range",
+        "attribute": "minecraft:entity_interaction_range",
+        "amount": 0.0,
+        "slot": "mainhand",
+        "operation": "add_value"
+      }
+    ],
+    "replace": true
+  }
+]

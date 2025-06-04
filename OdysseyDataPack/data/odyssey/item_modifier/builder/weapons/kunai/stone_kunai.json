@@ -1,0 +1,52 @@
+[
+  {
+    "function": "set_components",
+    "components": {
+      "minecraft:item_model": "odyssey:stone_kunai",
+      "minecraft:item_name": "stone_kunai"
+    }
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "text": "Stone Kunai",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "odyssey:item.base_attack_damage",
+        "attribute": "minecraft:attack_damage",
+        "amount": 3.0,
+        "slot": "mainhand",
+        "operation": "add_value"
+      },
+      {
+        "id": "odyssey:item.reset_attack_speed",
+        "attribute": "minecraft:attack_speed",
+        "amount": -4.0,
+        "slot": "mainhand",
+        "operation": "add_value"
+      },
+      {
+        "id": "odyssey:item.base_attack_speed",
+        "attribute": "minecraft:attack_speed",
+        "amount": 2.5,
+        "slot": "mainhand",
+        "operation": "add_value"
+      },
+      {
+        "id": "odyssey:item.base_entity_range",
+        "attribute": "minecraft:entity_interaction_range",
+        "amount": 0.0,
+        "slot": "mainhand",
+        "operation": "add_value"
+      }
+    ],
+    "replace": true
+  }
+]
