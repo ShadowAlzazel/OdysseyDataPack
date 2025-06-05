@@ -21,7 +21,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "translate.test.test",
+      "translate": "advancements.odyssey.find_derelict_base.description",
       "fallback": "Locate an abondoned base of a bygone wanderer."
     },
     "frame": "goal",
@@ -32,7 +32,8 @@
     },
     "show_toast": true,
     "title": {
-      "translate": "What was once was"
+      "translate": "advancements.odyssey.find_derelict_base.title",
+      "fallback": "Lost Wanderer"
     }
   },
   "requirements": [

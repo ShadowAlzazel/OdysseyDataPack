@@ -33,10 +33,12 @@
       }
     },
     "title": {
-      "translate": "To Enchant or not to Enchant"
+      "translate": "advancements.odyssey.apply_odyssey_enchant.title",
+      "fallback": "To Enchant or not to Enchant"
     },
     "description": {
-      "translate": "Apply an Odyssey enchantment to anything."
+      "translate": "advancements.odyssey.apply_odyssey_enchant.description",
+      "fallback": "Apply an Odyssey enchantment to anything."
     }
   },
   "requirements": [
