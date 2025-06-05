@@ -13,8 +13,8 @@
     "fog_color": 12638463,
     "water_color": 4167652,
     "water_fog_color": 329011,
-    "foliage_color": 5423451,
-    "grass_color": 8567380,
+    "foliage_color": 8375627,
+    "grass_color": 10079563,
     "grass_color_modifier": "none",
     "music": [
       {
@@ -53,6 +53,7 @@
     [],
     [],
     [
+      "odyssey:bungle_bungles/striped_packed_mud",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
