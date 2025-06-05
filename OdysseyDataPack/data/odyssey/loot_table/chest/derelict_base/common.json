@@ -7,6 +7,17 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:golden_sword",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "odyssey:loot/custom_copper_sword"
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:iron_sword",
           "functions": [
             {
@@ -32,13 +43,13 @@
             },
             {
               "function": "minecraft:reference",
-              "name": "odyssey:loot/set_new_custom_parts",
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.9
-                }
-              ]
+              "name": "odyssey:loot/set_new_custom_parts"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "rare"
+              }
             }
           ],
           "weight": 3
@@ -76,19 +87,19 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond",
+          "name": "minecraft:iron_ingot",
           "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 2.0
+                "max": 9.0,
+                "min": 5.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 1
+          "weight": 4
         },
         {
           "type": "minecraft:item",
@@ -100,7 +111,7 @@
             }
           ],
           "name": "minecraft:book",
-          "weight": 1
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -112,23 +123,39 @@
             },
             {
               "function": "minecraft:reference",
-              "name": "odyssey:loot/set_new_custom_parts",
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.9
-                }
-              ]
+              "name": "odyssey:loot/set_new_custom_parts"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "rare"
+              }
             }
           ],
           "weight": 1
         }
       ],
-      "rolls": 3.0
+      "rolls": 4.0
     },
     {
       "bonus_rolls": 1.0,
       "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 1
+        },
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_nugget",

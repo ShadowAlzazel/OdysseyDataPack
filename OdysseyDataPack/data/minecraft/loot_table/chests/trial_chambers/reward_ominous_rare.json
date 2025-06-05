@@ -143,6 +143,27 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "odyssey:loot/custom_diamond_sword"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "odyssey:loot/set_new_custom_parts"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "rare"
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:diamond_block"
         }
       ],

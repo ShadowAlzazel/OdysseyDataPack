@@ -46,6 +46,12 @@
             {
               "function": "minecraft:reference",
               "name": "odyssey:loot/set_new_custom_parts"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "rare"
+              }
             }
           ],
           "weight": 2
