@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "depth": 1,
+    "extra_bottom_block_chance": 0.12,
+    "extra_edge_column_chance": 0.33,
+    "ground_state": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:moss_block"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "replaceable": "#odyssey:replaceable/bungle_bungles_rock",
+    "surface": "floor",
+    "vegetation_chance": 1,
+    "vegetation_feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:noise_threshold_provider",
+            "noise": {
+              "firstOctave": -3,
+              "amplitudes": [
+                2,
+                6,
+                -4,
+                -8
+              ]
+            },
+            "scale": 1,
+            "seed": 1,
+            "threshold": 0.312,
+            "high_chance": 0.39,
+            "default_state": {
+              "Name": "minecraft:moss_block"
+            },
+            "low_states": [
+              {
+                "Name": "minecraft:moss_block"
+              }
+            ],
+            "high_states": [
+              {
+                "Name": "minecraft:moss_block"
+              }
+            ]
+          }
+        }
+      },
+      "placement": []
+    },
+    "vertical_range": 1,
+    "xz_radius": {
+      "type": "minecraft:biased_to_bottom",
+      "min_inclusive": 6,
+      "max_inclusive": 7
+    }
+  }
+}
