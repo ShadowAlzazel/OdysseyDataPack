@@ -4,7 +4,7 @@
     "functions": [
       {
         "function": "minecraft:reference",
-        "name": "odyssey:builder/weapons/iron_saber",
+        "name": "odyssey:builder/weapons/saber/iron_saber",
         "conditions": [
           {
             "condition": "random_chance",
@@ -30,7 +30,7 @@
         "modifier": [
           {
             "function": "minecraft:reference",
-            "name": "odyssey:builder/weapons/iron_saber",
+            "name": "odyssey:builder/weapons/saber/iron_saber",
             "conditions": [
               {
                 "condition": "random_chance",
@@ -42,7 +42,7 @@
       },
       {
         "function": "minecraft:reference",
-        "name": "odyssey:builder/weapons/iron_saber",
+        "name": "odyssey:builder/weapons/saber/iron_saber",
         "conditions": [
           {
             "condition": "reference",

@@ -1,0 +1,14 @@
+[
+  {
+    "function": "filtered",
+    "item_filter": {
+      "items": "minecraft:diamond_sword"
+    },
+    "modifier": [
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/random_diamond_sword"
+      }
+    ]
+  }
+]

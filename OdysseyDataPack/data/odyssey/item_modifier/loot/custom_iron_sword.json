@@ -7,7 +7,7 @@
     "modifier": [
       {
         "function": "minecraft:reference",
-        "name": "odyssey:builder/random_iron_sword"
+        "name": "odyssey:builder/weapons/random_iron_sword"
       }
     ]
   }

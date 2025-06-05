@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:reference",
-              "name": "odyssey:loot/set_new_custom_weapon",
+              "name": "odyssey:loot/custom_iron_sword",
               "conditions": [
                 {
                   "condition": "random_chance",
@@ -28,7 +28,7 @@
           "functions": [
             {
               "function": "minecraft:reference",
-              "name": "odyssey:loot/set_new_custom_weapon"
+              "name": "odyssey:loot/custom_iron_sword"
             },
             {
               "function": "minecraft:reference",
@@ -100,6 +100,27 @@
             }
           ],
           "name": "minecraft:book",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "odyssey:loot/custom_diamond_sword"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "odyssey:loot/set_new_custom_parts",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.9
+                }
+              ]
+            }
+          ],
           "weight": 1
         }
       ],
