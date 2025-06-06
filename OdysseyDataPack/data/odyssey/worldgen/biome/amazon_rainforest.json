@@ -86,8 +86,18 @@
     ],
     [
       "minecraft:glow_lichen",
+      "minecraft:patch_large_fern",
+      "minecraft:bamboo_light",
+      "minecraft:patch_grass_jungle",
+      "minecraft:patch_waterlily",
       "odyssey:amazon_rainforest/trees_tall",
-      "odyssey:amazon_rainforest/trees_medium"
+      "odyssey:amazon_rainforest/trees_medium",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_firefly_bush_swamp",
+      "minecraft:patch_firefly_bush_near_water_swamp",
+      "minecraft:seagrass_river",
+      "minecraft:vines",
+      "minecraft:patch_melon"
     ],
     [
       "minecraft:freeze_top_layer"

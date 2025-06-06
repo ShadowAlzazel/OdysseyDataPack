@@ -14,13 +14,14 @@
       }
     },
     "foliage_placer": {
-      "type": "minecraft:acacia_foliage_placer",
-      "offset": 0,
-      "radius": {
-        "type": "minecraft:uniform",
-        "max_inclusive": 4,
-        "min_inclusive": 3
-      }
+      "type": "minecraft:cherry_foliage_placer",
+      "corner_hole_chance": 0.45,
+      "hanging_leaves_chance": 0.65,
+      "hanging_leaves_extension_chance": 0.65,
+      "height": 4,
+      "offset": 1,
+      "radius": 4,
+      "wide_bottom_layer_hole_chance": 0.35
     },
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
@@ -37,13 +38,13 @@
     "ignore_vines": true,
     "minimum_size": {
       "type": "minecraft:two_layers_feature_size",
-      "limit": 3,
+      "limit": 1,
       "lower_size": 0,
       "upper_size": 2
     },
     "trunk_placer": {
       "type": "minecraft:cherry_trunk_placer",
-      "base_height": 14,
+      "base_height": 11,
       "branch_count": {
         "type": "minecraft:weighted_list",
         "distribution": [

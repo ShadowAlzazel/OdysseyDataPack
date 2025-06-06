@@ -11,12 +11,14 @@
       "components": {
         "minecraft:enchantment_glint_override": true
       }
-    },
+    }, 
     "title": {
-      "translate": "Insert Sean Bean Quote"
+      "translate": "advancements.odyssey.find_biome.title",
+      "fallback": "Hic Sunt Dracones"
     },
     "description": {
-      "translate": "Discover all Odyssey overworld biomes!"
+      "translate": "advancements.odyssey.find_biome.description",
+      "fallback": "Discover all Odyssey overworld biomes!"
     }
   },
   "criteria": {
