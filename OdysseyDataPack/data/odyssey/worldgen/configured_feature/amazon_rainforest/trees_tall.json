@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.15,
+        "feature": "odyssey:amazon_rainforest/tree_tall_tropical_azalea"
+      },
+      {
+        "chance": 0.1,
+        "feature": "odyssey:amazon_rainforest/tree_tall_tropical_birch"
+      },
+      {
+        "chance": 0.15,
+        "feature": "odyssey:amazon_rainforest/tree_tall_tropical_jungle"
+      },
+      {
+        "chance": 0.1,
+        "feature": "odyssey:amazon_rainforest/tree_tall_tropical_mangrove"
+      },
+      {
+        "chance": 0.2,
+        "feature": "odyssey:amazon_rainforest/tree_tall_tropical_oak"
+      },
+      {
+        "chance": 0.1,
+        "feature": "odyssey:amazon_rainforest/tree_tall_tropical_spruce"
+      }
+    ],
+    "default": {
+      "feature": "odyssey:amazon_rainforest/tree_tall_tropical_oak",
+      "placement": []
+    }
+  }
+}

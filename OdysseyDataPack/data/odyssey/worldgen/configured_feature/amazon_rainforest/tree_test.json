@@ -4,7 +4,6 @@
     "decorators": [
       {
         "type": "minecraft:beehive",
-        "fixed_height": false,
         "probability": 0.05
       }
     ],
@@ -44,7 +43,7 @@
     },
     "trunk_placer": {
       "type": "minecraft:upwards_branching_trunk_placer",
-      "base_height": 32,
+      "base_height": 21,
       "can_grow_through": "#minecraft:logs",
       "extra_branch_length": {
         "type": "minecraft:uniform",
@@ -58,7 +57,6 @@
       },
       "height_rand_a": 1,
       "height_rand_b": 20,
-      "megabush": false,
       "place_branch_per_log_probability": 0.4
     },
     "trunk_provider": {

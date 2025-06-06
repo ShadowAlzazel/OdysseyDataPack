@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.45,
+        "feature": "odyssey:amazon_rainforest/tree_tall_medium_jungle"
+      },
+      {
+        "chance": 0.55,
+        "feature": "odyssey:amazon_rainforest/tree_tall_medium_oak"
+      }
+    ],
+    "default": {
+      "feature": "odyssey:amazon_rainforest/tree_medium_tropical_oak",
+      "placement": []
+    }
+  }
+}
