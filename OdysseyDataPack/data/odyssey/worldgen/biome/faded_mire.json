@@ -61,15 +61,15 @@
     ],
     [],
     [
-      "odyssey:faded_bog/lake_filler"
+      "odyssey:faded_mire/lake_filler"
     ],
     [],
     [],
     [],
     [
-      "odyssey:faded_bog/trees",
-      "odyssey:faded_bog/patch_vegetation",
-      "odyssey:faded_bog/patch_flowers",
+      "odyssey:faded_mire/trees",
+      "odyssey:faded_mire/patch_vegetation",
+      "odyssey:faded_mire/patch_flowers",
       "minecraft:glow_lichen",
       "odyssey:cave/hanging_moss"
     ],

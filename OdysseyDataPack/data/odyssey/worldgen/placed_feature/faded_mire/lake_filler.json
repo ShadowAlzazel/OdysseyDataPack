@@ -1,13 +1,13 @@
 {
-  "feature": "odyssey:faded_bog/patch_flowers",
+  "feature": "odyssey:faded_mire/lake_filler",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 3
+      "count": 40
     },
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 2
+      "type": "minecraft:count",
+      "count": 60
     },
     {
       "type": "minecraft:in_square"

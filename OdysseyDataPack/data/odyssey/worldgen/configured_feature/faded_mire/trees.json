@@ -4,19 +4,19 @@
     "features": [
       {
         "chance": 0.4,
-        "feature": "odyssey:faded_bog/tree_faded_fancy_oak"
+        "feature": "odyssey:faded_mire/tree_faded_fancy_oak"
       },
       {
         "chance": 0.45,
-        "feature": "odyssey:faded_bog/tree_faded_tall_fork"
+        "feature": "odyssey:faded_mire/tree_faded_tall_fork"
       },
       {
         "chance": 0.15,
-        "feature": "odyssey:faded_bog/tree_faded_big_oak"
+        "feature": "odyssey:faded_mire/tree_faded_big_oak"
       }
     ],
     "default": {
-      "feature": "odyssey:faded_bog/tree_faded_tall_fork",
+      "feature": "odyssey:faded_mire/tree_faded_tall_fork",
       "placement": []
     }
   }

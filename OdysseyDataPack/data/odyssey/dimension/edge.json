@@ -66,7 +66,7 @@
           }
         },
         {
-          "biome": "odyssey:faded_bog",
+          "biome": "odyssey:faded_mire",
           "parameters": {
             "continentalness": [
               -0.6,

@@ -49,7 +49,7 @@
       },
       "trigger": "minecraft:location"
     },
-    "odyssey:faded_bog": {
+    "odyssey:faded_mire": {
       "conditions": {
         "player": [
           {
@@ -57,7 +57,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "odyssey:faded_bog"
+                "biomes": "odyssey:faded_mire"
               }
             }
           }
@@ -240,7 +240,7 @@
       "odyssey:silmen_mire",
       "odyssey:scorchlands",
       "odyssey:spectral_gap",
-      "odyssey:faded_bog"
+      "odyssey:faded_mire"
     ]
   ]
 }

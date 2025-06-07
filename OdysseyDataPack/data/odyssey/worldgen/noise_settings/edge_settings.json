@@ -621,7 +621,7 @@
                   "if_true": {
                     "type": "minecraft:biome",
                     "biome_is": [
-                      "odyssey:faded_bog"
+                      "odyssey:faded_mire"
                     ]
                   },
                   "then_run": {
@@ -633,7 +633,7 @@
                           "type": "minecraft:noise_threshold",
                           "max_threshold": -0.178,
                           "min_threshold": -4.92,
-                          "noise": "odyssey:faded_bog/pool"
+                          "noise": "odyssey:faded_mire/pool"
                         },
                         "then_run": {
                           "type": "minecraft:block",
@@ -648,7 +648,7 @@
                           "type": "minecraft:noise_threshold",
                           "max_threshold": 0.212,
                           "min_threshold": -0.178,
-                          "noise": "odyssey:faded_bog/pool"
+                          "noise": "odyssey:faded_mire/pool"
                         },
                         "then_run": {
                           "type": "minecraft:block",
@@ -663,7 +663,7 @@
                           "type": "minecraft:noise_threshold",
                           "max_threshold": 0.243,
                           "min_threshold": 0.137,
-                          "noise": "odyssey:faded_bog/surface"
+                          "noise": "odyssey:faded_mire/surface"
                         },
                         "then_run": {
                           "type": "minecraft:block",
