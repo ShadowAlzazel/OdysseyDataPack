@@ -38,7 +38,7 @@
       "corner_hole_chance": 0.25,
       "hanging_leaves_chance": 0.55,
       "hanging_leaves_extension_chance": 0.3,
-      "height": 5,
+      "height": 4,
       "offset": 1,
       "radius": 3,
       "wide_bottom_layer_hole_chance": 0.15

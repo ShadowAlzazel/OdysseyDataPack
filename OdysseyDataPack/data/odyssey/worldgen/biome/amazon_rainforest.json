@@ -78,20 +78,23 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "odyssey:amazon_rainforest/trees_tall",
+      "odyssey:amazon_rainforest/trees_medium"
     ],
     [],
     [
       "minecraft:spring_water"
     ],
     [
+      "odyssey:amazon_rainforest/flowers_tall",
+      "odyssey:amazon_rainforest/flowers_tropical",
+      "odyssey:amazon_rainforest/flowers_weird",
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",
       "minecraft:bamboo_light",
       "minecraft:patch_grass_jungle",
       "minecraft:patch_waterlily",
-      "odyssey:amazon_rainforest/trees_tall",
-      "odyssey:amazon_rainforest/trees_medium",
       "odyssey:amazon_rainforest/bushes",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_firefly_bush_swamp",
