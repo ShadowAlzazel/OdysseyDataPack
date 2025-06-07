@@ -6,7 +6,7 @@
     "ignore_vines": true,
     "minimum_size": {
       "type": "minecraft:two_layers_feature_size",
-      "limit": 1,
+      "limit": 0,
       "lower_size": 0,
       "upper_size": 1
     },
@@ -19,7 +19,7 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:jungle_wood",
+        "Name": "minecraft:mangrove_log",
         "Properties": {
           "axis": "y"
         }
@@ -34,7 +34,7 @@
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:oak_leaves",
+        "Name": "minecraft:spruce_leaves",
         "Properties": {
           "distance": "7",
           "persistent": "false",
@@ -43,14 +43,13 @@
       }
     },
     "foliage_placer": {
-      "type": "minecraft:cherry_foliage_placer",
-      "corner_hole_chance": 0.45,
-      "hanging_leaves_chance": 0.65,
-      "hanging_leaves_extension_chance": 0.75,
-      "height": 4,
-      "offset": 0,
-      "radius": 3,
-      "wide_bottom_layer_hole_chance": 0.35
+      "type": "acacia_foliage_placer",
+      "offset": 1,
+      "radius": {
+        "type": "uniform",
+        "max_inclusive": 3,
+        "min_inclusive": 2
+      }
     }
   }
 }

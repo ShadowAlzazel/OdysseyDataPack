@@ -12,11 +12,15 @@
       },
       {
         "chance": 0.4,
-        "feature": "odyssey:amazon_rainforest/tree_medium_tropical_birch"
+        "feature": "odyssey:amazon_rainforest/tree_medium_tropical_oak"
+      },
+      {
+        "chance": 0.4,
+        "feature": "odyssey:amazon_rainforest/tree_medium_tropical_spruce"
       }
     ],
     "default": {
-      "feature": "odyssey:amazon_rainforest/tree_medium_tropical_birch",
+      "feature": "odyssey:amazon_rainforest/tree_medium_tropical_spruce",
       "placement": []
     }
   }

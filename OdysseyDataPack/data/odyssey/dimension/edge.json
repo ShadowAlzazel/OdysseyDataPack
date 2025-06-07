@@ -77,8 +77,7 @@
               0
             ],
             "erosion": [
-              0.7,
-              1
+              0.7, 1
             ],
             "humidity": [
               -0.5,
@@ -90,7 +89,7 @@
               0.7
             ],
             "weirdness": [
-              -1.0, 
+              -1.0,
               -0.5
             ]
           }
@@ -304,6 +303,35 @@
           }
         },
         {
+          "biome": "odyssey:mutated_forest",
+          "parameters": {
+            "continentalness": [
+              -0.6,
+              0.0
+            ],
+            "depth": [
+              -0.005,
+              0
+            ],
+            "erosion": [
+              0.5, 1
+            ],
+            "humidity": [
+              0.3,
+              1.0
+            ],
+            "offset": 0.0,
+            "temperature": [
+              0.0,
+              0.6
+            ],
+            "weirdness": [
+              0.3,
+              1.0
+            ]
+          }
+        },
+        {
           "biome": "odyssey:cave/lumenshroom_undergrowth",
           "parameters": {
             "continentalness": [
@@ -311,7 +339,8 @@
               0.3
             ],
             "depth": [
-              0.4, 1.0
+              0.4,
+              1.0
             ],
             "erosion": [
               0.7, 1

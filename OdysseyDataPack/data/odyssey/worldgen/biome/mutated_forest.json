@@ -12,15 +12,15 @@
     "sky_color": 7972607,
     "fog_color": 7972607,
     "water_color": 1983131,
-    "water_fog_color": 329011,
-    "foliage_color": 13746279,
-    "grass_color": 13746279,
+    "water_fog_color": 4728946,
+    "foliage_color": 16762163,
+    "grass_color": 16770664,
     "grass_color_modifier": "dark_forest",
     "particle": {
       "options": {
         "type": "minecraft:wax_off"
       },
-      "probability": 0.002
+      "probability": 0.001
     },
     "music": [
       {

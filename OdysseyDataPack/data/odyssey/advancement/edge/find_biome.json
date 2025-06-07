@@ -33,6 +33,22 @@
       },
       "trigger": "minecraft:location"
     },
+    "odyssey:mutated_forest": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "odyssey:mutated_forest"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
     "odyssey:faded_bog": {
       "conditions": {
         "player": [
@@ -215,6 +231,7 @@
       "odyssey:aetherial_woods",
       "odyssey:cardinal_fields",
       "odyssey:inazuma_forest",
+      "odyssey:mutated_forest",
       "odyssey:lumenshroom_grove",
       "odyssey:marina_moor",
       "odyssey:mytreilium_coppice",

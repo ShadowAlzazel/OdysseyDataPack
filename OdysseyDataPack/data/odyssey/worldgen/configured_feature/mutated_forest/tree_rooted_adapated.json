@@ -180,7 +180,7 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:spruce_log",
+        "Name": "minecraft:mangrove_log",
         "Properties": {
           "axis": "y"
         }
