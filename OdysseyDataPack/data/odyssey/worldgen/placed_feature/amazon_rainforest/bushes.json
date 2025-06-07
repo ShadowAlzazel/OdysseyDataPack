@@ -1,9 +1,9 @@
 {
-  "feature": "odyssey:bayou/trees_inland",
+  "feature": "odyssey:amazon_rainforest/bushes",
   "placement": [
     {
       "type": "count",
-      "count": 20
+      "count": 7
     },
     {
       "type": "minecraft:in_square"
@@ -20,14 +20,13 @@
           0, -1, 0
         ],
         "blocks": [
-          "minecraft:mud",
-          "minecraft:dirt",
           "minecraft:grass_block",
-          "minecraft:sand",
-          "minecraft:gravel",
-          "minecraft:clay",
+          "minecraft:dirt",
+          "minecraft:podzol",
+          "minecraft:coarse_dirt",
+          "minecraft:rooted_dirt",
           "minecraft:moss_block",
-          "minecraft:dripstone_block"
+          "minecraft:mud"
         ]
       }
     },

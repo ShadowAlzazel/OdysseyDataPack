@@ -3,6 +3,15 @@
   "config": {
     "decorators": [
       {
+        "type": "minecraft:alter_ground",
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:mud"
+          }
+        }
+      },
+      {
         "type": "minecraft:attached_to_leaves",
         "probability": 0.02,
         "exclusion_radius_xz": 0,
@@ -40,18 +49,18 @@
     "root_placer": {
       "type": "minecraft:mangrove_root_placer",
       "above_root_placement": {
-        "above_root_placement_chance": 0.15,
+        "above_root_placement_chance": 0.7,
         "above_root_provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:mangrove_roots"
+            "Name": "minecraft:mangrove_wood"
           }
         }
       },
       "mangrove_root_placement": {
         "can_grow_through": "#minecraft:mangrove_roots_can_grow_through",
-        "max_root_length": 25,
-        "max_root_width": 9,
+        "max_root_length": 21,
+        "max_root_width": 8,
         "muddy_roots_in": [
           "minecraft:mud",
           "minecraft:muddy_mangrove_roots"
@@ -70,16 +79,13 @@
       "root_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:mangrove_roots",
-          "Properties": {
-            "waterlogged": "true"
-          }
+          "Name": "minecraft:mangrove_wood"
         }
       },
       "trunk_offset_y": {
         "type": "minecraft:uniform",
-        "max_inclusive": 8,
-        "min_inclusive": 6
+        "max_inclusive": 6,
+        "min_inclusive": 5
       }
     },
     "trunk_provider": {
@@ -93,7 +99,7 @@
     },
     "trunk_placer": {
       "type": "minecraft:dark_oak_trunk_placer",
-      "base_height": 14,
+      "base_height": 8,
       "height_rand_a": 4,
       "height_rand_b": 2
     },

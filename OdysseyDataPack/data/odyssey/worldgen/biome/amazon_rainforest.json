@@ -11,7 +11,7 @@
   "effects": {
     "sky_color": 7972607,
     "fog_color": 12638463,
-    "water_color": 1426834,
+    "water_color": 2144443,
     "water_fog_color": 329011,
     "foliage_color": 1757480,
     "grass_color": 2408552,
@@ -92,12 +92,15 @@
       "minecraft:patch_waterlily",
       "odyssey:amazon_rainforest/trees_tall",
       "odyssey:amazon_rainforest/trees_medium",
+      "odyssey:amazon_rainforest/bushes",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_firefly_bush_swamp",
       "minecraft:patch_firefly_bush_near_water_swamp",
       "minecraft:seagrass_river",
       "minecraft:vines",
-      "minecraft:patch_melon"
+      "minecraft:patch_melon",
+      "odyssey:amazon_rainforest/patch_bushes",
+      "odyssey:amazon_rainforest/patch_grass"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -129,6 +132,24 @@
       },
       {
         "type": "minecraft:frog",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 12
+      },
+      {
+        "type": "minecraft:ocelot",
+        "maxCount": 6,
+        "minCount": 6,
+        "weight": 12
+      },
+      {
+        "type": "minecraft:fox",
+        "maxCount": 2,
+        "minCount": 2,
+        "weight": 12
+      },
+      {
+        "type": "minecraft:rabbit",
         "maxCount": 4,
         "minCount": 4,
         "weight": 12

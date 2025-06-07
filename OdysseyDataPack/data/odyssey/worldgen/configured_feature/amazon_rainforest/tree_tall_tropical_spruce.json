@@ -49,10 +49,6 @@
         "type": "minecraft:weighted_list",
         "distribution": [
           {
-            "data": 1,
-            "weight": 3
-          },
-          {
             "data": 2,
             "weight": 6
           },

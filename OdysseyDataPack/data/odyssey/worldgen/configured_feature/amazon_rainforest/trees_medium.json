@@ -3,16 +3,20 @@
   "config": {
     "features": [
       {
-        "chance": 0.45,
-        "feature": "odyssey:amazon_rainforest/tree_tall_medium_jungle"
+        "chance": 0.3,
+        "feature": "odyssey:amazon_rainforest/tree_medium_tropical_jungle"
       },
       {
-        "chance": 0.55,
-        "feature": "odyssey:amazon_rainforest/tree_tall_medium_oak"
+        "chance": 0.3,
+        "feature": "odyssey:amazon_rainforest/tree_medium_tropical_birch"
+      },
+      {
+        "chance": 0.4,
+        "feature": "odyssey:amazon_rainforest/tree_medium_tropical_birch"
       }
     ],
     "default": {
-      "feature": "odyssey:amazon_rainforest/tree_medium_tropical_oak",
+      "feature": "odyssey:amazon_rainforest/tree_medium_tropical_birch",
       "placement": []
     }
   }

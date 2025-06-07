@@ -3,7 +3,7 @@
   "config": {
     "features": [
       {
-        "chance": 0.15,
+        "chance": 0.1,
         "feature": "odyssey:amazon_rainforest/tree_tall_tropical_azalea"
       },
       {
@@ -11,7 +11,7 @@
         "feature": "odyssey:amazon_rainforest/tree_tall_tropical_birch"
       },
       {
-        "chance": 0.15,
+        "chance": 0.2,
         "feature": "odyssey:amazon_rainforest/tree_tall_tropical_jungle"
       },
       {
