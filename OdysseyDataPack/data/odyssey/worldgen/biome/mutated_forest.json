@@ -11,11 +11,10 @@
   "effects": {
     "sky_color": 7972607,
     "fog_color": 7972607,
-    "water_color": 1983131,
-    "water_fog_color": 4728946,
-    "foliage_color": 16762163,
-    "grass_color": 16770664,
-    "grass_color_modifier": "dark_forest",
+    "water_color": 4728946,
+    "water_fog_color": 6371479,
+    "foliage_color": 16749867,
+    "grass_color": 16755816,
     "particle": {
       "options": {
         "type": "minecraft:wax_off"
@@ -58,10 +57,6 @@
     ],
     [],
     [
-      "odyssey:generic/disk_coarse_dirt",
-      "odyssey:generic/disk_podzol",
-      "odyssey:generic/disk_dirt_path",
-      "odyssey:generic/disk_rooted_dirt",
       "odyssey:mutated_forest/disk_crimson_nylium"
     ],
     [

@@ -1,19 +1,19 @@
 {
-    "feature": "odyssey:mutated_forest/patch_crimson_roots",
-    "placement": [
-      {
-	  	"type": "count",
-	  	"count": 2
-	  },
-      {
-        "type": "minecraft:in_square"
-      },
-      {
-        "type": "minecraft:heightmap",
-        "heightmap": "WORLD_SURFACE_WG"
-      },
-      {
-        "type": "minecraft:biome"
-      }
-    ]
-  }
+  "feature": "odyssey:mutated_forest/patch_crimson_roots",
+  "placement": [
+    {
+      "type": "count",
+      "count": 4
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
