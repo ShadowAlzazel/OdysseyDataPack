@@ -11,7 +11,7 @@
   "effects": {
     "sky_color": 7972607,
     "fog_color": 12638463,
-    "water_color": 6219999,
+    "water_color": 4242687,
     "water_fog_color": 329011,
     "foliage_color": 3983455,
     "grass_color": 3983432,
@@ -43,11 +43,13 @@
     ],
     [
       "minecraft:monster_room",
-      "minecraft:monster_room_deep"
+      "minecraft:monster_room_deep",
+      "odyssey:ha_long_bay/rock_base"
     ],
     [],
     [],
     [
+      "odyssey:ha_long_bay/pillar_stone_base",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
@@ -74,15 +76,16 @@
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel",
-      "odyssey:ha_long_bay/pillar_stone_base"
+      "minecraft:disk_gravel"
     ],
     [],
     [
       "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "odyssey:ha_long_bay/pillar_mossy_rock",
+      "odyssey:ha_long_bay/patch_moss"
     ],
     [
       "minecraft:freeze_top_layer"

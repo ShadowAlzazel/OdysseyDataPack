@@ -1,5 +1,5 @@
 {
-  "feature": "odyssey:ha_long_bay/pillar_stone_base",
+  "feature": "odyssey:ha_long_bay/pillar_mossy_rock",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
@@ -12,10 +12,10 @@
       "type": "minecraft:count",
       "count": {
         "type": "minecraft:clamped_normal",
-        "deviation": 3,
-        "min_inclusive": 4,
-        "max_inclusive": 8,
-        "mean": 5
+        "deviation": 1,
+        "min_inclusive": 3,
+        "max_inclusive": 5,
+        "mean": 4
       }
     },
     {

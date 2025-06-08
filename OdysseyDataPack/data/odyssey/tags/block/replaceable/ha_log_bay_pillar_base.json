@@ -1,9 +1,11 @@
 {
   "replace": false,
   "values": [
-    "minecraft:grass_block",
     "minecraft:dirt",
     "minecraft:gravel",
-    "minecraft:sand"
+    "minecraft:sand",
+    "minecraft:stone",
+    "minecraft:water",
+    "minecraft:clay"
   ]
 }
