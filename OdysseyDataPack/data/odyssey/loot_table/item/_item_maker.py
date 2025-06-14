@@ -2,7 +2,7 @@ import os
 import json
 import math
 from dataclasses import dataclass, field
-from typing import Optional, Union, Dict
+from typing import Optional, Union, Dict, List
 
 from _item_data import *
 
@@ -175,25 +175,31 @@ def create_item_obj(item_data: DataItem) -> dict:
 # --------------------------------------------------------------------------
 
 
-def generate_item_file(item_data: DataItem) -> None:
+def generate_item_file(item_data: DataItem, override_existing: bool = True) -> None:
     file_name = f'{item_data.item_name}.json'
-    item = json.dumps(create_item_obj(item_data), indent=2)
-    with open(file_name, 'w') as f:
-        f.write(item)
+    file_exists = os.path.isfile(file_name)
+    if not file_exists or override_existing:
+        item = json.dumps(create_item_obj(item_data), indent=2)
+        with open(file_name, 'w') as f:
+            f.write(item)
     return
 
 
-def create_new_item_files(item_list: [DataItem]) -> None:
+def create_new_item_files(item_list: List[DataItem], override_existing: bool = True) -> None:
     # Prompt 
-    print("Confirm creation of new files? This will overwrite old files!")
-    print(f"Will create {len(item_list)} items.")
+    if override_existing:
+        print("Confirm creation of new files? This will overwrite old files!")
+    else: 
+        print("Confirm creation of new files? ONLY new files will be created.")
+    
+    #print(f"Will create {len(item_list)} items.")
     print("Proceed (y/n) . . .")
     answer = input()
     # Input
     if answer == "y":
         print("Starting generation of items...")
         for x in item_list:
-            generate_item_file(x)
+            generate_item_file(x, override_existing)
         print("Finished generating item files.")
     else:
         print("Exiting...")

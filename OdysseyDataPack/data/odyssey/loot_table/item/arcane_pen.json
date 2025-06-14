@@ -6,18 +6,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:paper",
+          "name": "minecraft:bundle",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "scroll",
-                "minecraft:item_model": "odyssey:scroll",
-                "minecraft:consumable": {
-                  "consume_seconds": 1.5,
-                  "sound": "minecraft:item.book.page_turn",
-                  "animation": "block"
-                }
+                "minecraft:item_name": "arcane_pen",
+                "minecraft:item_model": "odyssey:arcane_pen"
               },
               "conditions": []
             },
@@ -25,7 +20,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Scroll",
+                "text": "Arcane Pen",
                 "bold": false,
                 "italic": false
               }

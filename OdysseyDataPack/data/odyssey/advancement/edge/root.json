@@ -9,7 +9,7 @@
   },
   "display": {
     "announce_to_chat": true,
-    "background": "odyssey:textures/gui/advancements/backgrounds/tuff.png",
+    "background": "odyssey:gui/advancements/backgrounds/tuff.png",
     "description": {
       "translate": "Arrived at a new frontier a new edge..."
     },

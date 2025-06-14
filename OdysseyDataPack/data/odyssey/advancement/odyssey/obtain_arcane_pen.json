@@ -1,0 +1,46 @@
+{
+  "parent": "odyssey:odyssey/obtain_crystal_alloy",
+  "criteria": {
+    "arcane_pen": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_hoe",
+            "components": {
+              "minecraft:item_name": "arcane_pen",
+              "minecraft:item_model": "odyssey:arcane_pen"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bundle",
+      "components": {
+        "minecraft:item_model": "odyssey:arcane_pen",
+        "minecraft:item_name": "arcane_pen"
+      }
+    },
+    "title": {
+      "translate": "advancements.odyssey.obtain_arcane_pen.title",
+      "fallback": "The Pen is Mightier than the Sword"
+    },
+    "description": {
+      "translate": "advancements.odyssey.obtain_arcane_pen.description",
+      "fallback": "Craft an arcane pen to start writing magic"
+    }
+  },
+  "requirements": [
+    [
+      "arcane_pen"
+    ]
+  ]
+}

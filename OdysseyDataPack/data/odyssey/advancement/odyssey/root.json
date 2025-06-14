@@ -14,7 +14,7 @@
     "description": {
       "translate": "An Odyssey Awaits!"
     },
-    "background": "odyssey:textures/gui/advancements/backgrounds/tuff.png"
+    "background": "odyssey:gui/advancements/backgrounds/tuff"
   },
   "criteria": {
     "crafting_table": {
