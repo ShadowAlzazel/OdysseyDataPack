@@ -18,7 +18,8 @@
                   "cooldown_group": "odyssey:arcane_wand"
                 },
                 "!minecraft:max_stack_size": {},
-                "minecraft:max_damage": 405
+                "minecraft:max_damage": 404,
+                "minecraft:damage": 0
               },
               "conditions": []
             },

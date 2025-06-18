@@ -6,20 +6,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stick",
+          "name": "minecraft:bundle",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "arcane_scepter",
-                "minecraft:item_model": "odyssey:arcane_scepter",
-                "minecraft:use_cooldown": {
-                  "seconds": 1.0,
-                  "cooldown_group": "odyssey:arcane_scepter"
-                },
-                "!minecraft:max_stack_size": {},
-                "minecraft:max_damage": 404,
-                "minecraft:damage": 0
+                "minecraft:item_name": "arcane_stylus",
+                "minecraft:item_model": "odyssey:arcane_stylus"
               },
               "conditions": []
             },
@@ -27,7 +20,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Arcane Scepter",
+                "text": "Arcane Stylus",
                 "bold": false,
                 "italic": false
               }
