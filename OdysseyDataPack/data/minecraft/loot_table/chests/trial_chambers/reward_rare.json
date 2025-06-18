@@ -197,6 +197,11 @@
             }
           ],
           "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/titanium_upgrade_template",
+          "weight": 2
         }
       ],
       "rolls": 1.0

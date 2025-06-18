@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "odyssey:loot/iridium_tool",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "odyssey:builder/weapons/pickaxe/iridium_pickaxe"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "odyssey:builder/weapons/axe/iridium_axe"
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

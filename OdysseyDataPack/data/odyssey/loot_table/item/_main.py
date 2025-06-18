@@ -141,7 +141,11 @@ ITEMS = [
     DataItem("soul_omamori", "arrow"), 
 ]
 
-CUSTOM: list[DataItem] = [
+NEW_ITEMS: List[DataItem] = [
+    #DataItem("amplify_rune", "paper")
+]
+
+CUSTOM: List[DataItem] = [
     # TEMP TODO Equipment
     DataItem("tinkered_bow", "bow"),
     DataItem("chain_hook", "crossbow"),
@@ -179,7 +183,7 @@ def main():
             generate_item_file(item)
         #generate_item_file(item) # OVERRIDE
     # Write as kotlin values -> _kotlin .txt
-    ALL_ITEMS = ITEMS + CUSTOM
+    ALL_ITEMS = NEW_ITEMS
     to_text_line = lambda x : f'val {x.item_name.upper()} = DataItem("{x.item_name}") \n'
     lines = [to_text_line(x) for x in ALL_ITEMS]
     with open("_kotlin.txt", 'w') as f:

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "odyssey:loot/soul_steel_armor",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/soul_steel_helmet",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/soul_steel_chestplate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/soul_steel_leggings",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/soul_steel_boots",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

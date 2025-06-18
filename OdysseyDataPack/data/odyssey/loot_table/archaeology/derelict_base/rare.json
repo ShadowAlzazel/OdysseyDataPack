@@ -7,12 +7,12 @@
         {
           "type": "minecraft:loot_table",
           "value": "odyssey:loot/random_part_pattern",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:loot_table",
           "value": "odyssey:loot/random_glyphsherd",
-          "weight": 1
+          "weight": 2
         },
         {
           "type": "minecraft:loot_table",

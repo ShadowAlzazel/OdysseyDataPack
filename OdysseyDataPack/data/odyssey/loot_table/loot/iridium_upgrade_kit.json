@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "odyssey:loot/iridium_upgrade_kit",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/iridium_ingot",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/iridium_upgrade_template",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -63,6 +63,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:heavy_core"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:loot/iridium_armor",
+          "weight": 1
         }
       ],
       "rolls": 1.0
