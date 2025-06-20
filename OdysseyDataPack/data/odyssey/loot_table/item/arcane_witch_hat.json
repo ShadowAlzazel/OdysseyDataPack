@@ -1,0 +1,61 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "odyssey:arcane_witch_hat",
+                "minecraft:item_name": "arcane_witch_hat",
+                "minecraft:rarity": "uncommon",
+                "minecraft:equippable": {
+                  "slot": "head"
+                }
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Arcane Witch Hat",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [{
+                "text": "When using this hat, you have small chance to decrypt extra runes.",
+                "bold": false,
+                "italic": false
+              }],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "amount": 1.0,
+                  "id": "odyssey:item.base_armor",
+                  "slot": "head"
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
