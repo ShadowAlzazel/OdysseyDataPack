@@ -78,6 +78,16 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "odyssey:item/jovianite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/neptunian",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "odyssey:item/silver_ingot",
           "weight": 1
         },
