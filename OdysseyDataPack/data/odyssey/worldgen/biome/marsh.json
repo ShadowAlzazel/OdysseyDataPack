@@ -1,7 +1,7 @@
 {
   "has_precipitation": true,
-  "temperature": 0.5,
-  "downfall": 0.5,
+  "temperature": 0.8,
+  "downfall": 0.9,
   "creature_spawn_probability": 0.2,
   "carvers": [
     "minecraft:cave",
@@ -105,13 +105,7 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:sheep",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 12
-      },
-      {
-        "type": "minecraft:pig",
+        "type": "minecraft:frog",
         "maxCount": 4,
         "minCount": 4,
         "weight": 10

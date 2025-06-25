@@ -5,28 +5,40 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_helmet",
+            "items": [
+              "minecraft:iron_helmet",
+              "minecraft:diamond_helmet"
+            ],
             "components": {
               "minecraft:item_model": "odyssey:iridium_helmet",
               "minecraft:item_name": "iridium_helmet"
             }
           },
           {
-            "items": "minecraft:iron_chestplate",
+            "items": [
+              "minecraft:iron_chestplate",
+              "minecraft:diamond_chestplate"
+            ],
             "components": {
               "minecraft:item_model": "odyssey:iridium_chestplate",
               "minecraft:item_name": "iridium_chestplate"
             }
           },
           {
-            "items": "minecraft:iron_leggings",
+            "items": [
+              "minecraft:iron_leggings",
+              "minecraft:diamond_leggings"
+            ],
             "components": {
               "minecraft:item_model": "odyssey:iridium_leggings",
               "minecraft:item_name": "iridium_leggings"
             }
           },
           {
-            "items": "minecraft:iron_boots",
+            "items": [
+              "minecraft:iron_boots",
+              "minecraft:diamond_boots"
+            ],
             "components": {
               "minecraft:item_model": "odyssey:iridium_boots",
               "minecraft:item_name": "iridium_boots"
