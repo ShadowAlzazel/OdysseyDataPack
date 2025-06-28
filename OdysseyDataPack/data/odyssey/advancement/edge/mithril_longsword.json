@@ -1,0 +1,46 @@
+{
+  "parent": "odyssey:edge/obtain_mithril",
+  "criteria": {
+    "mithril_longsword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_sword",
+              "minecraft:diamond_sword"
+            ],
+            "components": {
+              "minecraft:item_model": "odyssey:mithril_longsword"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_ingot",
+      "components": {
+        "minecraft:item_model": "odyssey:mithril_longsword",
+        "minecraft:item_name": "mithril_longsword"
+      }
+    },
+    "title": {
+      "translate": "A smith from the undying lands"
+    },
+    "description": {
+      "translate": "Craft a mithril longsword using mithril"
+    }
+  },
+  "requirements": [
+    [
+      "mithril_longsword"
+    ]
+  ]
+}

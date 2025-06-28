@@ -7,9 +7,11 @@
     "show_toast": true,
     "icon": {
       "count": 1,
-      "id": "minecraft:filled_map",
+      "id": "minecraft:iron_chestplate",
       "components": {
-        "minecraft:enchantment_glint_override": true
+        "minecraft:item_model": "odyssey:titanium_boots",
+        "minecraft:item_name": "titanium_boots",
+         "minecraft:enchantment_glint_override": true
       }
     },
     "title": {

@@ -1,14 +1,14 @@
 {
-  "parent": "odyssey:odyssey/obtain_titanium",
+  "parent": "odyssey:edge/find_shadow_chambers",
   "criteria": {
-    "iridium_ingot": {
+    "mithril_ingot": {
       "conditions": {
         "items": [
           {
             "items": "minecraft:iron_ingot",
             "components": {
-              "minecraft:item_name": "iridium_ingot",
-              "minecraft:item_model": "odyssey:iridium_ingot"
+              "minecraft:item_name": "mithril_ingot",
+              "minecraft:item_model": "odyssey:mithril_ingot"
             }
           }
         ]
@@ -25,20 +25,20 @@
       "count": 1,
       "id": "minecraft:iron_ingot",
       "components": {
-        "minecraft:item_model": "odyssey:iridium_ingot",
-        "minecraft:item_name": "iridium_ingot"
+        "minecraft:item_model": "odyssey:mithril_ingot",
+        "minecraft:item_name": "mithril_ingot"
       }
     },
     "title": {
-      "translate": "For Farming, Right..."
+      "translate": "A Mythical Metal"
     },
     "description": {
-      "translate": "Obtain an ingot of iridium from ominous trail chambers or the supershafts."
+      "translate": "Obtain an ingot of mithril from the shadow chambers."
     }
   },
   "requirements": [
     [
-      "iridium_ingot"
+      "mithril_ingot"
     ]
   ]
 }

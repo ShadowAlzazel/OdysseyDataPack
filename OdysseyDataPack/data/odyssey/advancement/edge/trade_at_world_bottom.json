@@ -1,0 +1,48 @@
+{
+  "parent": "odyssey:edge/find_biome",
+  "criteria": {
+    "trade_at_world_bottom": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -10.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:villager_trade"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.edge.trade_at_world_bottom.description",
+      "fallback": "Trade with a villager at the world's bottom"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_ingot",
+      "components": {
+        "minecraft:item_model": "odyssey:jovianite",
+        "minecraft:item_name": "jovianite"
+      }
+    },
+    "title": {
+      "translate": "advancements.adventure.trade_at_world_bottom.title",
+      "fallback": "Very Deep Pockets"
+    }
+  },
+  "requirements": [
+    [
+      "trade_at_world_bottom"
+    ]
+  ]
+}

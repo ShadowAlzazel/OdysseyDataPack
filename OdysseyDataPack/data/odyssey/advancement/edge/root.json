@@ -9,9 +9,10 @@
   },
   "display": {
     "announce_to_chat": true,
-    "background": "odyssey:gui/advancements/backgrounds/tuff.png",
+    "background": "odyssey:gui/advancements/backgrounds/tuff",
     "description": {
-      "translate": "Arrived at a new frontier a new edge..."
+      "translate": "advancements.edge.root.description",
+      "fallback": "Arrived at a new frontier, a new edge..."
     },
     "icon": {
       "count": 1,
@@ -19,7 +20,8 @@
     },
     "show_toast": true,
     "title": {
-      "translate": "The Edge"
+      "translate": "advancements.edge.root.title",
+      "fallback": "The Edge"
     }
   },
   "requirements": [

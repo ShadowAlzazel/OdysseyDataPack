@@ -8,8 +8,8 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.35,
-          "per_level_above_first": 0.35
+          "base": 0.15,
+          "per_level_above_first": 0.15
         },
         "attribute": "minecraft:jump_strength",
         "id": "odyssey:enchantment.leap_frog.jump",
