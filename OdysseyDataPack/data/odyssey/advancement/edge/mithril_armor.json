@@ -63,15 +63,20 @@
       }
     },
     "title": {
-      "translate": "From Ost-in-Edhil"
+      "translate": "advancements.edge.mithril_armor.title",
+      "fallback": "Ost-in-Edhil"
     },
     "description": {
-      "translate": "Adorn a full set of mithril armor."
+      "translate": "advancements.edge.mithril_armor.description",
+      "fallback": "Adorn a full set of mithril armor."
     }
   },
   "requirements": [
     [
       "mithril_armor"
     ]
-  ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
 }

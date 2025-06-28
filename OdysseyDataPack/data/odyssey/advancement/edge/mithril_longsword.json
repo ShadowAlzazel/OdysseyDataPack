@@ -32,10 +32,12 @@
       }
     },
     "title": {
-      "translate": "A smith from the undying lands"
+      "translate": "advancements.edge.obtain_mithril.title",
+      "fallback": "A smith from the undying lands"
     },
     "description": {
-      "translate": "Craft a mithril longsword using mithril"
+      "translate": "advancements.edge.obtain_mithril.description",
+      "fallback": "Craft a mithril longsword using mithril"
     }
   },
   "requirements": [

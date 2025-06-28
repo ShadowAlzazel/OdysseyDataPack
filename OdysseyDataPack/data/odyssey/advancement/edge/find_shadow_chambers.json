@@ -21,7 +21,8 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "Locate the dark underground dungeon of the Shadow Monarch"
+      "translate": "advancements.edge.find_shadow_chambers.description",
+      "fallback": "Locate the dark underground dungeon of the Shadow Monarch"
     },
     "frame": "challenge",
     "hidden": false,
@@ -34,7 +35,8 @@
     },
     "show_toast": true,
     "title": {
-      "translate": "Shadow Realm"
+      "translate": "advancements.edge.find_shadow_chambers.title",
+      "fallback": "Shadow Realm"
     }
   },
   "requirements": [

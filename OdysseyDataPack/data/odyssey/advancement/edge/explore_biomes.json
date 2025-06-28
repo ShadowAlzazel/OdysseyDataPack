@@ -13,10 +13,12 @@
       }
     },
     "title": {
-      "translate": "Life at the Edge"
+      "translate": "advancements.edge.explore_biomes.title",
+      "fallback": "Living life at the Edge"
     },
     "description": {
-      "translate": "Find every biome in the Edge!"
+      "translate": "advancements.edge.explore_biomes.description",
+      "fallback": "Find every biome in the Edge!"
     }
   },
   "criteria": {

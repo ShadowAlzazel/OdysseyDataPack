@@ -10,10 +10,12 @@
       "id": "minecraft:explorer_pottery_sherd"
     },
     "title": {
-      "translate": "New Horizons"
+      "translate": "advancements.edge.find_biome.title",
+      "fallback": "New Horizons"
     },
     "description": {
-      "translate": "Find an Odyssey Edge biome."
+      "translate": "advancements.edge.find_biome.description",
+      "fallback": "Find an Odyssey Edge biome."
     }
   },
   "criteria": {

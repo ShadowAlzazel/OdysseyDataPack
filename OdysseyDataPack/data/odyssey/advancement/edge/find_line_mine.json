@@ -21,9 +21,10 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "Locate an underground maze-like mine."
+      "translate": "advancements.edge.find_line_mine.description",
+      "fallback": "Locate an underground maze-like mine."
     },
-    "frame": "goal",
+    "frame": "task",
     "hidden": false,
     "icon": {
       "count": 1,
@@ -34,7 +35,8 @@
     },
     "show_toast": true,
     "title": {
-      "translate": "Mining Lines"
+      "translate": "advancements.edge.find_line_mine.title",
+      "fallback": "Mining Lines"
     }
   },
   "requirements": [

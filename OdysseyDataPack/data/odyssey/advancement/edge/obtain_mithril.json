@@ -30,10 +30,12 @@
       }
     },
     "title": {
-      "translate": "A Mythical Metal"
+      "translate": "advancements.edge.obtain_mithril.title",
+      "fallback": "A Mythical Metal"
     },
     "description": {
-      "translate": "Obtain an ingot of mithril from the shadow chambers."
+      "translate": "advancements.edge.obtain_mithril.description",
+      "fallback": "Obtain an ingot of mithril from the shadow chambers."
     }
   },
   "requirements": [
