@@ -1,8 +1,8 @@
 {
-  "anvil_cost": 8,
+  "anvil_cost": 6,
   "description": {
-    "translate": "enchantment.odyssey.excecution",
-    "fallback": "Excecution"
+    "translate": "enchantment.odyssey.execution",
+    "fallback": "Execution"
   },
   "effects": {},
   "max_cost": {

@@ -43,7 +43,7 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "odyssey:plunder",
-                "odyssey:excecution",
+                "odyssey:execution",
                 "odyssey:fealty"
               ]
             }
@@ -57,7 +57,7 @@
             {
               "function": "minecraft:enchant_randomly",
               "options": [
-                "odyssey:excecution"
+                "odyssey:execution"
               ]
             }
           ],

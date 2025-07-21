@@ -1,0 +1,97 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "odyssey:jobless_spear",
+                "minecraft:item_name": "laplace_spear",
+                "minecraft:rarity": "epic",
+                "minecraft:max_damage": 3121,
+                "minecraft:weapon": {
+                  "item_damage_per_attack": 1
+                }
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "PublicBukkitValues": {
+                  "odyssey:odyssey.weapon_type": "spear"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Laplace Spear",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [{
+                "text": "A cursed spear filled with anguish and lost to time.",
+                "bold": false,
+                "italic": false
+              }],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:attack_damage",
+                  "operation": "add_value",
+                  "amount": 10.0,
+                  "id": "odyssey:item.base_attack_damage",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:attack_speed",
+                  "operation": "add_value",
+                  "amount": -4.0,
+                  "id": "odyssey:item.reset_attack_speed",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:attack_speed",
+                  "operation": "add_value",
+                  "amount": 1.2,
+                  "id": "odyssey:item.base_attack_speed",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:entity_interaction_range",
+                  "operation": "add_value",
+                  "amount": 0.3,
+                  "id": "odyssey:item.base_entity_range",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "odyssey:vengeful": 5
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
