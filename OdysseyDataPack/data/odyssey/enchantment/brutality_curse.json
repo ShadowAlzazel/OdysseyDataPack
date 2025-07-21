@@ -2,7 +2,7 @@
   "anvil_cost": 4,
   "description": {
     "fallback": "Curse of Brutality",
-    "translate": "enchantment.odyssey.brutality"
+    "translate": "enchantment.odyssey.brutality_curse"
   },
   "effects": {},
   "max_cost": {

@@ -11,12 +11,28 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:item_model": "odyssey:jobless_spear",
+                "minecraft:item_model": "odyssey:laplace_spear",
                 "minecraft:item_name": "laplace_spear",
                 "minecraft:rarity": "epic",
                 "minecraft:max_damage": 3121,
                 "minecraft:weapon": {
                   "item_damage_per_attack": 1
+                },
+                "minecraft:blocks_attacks": {
+                  "disable_cooldown_scale": 0,
+                  "damage_reductions": [
+                    {
+                      "type": "minecraft:mob_attack",
+                      "base": 1.0,
+                      "factor": 0.5
+                    }
+                  ],
+                  "item_damage": {
+                    "base": 1.0,
+                    "factor": 0.5,
+                    "threshold": 1.0
+                  },
+                  "block_sound": "minecraft:block.anvil.place"
                 }
               },
               "conditions": []
@@ -41,11 +57,13 @@
             {
               "function": "minecraft:set_lore",
               "entity": "this",
-              "lore": [{
-                "text": "A cursed spear filled with anguish and lost to time.",
-                "bold": false,
-                "italic": false
-              }],
+              "lore": [
+                {
+                  "text": "A cursed spear filled with anguish and lost to time.",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
               "mode": "replace_all"
             },
             {
@@ -84,7 +102,8 @@
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "odyssey:vengeful": 5
+                "odyssey:brutality_curse": 5,
+                "odyssey:agile": 5
               }
             }
           ],
