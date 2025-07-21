@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "minecraft:iron_hoe",
+            "items": "minecraft:bundle",
             "components": {
               "minecraft:item_name": "arcane_pen",
               "minecraft:item_model": "odyssey:arcane_pen"
