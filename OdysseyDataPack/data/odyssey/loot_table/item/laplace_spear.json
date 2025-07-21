@@ -18,11 +18,19 @@
                 "minecraft:weapon": {
                   "item_damage_per_attack": 1
                 },
+                "minecraft:use_cooldown": {
+                  "seconds": 2.0,
+                  "cooldown_group": "odyssey:parry"
+                },
                 "minecraft:blocks_attacks": {
                   "disable_cooldown_scale": 0,
                   "damage_reductions": [
                     {
-                      "type": "minecraft:mob_attack",
+                      "type": [
+                        "minecraft:mob_attack",
+                        "minecraft:mob_attack_no_aggro",
+                        "minecraft:player_attack"
+                      ],
                       "base": 1.0,
                       "factor": 0.5
                     }
