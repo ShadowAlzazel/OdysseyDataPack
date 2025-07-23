@@ -1,18 +1,18 @@
 {
-  "anvil_cost": 6,
+  "anvil_cost": 4,
   "description": {
     "translate": "enchantment.odyssey.dynamo",
     "fallback": "Dynamo"
   },
   "effects": {},
   "max_cost": {
-    "base": 25,
-    "per_level_above_first": 10
+    "base": 14,
+    "per_level_above_first": 8
   },
-  "max_level": 3,
+  "max_level": 4,
   "min_cost": {
-    "base": 15,
-    "per_level_above_first": 10
+    "base": 8,
+    "per_level_above_first": 8
   },
   "slots": [
     "mainhand"

@@ -1,0 +1,125 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "odyssey:firewood_staff",
+                "minecraft:item_name": "firewood_staff",
+                "minecraft:rarity": "epic",
+                "minecraft:max_damage": 3181,
+                "minecraft:weapon": {
+                  "item_damage_per_attack": 1
+                },
+                "minecraft:use_cooldown": {
+                  "seconds": 1.5,
+                  "cooldown_group": "odyssey:parry"
+                },
+                "minecraft:blocks_attacks": {
+                  "disable_cooldown_scale": 0,
+                  "damage_reductions": [
+                    {
+                      "type": [
+                        "minecraft:mob_attack",
+                        "minecraft:mob_attack_no_aggro",
+                        "minecraft:player_attack"
+                      ],
+                      "base": 1.0,
+                      "factor": 0.5
+                    }
+                  ],
+                  "item_damage": {
+                    "base": 1.0,
+                    "factor": 0.5,
+                    "threshold": 1.0
+                  },
+                  "block_sound": "minecraft:block.anvil.place"
+                }
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "PublicBukkitValues": {
+                  "odyssey:odyssey.weapon_type": "spear"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Firewood Staff",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "An ancient staff used in lost rituals.",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:attack_damage",
+                  "operation": "add_value",
+                  "amount": 10.0,
+                  "id": "odyssey:item.base_attack_damage",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:attack_speed",
+                  "operation": "add_value",
+                  "amount": -4.0,
+                  "id": "odyssey:item.reset_attack_speed",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:attack_speed",
+                  "operation": "add_value",
+                  "amount": 1.2,
+                  "id": "odyssey:item.base_attack_speed",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:entity_interaction_range",
+                  "operation": "add_value",
+                  "amount": 2.5,
+                  "id": "odyssey:item.base_entity_range",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fire_aspect": 3,
+                "odyssey:life_force": 5,
+                "odyssey:brutality_curse": 3
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

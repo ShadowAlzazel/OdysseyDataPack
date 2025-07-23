@@ -1,0 +1,57 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "odyssey:shogun_pulse",
+                "minecraft:item_name": "shogun_pulse",
+                "minecraft:rarity": "epic",
+                "minecraft:max_damage": 2441,
+                "minecraft:weapon": {
+                  "item_damage_per_attack": 1
+                }
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Shogun Pulse",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [{
+                "text": "A thundering bow pulsating with energy.",
+                "bold": false,
+                "italic": false
+              }],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "odyssey:dynamo": 5,
+                "odyssey:overcharge": 6
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
