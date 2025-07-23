@@ -1,0 +1,23 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "fallback": "Aerosion Aspect",
+    "translate": "enchantment.odyssey.aerosion_aspect"
+  },
+  "effects": {},
+  "max_cost": {
+    "base": 11,
+    "per_level_above_first": 7
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 4,
+    "per_level_above_first": 6
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "primary_items": "#minecraft:enchantable/sword",
+  "supported_items": "#odyssey:enchantable/melee",
+  "weight": 3
+}
