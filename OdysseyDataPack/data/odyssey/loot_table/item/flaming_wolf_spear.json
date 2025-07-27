@@ -80,7 +80,7 @@
                 {
                   "attribute": "minecraft:attack_damage",
                   "operation": "add_value",
-                  "amount": 11.0,
+                  "amount": 12.0,
                   "id": "odyssey:item.base_attack_damage",
                   "slot": "mainhand"
                 },
@@ -101,7 +101,7 @@
                 {
                   "attribute": "minecraft:entity_interaction_range",
                   "operation": "add_value",
-                  "amount": 2.5,
+                  "amount": 3.0,
                   "id": "odyssey:item.base_entity_range",
                   "slot": "mainhand"
                 }
@@ -110,8 +110,7 @@
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "odyssey:conflagrate": 5,
-                "odyssey:agile": 5
+                "odyssey:conflagrate": 5
               }
             }
           ],

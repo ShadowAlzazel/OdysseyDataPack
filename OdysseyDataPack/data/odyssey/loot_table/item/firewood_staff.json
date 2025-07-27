@@ -111,8 +111,7 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:fire_aspect": 3,
-                "odyssey:life_force": 5,
-                "odyssey:brutality_curse": 3
+                "odyssey:life_force": 5
               }
             }
           ],

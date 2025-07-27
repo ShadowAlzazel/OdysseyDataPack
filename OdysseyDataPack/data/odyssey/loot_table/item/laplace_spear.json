@@ -80,7 +80,7 @@
                 {
                   "attribute": "minecraft:attack_damage",
                   "operation": "add_value",
-                  "amount": 10.0,
+                  "amount": 11.0,
                   "id": "odyssey:item.base_attack_damage",
                   "slot": "mainhand"
                 },
@@ -94,7 +94,7 @@
                 {
                   "attribute": "minecraft:attack_speed",
                   "operation": "add_value",
-                  "amount": 1.2,
+                  "amount": 1.3,
                   "id": "odyssey:item.base_attack_speed",
                   "slot": "mainhand"
                 },
@@ -110,8 +110,7 @@
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "odyssey:brutality_curse": 5,
-                "odyssey:agile": 5
+                "odyssey:brutality_curse": 5
               }
             }
           ],
