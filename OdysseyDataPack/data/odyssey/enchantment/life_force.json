@@ -19,5 +19,5 @@
   ],
   "primary_items": "#minecraft:enchantable/sword",
   "supported_items": "#odyssey:enchantable/melee",
-  "weight": 2
+  "weight": 5
 }

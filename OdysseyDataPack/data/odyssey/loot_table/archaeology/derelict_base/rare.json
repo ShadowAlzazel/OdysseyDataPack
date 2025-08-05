@@ -11,11 +11,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "odyssey:loot/random_glyphsherd",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "odyssey:item/leaf_armor_trim_smithing_template",
           "weight": 1
         }
