@@ -1,0 +1,160 @@
+[
+  {
+    "function": "minecraft:sequence",
+    "functions": [
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "crusader_hilt"
+          ],
+          "mode": "replace_section",
+          "offset": 3,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.11111111111
+          }
+        ]
+      },
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "danger_hilt"
+          ],
+          "mode": "replace_section",
+          "offset": 3,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.11111111111
+          }
+        ]
+      },
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "fancy_hilt"
+          ],
+          "mode": "replace_section",
+          "offset": 3,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.11111111111
+          }
+        ]
+      },
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "humble_hilt"
+          ],
+          "mode": "replace_section",
+          "offset": 3,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.11111111111
+          }
+        ]
+      },
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "imperial_hilt"
+          ],
+          "mode": "replace_section",
+          "offset": 3,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.11111111111
+          }
+        ]
+      },
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "marauder_hilt"
+          ],
+          "mode": "replace_section",
+          "offset": 3,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.11111111111
+          }
+        ]
+      },
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "seraph_hilt"
+          ],
+          "mode": "replace_section",
+          "offset": 3,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.11111111111
+          }
+        ]
+      },
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "vandal_hilt"
+          ],
+          "mode": "replace_section",
+          "offset": 3,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.11111111111
+          }
+        ]
+      },
+      {
+        "function": "set_custom_model_data",
+        "strings": {
+          "values": [
+            "voyager_hilt"
+          ],
+          "mode": "replace_section",
+          "offset": 3,
+          "size": 1
+        },
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.11111111111
+          }
+        ]
+      }
+    ]
+  }
+]

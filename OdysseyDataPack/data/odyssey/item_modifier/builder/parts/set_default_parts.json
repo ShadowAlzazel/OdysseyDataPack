@@ -1,0 +1,16 @@
+[
+  {
+    "function": "minecraft:set_custom_model_data",
+    "strings": {
+      "values": [
+        "type",
+        "blade",
+        "hilt",
+        "handle",
+        "pommel",
+        "no_trim"
+      ],
+      "mode": "replace_all"
+    }
+  }
+]

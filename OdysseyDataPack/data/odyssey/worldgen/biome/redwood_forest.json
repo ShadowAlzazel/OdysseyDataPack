@@ -2,7 +2,6 @@
   "has_precipitation": true,
   "temperature": 0.4,
   "downfall": 0.9,
-  "player_spawn_friendly": true,
   "creature_spawn_probability": 0.4,
   "carvers": [
     "minecraft:cave",
@@ -79,32 +78,23 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-      "odyssey:generic/patch_packed_mud",
-      "odyssey:generic/patch_rooted_dirt",
-      "odyssey:generic/patch_rocks",
-      "odyssey:generic/disk_coarse_dirt",
-      "odyssey:generic/disk_podzol"
+      "odyssey:generic/disk_podzol",
+      "odyssey:generic/disk_coarse_dirt"
     ],
     [],
     [
       "minecraft:spring_water"
     ],
     [
+      "minecraft:glow_lichen",
       "odyssey:redwood_forest/tree_cores",
       "odyssey:redwood_forest/redwood_top",
       "odyssey:redwood_forest/sequoia_top",
       "odyssey:redwood_forest/trees",
       "odyssey:redwood_forest/patch_vegatation",
-      "minecraft:glow_lichen",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_taiga",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "odyssey:generic/patch_grass"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -141,12 +131,6 @@
         "weight": 10
       },
       {
-        "type": "minecraft:cow",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 8
-      },
-      {
         "type": "minecraft:rabbit",
         "maxCount": 3,
         "minCount": 2,
@@ -181,12 +165,6 @@
       },
       {
         "type": "minecraft:creeper",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 100
-      },
-      {
-        "type": "minecraft:slime",
         "maxCount": 4,
         "minCount": 4,
         "weight": 100

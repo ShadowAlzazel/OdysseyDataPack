@@ -4,6 +4,5 @@
     "color": "#533a7b",
     "translate": "trim_material.odyssey.alexandrite",
     "fallback": "Alexandrite Material"
-  },
-  "ingredient": "minecraft:jigsaw"
+  }
 }

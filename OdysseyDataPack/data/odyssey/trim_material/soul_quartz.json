@@ -4,6 +4,5 @@
     "color": "#138285",
     "translate": "trim_material.odyssey.soul_quartz",
     "fallback": "Soul Quartz Material"
-  },
-  "ingredient": "minecraft:jigsaw"
+  }
 }

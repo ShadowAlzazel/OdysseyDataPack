@@ -12,7 +12,8 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "ruby",
-                "minecraft:item_model": "odyssey:ruby"
+                "minecraft:item_model": "odyssey:ruby",
+                "minecraft:provides_trim_material": "odyssey:ruby"
               },
               "conditions": []
             },

@@ -1,8 +1,8 @@
 {
   "has_precipitation": true,
-  "temperature": 0.8,
-  "downfall": 0.85,
-  "creature_spawn_probability": 0.4,
+  "temperature": 0.9,
+  "downfall": 0.95,
+  "creature_spawn_probability": 0.3,
   "carvers": [
     "minecraft:cave",
     "minecraft:cave_extra_underground",

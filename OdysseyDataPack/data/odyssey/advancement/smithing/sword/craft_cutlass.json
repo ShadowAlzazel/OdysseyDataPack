@@ -3,7 +3,8 @@
   "criteria": {
     "craft_cutlass": {
       "conditions": {
-        "ingredients": [],
+        "ingredients": [
+        ],
         "recipe_id": "odyssey:diamond_cutlass"
       },
       "trigger": "minecraft:recipe_crafted"

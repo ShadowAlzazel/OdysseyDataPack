@@ -1,0 +1,11 @@
+[
+  {
+    "function": "minecraft:sequence",
+    "functions": [
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/random_parts"
+      }
+    ]
+  }
+]

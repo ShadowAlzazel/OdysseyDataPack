@@ -1,20 +1,25 @@
 {
   "values": [
+    "odyssey:amazon_rainforest",
     "odyssey:aspen_forest",
     "odyssey:bayou",
-    "odyssey:birch_backwoods",
+    "odyssey:bungle_bungles",
+    "odyssey:wildwoods",
     "odyssey:chocolate_hills",
     "odyssey:cypress_grove",
     "odyssey:danakil",
+    "odyssey:great_plains",
     "odyssey:grand_teton",
     "odyssey:hoh_rainforest",
-    "odyssey:jurassic_heights",
+    "odyssey:jurassic_overgrowth",
     "odyssey:marsh",
-    "odyssey:mutated_forest",
     "odyssey:pantanal",
     "odyssey:redwood_forest",
     "odyssey:sierra",
     "odyssey:tsingy",
-    "odyssey:zhangjiajie"
+    "odyssey:makapuu_tidepools",
+    "odyssey:ubsunur_hollow",
+    "odyssey:zhangjiajie",
+    "odyssey:lencois_maranhenses"
   ]
 }

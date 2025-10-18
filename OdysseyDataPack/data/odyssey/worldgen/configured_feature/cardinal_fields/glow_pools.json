@@ -22,7 +22,7 @@
                 "data": {
                   "Name": "minecraft:sea_pickle",
                   "Properties": {
-                    "pickles": 2,
+                    "pickles": "2",
                     "waterlogged": "true"
                   }
                 },
@@ -32,7 +32,7 @@
                 "data": {
                   "Name": "minecraft:sea_pickle",
                   "Properties": {
-                    "pickles": 1,
+                    "pickles": "1",
                     "waterlogged": "true"
                   }
                 },

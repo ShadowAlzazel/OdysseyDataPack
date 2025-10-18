@@ -4,6 +4,5 @@
     "color": "#e2fad0",
     "translate": "trim_material.odyssey.mithril",
     "fallback": "Mithril Material"
-  },
-  "ingredient": "minecraft:jigsaw"
+  }
 }

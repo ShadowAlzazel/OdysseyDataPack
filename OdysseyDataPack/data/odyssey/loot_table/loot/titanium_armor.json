@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "odyssey:loot/titanium_armor",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/titanium_helmet",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/titanium_chestplate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/titanium_leggings",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/titanium_boots",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

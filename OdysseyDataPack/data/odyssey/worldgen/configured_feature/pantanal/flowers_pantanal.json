@@ -31,6 +31,12 @@
                     "Name": "minecraft:orange_tulip"
                   },
                   "weight": 6
+                },
+                {
+                  "data": {
+                    "Name": "minecraft:firefly_bush"
+                  },
+                  "weight": 1
                 }
               ]
             }

@@ -443,7 +443,7 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "enchantment_magic_touch": {
+    "enchantment_magic_aspect": {
       "conditions": {
         "items": [
           {
@@ -451,7 +451,7 @@
             "predicates": {
               "minecraft:stored_enchantments": [
                 {
-                  "enchantments": "odyssey:magic_touch"
+                  "enchantments": "odyssey:magic_aspect"
                 }
               ]
             }
@@ -681,7 +681,7 @@
       "enchantment_invocative"
     ],
     [
-      "enchantment_magic_touch"
+      "enchantment_magic_aspect"
     ],
     [
       "enchantment_pestilence"

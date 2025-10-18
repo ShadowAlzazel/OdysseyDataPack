@@ -1,20 +1,19 @@
 {
-    "type": "minecraft:random_selector",
-    "config": {
-      "features": [
-        {
-          "chance": 0.4,
-          "feature": "odyssey:redwood_forest/tree_redwood_big"
-        },
-        {
-          "chance": 0.6,
-          "feature": "odyssey:redwood_forest/tree_sequoia_big"
-        }
-      ],
-      "default": {
-        "feature": "odyssey:redwood_forest/tree_redwood_big",
-        "placement": []
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.4,
+        "feature": "odyssey:redwood_forest/tree_redwood_big"
+      },
+      {
+        "chance": 0.6,
+        "feature": "odyssey:redwood_forest/tree_sequoia_big"
       }
+    ],
+    "default": {
+      "feature": "odyssey:redwood_forest/tree_redwood_big",
+      "placement": []
     }
+  }
 }
-  

@@ -1,0 +1,127 @@
+[
+  {
+    "function": "minecraft:sequence",
+    "functions": [
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/katana/iron_katana",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/claymore/iron_claymore",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/dagger/iron_dagger",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/rapier/iron_rapier",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/cutlass/iron_cutlass",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/saber/iron_saber",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/sickle/iron_sickle",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/chakram/iron_chakram",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/kunai/iron_kunai",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/longsword/iron_longsword",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/zweihander/iron_zweihander",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/kriegsmesser/iron_kriegsmesser",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      }
+    ]
+  }
+]

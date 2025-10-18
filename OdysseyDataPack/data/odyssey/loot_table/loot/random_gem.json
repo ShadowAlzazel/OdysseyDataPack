@@ -9,22 +9,32 @@
         {
           "type": "minecraft:loot_table",
           "value": "odyssey:item/kunzite",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:loot_table",
           "value": "odyssey:item/ruby",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:loot_table",
           "value": "odyssey:item/jade",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:loot_table",
           "value": "odyssey:item/alexandrite",
-          "weight": 2
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/jovianite",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/neptunian",
+          "weight": 1
         }
       ]
     }

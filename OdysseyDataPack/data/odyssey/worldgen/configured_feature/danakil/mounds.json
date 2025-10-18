@@ -1,16 +1,19 @@
 {
-    "type": "minecraft:random_selector",
-    "config": {
-      "features": [
-        {
-          "chance": 0.10,
-          "feature": "odyssey:danakil/mound_small_red"
-        }
-      ],
-      "default": {
-        "feature": "odyssey:danakil/mound_small_red",
-        "placement": []
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.6,
+        "feature": "odyssey:danakil/mound_small_red"
+      },
+      {
+        "chance": 0.4,
+        "feature": "odyssey:danakil/mound_small_diorite"
       }
+    ],
+    "default": {
+      "feature": "odyssey:danakil/mound_small_red",
+      "placement": []
     }
   }
-  
+}

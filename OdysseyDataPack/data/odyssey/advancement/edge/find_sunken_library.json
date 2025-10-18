@@ -21,7 +21,8 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "Find the hidden underground library"
+      "translate": "advancements.edge.find_sunken_library.description",
+      "fallback": "Find the hidden underground library"
     },
     "frame": "challenge",
     "hidden": false,
@@ -34,7 +35,8 @@
     },
     "show_toast": true,
     "title": {
-      "translate": "Wan Shi Tong"
+      "translate": "advancements.edge.find_sunken_library.title",
+      "fallback": "Wan Shi Tong"
     }
   },
   "requirements": [

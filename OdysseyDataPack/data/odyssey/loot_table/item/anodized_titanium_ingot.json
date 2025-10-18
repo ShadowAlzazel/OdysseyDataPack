@@ -12,7 +12,8 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "anodized_titanium_ingot",
-                "minecraft:item_model": "odyssey:anodized_titanium_ingot"
+                "minecraft:item_model": "odyssey:anodized_titanium_ingot",
+                "minecraft:provides_trim_material": "odyssey:anodized_titanium"
               },
               "conditions": []
             },

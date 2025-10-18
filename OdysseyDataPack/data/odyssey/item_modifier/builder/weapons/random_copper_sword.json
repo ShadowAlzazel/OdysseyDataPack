@@ -1,0 +1,127 @@
+[
+  {
+    "function": "minecraft:sequence",
+    "functions": [
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/katana/copper_katana",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/claymore/copper_claymore",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/dagger/copper_dagger",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/rapier/copper_rapier",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/cutlass/copper_cutlass",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/saber/copper_saber",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/sickle/copper_sickle",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/chakram/copper_chakram",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/kunai/copper_kunai",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/longsword/copper_longsword",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/zweihander/copper_zweihander",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/kriegsmesser/copper_kriegsmesser",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "feature": "odyssey:ha_long_bay/pillar_mossy_rock",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 1
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:clamped_normal",
+        "deviation": 1,
+        "min_inclusive": 3,
+        "max_inclusive": 5,
+        "mean": 4
+      }
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -8,7 +8,23 @@
         {
           "type": "minecraft:loot_table",
           "value": "odyssey:item/shadow_trial_key",
-          "weight": 9
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/crystal_alloy_ingot",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 2
         },
         {
           "type": "minecraft:loot_table",

@@ -43,6 +43,16 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:trident"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/titanium_upgrade_template",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:loot/titanium_armor",
+          "weight": 1
         }
       ],
       "rolls": 1.0

@@ -12,7 +12,8 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "soul_steel_ingot",
-                "minecraft:item_model": "odyssey:soul_steel_ingot"
+                "minecraft:item_model": "odyssey:soul_steel_ingot",
+                "minecraft:provides_trim_material": "odyssey:soul_steel"
               },
               "conditions": []
             },

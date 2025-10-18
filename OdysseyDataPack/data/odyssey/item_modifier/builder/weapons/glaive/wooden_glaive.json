@@ -1,0 +1,52 @@
+[
+  {
+    "function": "set_components",
+    "components": {
+      "minecraft:item_model": "odyssey:wooden_glaive",
+      "minecraft:item_name": "wooden_glaive"
+    }
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "text": "Wooden Glaive",
+      "bold": false,
+      "italic": false
+    }
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "id": "odyssey:item.base_attack_damage",
+        "attribute": "minecraft:attack_damage",
+        "amount": 5.0,
+        "slot": "mainhand",
+        "operation": "add_value"
+      },
+      {
+        "id": "odyssey:item.reset_attack_speed",
+        "attribute": "minecraft:attack_speed",
+        "amount": -4.0,
+        "slot": "mainhand",
+        "operation": "add_value"
+      },
+      {
+        "id": "odyssey:item.base_attack_speed",
+        "attribute": "minecraft:attack_speed",
+        "amount": 1.3,
+        "slot": "mainhand",
+        "operation": "add_value"
+      },
+      {
+        "id": "odyssey:item.base_entity_range",
+        "attribute": "minecraft:entity_interaction_range",
+        "amount": 1.0,
+        "slot": "mainhand",
+        "operation": "add_value"
+      }
+    ],
+    "replace": true
+  }
+]

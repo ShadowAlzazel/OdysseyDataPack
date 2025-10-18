@@ -18,6 +18,7 @@ os.chdir(dir_name)
 ITEMS = [
     # Ingredients
     DataItem("arcane_book", "book"),
+    DataItem("arcane_pen", "bundle"),
     DataItem("anodized_titanium_ingot", "iron_ingot"),
     DataItem("coagulated_blood", "rotten_flesh"),
     DataItem("ectoplasm", "rotten_flesh"),
@@ -140,7 +141,11 @@ ITEMS = [
     DataItem("soul_omamori", "arrow"), 
 ]
 
-CUSTOM: list[DataItem] = [
+NEW_ITEMS: List[DataItem] = [
+    #DataItem("amplify_rune", "paper")
+]
+
+CUSTOM: List[DataItem] = [
     # TEMP TODO Equipment
     DataItem("tinkered_bow", "bow"),
     DataItem("chain_hook", "crossbow"),
@@ -156,6 +161,7 @@ CUSTOM: list[DataItem] = [
     DataItem("warping_wand", "stick"),
     DataItem("void_linked_kunai", "iron_sword"),
     DataItem("scroll", "paper"),
+    DataItem("spell_scroll", "paper"),
 ]
 
 # List
@@ -166,7 +172,7 @@ ARMOR_MATERIALS = ['silver', 'copper', 'soul_steel', 'titanium', 'anodized_titan
 # Main
 def main():
     # Create item files from DataItem
-    create_new_item_files(ITEMS)
+    create_new_item_files(ITEMS, False)
     # Create Armor items
     create_armor_files(ARMOR_MATERIALS, ARMOR_PIECES)
     # Create basic file for CUSTOM items   
@@ -177,7 +183,7 @@ def main():
             generate_item_file(item)
         #generate_item_file(item) # OVERRIDE
     # Write as kotlin values -> _kotlin .txt
-    ALL_ITEMS = ITEMS + CUSTOM
+    ALL_ITEMS = NEW_ITEMS
     to_text_line = lambda x : f'val {x.item_name.upper()} = DataItem("{x.item_name}") \n'
     lines = [to_text_line(x) for x in ALL_ITEMS]
     with open("_kotlin.txt", 'w') as f:

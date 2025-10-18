@@ -3,6 +3,5 @@
   "description": {
     "translate": "trim_pattern.odyssey.imperial",
     "fallback": "Imperial Armor Trim"
-  },
-  "template_item": "minecraft:gold_block"
+  }
 }

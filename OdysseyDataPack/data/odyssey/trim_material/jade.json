@@ -4,6 +4,5 @@
     "color": "#002e1e",
     "translate": "trim_material.odyssey.jade",
     "fallback": "Jade Material"
-  },
-  "ingredient": "minecraft:jigsaw"
+  }
 }

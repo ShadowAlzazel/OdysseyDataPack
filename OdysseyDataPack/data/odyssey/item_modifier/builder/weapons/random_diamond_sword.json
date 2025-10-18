@@ -1,0 +1,127 @@
+[
+  {
+    "function": "minecraft:sequence",
+    "functions": [
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/katana/diamond_katana",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/claymore/diamond_claymore",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/dagger/diamond_dagger",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/rapier/diamond_rapier",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/cutlass/diamond_cutlass",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/saber/diamond_saber",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/sickle/diamond_sickle",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/chakram/diamond_chakram",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/kunai/diamond_kunai",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/longsword/diamond_longsword",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/zweihander/diamond_zweihander",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      },
+      {
+        "function": "minecraft:reference",
+        "name": "odyssey:builder/weapons/kriegsmesser/diamond_kriegsmesser",
+        "conditions": [
+          {
+            "condition": "random_chance",
+            "chance": 0.0833333333
+          }
+        ]
+      }
+    ]
+  }
+]

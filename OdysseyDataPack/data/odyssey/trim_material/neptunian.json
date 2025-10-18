@@ -4,6 +4,5 @@
     "color": "#1a6eaa",
     "translate": "trim_material.odyssey.neptunian",
     "fallback": "Neptunian Material"
-  },
-  "ingredient": "minecraft:jigsaw"
+  }
 }

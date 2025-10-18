@@ -12,7 +12,8 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "alexandrite",
-                "minecraft:item_model": "odyssey:alexandrite"
+                "minecraft:item_model": "odyssey:alexandrite",
+                "minecraft:provides_trim_material": "odyssey:alexandrite"
               },
               "conditions": []
             },

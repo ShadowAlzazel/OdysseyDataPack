@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 6,
+  "anvil_cost": 4,
   "description": {
     "translate": "enchantment.odyssey.analysis"
   },
@@ -20,7 +20,7 @@
       {
         "effect": {
           "type": "minecraft:multiply",
-          "factor": {
+          "factor": { 
             "type": "minecraft:linear",
             "base": 1.1,
             "per_level_above_first": 0.1
@@ -30,15 +30,15 @@
     ]
   },
   "max_cost": {
-    "base": 13,
-    "per_level_above_first": 7
+    "base": 7,
+    "per_level_above_first": 6
   },
   "max_level": 4,
   "min_cost": {
-    "base": 10,
-    "per_level_above_first": 7
+    "base": 6,
+    "per_level_above_first": 6
   },
   "slots": ["head"],
   "supported_items": "#minecraft:enchantable/head_armor",
-  "weight": 1
+  "weight": 2
 }

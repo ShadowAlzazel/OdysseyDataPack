@@ -1,66 +1,81 @@
 {
-    "type": "minecraft:tree",
-    "config": {
-      "decorators": [],
-      "force_dirt": false,
-      "ignore_vines": true,
-      "minimum_size": {
-        "type": "minecraft:two_layers_feature_size",
-        "limit": 0,
-        "lower_size": 0,
-        "upper_size": 0
-      },
-      "dirt_provider": {
-        "type": "minecraft:simple_state_provider",
-        "state": {
-          "Name": "minecraft:red_sandstone"
+  "type": "minecraft:tree",
+  "config": {
+    "decorators": [],
+    "root_placer": {
+      "type": "minecraft:mangrove_root_placer",
+      "above_root_placement": {
+        "above_root_placement_chance": 0.72,
+        "above_root_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:diorite_slab"
+          }
         }
       },
-      "trunk_provider": {
-        "type": "minecraft:weighted_state_provider",
-        "entries": [
-          {
-            "data": {
-              "Name": "minecraft:diorite"
-            },
-            "weight": 6
-          },
-          {
-            "data": {
-              "Name": "minecraft:diorite"
-            },
-            "weight": 8
+      "mangrove_root_placement": {
+        "can_grow_through": "#odyssey:danakil_mounds_replaceable",
+        "max_root_length": 4,
+        "max_root_width": 2,
+        "muddy_roots_in": [
+          "minecraft:stone"
+        ],
+        "muddy_roots_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:diorite"
           }
-        ]
+        },
+        "random_skew_chance": 0.3
       },
-      "trunk_placer": {
-        "type": "minecraft:straight_trunk_placer",
-        "base_height": 1,
-        "height_rand_a": 0,
-        "height_rand_b": 0
+      "root_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:diorite"
+        }
       },
-      "foliage_provider": {
-        "type": "minecraft:weighted_state_provider",
-        "entries": [
-          {
-            "data": {
-              "Name": "minecraft:diorite_slab"
-            },
-            "weight": 6
-          },
-          {
-            "data": {
-              "Name": "minecraft:diorite_slab"
-            },
-            "weight": 8
-          }
-        ]
-      },
-      "foliage_placer": {
-        "type": "minecraft:bush_foliage_placer",
-        "offset": 0,
-        "radius": 2,
-        "height": 1
+      "trunk_offset_y": {
+        "type": "minecraft:constant",
+        "value": 1
       }
+    },
+    "force_dirt": false,
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 0,
+      "lower_size": 0,
+      "upper_size": 0
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:diorite"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:diorite"
+      }
+    },
+    "trunk_placer": {
+      "type": "minecraft:giant_trunk_placer",
+      "base_height": 2,
+      "height_rand_a": 2,
+      "height_rand_b": 2
+    },
+    "foliage_provider": {
+      "type": "simple_state_provider",
+      "state": {
+        "Name": "minecraft:diorite_slab"
+      }
+    },
+    "foliage_placer": {
+      "type": "minecraft:blob_foliage_placer",
+      "height": 0,
+      "offset": 0,
+      "radius": 1
     }
+  }
 }

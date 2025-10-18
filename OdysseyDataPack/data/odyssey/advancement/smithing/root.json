@@ -14,7 +14,7 @@
     "description": {
       "translate": "Smithing is more than creating weapons. It is about epic and cool weapons."
     },
-    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    "background": "odyssey:gui/advancements/backgrounds/deepslate_bricks"
   },
   "criteria": {
     "smithing_table": {

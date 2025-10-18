@@ -1,0 +1,93 @@
+{
+  "parent": "odyssey:edge/find_sunken_library",
+  "criteria": {
+    "all_tomes": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanted_book",
+            "components": {
+              "minecraft:item_name": "tome_of_discharge",
+              "minecraft:item_model": "odyssey:tome_of_discharge"
+            }
+          },
+          {
+            "items": "minecraft:enchanted_book",
+            "components": {
+              "minecraft:item_name": "tome_of_promotion",
+              "minecraft:item_model": "odyssey:tome_of_promotion"
+            }
+          },
+          {
+            "items": "minecraft:enchanted_book",
+            "components": {
+              "minecraft:item_name": "tome_of_imitation",
+              "minecraft:item_model": "odyssey:tome_of_imitation"
+            }
+          },
+          {
+            "items": "minecraft:enchanted_book",
+            "components": {
+              "minecraft:item_name": "tome_of_expenditure",
+              "minecraft:item_model": "odyssey:tome_of_expenditure"
+            }
+          },
+          {
+            "items": "minecraft:enchanted_book",
+            "components": {
+              "minecraft:item_name": "tome_of_avarice",
+              "minecraft:item_model": "odyssey:tome_of_avarice"
+            }
+          },
+          {
+            "items": "minecraft:enchanted_book",
+            "components": {
+              "minecraft:item_name": "tome_of_harmony",
+              "minecraft:item_model": "odyssey:tome_of_harmony"
+            }
+          },
+          {
+            "items": "minecraft:enchanted_book",
+            "components": {
+              "minecraft:item_name": "tome_of_replication",
+              "minecraft:item_model": "odyssey:tome_of_replication"
+            }
+          },
+          {
+            "items": "minecraft:enchanted_book",
+            "components": {
+              "minecraft:item_name": "tome_of_extraction",
+              "minecraft:item_model": "odyssey:tome_of_extraction"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.edge.all_tomes.description",
+      "fallback": "Hold all the tomes at on time."
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:item_model": "odyssey:tome_of_extraction",
+        "minecraft:item_name": "tome_of_extraction"
+      }
+    },
+    "title": {
+      "translate": "advancements.edge.all_tomes.title",
+      "fallback": "Yeah, it's big brain time."
+    }
+  },
+  "requirements": [
+    ["all_tomes"]
+  ],
+  "rewards": {
+    "experience": 300
+  }
+}

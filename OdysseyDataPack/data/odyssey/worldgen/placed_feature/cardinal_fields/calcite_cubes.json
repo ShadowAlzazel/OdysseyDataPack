@@ -1,0 +1,23 @@
+{
+  "feature": "odyssey:cardinal_fields/calcite_cube_bottom",
+  "placement": [
+    {
+      "type": "count",
+      "count": 1
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 2
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

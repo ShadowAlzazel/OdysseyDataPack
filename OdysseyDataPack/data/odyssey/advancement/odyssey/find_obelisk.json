@@ -21,7 +21,8 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "Find a mysterious tall stone obelisk."
+      "translate": "advancements.odyssey.find_obelisk.description",
+      "fallback": "Find a mysterious tall stone obelisk."
     },
     "frame": "goal",
     "hidden": false,
@@ -34,7 +35,8 @@
     },
     "show_toast": true,
     "title": {
-      "translate": "The Tormentor"
+      "translate": "advancements.odyssey.find_obelisk.title",
+      "fallback": "The Tormentor"
     }
   },
   "requirements": [

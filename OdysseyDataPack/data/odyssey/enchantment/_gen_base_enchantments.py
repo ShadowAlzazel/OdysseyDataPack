@@ -47,7 +47,7 @@ armor_enchants = [
     "analysis", # Helmet
     "antibonk", # Helmet
     "beastly", # Armor
-    "black_rose", # Chest
+    "styx_rose", # Chest
     "blurcise", # Leggings
     "brawler", # Armor
     "bulwark", # Armor

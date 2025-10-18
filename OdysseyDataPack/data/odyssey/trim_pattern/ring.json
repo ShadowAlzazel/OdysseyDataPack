@@ -3,6 +3,5 @@
   "description": {
     "translate": "trim_pattern.odyssey.ring",
     "fallback": "Ring Armor Trim"
-  },
-  "template_item": "minecraft:trial_key"
+  }
 }

@@ -3,6 +3,5 @@
   "description": {
     "translate": "trim_pattern.odyssey.leaf",
     "fallback": "Leaf Armor Trim"
-  },
-  "template_item": "minecraft:dark_oak_leaves"
+  }
 }

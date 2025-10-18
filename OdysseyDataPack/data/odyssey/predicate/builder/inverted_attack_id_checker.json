@@ -1,0 +1,7 @@
+{
+  "condition": "inverted",
+  "term": {
+    "condition": "minecraft:reference",
+    "name": "odyssey:builder/item_has_odyssey_attack_id"
+  }
+}

@@ -29,6 +29,7 @@ venv/
 
 # Datapack zips
 .zip
+*.zip
 
 # Devops
 _kotlin.txt

@@ -1,0 +1,29 @@
+{
+  "feature": "odyssey:ha_long_bay/pillar_stone_base",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 1
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:clamped_normal",
+        "deviation": 3,
+        "min_inclusive": 4,
+        "max_inclusive": 8,
+        "mean": 5
+      }
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

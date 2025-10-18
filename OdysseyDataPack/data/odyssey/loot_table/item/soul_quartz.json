@@ -12,7 +12,8 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "soul_quartz",
-                "minecraft:item_model": "odyssey:soul_quartz"
+                "minecraft:item_model": "odyssey:soul_quartz",
+                "minecraft:provides_trim_material": "odyssey:soul_quartz"
               },
               "conditions": []
             },

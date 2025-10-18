@@ -3,6 +3,5 @@
   "description": {
     "translate": "trim_pattern.odyssey.trace",
     "fallback": "Trace Weapon Trim"
-  },
-  "template_item": "minecraft:enchanted_golden_apple"
+  }
 }

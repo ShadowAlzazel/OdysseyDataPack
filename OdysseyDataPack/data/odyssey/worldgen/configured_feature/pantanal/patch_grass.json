@@ -12,13 +12,19 @@
                   "data": {
                     "Name": "minecraft:short_grass"
                   },
-                  "weight": 2
+                  "weight": 10
                 },
                 {
                   "data": {
                     "Name": "minecraft:tall_grass"
                   },
-                  "weight": 10
+                  "weight": 50
+                },
+                {
+                  "data": {
+                    "Name": "minecraft:firefly_bush"
+                  },
+                  "weight": 2
                 }
               ]
             }
@@ -43,7 +49,7 @@
           }
         ]
       },
-      "tries": 96,
+      "tries": 80,
       "xz_spread": 9,
       "y_spread": 3
     }

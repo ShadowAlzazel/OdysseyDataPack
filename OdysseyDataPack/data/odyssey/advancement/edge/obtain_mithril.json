@@ -1,0 +1,46 @@
+{
+  "parent": "odyssey:edge/find_shadow_chambers",
+  "criteria": {
+    "mithril_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_ingot",
+            "components": {
+              "minecraft:item_name": "mithril_ingot",
+              "minecraft:item_model": "odyssey:mithril_ingot"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "task",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_ingot",
+      "components": {
+        "minecraft:item_model": "odyssey:mithril_ingot",
+        "minecraft:item_name": "mithril_ingot"
+      }
+    },
+    "title": {
+      "translate": "advancements.edge.obtain_mithril.title",
+      "fallback": "A Mythical Metal"
+    },
+    "description": {
+      "translate": "advancements.edge.obtain_mithril.description",
+      "fallback": "Obtain an ingot of mithril from the shadow chambers."
+    }
+  },
+  "requirements": [
+    [
+      "mithril_ingot"
+    ]
+  ]
+}

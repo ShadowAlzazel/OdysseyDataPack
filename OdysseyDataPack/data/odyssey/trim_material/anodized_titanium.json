@@ -4,6 +4,5 @@
     "color": "#2744cb",
     "translate": "trim_material.odyssey.alexandrite",
     "fallback": "Anodized Titanium Material"
-  },
-  "ingredient": "minecraft:jigsaw"
+  }
 }

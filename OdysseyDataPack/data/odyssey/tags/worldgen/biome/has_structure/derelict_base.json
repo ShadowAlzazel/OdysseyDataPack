@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     "odyssey:aspen_forest",
-    "odyssey:birch_backwoods",
+    "odyssey:wildwoods",
     "odyssey:aetherial_woods",
     "odyssey:inazuma_forest",
     "odyssey:marina_moor",
@@ -10,6 +10,8 @@
     "odyssey:cardinal_fields",
     "odyssey:ordinal_plains",
     "odyssey:mytreilium_coppice",
+    "odyssey:great_plains",
+    "odyssey:ubsunur_hollow",
     "#minecraft:is_forest",
     "#minecraft:is_hill",
     "#minecraft:is_jungle",
