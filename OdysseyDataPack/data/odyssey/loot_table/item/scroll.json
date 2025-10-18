@@ -14,7 +14,7 @@
                 "minecraft:item_name": "scroll",
                 "minecraft:item_model": "odyssey:scroll",
                 "minecraft:consumable": {
-                  "consume_seconds": 1.2,
+                  "consume_seconds": 1.5,
                   "sound": "minecraft:item.book.page_turn",
                   "animation": "block"
                 }

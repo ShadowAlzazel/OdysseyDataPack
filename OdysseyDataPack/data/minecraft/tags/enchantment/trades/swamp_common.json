@@ -2,6 +2,8 @@
   "values": [
     "odyssey:entanglement",
     "odyssey:ignore_pain",
-    "odyssey:metabolic"
+    "odyssey:metabolic",
+    "odyssey:leap_frog",
+    "odyssey:frog_fright"
   ]
 }

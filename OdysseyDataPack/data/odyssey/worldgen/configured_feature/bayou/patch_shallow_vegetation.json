@@ -34,7 +34,7 @@
                 },
                 {
                   "data": {
-                    "Name": "minecraft:oak_leaves",
+                    "Name": "minecraft:azalea_leaves",
                     "Properties": {
                       "distance": "7",
                       "persistent": "true",

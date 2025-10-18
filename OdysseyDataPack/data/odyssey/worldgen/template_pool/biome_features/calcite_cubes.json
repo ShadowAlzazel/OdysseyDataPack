@@ -1,0 +1,91 @@
+{
+  "name": "odyssey:hypercubic_chamber/origin",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:biomes_features/calcite_cube_2x2",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:gravity",
+              "heightmap": "WORLD_SURFACE_WG",
+              "offset": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:biomes_features/calcite_cube_3x3",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:gravity",
+              "heightmap": "WORLD_SURFACE_WG",
+              "offset": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:biomes_features/calcite_cube_4x4",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:gravity",
+              "heightmap": "WORLD_SURFACE_WG",
+              "offset": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:biomes_features/calcite_cube_3and2",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:gravity",
+              "heightmap": "WORLD_SURFACE_WG",
+              "offset": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:biomes_features/calcite_cube_2n2n2",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:gravity",
+              "heightmap": "WORLD_SURFACE_WG",
+              "offset": 0
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

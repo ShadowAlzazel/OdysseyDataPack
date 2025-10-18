@@ -3,20 +3,24 @@
   "config": {
     "features": [
       {
-        "chance": 0.1,
+        "chance": 0.3,
         "feature": "odyssey:mutated_forest/tree_pine_adapted"
       },
       {
-        "chance": 0.22,
+        "chance": 0.25,
         "feature": "odyssey:mutated_forest/tree_rooted_adapted"
       },
       {
-        "chance": 0.18,
+        "chance": 0.15,
         "feature": "odyssey:mutated_forest/shroom_skyroot"
       },
       {
-        "chance": 0.18,
+        "chance": 0.2,
         "feature": "odyssey:mutated_forest/shroom_weep"
+      },
+      {
+        "chance": 0.1,
+        "feature": "odyssey:mutated_forest/shroom_tall"
       }
     ],
     "default": {

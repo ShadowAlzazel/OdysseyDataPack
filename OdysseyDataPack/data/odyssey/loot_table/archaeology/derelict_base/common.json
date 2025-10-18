@@ -28,6 +28,10 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot"
         },
+         {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot"
+        },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_sword"
@@ -74,12 +78,17 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "odyssey:item/silver_ingot",
+          "value": "odyssey:item/jovianite",
           "weight": 1
         },
         {
           "type": "minecraft:loot_table",
-          "value": "odyssey:loot/random_glyphsherd",
+          "value": "odyssey:item/neptunian",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/silver_ingot",
           "weight": 1
         },
         {

@@ -77,7 +77,8 @@
                 "minecraft:punch",
                 "minecraft:smite",
                 "minecraft:looting",
-                "minecraft:multishot"
+                "minecraft:multishot",
+                "odyssey:fealty"
               ]
             }
           ],
@@ -91,7 +92,8 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:breach",
-                "minecraft:density"
+                "minecraft:density",
+                "odyssey:fealty"
               ]
             }
           ],
@@ -124,6 +126,38 @@
                 "min": 1.0
               },
               "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "odyssey:fealty"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "odyssey:loot/custom_diamond_sword"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "odyssey:loot/set_new_custom_parts"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "rare"
+              }
             }
           ],
           "weight": 2

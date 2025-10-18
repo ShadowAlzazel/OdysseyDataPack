@@ -1,0 +1,43 @@
+{
+  "type": "fossil",
+  "config": {
+    "fossil_structures": [
+      "odyssey:biomes_features/big_cobblestone"
+    ],
+    "overlay_structures": [
+      "odyssey:biomes_features/big_cobblestone"
+    ],
+    "fossil_processors": [
+      {
+        "processor_type": "minecraft:gravity",
+        "heightmap": "OCEAN_FLOOR_WG",
+        "offset": -2
+      }
+    ],
+    "overlay_processors": [
+      {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "input_predicate": {
+              "block": "minecraft:cobblestone",
+              "predicate_type": "minecraft:random_block_match",
+              "probability": 0.085
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:andesite"
+            }
+          }
+        ]
+      },
+      {
+        "processor_type": "minecraft:block_rot",
+        "integrity": 0.10
+      }
+    ],
+    "max_empty_corners_allowed": 4
+  }
+}

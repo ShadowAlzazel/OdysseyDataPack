@@ -4,7 +4,6 @@
     "half_height": 2,
     "radius": {
       "type": "minecraft:uniform",
-
       "max_inclusive": 5,
       "min_inclusive": 3
     },

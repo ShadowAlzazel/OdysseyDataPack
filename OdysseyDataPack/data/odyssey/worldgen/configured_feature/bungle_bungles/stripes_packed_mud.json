@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [],
+    "default": {
+      "feature": {
+        "type": "simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:packed_mud"
+            }
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "count",
+          "count": {
+            "type": "minecraft:uniform",
+            "max_inclusive": 80,
+            "min_inclusive": 60
+          }
+        },
+        {
+          "type": "minecraft:random_offset",
+          "xz_spread": {
+            "type": "minecraft:uniform",
+            "min_inclusive": -7,
+            "max_inclusive": 7
+          },
+          "y_spread": {
+            "type": "minecraft:uniform",
+            "min_inclusive": 0,
+            "max_inclusive": 0
+          }
+        },
+        {
+          "type": "block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:terracotta"
+                ]
+              },
+              {
+                "type": "not",
+                "predicate": {
+                  "type": "any_of",
+                  "predicates": [
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "blocks": [
+                        "minecraft:packed_mud"
+                      ],
+                      "offset": [
+                        0,
+                        1,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "minecraft:matching_blocks",
+                      "blocks": [
+                        "minecraft:packed_mud"
+                      ],
+                      "offset": [
+                        0,
+                        -1,
+                        0
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

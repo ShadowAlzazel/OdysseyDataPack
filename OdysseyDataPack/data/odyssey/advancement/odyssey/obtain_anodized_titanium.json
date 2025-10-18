@@ -10,9 +10,10 @@
     }
   },
   "display": {
-    "announce_to_chat": false,
-    "description": {
-      "translate": "Deep Blue"
+    "announce_to_chat": true,
+    "title": {
+      "translate": "advancements.odyssey.obtain_anodized_titanium.title",
+      "fallback": "Deep Blue"
     },
     "frame": "goal",
     "hidden": false,
@@ -25,8 +26,9 @@
       }
     },
     "show_toast": true,
-    "title": {
-      "translate": "Heat a peice of titanium in the furnace; then heat it again to get its anodized form."
+    "description": {
+      "translate": "advancements.odyssey.obtain_anodized_titanium.description",
+      "fallback": "Heat a peice of titanium in the furnace; then heat it again to get its anodized form."
     }
   },
   "requirements": [

@@ -21,9 +21,10 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "Locate the facility that was used for enderdimensional research"
+      "translate": "advancements.edge.find_terminal_grid.description",
+      "fallback": "Locate the facility that was used for enderdimensional research"
     },
-    "frame": "goal",
+    "frame": "task",
     "hidden": false,
     "icon": {
       "count": 1,
@@ -34,7 +35,8 @@
     },
     "show_toast": true,
     "title": {
-      "translate": "Corrupted End"
+      "translate": "advancements.edge.find_terminal_grid.title",
+      "fallback": "A Pale End"
     }
   },
   "requirements": [

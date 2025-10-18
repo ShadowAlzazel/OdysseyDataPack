@@ -3,11 +3,11 @@
   "config": {
     "features": [
       {
-        "chance": 0.33,
+        "chance": 0.25,
         "feature": "odyssey:hoh_rainforest/tree_hemlock"
       },
       {
-        "chance": 0.37,
+        "chance": 0.45,
         "feature": "odyssey:hoh_rainforest/tree_tall_spruce"
       },
       {

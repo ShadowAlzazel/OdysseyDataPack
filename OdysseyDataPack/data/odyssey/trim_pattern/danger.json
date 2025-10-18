@@ -3,6 +3,5 @@
   "description": {
     "translate": "trim_pattern.odyssey.danger",
     "fallback": "Danger Armor Trim"
-  },
-  "template_item": "minecraft:grass_block"
+  }
 }

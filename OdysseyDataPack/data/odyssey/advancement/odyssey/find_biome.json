@@ -10,10 +10,12 @@
       "id": "minecraft:cherry_sapling"
     },
     "title": {
-      "translate": "Mo Tree"
+      "translate": "advancements.odyssey.find_biome.title",
+      "fallback": "Insert Sean Bean Quote"
     },
     "description": {
-      "translate": "Find an Odyssey biome!"
+      "translate": "advancements.odyssey.find_biome.title",
+      "fallback": "Find an Odyssey biome!"
     }
   },
   "criteria": {
@@ -42,6 +44,22 @@
             "predicate": {
               "location": {
                 "biomes": "odyssey:bayou"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "odyssey:bungle_bungles": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "odyssey:bungle_bungles"
               }
             }
           }
@@ -113,6 +131,22 @@
       },
       "trigger": "minecraft:location"
     },
+    "odyssey:great_plains": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "odyssey:grand_teton"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
     "odyssey:hoh_rainforest": {
       "conditions": {
         "player": [
@@ -129,7 +163,7 @@
       },
       "trigger": "minecraft:location"
     },
-    "odyssey:jurassic_heights": {
+    "odyssey:jurassic_overgrowth": {
       "conditions": {
         "player": [
           {
@@ -137,7 +171,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "odyssey:jurassic_heights"
+                "biomes": "odyssey:jurassic_overgrowth"
               }
             }
           }
@@ -154,22 +188,6 @@
             "predicate": {
               "location": {
                 "biomes": "odyssey:marsh"
-              }
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:location"
-    },
-    "odyssey:mutated_forest": {
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "biomes": "odyssey:mutated_forest"
               }
             }
           }
@@ -256,6 +274,38 @@
         ]
       },
       "trigger": "minecraft:location"
+    },
+    "odyssey:ubsunur_hollow": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "odyssey:ubsunur_hollow"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "odyssey:amazon_rainforest": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "odyssey:amazon_rainforest"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
     }
   },
   "requirements": [
@@ -266,15 +316,18 @@
       "odyssey:cypress_grove",
       "odyssey:danakil",
       "odyssey:grand_teton",
+      "odyssey:great_plains",
       "odyssey:hoh_rainforest",
-      "odyssey:jurassic_heights",
+      "odyssey:jurassic_overgrowth",
       "odyssey:marsh",
-      "odyssey:mutated_forest",
       "odyssey:pantanal",
       "odyssey:redwood_forest",
       "odyssey:sierra",
       "odyssey:tsingy",
-      "odyssey:zhangjiajie"
+      "odyssey:zhangjiajie",
+      "odyssey:ubsunur_hollow",
+      "odyssey:bungle_bungles",
+      "odyssey:amazon_rainforest"
     ]
   ]
 }

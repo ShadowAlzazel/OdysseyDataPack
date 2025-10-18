@@ -1,0 +1,20 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "fallback": "Curse of Brutality",
+    "translate": "enchantment.odyssey.brutality_curse"
+  },
+  "effects": {},
+  "max_cost": {
+    "base": 4,
+    "per_level_above_first": 7
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 7
+  },
+  "slots": ["any"],
+  "supported_items": "#minecraft:enchantable/durability",
+  "weight": 6
+}

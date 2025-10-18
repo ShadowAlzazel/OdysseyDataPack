@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 1.0,
+        "feature": "odyssey:great_plains/tree"
+      }
+    ],
+    "default": {
+      "feature": "odyssey:great_plains/tree",
+      "placement": []
+    }
+  }
+}

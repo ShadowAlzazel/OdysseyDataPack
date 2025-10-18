@@ -19,7 +19,72 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 2
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "odyssey:loot/custom_iron_sword",
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 1.0
+                }
+              ]
+            }
+          ],
+          "weight": 8
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/crystal_alloy_ingot",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/jovianite",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/neptunian",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -35,7 +100,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 1
+          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -51,7 +116,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 2
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -67,7 +132,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 2
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -83,16 +148,69 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 2
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald_block",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_block",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 4.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_apple",
           "functions": [],
-          "weight": 1
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "odyssey:loot/custom_diamond_sword"
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "odyssey:loot/set_new_custom_parts"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "rare"
+              }
+            }
+          ],
+          "weight": 5
         }
       ],
-      "rolls": 1.0
+      "rolls": 3.0
     }
   ]
 }

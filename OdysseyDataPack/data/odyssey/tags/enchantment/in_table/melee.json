@@ -1,12 +1,12 @@
 {
   "values": [
+    "odyssey:aerosion_aspect",
     "odyssey:agile",
     "odyssey:backstabber",
     "odyssey:bane_of_the_illager",
     "odyssey:bane_of_the_sea",
     "odyssey:bane_of_the_swine",
     "odyssey:buzzy_bees",
-    "odyssey:cleave",
     "odyssey:committed",
     "odyssey:cull_the_weak",
     "odyssey:echo",
@@ -19,14 +19,16 @@
     "odyssey:hemorrhage",
     "odyssey:illucidation",
     "odyssey:invocative",
-    "odyssey:magic_touch",
+    "odyssey:magic_aspect",
     "odyssey:metabolic",
-    "odyssey:pluck_pocket",
+    "odyssey:pluck",
+    "odyssey:plunder",
     "odyssey:rupture",
     "odyssey:swap",
     "odyssey:vengeful",
     "odyssey:vital",
     "odyssey:void_strike",
-    "odyssey:whirlwind"
+    "odyssey:whirlwind",
+    "odyssey:lodesight"
   ]
 }

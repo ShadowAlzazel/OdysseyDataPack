@@ -12,7 +12,8 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "kunzite",
-                "minecraft:item_model": "odyssey:kunzite"
+                "minecraft:item_model": "odyssey:kunzite",
+                "minecraft:provides_trim_material": "odyssey:kunzite"
               },
               "conditions": []
             },

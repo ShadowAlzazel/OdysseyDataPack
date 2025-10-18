@@ -21,9 +21,10 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "Find the dungeon that seemingly exists"
+      "translate": "advancements.edge.find_hypercubic_chamber.description",
+      "fallback": "Find the dungeon that seemingly exists"
     },
-    "frame": "goal",
+    "frame": "task",
     "hidden": false,
     "icon": {
       "count": 1,
@@ -34,7 +35,8 @@
     },
     "show_toast": true,
     "title": {
-      "translate": "Cooper is not Here"
+      "translate": "advancements.edge.find_hypercubic_chamber.title",
+      "fallback": "Cooper is not Here"
     }
   },
   "requirements": [

@@ -4,6 +4,5 @@
     "color": "#842ec9",
     "translate": "trim_material.odyssey.iridium",
     "fallback": "Iridium Material"
-  },
-  "ingredient": "minecraft:jigsaw"
+  }
 }

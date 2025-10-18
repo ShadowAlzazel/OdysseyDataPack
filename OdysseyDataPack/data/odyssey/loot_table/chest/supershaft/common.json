@@ -3,7 +3,7 @@
   "random_sequence": "odyssey:chest/supershaft/common",
   "pools": [
     {
-      "rolls": 3.0,
+      "rolls": 4.0,
       "bonus_rolls": 1.0,
       "entries": [
         {
@@ -20,7 +20,7 @@
             }
           ],
           "name": "minecraft:raw_copper",
-          "weight": 125
+          "weight": 75
         },
         {
           "type": "minecraft:item",
@@ -36,7 +36,7 @@
             }
           ],
           "name": "minecraft:raw_iron",
-          "weight": 125
+          "weight": 75
         },
         {
           "type": "minecraft:item",
@@ -52,7 +52,7 @@
             }
           ],
           "name": "minecraft:coal",
-          "weight": 100
+          "weight": 50
         },
         {
           "type": "minecraft:item",
@@ -100,7 +100,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 10
+          "weight": 15
         },
         {
           "type": "minecraft:item",
@@ -116,11 +116,11 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 5
+          "weight": 10
         },
         {
           "type": "minecraft:loot_table",
-          "value":"odyssey:loot/random_gem",
+          "value": "odyssey:loot/random_gem",
           "functions": [
             {
               "add": false,
@@ -132,7 +132,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 5
+          "weight": 10
         }
       ]
     },
@@ -169,7 +169,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 15
+          "weight": 30
         },
         {
           "type": "minecraft:loot_table",
@@ -185,7 +185,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 3
+          "weight": 25
         },
         {
           "type": "minecraft:loot_table",
@@ -201,7 +201,23 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 1
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/iridium_ingot",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 5
         }
       ],
       "rolls": 1.0

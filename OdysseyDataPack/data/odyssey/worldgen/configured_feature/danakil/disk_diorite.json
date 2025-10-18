@@ -1,31 +1,28 @@
 {
-    "type": "minecraft:disk",
-    "config": {
-      "half_height": 3,
-      "radius": {
-        "type": "minecraft:uniform",
-        
-          "max_inclusive": 7,
-          "min_inclusive": 5
-        
+  "type": "minecraft:disk",
+  "config": {
+    "half_height": 3,
+    "radius": {
+      "type": "minecraft:uniform",
+
+      "max_inclusive": 7,
+      "min_inclusive": 5
+    },
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:diorite"
+        }
       },
-      "state_provider": {
-        "fallback": {
-          "type": "minecraft:simple_state_provider",
-          "state": {
-            "Name": "minecraft:diorite"
-          }
-        },
-        "rules": []
-      },
-      "target": {
-        "type": "minecraft:matching_blocks",
-        "blocks": [
-          "minecraft:dirt",
-          "minecraft:grass_block",
-          "minecraft:smooth_red_sandstone"
-        ]
-      }
+      "rules": []
+    },
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:terracotta",
+        "minecraft:smooth_red_sandstone"
+      ]
     }
   }
-  
+}

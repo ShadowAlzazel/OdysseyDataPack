@@ -1,6 +1,6 @@
 {
   "has_precipitation": true,
-  "temperature": 0.6,
+  "temperature": 0.8,
   "downfall": 0.9,
   "creature_spawn_probability": 0.4,
   "carvers": [
@@ -113,34 +113,10 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:sheep",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 12
-      },
-      {
-        "type": "minecraft:pig",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
         "type": "minecraft:chicken",
         "maxCount": 4,
         "minCount": 4,
         "weight": 10
-      },
-      {
-        "type": "minecraft:cow",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 8
-      },
-      {
-        "type": "minecraft:rabbit",
-        "maxCount": 3,
-        "minCount": 2,
-        "weight": 4
       }
     ],
     "misc": [],
@@ -159,9 +135,9 @@
       },
       {
         "type": "minecraft:zombie_villager",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 5
+        "maxCount": 2,
+        "minCount": 2,
+        "weight": 10
       },
       {
         "type": "minecraft:skeleton",
@@ -189,9 +165,9 @@
       },
       {
         "type": "minecraft:witch",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 5
+        "maxCount": 2,
+        "minCount": 2,
+        "weight": 10
       }
     ],
     "underground_water_creature": [

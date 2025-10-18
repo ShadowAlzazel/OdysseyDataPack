@@ -4,6 +4,5 @@
     "color": "#ebecf9",
     "translate": "trim_material.odyssey.silver",
     "fallback": "Silver Material"
-  },
-  "ingredient": "minecraft:jigsaw"
+  }
 }

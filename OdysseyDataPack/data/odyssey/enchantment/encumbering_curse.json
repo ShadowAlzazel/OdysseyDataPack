@@ -1,6 +1,7 @@
 {
   "anvil_cost": 4,
   "description": {
+    "fallback": "Curse of Encumbering",
     "translate": "enchantment.odyssey.encumbering_curse"
   },
   "effects": {

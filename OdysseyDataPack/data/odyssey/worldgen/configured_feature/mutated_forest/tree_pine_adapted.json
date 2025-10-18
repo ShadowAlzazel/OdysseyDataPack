@@ -134,7 +134,7 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:spruce_log",
+        "Name": "minecraft:pale_oak_log",
         "Properties": {
           "axis": "y"
         }
@@ -149,7 +149,7 @@
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:spruce_leaves",
+        "Name": "minecraft:dark_oak_leaves",
         "Properties": {
           "persistent": "true",
           "distance": "7"

@@ -1,0 +1,55 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "spell_scroll",
+                "minecraft:item_model": "odyssey:spell_scroll",
+                "!max_stack_size": {},
+                "minecraft:consumable": {
+                  "consume_seconds": 1.8,
+                  "sound": "minecraft:item.book.page_turn",
+                  "animation": "block"
+                },
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:max_damage": 64,
+                "minecraft:damage": 0,
+                "minecraft:rarity": "rare",
+                "minecraft:use_cooldown": {
+                  "seconds": 1.8,
+                  "cooldown_group": "odyssey:spell_scroll"
+                },
+                "minecraft:repairable": {
+                  "items": [
+                    "minecraft:paper",
+                    "minecraft:ink_sac"
+                  ]
+                }
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Spell Scroll",
+                "bold": false,
+                "italic": false
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

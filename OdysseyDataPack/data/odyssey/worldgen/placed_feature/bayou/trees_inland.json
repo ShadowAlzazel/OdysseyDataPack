@@ -1,39 +1,38 @@
 {
-	"feature": "odyssey:bayou/trees_inland",
-	"placement": [
-		{
-			"type": "count",
-			"count": 18
-		},
-		{
-			"type": "minecraft:in_square"
-		},
-		{
-			"type": "heightmap",
-			"heightmap": "WORLD_SURFACE"
-		},
-		{
-			"type": "minecraft:block_predicate_filter",
-			"predicate": {
-				"type": "minecraft:matching_blocks",
-				"offset": [
-					0,
-					-1,
-					0
-				],
-				"blocks": [
-					"minecraft:mud",
-					"minecraft:dirt",
-                    "minecraft:grass_block",
-                    "minecraft:dripstone_block",
-					"minecraft:sand",
-					"minecraft:gravel",
-					"minecraft:clay"
-				]
-			}
-		},
-		{
-			"type": "minecraft:biome"
-		}
-	]
+  "feature": "odyssey:bayou/trees_inland",
+  "placement": [
+    {
+      "type": "count",
+      "count": 20
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0, -1, 0
+        ],
+        "blocks": [
+          "minecraft:mud",
+          "minecraft:dirt",
+          "minecraft:grass_block",
+          "minecraft:sand",
+          "minecraft:gravel",
+          "minecraft:clay",
+          "minecraft:moss_block",
+          "minecraft:dripstone_block"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
 }

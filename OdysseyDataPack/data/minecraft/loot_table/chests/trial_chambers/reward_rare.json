@@ -127,7 +127,8 @@
                 "minecraft:efficiency",
                 "minecraft:fortune",
                 "minecraft:silk_touch",
-                "minecraft:feather_falling"
+                "minecraft:feather_falling",
+                "odyssey:fealty"
               ]
             }
           ],
@@ -195,6 +196,11 @@
               "function": "minecraft:set_count"
             }
           ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/titanium_upgrade_template",
           "weight": 2
         }
       ],

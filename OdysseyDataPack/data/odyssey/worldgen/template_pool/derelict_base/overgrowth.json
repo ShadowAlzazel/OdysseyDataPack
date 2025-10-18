@@ -6,7 +6,7 @@
       "weight": 2,
       "element": {
         "element_type": "minecraft:feature_pool_element",
-        "feature": "minecraft:trees_birch_and_oak",
+        "feature": "minecraft:trees_birch_and_oak_leaf_litter",
         "projection": "terrain_matching"
       }
     },

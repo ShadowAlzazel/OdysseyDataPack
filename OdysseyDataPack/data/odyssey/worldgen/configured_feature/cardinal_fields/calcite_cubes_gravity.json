@@ -1,0 +1,34 @@
+{
+  "type": "fossil",
+  "config": {
+    "fossil_structures": [
+      "odyssey:biomes_features/calcite_cube_2x2",
+      "odyssey:biomes_features/calcite_cube_3x3",
+      "odyssey:biomes_features/calcite_cube_4x4",
+      "odyssey:biomes_features/calcite_cube_3and2",
+      "odyssey:biomes_features/calcite_cube_2n2n2"
+    ],
+    "overlay_structures": [
+      "odyssey:biomes_features/calcite_cube_2x2",
+      "odyssey:biomes_features/calcite_cube_3x3",
+      "odyssey:biomes_features/calcite_cube_4x4",
+      "odyssey:biomes_features/calcite_cube_3and2",
+      "odyssey:biomes_features/calcite_cube_2n2n2"
+    ],
+    "fossil_processors": [
+      {
+        "processor_type": "minecraft:gravity",
+        "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+        "offset": -1
+      }
+    ],
+    "overlay_processors": [
+      {
+        "processor_type": "minecraft:gravity",
+        "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+        "offset": -1
+      }
+    ],
+    "max_empty_corners_allowed": 4
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "parent": "odyssey:edge/obtain_mithril",
+  "criteria": {
+    "mithril_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_helmet",
+              "minecraft:diamond_helmet"
+            ],
+            "components": {
+              "minecraft:item_model": "odyssey:mithril_helmet",
+              "minecraft:item_name": "mithril_helmet"
+            }
+          },
+          {
+            "items": [
+              "minecraft:iron_chestplate",
+              "minecraft:diamond_chestplate"
+            ],
+            "components": {
+              "minecraft:item_model": "odyssey:mithril_chestplate",
+              "minecraft:item_name": "mithril_chestplate"
+            }
+          },
+          {
+            "items": [
+              "minecraft:iron_leggings",
+              "minecraft:diamond_leggings"
+            ],
+            "components": {
+              "minecraft:item_model": "odyssey:mithril_leggings",
+              "minecraft:item_name": "mithril_leggings"
+            }
+          },
+          {
+            "items": [
+              "minecraft:iron_boots",
+              "minecraft:diamond_boots"
+            ],
+            "components": {
+              "minecraft:item_model": "odyssey:mithril_boots",
+              "minecraft:item_name": "mithril_boots"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_chestplate",
+      "components": {
+        "minecraft:item_model": "odyssey:mithril_chestplate",
+        "minecraft:item_name": "mithril_chestplate"
+      }
+    },
+    "title": {
+      "translate": "advancements.edge.mithril_armor.title",
+      "fallback": "Ost-in-Edhil"
+    },
+    "description": {
+      "translate": "advancements.edge.mithril_armor.description",
+      "fallback": "Adorn a full set of mithril armor."
+    }
+  },
+  "requirements": [
+    [
+      "mithril_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

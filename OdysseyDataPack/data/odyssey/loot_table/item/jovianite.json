@@ -12,7 +12,8 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "jovianite",
-                "minecraft:item_model": "odyssey:jovianite"
+                "minecraft:item_model": "odyssey:jovianite",
+                "minecraft:provides_trim_material": "odyssey:jovianite"
               },
               "conditions": []
             },

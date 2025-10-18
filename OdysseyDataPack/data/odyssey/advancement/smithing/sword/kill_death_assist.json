@@ -60,5 +60,8 @@
     [
       "kill_death_assist"
     ]
-  ]
+  ],
+  "rewards": {
+    "experience": 5
+  }
 }

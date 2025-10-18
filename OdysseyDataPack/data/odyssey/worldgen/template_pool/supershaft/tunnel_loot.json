@@ -1,0 +1,42 @@
+{
+  "name": "odyssey:supershaft/tunnel_loot",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "odyssey:supershaft/tunnel_loot_1",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+     {
+      "weight": 3,
+      "element": {
+        "location": "odyssey:supershaft/tunnel_loot_2",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+     {
+      "weight": 2,
+      "element": {
+        "location": "odyssey:supershaft/tunnel_loot_3",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+     {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:supershaft/tunnel_loot_4",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

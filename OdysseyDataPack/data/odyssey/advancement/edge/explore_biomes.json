@@ -13,10 +13,12 @@
       }
     },
     "title": {
-      "translate": "Life at the Edge"
+      "translate": "advancements.edge.explore_biomes.title",
+      "fallback": "Living life at the Edge"
     },
     "description": {
-      "translate": "Find every biome in the Edge!"
+      "translate": "advancements.edge.explore_biomes.description",
+      "fallback": "Find every biome in the Edge!"
     }
   },
   "criteria": {
@@ -36,7 +38,7 @@
       },
       "trigger": "minecraft:location"
     },
-    "odyssey:faded_bog": {
+    "odyssey:mutated_forest": {
       "conditions": {
         "player": [
           {
@@ -44,7 +46,23 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "biomes": "odyssey:faded_bog"
+                "biomes": "odyssey:mutated_forest"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "odyssey:faded_mire": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "odyssey:faded_mire"
               }
             }
           }
@@ -248,7 +266,10 @@
       "odyssey:spectral_gap"
     ],
     [
-      "odyssey:faded_bog"
+      "odyssey:faded_mire"
+    ],
+    [
+      "odyssey:mutated_forest"
     ]
   ]
 }

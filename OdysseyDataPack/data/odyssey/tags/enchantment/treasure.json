@@ -1,9 +1,11 @@
 {
   "values": [
+    "#odyssey:curse",
     "odyssey:gravity_well",
     "odyssey:singularity_shot",
-    "odyssey:black_rose",
+    "odyssey:styx_rose",
     "odyssey:sculk_sensitive",
-    "odyssey:fealty"
+    "odyssey:fealty",
+    "odyssey:execution"
   ]
 } 

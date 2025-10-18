@@ -1,8 +1,7 @@
 {
   "has_precipitation": true,
-  "temperature": 0.6,
-  "downfall": 0.6,
-  "player_spawn_friendly": true,
+  "temperature": 0.8,
+  "downfall": 0.9,
   "creature_spawn_probability": 0.4,
   "carvers": [
     "minecraft:cave",
@@ -19,7 +18,7 @@
     "grass_color_modifier": "none",
     "particle": {
       "options": {
-        "type": "minecraft:scrape"
+        "type": "minecraft:firefly"
       },
       "probability": 0.001
     },
@@ -89,7 +88,8 @@
       "odyssey:bayou/disk_dripstone",
       "odyssey:bayou/coast_mud",
       "odyssey:bayou/patch_pond",
-      "odyssey:bayou/disk_muddy"
+      "odyssey:bayou/disk_muddy",
+      "odyssey:bayou/pond_filler"
     ],
     [],
     [
@@ -103,7 +103,9 @@
       "odyssey:bayou/patch_moss",
       "odyssey:bayou/patch_shallow_vegetation",
       "odyssey:bayou/patch_vegetation",
-      "odyssey:bayou/glow_vines"
+      "odyssey:bayou/glow_vines",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_firefly_bush_near_water"
     ],
     [
       "minecraft:freeze_top_layer"

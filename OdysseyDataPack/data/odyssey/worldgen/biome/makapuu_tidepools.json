@@ -1,0 +1,107 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "creature_spawn_probability": 0.2,
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "effects": {
+    "sky_color": 7972607,
+    "fog_color": 12638463,
+    "water_color": 7335164,
+    "water_fog_color": 329011,
+    "foliage_color": 8966718,
+    "grass_color": 10537020,
+    "grass_color_modifier": "none",
+    "music": [
+      {
+        "data": {
+          "max_delay": 12000,
+          "min_delay": 6000,
+          "replace_current_music": false,
+          "sound": "minecraft:music.overworld.meadow"
+        },
+        "weight": 1
+      }
+    ],
+    "music_volume": 1.0,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    }
+  },
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "odyssey:makapuu_tidepools/pool_maker_deepslate",
+      "odyssey:makapuu_tidepools/pool_maker_tuff"
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "odyssey:makapuu_tidepools/pool_filler_tuff",
+      "odyssey:makapuu_tidepools/pool_filler_deepslate",
+      "odyssey:makapuu_tidepools/pool_rocks_tuff",
+      "odyssey:makapuu_tidepools/pool_rocks_deepslate"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "odyssey:makapuu_tidepools/water_vegetation_coral",
+      "odyssey:makapuu_tidepools/patch_dead_coral"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  }
+}

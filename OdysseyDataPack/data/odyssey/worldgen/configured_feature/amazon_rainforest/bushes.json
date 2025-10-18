@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.33,
+        "feature": "odyssey:amazon_rainforest/bush_mangrove"
+      },
+      {
+        "chance": 0.33,
+        "feature": "odyssey:amazon_rainforest/bush_birch"
+      },
+      {
+        "chance": 0.33,
+        "feature": "odyssey:amazon_rainforest/bush_oak"
+      }
+    ],
+    "default": {
+      "feature": "odyssey:amazon_rainforest/bush_mangrove",
+      "placement": []
+    }
+  }
+}

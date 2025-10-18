@@ -1,0 +1,45 @@
+{
+  "parent": "odyssey:odyssey/obtain_iridium",
+  "criteria": {
+    "iridium_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_hoe",
+              "minecraft:diamond_hoe"
+            ],
+            "components": {
+              "minecraft:item_name": "iridium_hoe",
+              "minecraft:item_model": "odyssey:iridium_hoe"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "challenge",
+    "hidden": false,
+    "announce_to_chat": true,
+    "show_toast": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_hoe",
+      "components": {
+        "minecraft:item_model": "odyssey:iridium_hoe",
+        "minecraft:item_name": "iridium_hoe"
+      }
+    },
+    "title": {
+      "translate": "Intended Use"
+    },
+    "description": {
+      "translate": "Obtain an Iridum Hoe."
+    }
+  },
+  "requirements": [
+    ["iridium_hoe"]
+  ]
+}
