@@ -3,7 +3,9 @@
     "enabled": []
   },
   "pack": {
-    "pack_format": 71,
+    "pack_format": 88,
+    "min_format": 88,
+    "max_format": 88,
     "description": {
       "translate": "The Odyssey accompanying datapack!"
     }

@@ -1,6 +1,16 @@
 {
-  "angry_texture": "odyssey:entity/wolf/wolf_bladed_angry",
-  "biomes": "#odyssey:is_edge",
-  "tame_texture": "odyssey:entity/wolf/wolf_bladed_tame",
-  "wild_texture": "odyssey:entity/wolf/wolf_bladed"
+  "assets": {
+    "angry": "odyssey:entity/wolf/wolf_bladed_angry",
+    "wild":"odyssey:entity/wolf/wolf_bladed_wild",
+    "tame":"odyssey:entity/wolf/wolf_bladed_tame"
+  },
+  "spawn_conditions": [
+    {
+      "priority": 1,
+      "condition": {
+        "type": "biome",
+        "biomes": "#odyssey:is_edge"
+      }
+    }
+  ]
 }
