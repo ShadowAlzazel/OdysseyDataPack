@@ -16,7 +16,7 @@
   "slots": [
     "mainhand"
   ],
-  "primary_items": "#minecraft:enchantable/sword",
+  "primary_items": "#minecraft:enchantable/sweeping",
   "supported_items": "#odyssey:enchantable/melee",
   "weight": 4
 }
