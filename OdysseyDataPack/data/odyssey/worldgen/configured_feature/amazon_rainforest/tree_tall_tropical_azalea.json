@@ -27,7 +27,7 @@
         ]
       }
     ],
-    "dirt_provider": {
+    "below_trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
         "Name": "minecraft:dirt"
@@ -69,8 +69,7 @@
           "weight": 4
         }
       ]
-    },
-    "force_dirt": false,
+    },    
     "ignore_vines": true,
     "minimum_size": {
       "type": "minecraft:two_layers_feature_size",
