@@ -6,30 +6,33 @@
       "entries": [
         {
           "data": {
-            "Name": "minecraft:muddy_mangrove_roots",
+            "Name": "minecraft:glow_lichen",
             "Properties": {
-              "axis": "y"
+              "down": "true",
+              "waterlogged": "true"
             }
           },
-          "weight": 2
+          "weight": 21
         },
         {
           "data": {
-            "Name": "minecraft:muddy_mangrove_roots",
+            "Name": "minecraft:sea_pickle",
             "Properties": {
-              "axis": "x"
+              "pickles": "2",
+              "waterlogged": "true"
             }
           },
-          "weight": 5
+          "weight": 4
         },
         {
           "data": {
-            "Name": "minecraft:muddy_mangrove_roots",
+            "Name": "minecraft:sea_pickle",
             "Properties": {
-              "axis": "z"
+              "pickles": "1",
+              "waterlogged": "true"
             }
           },
-          "weight": 5
+          "weight": 1
         }
       ]
     }

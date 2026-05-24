@@ -1,16 +1,16 @@
 {
-  "feature": "odyssey:chocolate_hills/patch_vegetation",
+  "feature": "odyssey:cardinal_fields/vegetation_glow_pools",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 30
+      "count": 80
     },
     {
       "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:heightmap",
-      "heightmap": "WORLD_SURFACE_WG"
+      "heightmap": "MOTION_BLOCKING"
     },
     {
       "type": "minecraft:biome"
@@ -36,17 +36,16 @@
         "type": "minecraft:all_of",
         "predicates": [
           {
-            "type": "minecraft:matching_blocks",
-            "blocks": "minecraft:air"
+            "type": "minecraft:matching_fluids",
+            "fluids": [
+              "minecraft:water"
+            ]
           },
           {
             "type": "minecraft:matching_blocks",
             "blocks": [
-              "minecraft:grass_block",
-              "minecraft:moss_block",
-              "minecraft:dirt",
-              "minecraft:coarse_dirt",
-              "minecraft:rooted_dirt"
+              "minecraft:calcite",
+              "minecraft:diorite"
             ],
             "offset": [
               0, -1,

@@ -72,7 +72,7 @@
     ],
     [
       "odyssey:cardinal_fields/patch_vegetation",
-      "odyssey:cardinal_fields/glow_pools",
+      "odyssey:cardinal_fields/vegetation_glow_pools",
       "minecraft:glow_lichen",
       "odyssey:cave/lumenshroom_undergrowth/shrooms_mini",
       "odyssey:cave/hanging_moss"

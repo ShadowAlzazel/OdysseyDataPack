@@ -1,94 +1,59 @@
 {
-  "type": "minecraft:random_patch",
+  "type": "minecraft:block_column",
   "config": {
-    "feature": {
-      "feature": {
-        "type": "minecraft:block_column",
-        "config": {
-          "layers": [
+    "layers": [
+      {
+        "height": {
+          "type": "minecraft:weighted_list",
+          "distribution": [
             {
-              "height": {
-                "type": "minecraft:weighted_list",
-                "distribution": [
-                  {
-                    "data": {
-                      "type": "minecraft:uniform",
-                      "min_inclusive": 2,
-                      "max_inclusive": 4
-                    },
-                    "weight": 5
-                  },
-                  {
-                    "data": {
-                      "type": "minecraft:uniform",
-                      "min_inclusive": 3,
-                      "max_inclusive": 5
-                    },
-                    "weight": 3
-                  }
-                ]
+              "data": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
               },
-              "provider": {
-                "type": "minecraft:simple_state_provider",
-                "state": {
-                  "Name": "minecraft:pale_hanging_moss",
-                  "Properties": {
-                    "tip": "false"
-                  }
-                }
-              }
+              "weight": 5
             },
             {
-              "height": 1,
-              "provider": {
-                "type": "minecraft:simple_state_provider",
-                "state": {
-                  "Name": "minecraft:pale_hanging_moss",
-                  "Properties": {
-                    "tip": "true"
-                  }
-                }
-              }
-            }
-          ],
-          "direction": "down",
-          "allowed_placement": {
-            "type": "minecraft:matching_blocks",
-            "blocks": [
-              "minecraft:air"
-            ]
-          },
-          "prioritize_tip": true
-        }
-      },
-      "placement": [
-        {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:all_of",
-            "predicates": [
-              {
-                "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:air"
+              "data": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 3,
+                "max_inclusive": 5
               },
-              {
-                "type": "minecraft:matching_blocks",
-                "blocks": [
-                  "minecraft:tuff"
-                ],
-                "offset": [
-                  0,
-                  1,
-                  0
-                ]
-              }
-            ]
+              "weight": 3
+            }
+          ]
+        },
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:pale_hanging_moss",
+            "Properties": {
+              "tip": "false"
+            }
           }
         }
+      },
+      {
+        "height": 1,
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:pale_hanging_moss",
+            "Properties": {
+              "tip": "true"
+            }
+          }
+        }
+      }
+    ],
+    "direction": "down",
+    "allowed_placement": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:air"
       ]
     },
-    "tries": 60,
-    "xz_spread": 6,
-    "y_spread": 2
+    "prioritize_tip": true
   }
 }

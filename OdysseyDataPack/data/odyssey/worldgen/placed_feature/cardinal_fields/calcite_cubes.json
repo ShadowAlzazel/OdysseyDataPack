@@ -1,9 +1,9 @@
 {
-  "feature": "odyssey:cardinal_fields/calcite_cube_bottom",
+  "feature": "odyssey:cardinal_fields/calcite_block",
   "placement": [
     {
       "type": "count",
-      "count": 1
+      "count": 80
     },
     {
       "type": "minecraft:rarity_filter",
@@ -18,6 +18,56 @@
     },
     {
       "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:trapezoid",
+        "max": 2,
+        "min": -2,
+        "plateau": 0
+      },
+      "y_spread": {
+        "type": "minecraft:trapezoid",
+        "max": 1,
+        "min": -1,
+        "plateau": 0
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:crimson_nylium",
+              "minecraft:grass_block",
+              "minecraft:air",
+              "minecraft:crimson_roots",
+              "minecraft:water"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:tuff",
+              "minecraft:dirt",
+              "minecraft:crimson_nylium",
+              "minecraft:grass_block",
+              "minecraft:calcite",
+              "minecraft:diorite",
+              "minecraft:rooted_dirt",
+              "minecraft:coarse_dirt"
+            ],
+            "offset": [
+              0, -1,
+              0
+            ]
+          }
+        ]
+      }
     }
   ]
 }

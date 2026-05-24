@@ -1,51 +1,67 @@
 {
-	"feature": "odyssey:bayou/patch_shallow_vegetation",
-	"placement": [
-		{
-			"type": "count",
-			"count": 9
-		},
-		{
-			"type": "minecraft:in_square"
-		},
-		{
-			"type": "heightmap",
-			"heightmap": "OCEAN_FLOOR"
-		},
-        {
-            "type": "minecraft:height_range",
-            "height": {
-                "type": "minecraft:uniform",
-                "min_inclusive": {
-					"absolute": 55
-				},
-				"max_inclusive": {
-					"absolute": 63
-				}
-            }
+  "feature": "odyssey:bayou/patch_shallow_vegetation",
+  "placement": [
+    {
+      "type": "count",
+      "count": 30
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 55
         },
-		{
-			"type": "minecraft:block_predicate_filter",
-			"predicate": {
-				"type": "minecraft:matching_blocks",
-				"offset": [
-					0,
-					-1,
-					0
-				],
-				"blocks": [
-					"minecraft:mud",
-					"minecraft:dirt",
-                    "minecraft:grass_block",
-                    "minecraft:dripstone_block",
-					"minecraft:sand",
-					"minecraft:gravel",
-					"minecraft:clay"
-				]
-			}
-		},
-		{
-			"type": "minecraft:biome"
-		}
-	]
+        "max_inclusive": {
+          "absolute": 63
+        }
+      }
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:trapezoid",
+        "max": 6,
+        "min": -6,
+        "plateau": 0
+      },
+      "y_spread": {
+        "type": "minecraft:trapezoid",
+        "max": 2,
+        "min": -12,
+        "plateau": 0
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0, -1, 0
+        ],
+        "blocks": [
+          "minecraft:grass_block",
+          "minecraft:moss_block",
+          "minecraft:dirt",
+          "minecraft:coarse_dirt",
+          "minecraft:rooted_dirt",
+          "minecraft:mud",
+          "minecraft:dripstone_block",
+          "minecraft:sand",
+          "minecraft:gravel",
+          "minecraft:clay"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
 }
