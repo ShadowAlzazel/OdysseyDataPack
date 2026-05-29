@@ -4,7 +4,7 @@
     "item_filter": {
       "items": "minecraft:diamond_sword"
     },
-    "modifier": [
+    "on_pass": [
       {
         "function": "minecraft:reference",
         "name": "odyssey:builder/weapons/random_diamond_sword"

@@ -1,0 +1,11 @@
+{
+    "function": "minecraft:sequence",
+    "functions": [
+        {
+            "function": "minecraft:set_custom_data",
+            "tag": {
+                "odyssey.enchantability_points": 35
+            }
+        }
+    ]
+}

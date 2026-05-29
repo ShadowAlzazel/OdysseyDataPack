@@ -4,7 +4,7 @@
     "item_filter": {
       "items": "minecraft:iron_sword"
     },
-    "modifier": [
+    "on_pass": [
       {
         "function": "minecraft:reference",
         "name": "odyssey:builder/weapons/random_iron_sword"

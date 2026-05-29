@@ -27,7 +27,7 @@
             }
           }
         },
-        "modifier": [
+        "on_pass": [
           {
             "function": "minecraft:reference",
             "name": "odyssey:builder/weapons/saber/iron_saber",

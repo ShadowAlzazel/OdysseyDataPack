@@ -2,9 +2,9 @@
   {
     "function": "filtered",
     "item_filter": {
-      "items": "minecraft:golden_sword"
+      "items": "minecraft:copper_sword"
     },
-    "modifier": [
+    "on_pass": [
       {
         "function": "minecraft:reference",
         "name": "odyssey:builder/weapons/random_copper_sword"
