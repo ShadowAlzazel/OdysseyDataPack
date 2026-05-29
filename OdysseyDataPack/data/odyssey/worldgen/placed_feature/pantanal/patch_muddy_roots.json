@@ -7,7 +7,7 @@
     },
     {
       "type": "minecraft:count",
-      "count": 4
+      "count": 20
     },
     {
       "type": "minecraft:in_square"
@@ -18,6 +18,55 @@
     },
     {
       "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:trapezoid",
+        "max": 5,
+        "min": -5,
+        "plateau": 0
+      },
+      "y_spread": {
+        "type": "minecraft:trapezoid",
+        "max": 2,
+        "min": -2,
+        "plateau": 0
+      }
+    },
+    {
+      "type": "block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:grass_block",
+              "minecraft:dirt"
+            ]
+          },
+          {
+            "type": "not",
+            "predicate": {
+              "type": "minecraft:matching_fluids",
+              "fluids": "minecraft:water"
+            }
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              1,
+              0
+            ],
+            "blocks": [
+              "minecraft:cave_air",
+              "minecraft:air"
+            ]
+          }
+        ]
+      }
     }
   ]
 }

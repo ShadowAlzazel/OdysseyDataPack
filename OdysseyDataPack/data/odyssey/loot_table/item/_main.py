@@ -166,7 +166,7 @@ CUSTOM: List[DataItem] = [
 
 # List
 ARMOR_PIECES = ['helmet', 'chestplate', 'leggings', 'boots']
-ARMOR_MATERIALS = ['silver', 'copper', 'soul_steel', 'titanium', 'anodized_titanium', 'iridium', 'mithril', 'crystal_alloy']
+ARMOR_MATERIALS = ['silver', 'soul_steel', 'titanium', 'anodized_titanium', 'iridium', 'mithril', 'crystal_alloy']
 
 
 # Main

@@ -21,7 +21,7 @@ BASE_ARMOR_DURABILITY = [165, 240, 225, 195]
 
 # Values
 ARMOR_VALUES = {
-    'copper': [2, 4, 3, 1],
+    #'copper': [2, 4, 3, 1], Deprecated, this is now vanilla
     'silver': [3, 5, 3, 2], 
     'soul_steel': [3, 7, 6, 3],
     'crystal_alloy': [3, 7, 6, 3], 
@@ -31,7 +31,7 @@ ARMOR_VALUES = {
     'mithril': [4, 8, 6, 3]
 }
 TOUGHNESS_VALUES = {
-    'copper': [1, 1, 1, 1],
+    #'copper': [1, 1, 1, 1],
     'silver': [1, 1, 1, 1], 
     'soul_steel': [2, 2, 2, 2],
     'crystal_alloy': [2, 2, 2, 2], 

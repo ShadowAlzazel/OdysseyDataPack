@@ -8,24 +8,21 @@
       "min_inclusive": 2
     },
     "state_provider": {
-      "fallback": {
-        "type": "minecraft:weighted_state_provider",
-        "entries": [
-          {
-            "data": {
-              "Name": "minecraft:mud"
-            },
-            "weight": 5
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:mud"
           },
-          {
-            "data": {
-              "Name": "minecraft:muddy_mangrove_roots"
-            },
-            "weight": 1
-          }
-        ]
-      },
-      "rules": []
+          "weight": 5
+        },
+        {
+          "data": {
+            "Name": "minecraft:muddy_mangrove_roots"
+          },
+          "weight": 1
+        }
+      ]
     },
     "target": {
       "type": "minecraft:matching_blocks",

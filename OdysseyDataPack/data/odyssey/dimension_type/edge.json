@@ -1,24 +1,58 @@
 {
-  "ultrawarm": false,
-  "natural": true,
-  "piglin_safe": true,
-  "respawn_anchor_works": true,
-  "bed_works": true,
-  "has_raids": true,
-  "has_skylight": true,
-  "has_ceiling": false,
-  "coordinate_scale": 1,
   "ambient_light": 0.037,
-  "fixed_time": 18000,
-  "logical_height": 288,
-  "effects": "minecraft:overworld",
-  "infiniburn": "#minecraft:infiniburn_end",
-  "min_y": -32,
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "block_search_extent": 8,
+        "offset": 2.0,
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 12000,
+        "min_delay": 6000,
+        "sound": {
+          "sound_id": "odyssey:music.dimension.edge"
+        }
+      }
+    },
+    "minecraft:gameplay/bed_rule": {
+      "can_set_spawn": "always",
+      "can_sleep": "always",
+      "error_message": {
+        "translate": "block.minecraft.bed.no_sleep"
+      }
+    },
+    "minecraft:gameplay/nether_portal_spawns_piglin": false,
+    "minecraft:gameplay/respawn_anchor_works": true,
+    "minecraft:visual/ambient_light_color": "#3f473f",
+    "minecraft:visual/fog_color": "#181318",
+    "minecraft:visual/sky_color": "#000000",
+    "minecraft:visual/sky_light_color": "#ac60cd",
+    "minecraft:visual/sky_light_factor": 0.0,
+    "minecraft:visual/star_angle": 0.0,
+    "minecraft:visual/star_brightness": 1.0,
+    "minecraft:visual/moon_angle": 80.0,
+    "minecraft:visual/moon_phase": "full_moon",
+    "minecraft:visual/sun_angle": -80.0
+  },
+  "coordinate_scale": 1.0,
+  "default_clock": "odyssey:edge",
+  "has_ceiling": false,
+  "has_ender_dragon_fight": false,
+  "has_skylight": true,
   "height": 288,
+  "infiniburn": "#minecraft:infiniburn_end",
+  "logical_height": 288,
+  "min_y": -32,
+  "monster_spawn_block_light_limit": 0,
   "monster_spawn_light_level": {
     "type": "minecraft:uniform",
-    "min_inclusive": 0,
-    "max_inclusive": 7
+    "max_inclusive": 9,
+    "min_inclusive": 0
   },
-  "monster_spawn_block_light_limit": 0
+  "skybox": "overworld",
+  "timelines": []
 }

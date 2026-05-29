@@ -8,13 +8,10 @@
       "max_inclusive": 5
     },
     "state_provider": {
-      "fallback": {
-        "type": "minecraft:simple_state_provider",
-        "state": {
-          "Name": "minecraft:dripstone_block"
-        }
-      },
-      "rules": []
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dripstone_block"
+      }
     },
     "target": {
       "type": "minecraft:matching_blocks",

@@ -1,71 +1,34 @@
 {
-  "type": "minecraft:random_patch",
+  "type": "minecraft:simple_block",
   "config": {
-    "feature": {
-      "feature": {
-        "type": "minecraft:simple_block",
-        "config": {
-          "to_place": {
-            "type": "minecraft:weighted_state_provider",
-            "entries": [
-              {
-                "data": {
-                  "Name": "minecraft:short_grass"
-                },
-                "weight": 25
-              },
-              {
-                "data": {
-                  "Name": "minecraft:tall_grass"
-                },
-                "weight": 70
-              },
-              {
-                "data": {
-                  "Name": "minecraft:firefly_bush"
-                },
-                "weight": 4
-              },
-              {
-                "data": {
-                  "Name": "minecraft:azalea"
-                },
-                "weight": 4
-              }
-            ]
-          }
-        }
-      },
-      "placement": [
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
         {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:all_of",
-            "predicates": [
-              {
-                "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:air"
-              },
-              {
-                "type": "minecraft:matching_blocks",
-                "blocks": [
-                  "minecraft:grass_block",
-                  "minecraft:moss_block",
-                  "minecraft:mud"
-                ],
-                "offset": [
-                  0,
-                  -1,
-                  0
-                ]
-              }
-            ]
-          }
+          "data": {
+            "Name": "minecraft:short_grass"
+          },
+          "weight": 25
+        },
+        {
+          "data": {
+            "Name": "minecraft:tall_grass"
+          },
+          "weight": 70
+        },
+        {
+          "data": {
+            "Name": "minecraft:firefly_bush"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "Name": "minecraft:azalea"
+          },
+          "weight": 4
         }
       ]
-    },
-    "tries": 90,
-    "xz_spread": 6,
-    "y_spread": 2
+    }
   }
 }

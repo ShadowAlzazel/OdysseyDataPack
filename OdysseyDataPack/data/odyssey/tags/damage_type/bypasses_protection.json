@@ -1,0 +1,17 @@
+{
+  "values": [
+    "#minecraft:is_projectile",
+
+    "#odyssey:nonphysical_damage",
+
+    "minecraft:in_wall",
+    "minecraft:cramming",
+    "minecraft:starve",
+    "minecraft:dry_out",
+    "minecraft:ender_pearl",
+   
+    "minecraft:out_of_world",
+    "minecraft:outside_border",
+    "minecraft:generic_kill"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-    "feature": "odyssey:generic/patch_tuff",
+	"feature": "odyssey:generic/patch_tuff",
 	"placement": [
 		{
 			"type": "minecraft:count",

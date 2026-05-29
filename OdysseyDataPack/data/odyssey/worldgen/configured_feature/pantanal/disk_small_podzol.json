@@ -1,29 +1,24 @@
 {
-    "type": "minecraft:disk",
-    "config": {
-      "half_height": 1,
-      "radius": {
-        "type": "minecraft:uniform",
-        
-          "max_inclusive": 2,
-          "min_inclusive": 2
-        
-      },
-      "state_provider": {
-        "fallback": {
-          "type": "minecraft:simple_state_provider",
-          "state": {
-            "Name": "minecraft:podzol"
-          }
-        },
-        "rules": []
-      },
-      "target": {
-        "type": "minecraft:matching_blocks",
-        "blocks": [
-          "minecraft:dirt",
-          "minecraft:grass_block"
-        ]
+  "type": "minecraft:disk",
+  "config": {
+    "half_height": 1,
+    "radius": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 2,
+      "min_inclusive": 2
+    },
+    "state_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:podzol"
       }
+    },
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:dirt",
+        "minecraft:grass_block"
+      ]
     }
   }
+}

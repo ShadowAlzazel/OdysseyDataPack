@@ -47,7 +47,7 @@
     [
       "minecraft:amethyst_geode",
       "odyssey:generic/diamond_geode",
-      "odyssey:marina_moor/rock_tuff",
+      "odyssey:generic/rock_tuff",
       "odyssey:marina_moor/rock_prismarine",
       "odyssey:generic/coral_geodes"
     ],

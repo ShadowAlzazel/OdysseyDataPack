@@ -1,65 +1,46 @@
 {
-  "type": "minecraft:random_patch",
+  "type": "minecraft:simple_block",
   "config": {
-    "feature": {
-      "feature": {
-        "type": "minecraft:simple_block",
-        "config": {
-          "to_place": {
-            "type": "minecraft:weighted_state_provider",
-            "entries": [
-              {
-                "data": {
-                  "Name": "minecraft:short_grass"
-                },
-                "weight": 6
-              },
-              {
-                "data": {
-                  "Name": "minecraft:large_fern"
-                },
-                "weight": 2
-              },
-              {
-                "data": {
-                  "Name": "minecraft:tall_grass"
-                },
-                "weight": 4
-              },
-              {
-                "data": {
-                  "Name": "minecraft:fern"
-                },
-                "weight": 3
-              },
-              {
-                "data": {
-                  "Name": "minecraft:warped_roots"
-                },
-                "weight": 8
-              },
-              {
-                "data": {
-                  "Name": "minecraft:nether_sprouts"
-                },
-                "weight": 4
-              }
-            ]
-          }
-        }
-      },
-      "placement": [
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
         {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:matching_blocks",
-            "blocks": "minecraft:air"
-          }
+          "data": {
+            "Name": "minecraft:short_grass"
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "Name": "minecraft:large_fern"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "minecraft:tall_grass"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "Name": "minecraft:fern"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "Name": "minecraft:warped_roots"
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "Name": "minecraft:nether_sprouts"
+          },
+          "weight": 4
         }
       ]
-    },
-    "tries": 96,
-    "xz_spread": 6,
-    "y_spread": 2
+    }
   }
 }

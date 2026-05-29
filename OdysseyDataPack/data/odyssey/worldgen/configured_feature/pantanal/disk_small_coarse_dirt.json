@@ -4,18 +4,14 @@
     "half_height": 2,
     "radius": {
       "type": "minecraft:uniform",
-
       "max_inclusive": 2,
       "min_inclusive": 1
     },
     "state_provider": {
-      "fallback": {
-        "type": "minecraft:simple_state_provider",
-        "state": {
-          "Name": "minecraft:coarse_dirt"
-        }
-      },
-      "rules": []
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:coarse_dirt"
+      }
     },
     "target": {
       "type": "minecraft:matching_blocks",

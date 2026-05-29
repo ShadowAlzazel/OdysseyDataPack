@@ -8,13 +8,10 @@
       "max_inclusive": 4
     },
     "state_provider": {
-      "fallback": {
-        "type": "minecraft:simple_state_provider",
-        "state": {
-          "Name": "minecraft:mud"
-        }
-      },
-      "rules": []
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:mud"
+      }
     },
     "target": {
       "type": "minecraft:matching_blocks",

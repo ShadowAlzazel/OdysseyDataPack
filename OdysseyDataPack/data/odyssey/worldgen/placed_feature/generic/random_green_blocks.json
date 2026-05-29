@@ -1,19 +1,43 @@
 {
-    "feature": "odyssey:generic/random_green_blocks",
-    "placement": [  
-      {
-        "type": "minecraft:count",
-        "count": 3
+  "feature": "odyssey:generic/random_green_blocks",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 30
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:trapezoid",
+        "max": 7,
+        "min": -7,
+        "plateau": 0
       },
-      {
-        "type": "minecraft:in_square"
-      },
-      {
-        "type": "minecraft:heightmap",
-        "heightmap": "WORLD_SURFACE_WG"
-      },
-      {
-        "type": "minecraft:biome"
+      "y_spread": {
+        "type": "minecraft:trapezoid",
+        "max": 1,
+        "min": -1,
+        "plateau": 0
       }
-    ]
-  }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:grass_block"
+        ]
+      }
+    }
+  ]
+}
