@@ -16,7 +16,7 @@
     "size_vertical": 1,
     "size_horizontal": 4,
     "min_y": -64,
-    "height": 320
+    "height": 288
   },
   "legacy_random_source": false,
   "noise_router": {
