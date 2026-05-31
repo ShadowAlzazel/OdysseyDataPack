@@ -14,7 +14,52 @@
                 "minecraft:item_model": "odyssey:knight_breaker",
                 "minecraft:item_name": "knight_breaker",
                 "minecraft:rarity": "epic",
-                "minecraft:max_damage": 1009
+                "minecraft:max_damage": 1009,
+                "minecraft:weapon": {
+                  "item_damage_per_attack": 1
+                },
+                "minecraft:swing_animation": {
+                  "type": "stab",
+                  "duration": 8
+                },
+                "minecraft:attack_range": {
+                  "hitbox_margin": 0.1,
+                  "min_reach": 0.0,
+                  "max_reach": 2.9,
+                  "mob_factor": 1.0
+                },
+                "minecraft:piercing_weapon": {
+                  "deals_knockback": true
+                },
+                "minecraft:minimum_attack_charge": 0.25,
+                "minecraft:use_cooldown": {
+                  "seconds": 1.0,
+                  "cooldown_group": "odyssey:parry"
+                },
+                "minecraft:use_effects": {
+                  "can_sprint": true,
+                  "speed_multiplier": 0.8
+                },
+                "minecraft:blocks_attacks": {
+                  "disable_cooldown_scale": 0,
+                  "damage_reductions": [
+                    {
+                      "type": [
+                        "minecraft:mob_attack",
+                        "minecraft:mob_attack_no_aggro",
+                        "minecraft:player_attack"
+                      ],
+                      "base": 1.0,
+                      "factor": 0.5
+                    }
+                  ],
+                  "item_damage": {
+                    "base": 2.0,
+                    "factor": 0.5,
+                    "threshold": 1.0
+                  },
+                  "block_sound": "minecraft:block.anvil.place"
+                }
               },
               "conditions": []
             },
