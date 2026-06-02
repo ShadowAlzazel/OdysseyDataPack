@@ -1,0 +1,15 @@
+{
+  "name": "odyssey:inverted_palace/rim_tower/floor_3",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:inverted_palace/rim_tower_f3",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "odyssey:inverted_palace/bridge_outer",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "odyssey:inverted_palace/inverted_palace_bridge_outer",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

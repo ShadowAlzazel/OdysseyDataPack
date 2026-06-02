@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#odyssey:has_structure/inverted_palace",
+  "liquid_settings": "ignore_waterlogging",
+  "max_distance_from_center": 128,
+  "size": 20,
+  "spawn_overrides": {},
+  "start_height": {
+    "absolute": 270
+  },
+  "start_pool": "odyssey:inverted_palace/origin",
+  "step": "top_layer_modification",
+  "terrain_adaptation": "none",
+  "use_expansion_hack": false
+}
