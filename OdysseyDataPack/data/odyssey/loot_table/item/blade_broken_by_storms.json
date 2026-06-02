@@ -108,8 +108,7 @@
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "odyssey:aerosion_aspect": 5,
-                "odyssey:tempest_splitter": 5
+                "odyssey:aerosion_aspect": 5
               }
             }
           ],

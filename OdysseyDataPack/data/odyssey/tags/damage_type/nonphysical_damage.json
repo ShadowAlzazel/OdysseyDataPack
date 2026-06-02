@@ -5,8 +5,8 @@
     
     "#minecraft:is_freezing",
     "#minecraft:is_lightning",
-    
     "#minecraft:is_drowning",
+    
     "minecraft:wither",
     "minecraft:dragon_breath",
     "minecraft:magic",

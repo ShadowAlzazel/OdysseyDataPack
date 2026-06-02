@@ -2,6 +2,9 @@
   "values": [
     "odyssey:encumbering_curse",
     "odyssey:parasitic_curse",
-    "odyssey:brutality_curse"
+    "odyssey:brutality_curse",
+    "odyssey:midas_curse",
+    "odyssey:frailty_curse",
+    "odyssey:obfuscation_curse"
   ]
 }

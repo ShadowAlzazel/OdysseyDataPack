@@ -1,21 +1,21 @@
 {
-  "anvil_cost": 4,
+  "anvil_cost": 6,
   "description": {
-    "fallback": "Curse of Brutality",
-    "translate": "enchantment.odyssey.brutality_curse"
+    "fallback": "Curse of Midas",
+    "translate": "enchantment.odyssey.midas_curse"
   },
   "effects": {},
   "max_cost": {
     "base": 4,
     "per_level_above_first": 7
   },
-  "max_level": 3,
+  "max_level": 1,
   "min_cost": {
     "base": 5,
     "per_level_above_first": 7
   },
   "slots": [
-    "any"
+    "mainhand"
   ],
   "supported_items": "#minecraft:enchantable/durability",
   "weight": 6

@@ -13,7 +13,6 @@ melee_enchants = [
     "bane_of_the_illager",
     "bane_of_the_sea",
     "bane_of_the_swine",
-    "budding",
     "buzzy_bees",
     "cleave",
     "committed",
@@ -33,6 +32,7 @@ melee_enchants = [
     "gust", 
     "hemorrhage",
     "illucidation",
+    "impetus", 
     "invocative",
     "pestilence",
     "rupture",
@@ -54,11 +54,9 @@ armor_enchants = [
     "claw_climbing" # Boots
     "cowardice", # Chest
     "devastating_drop", # Boots
-    "fruitful_fare", # Chest
     "heartened", # Chest
     "ignore_pain", # Chest
     "illumineye", # Helmet
-    "impetus", # Leggings
     "leap_frog",  # Leggings
     "mandiblemania", # Helmet
     "molten_core", # Chest
@@ -69,7 +67,6 @@ armor_enchants = [
     "root_boots", # Boots
     "sculk_sensitive", # Helmet
     "speedy_spurs", # Boots
-    "sporeful", # Leggings
     "squidify", # Leggings
     "sslither_ssight", # Helmet
     "static_socks",  # Boots
@@ -84,7 +81,7 @@ ranged_enchants = [
     "ballistics",
     "bola_shot",
     "burst_barrage",
-    "chain_reaction",
+    "chain_lightning",
     "cluster_shot",
     "deadeye",
     "death_from_above",
@@ -120,7 +117,7 @@ other_enchants = [
 
 misc_enchants = [
     "chitin", # All
-    "moonpatch", # All
+    "shade_aid", # All
     "o_shiny", # All
     
     "encumbering_curse", # All

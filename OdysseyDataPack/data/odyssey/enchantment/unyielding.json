@@ -11,12 +11,13 @@
   },
   "max_level": 3,
   "min_cost": {
-    "base": 10,
+    "base": 8,
     "per_level_above_first": 6
   },
   "slots": [
-    "armor"
+    "mainhand"
   ],
-  "supported_items": "#minecraft:enchantable/armor",
+  "primary_items": "#minecraft:enchantable/melee_weapon",
+  "supported_items": "#odyssey:enchantable/melee",
   "weight": 3
 }

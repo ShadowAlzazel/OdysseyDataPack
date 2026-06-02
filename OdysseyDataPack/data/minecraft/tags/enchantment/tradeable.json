@@ -1,5 +1,6 @@
 {
   "values": [
     "#odyssey:tradeable"
-  ]
+  ],
+  "replace": false
 }

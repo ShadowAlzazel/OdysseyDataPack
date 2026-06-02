@@ -1,7 +1,11 @@
 {
   "values": [
     "odyssey:chitin",
-    "odyssey:moonpatch",
-    "odyssey:o_shiny"
+    "odyssey:shade_aid",
+    "odyssey:o_shiny",
+    "odyssey:metabolic",
+    "odyssey:pluck",
+    "odyssey:lodesight",
+    "odyssey:expedite"
   ]
 }

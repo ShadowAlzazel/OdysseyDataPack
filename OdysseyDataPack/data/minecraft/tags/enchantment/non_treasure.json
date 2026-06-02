@@ -1,5 +1,6 @@
 {
   "values": [
     "#odyssey:non_treasure"
-  ]
+  ],
+  "replace": false
 }

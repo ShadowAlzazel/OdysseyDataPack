@@ -1,23 +1,24 @@
 {
   "anvil_cost": 4,
   "description": {
-    "fallback": "Aerosion Aspect",
-    "translate": "enchantment.odyssey.aerosion_aspect"
+    "fallback": "Flame Edge",
+    "translate": "enchantment.odyssey.flame_edge"
   },
   "effects": {},
+  "exclusive_set": "#odyssey:exclusive_set/elemental_damages",
   "max_cost": {
     "base": 11,
-    "per_level_above_first": 7
+    "per_level_above_first": 8
   },
-  "max_level": 3,
+  "max_level": 5,
   "min_cost": {
-    "base": 4,
-    "per_level_above_first": 6
+    "base": 2,
+    "per_level_above_first": 8
   },
   "slots": [
     "mainhand"
   ],
   "primary_items": "#minecraft:enchantable/melee_weapon",
   "supported_items": "#odyssey:enchantable/melee",
-  "weight": 3
+  "weight": 5
 }

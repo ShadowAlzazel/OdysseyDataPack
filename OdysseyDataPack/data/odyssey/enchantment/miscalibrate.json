@@ -1,22 +1,23 @@
 {
-  "anvil_cost": 8,
+  "anvil_cost": 4,
   "description": {
-    "translate": "enchantment.odyssey.decay"
+    "fallback": "Miscalibrate",
+    "translate": "enchantment.odyssey.miscalibrate"
   },
   "effects": {},
   "max_cost": {
     "base": 20,
-    "per_level_above_first": 10
+    "per_level_above_first": 5
   },
-  "max_level": 2,
+  "max_level": 5,
   "min_cost": {
-    "base": 15,
-    "per_level_above_first": 10
+    "base": 5,
+    "per_level_above_first": 5
   },
   "slots": [
     "mainhand"
   ],
   "primary_items": "#minecraft:enchantable/melee_weapon",
   "supported_items": "#odyssey:enchantable/melee",
-  "weight": 4
+  "weight": 5
 }
