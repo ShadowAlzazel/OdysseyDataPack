@@ -1,14 +1,13 @@
 {
   "values": [
+    "odyssey:aerosion_aspect",
     "odyssey:arcane_cell",
-    "odyssey:conflagrate",
+    "odyssey:execution",
+    "odyssey:flame_edge",
     "odyssey:frog_fright",
     "odyssey:frosty_fuse", 
-    "odyssey:guarding_strike",
     "odyssey:life_force",
     "odyssey:pestilence",
-    "odyssey:asphyxiate",
-    "odyssey:douse",
     "odyssey:cleave"
   ]
 }

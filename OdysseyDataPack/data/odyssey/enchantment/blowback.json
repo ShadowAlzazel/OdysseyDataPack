@@ -1,11 +1,12 @@
 {
-  "anvil_cost": 8,
+  "anvil_cost": 6,
   "description": {
-    "translate": "enchantment.odyssey.pestilence"
+    "fallback": "Blowback",
+    "translate": "enchantment.odyssey.blowback"
   },
   "effects": {},
   "max_cost": {
-    "base": 15,
+    "base": 40,
     "per_level_above_first": 10
   },
   "max_level": 3,
@@ -14,8 +15,8 @@
     "per_level_above_first": 10
   },
   "slots": [
-    "mainhand"
+    "hand"
   ],
-  "supported_items": "#odyssey:enchantable/melee",
-  "weight": 2
+  "supported_items": "#odyssey:enchantable/shield",
+  "weight": 5
 }

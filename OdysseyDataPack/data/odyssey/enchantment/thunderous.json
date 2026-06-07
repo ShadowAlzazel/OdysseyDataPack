@@ -1,0 +1,23 @@
+{
+  "anvil_cost": 6,
+  "description": {
+    "fallback": "Thunderous",
+    "translate": "enchantment.odyssey.thunderous"
+  },
+  "effects": {},
+  "max_cost": {
+    "base": 11,
+    "per_level_above_first": 7
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 8,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "primary_items": "#minecraft:spears",
+  "supported_items": "#odyssey:enchantable/pierce_melee",
+  "weight": 2
+}

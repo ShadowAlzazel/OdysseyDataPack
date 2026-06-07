@@ -1,0 +1,16 @@
+{
+  "values": [
+    "#odyssey:in_table/melee",
+
+    "#odyssey:non_table/melee",
+
+    "minecraft:looting",
+    "minecraft:fire_aspect",
+    "minecraft:sharpness",
+    "minecraft:smite",
+    "minecraft:bane_of_arthropods",
+    "minecraft:knockback",
+    "minecraft:sweeping_edge",
+    "minecraft:breach"
+  ]
+}

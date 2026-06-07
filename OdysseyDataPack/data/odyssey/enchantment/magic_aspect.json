@@ -17,7 +17,7 @@
   "slots": [
     "mainhand"
   ],
-  "exclusive_set": "#odyssey:exclusive_set/melee_bypass",
+  "exclusive_set": "#odyssey:exclusive_set/bypasses_armor",
   "primary_items": "#minecraft:enchantable/melee_weapon",
   "supported_items": "#odyssey:enchantable/melee",
   "weight": 3

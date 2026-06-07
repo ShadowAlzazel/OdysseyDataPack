@@ -1,21 +1,22 @@
 {
   "values": [
-    "odyssey:aerosion_aspect",
     "odyssey:agile",
+    "odyssey:asphyxiate",
     "odyssey:backstabber",
+    "odyssey:backdraft",
     "odyssey:bane_of_the_illager",
     "odyssey:bane_of_the_sea",
     "odyssey:bane_of_the_swine",
+    "odyssey:besiege",
     "odyssey:buzzy_bees",
     "odyssey:chain_lightning",
-    "odyssey:committed",
+    "odyssey:conflagrate",
     "odyssey:cull_the_weak",
+    "odyssey:douse",
     "odyssey:echo",
     "odyssey:exploding",
     "odyssey:fearful_finisher",
-    "odyssey:flame_edge",
     "odyssey:freezing_aspect",
-    "odyssey:grasp",
     "odyssey:gust",
     "odyssey:hemorrhage",
     "odyssey:illucidation",
@@ -26,10 +27,10 @@
     "odyssey:plunder",
     "odyssey:rupture",
     "odyssey:swap",
+    "odyssey:thunderous",
     "odyssey:vengeful",
     "odyssey:vital",
     "odyssey:void_strike",
     "odyssey:whirlwind"
- 
   ]
 }

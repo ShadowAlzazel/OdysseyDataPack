@@ -2,10 +2,13 @@
   "values": [
     "odyssey:chitin",
     "odyssey:shade_aid",
+
     "odyssey:o_shiny",
+
     "odyssey:metabolic",
     "odyssey:pluck",
     "odyssey:lodesight",
+    "odyssey:grasp",
     "odyssey:expedite"
   ]
 }
