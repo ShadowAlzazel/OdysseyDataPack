@@ -18,7 +18,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "type": "#odyssey:sensitive_to_bane_of_the_illager"
+            "minecraft:entity_type": "#odyssey:sensitive_to_bane_of_the_illager"
           }
         }
       }

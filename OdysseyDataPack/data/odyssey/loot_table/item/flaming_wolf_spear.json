@@ -23,9 +23,9 @@
                   "duration": 12
                 },
                 "minecraft:attack_range": {
-                  "hitbox_margin": 0.1,
+                  "hitbox_margin": 0.3,
                   "min_reach": 0.0,
-                  "max_reach": 6.0,
+                  "max_reach": 5.0,
                   "mob_factor": 0.75
                 },
                 "minecraft:piercing_weapon": {
@@ -81,7 +81,7 @@
               "entity": "this",
               "lore": [
                 {
-                  "text": "A bruning spear filled with the hear of the warrior wolf.",
+                  "text": "A bruning spear filled with the grit of the warrior wolf.",
                   "bold": false,
                   "italic": false
                 }
@@ -108,14 +108,14 @@
                 {
                   "attribute": "minecraft:attack_speed",
                   "operation": "add_value",
-                  "amount": 1.2,
+                  "amount": 1.0,
                   "id": "odyssey:item.base_attack_speed",
                   "slot": "mainhand"
                 },
                 {
                   "attribute": "minecraft:entity_interaction_range",
                   "operation": "add_value",
-                  "amount": 3.0,
+                  "amount": 2.0,
                   "id": "odyssey:item.base_entity_range",
                   "slot": "mainhand"
                 }

@@ -57,8 +57,8 @@
     "placements_require_layer0_alternate": false,
     "outer_wall_distance": {
       "type": "minecraft:uniform",
-      "min_inclusive": 6,
-      "max_inclusive": 4
+      "min_inclusive": 4,
+      "max_inclusive": 6
     },
     "distribution_points": {
       "type": "minecraft:biased_to_bottom",
@@ -67,8 +67,8 @@
     },
     "point_offset": {
       "type": "minecraft:biased_to_bottom",
-      "min_inclusive": 2,
-      "max_inclusive": 1
+      "min_inclusive": 1,
+      "max_inclusive": 2
     },
     "min_gen_offset": -16,
     "max_gen_offset": 16,

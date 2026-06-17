@@ -18,9 +18,27 @@
                 "minecraft:weapon": {
                   "item_damage_per_attack": 1
                 },
+                "minecraft:swing_animation": {
+                  "type": "stab",
+                  "duration": 12
+                },
+                "minecraft:attack_range": {
+                  "hitbox_margin": 0.3,
+                  "min_reach": 0.0,
+                  "max_reach": 5.0,
+                  "mob_factor": 0.75
+                },
+                "minecraft:piercing_weapon": {
+                  "deals_knockback": true
+                },
+                "minecraft:minimum_attack_charge": 0.5,
                 "minecraft:use_cooldown": {
                   "seconds": 1.5,
                   "cooldown_group": "odyssey:parry"
+                },
+                "minecraft:use_effects": {
+                  "can_sprint": false,
+                  "speed_multiplier": 0.3
                 },
                 "minecraft:blocks_attacks": {
                   "disable_cooldown_scale": 0,
@@ -36,7 +54,7 @@
                     }
                   ],
                   "item_damage": {
-                    "base": 1.0,
+                    "base": 2.0,
                     "factor": 0.5,
                     "threshold": 1.0
                   },
@@ -101,7 +119,7 @@
                 {
                   "attribute": "minecraft:entity_interaction_range",
                   "operation": "add_value",
-                  "amount": 2.5,
+                  "amount": 2.0,
                   "id": "odyssey:item.base_entity_range",
                   "slot": "mainhand"
                 }
