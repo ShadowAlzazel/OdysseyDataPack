@@ -1,10 +1,12 @@
 {
   "values": [
+    "odyssey:aerodynamic",
     "odyssey:antibonk",
     "odyssey:analysis",
     "odyssey:beastly",
     "odyssey:blurcise",
     "odyssey:brawler",
+    "odyssey:bouncy",
     "odyssey:bulwark",
     "odyssey:claw_climbing",
     "odyssey:cloud_strider",
@@ -24,6 +26,7 @@
     "odyssey:revitalize",
     "odyssey:root_boots",
     "odyssey:speedy_spurs",
+    "odyssey:slip_n_slide",
     "odyssey:squidify",
     "odyssey:sslither_ssight",
     "odyssey:static_socks",

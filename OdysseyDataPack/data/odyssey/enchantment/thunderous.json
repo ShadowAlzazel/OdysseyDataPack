@@ -19,5 +19,5 @@
   ],
   "primary_items": "#minecraft:spears",
   "supported_items": "#odyssey:enchantable/pierce_melee",
-  "weight": 2
+  "weight": 8
 }

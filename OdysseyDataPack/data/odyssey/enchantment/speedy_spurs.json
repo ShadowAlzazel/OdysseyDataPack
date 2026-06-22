@@ -5,7 +5,7 @@
   },
   "effects": {},
   "max_cost": {
-    "base": 25,
+    "base": 10,
     "per_level_above_first": 5
   },
   "max_level": 3,
@@ -14,8 +14,8 @@
     "per_level_above_first": 5
   },
   "slots": [
-    "armor"
+    "feet"
   ],
   "supported_items": "#minecraft:enchantable/foot_armor",
-  "weight": 4
+  "weight": 7
 }
