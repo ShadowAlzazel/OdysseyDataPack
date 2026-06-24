@@ -37,7 +37,7 @@
                 {
                   "attribute": "minecraft:armor",
                   "operation": "add_value",
-                  "amount": 4,
+                  "amount": 3,
                   "id": "odyssey:item.helmet.armor",
                   "slot": "head"
                 },

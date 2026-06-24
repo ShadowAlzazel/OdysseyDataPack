@@ -1,23 +1,23 @@
 {
   "anvil_cost": 6,
   "description": {
-    "fallback": "Unyielding",
-    "translate": "enchantment.odyssey.unyielding"
+    "fallback": "Press the Attack",
+    "translate": "enchantment.odyssey.press_the_attack"
   },
   "effects": {},
   "max_cost": {
-    "base": 10,
-    "per_level_above_first": 6
+    "base": 8,
+    "per_level_above_first": 4
   },
-  "max_level": 3,
+  "max_level": 5,
   "min_cost": {
-    "base": 6,
-    "per_level_above_first": 6
+    "base": 4,
+    "per_level_above_first": 4
   },
   "slots": [
     "mainhand"
   ],
   "primary_items": "#minecraft:enchantable/melee_weapon",
   "supported_items": "#odyssey:enchantable/melee",
-  "weight": 5
+  "weight": 7
 }

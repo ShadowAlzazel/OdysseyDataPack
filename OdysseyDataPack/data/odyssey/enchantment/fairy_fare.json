@@ -1,0 +1,22 @@
+{
+  "anvil_cost": 10,
+  "description": {
+    "translate": "enchantment.odyssey.fairy_fare",
+    "fallback": "Fairy Fare"
+  },
+  "effects": {},
+  "max_cost": {
+    "base": 12,
+    "per_level_above_first": 6
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 8,
+    "per_level_above_first": 6
+  },
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft:enchantable/chest_armor",
+  "weight": 3
+}

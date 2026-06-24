@@ -1,13 +1,17 @@
 {
-  "feature": "odyssey:pantanal/lake_filler",
+  "feature": "odyssey:glaciovolcanic_moor/disk_cinnabar",
   "placement": [
     {
-      "type": "minecraft:count",
-      "count": 40
+      "type": "minecraft:rarity_filter",
+      "chance": 3
     },
     {
       "type": "minecraft:count",
-      "count": 60
+      "count": {
+        "type": "uniform",
+        "max_inclusive": 10,
+        "min_inclusive": 5
+      }
     },
     {
       "type": "minecraft:in_square"
