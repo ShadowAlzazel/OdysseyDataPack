@@ -34,15 +34,15 @@
     "minecraft:visual/sky_light_factor": 0.0,
     "minecraft:visual/star_angle": 0.0,
     "minecraft:visual/star_brightness": 0.73,
-    "minecraft:visual/moon_angle": 57.0,
+    "minecraft:visual/moon_angle": 0.0,
     "minecraft:visual/moon_phase": "full_moon",
-    "minecraft:visual/sun_angle": -57.0
+    "minecraft:visual/sun_angle": 180.0
   },
   "coordinate_scale": 1.0,
   "default_clock": "odyssey:edge",
   "has_ceiling": false,
   "has_ender_dragon_fight": false,
-  "has_skylight": true,
+  "has_skylight": false,
   "height": 416,
   "infiniburn": "#minecraft:infiniburn_end",
   "logical_height": 416,
