@@ -46,7 +46,7 @@
             "predicates": [
               {
                 "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:mud"
+                "blocks": "minecraft:calcite"
               },
               {
                 "type": "minecraft:matching_blocks",

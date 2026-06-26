@@ -1,0 +1,82 @@
+{
+    "type": "minecraft:sequence",
+    "config": {
+        "features": [
+            {
+                "feature": "odyssey:redwood_forest/redwood_core",
+                "placement": [
+                    {
+                        "type": "minecraft:count",
+                        "count": 40
+                    },
+                    {
+                        "type": "minecraft:random_offset",
+                        "xz_spread": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": -1,
+                            "max_inclusive": 1
+                        },
+                        "y_spread": 2
+                    },
+                    {
+                        "type": "minecraft:heightmap",
+                        "heightmap": "WORLD_SURFACE_WG"
+                    },
+                    {
+                        "type": "minecraft:block_predicate_filter",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                0,
+                                -1,
+                                0
+                            ],
+                            "blocks": [
+                                "minecraft:grass_block",
+                                "minecraft:dirt",
+                                "minecraft:coarse_dirt",
+                                "minecraft:podzol"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "feature": "odyssey:redwood_forest/redwood_top",
+                "placement": [
+                    {
+                        "type": "minecraft:count",
+                        "count": 40
+                    },
+                    {
+                        "type": "minecraft:random_offset",
+                        "xz_spread": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": -1,
+                            "max_inclusive": 1
+                        },
+                        "y_spread": 2
+                    },
+                    {
+                        "type": "minecraft:heightmap",
+                        "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+                    },
+                    {
+                        "type": "minecraft:block_predicate_filter",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                0,
+                                -1,
+                                0
+                            ],
+                            "blocks": [
+                                "minecraft:stripped_mangrove_log"
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

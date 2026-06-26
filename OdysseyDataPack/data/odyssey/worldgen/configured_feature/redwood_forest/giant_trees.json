@@ -4,15 +4,15 @@
     "features": [
       {
         "chance": 0.4,
-        "feature": "odyssey:redwood_forest/tree_big_redwood"
+        "feature": "odyssey:redwood_forest/tree_giant_sequoia"
       },
       {
         "chance": 0.6,
-        "feature": "odyssey:redwood_forest/tree_big_sequoia"
+        "feature": "odyssey:redwood_forest/tree_giant_redwood"
       }
     ],
     "default": {
-      "feature": "odyssey:redwood_forest/tree_big_redwood",
+      "feature": "odyssey:redwood_forest/tree_giant_redwood",
       "placement": []
     }
   }

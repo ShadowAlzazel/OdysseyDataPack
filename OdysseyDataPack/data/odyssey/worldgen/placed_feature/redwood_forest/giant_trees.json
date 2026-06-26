@@ -1,0 +1,51 @@
+{
+    "feature": "odyssey:redwood_forest/giant_trees",
+    "placement": [
+        {
+            "type": "minecraft:rarity_filter",
+            "chance": 1
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                    0,
+                    -1,
+                    0
+                ],
+                "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:podzol"
+                ]
+            }
+        },
+        {
+            "type": "minecraft:random_offset",
+            "xz_spread": {
+                "type": "minecraft:trapezoid",
+                "max": 1,
+                "min": -1,
+                "plateau": 0
+            },
+            "y_spread": {
+                "type": "minecraft:trapezoid",
+                "max": 1,
+                "min": -1,
+                "plateau": 0
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

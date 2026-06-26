@@ -15,7 +15,7 @@
         }
       ]
     },
-    "replaceable": "#odyssey:replaceable/ha_log_bay_pillar_mid",
+    "replaceable": "#odyssey:replaceable/ha_long_bay_pillar_mid",
     "surface": "floor",
     "vegetation_chance": 1,
     "vegetation_feature": {

@@ -3,6 +3,7 @@
     "enabled": []
   },
   "pack": {
+    "id": "odyssey_datapack",
     "pack_format": 107.1,
     "min_format": 101.1,
     "max_format": 107.1,

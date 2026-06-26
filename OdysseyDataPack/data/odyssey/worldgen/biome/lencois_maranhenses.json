@@ -73,8 +73,6 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "odyssey:lencois_maranhenses/mud_bank",
-      "odyssey:lencois_maranhenses/water_filler",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
@@ -82,7 +80,10 @@
     [
       "minecraft:spring_water"
     ],
-    [
+    [      
+      "odyssey:lencois_maranhenses/mud_bank",
+      "odyssey:lencois_maranhenses/disk_mud",
+      "odyssey:lencois_maranhenses/water_filler",
       "minecraft:glow_lichen"
     ],
     [

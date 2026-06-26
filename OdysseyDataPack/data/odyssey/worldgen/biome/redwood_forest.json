@@ -89,9 +89,7 @@
     ],
     [
       "minecraft:glow_lichen",
-      "odyssey:redwood_forest/tree_cores",
-      "odyssey:redwood_forest/redwood_top",
-      "odyssey:redwood_forest/sequoia_top",
+      "odyssey:redwood_forest/giant_trees",
       "odyssey:redwood_forest/trees",
       "odyssey:redwood_forest/patch_vegatation",
       "odyssey:generic/patch_grass"
