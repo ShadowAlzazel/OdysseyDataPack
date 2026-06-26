@@ -23,6 +23,22 @@
           "weight": 75
         },
         {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/silver_nugget",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 75
+        },
+        {
           "type": "minecraft:item",
           "functions": [
             {
@@ -85,6 +101,22 @@
           ],
           "name": "minecraft:copper_ore",
           "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/iridium_nugget",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 10
         },
         {
           "type": "minecraft:item",
@@ -217,7 +249,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 5
+          "weight": 2
         }
       ],
       "rolls": 1.0

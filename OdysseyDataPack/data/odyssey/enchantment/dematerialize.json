@@ -1,0 +1,22 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "enchantment.odyssey.dematerialize",
+    "fallback": "Dematerialize"
+  },
+  "effects": {},
+  "max_cost": {
+    "base": 16,
+    "per_level_above_first": 7
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 9,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#odyssey:enchantable/melee",
+  "weight": 1
+}

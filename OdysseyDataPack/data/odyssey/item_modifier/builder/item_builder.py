@@ -32,9 +32,9 @@ class ItemBuilderGenerator:
             "iron": ToolMaterial("iron", "Iron", 3.0, "iron"),
             "diamond": ToolMaterial("diamond", "Diamond", 4.0, "diamond"),
             "netherite": ToolMaterial("netherite", "Netherite", 5.0, "netherite"),
+            "copper": ToolMaterial("copper", "Copper", 2.5, "copper", 198),
             
             # Odyssey materials
-            "copper": ToolMaterial("copper", "Copper", 2.5, "golden", 198),
             "silver": ToolMaterial("silver", "Silver", 3.0, "iron", 337),
             "soul_steel": ToolMaterial("soul_steel", "Soul Steel", 4.0, "iron", 666),
             "titanium": ToolMaterial("titanium", "Titanium", 4.0, "iron", 1002),

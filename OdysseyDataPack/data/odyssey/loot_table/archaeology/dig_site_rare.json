@@ -5,59 +5,18 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:skull_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:burn_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:danger_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:friend_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:heart_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:heartbreak_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:howl_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:sheaf_pottery_sherd"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:miner_pottery_sherd"
+          "type": "minecraft:loot_table",
+          "value": "odyssey:archaeology/dig_site/uncommon",
+          "weight": 5
         },
         {
           "type": "minecraft:loot_table",
-          "value": "odyssey:loot/random_glyphsherd",
+          "value": "odyssey:archaeology/dig_site/rare",
           "weight": 2
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "odyssey:item/silver_ingot",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "odyssey:loot/random_part_pattern",
-          "weight": 4
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "odyssey:archaeology/dig_site_rare"
+  "random_sequence": "odyssey:archaeology/dig_site"
 }

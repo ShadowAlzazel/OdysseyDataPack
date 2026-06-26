@@ -6,22 +6,21 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:apple",
+          "name": "minecraft:cooked_beef",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "irradiated_fruit",
-                "minecraft:item_model": "odyssey:irradiated_fruit",
+                "minecraft:item_name": "steak_and_eggs",
+                "minecraft:item_model": "odyssey:steak_and_eggs",
                 "minecraft:consumable": {
                   "consume_seconds": 2.0
                 },
                 "minecraft:food": {
-                  "nutrition": 4,
-                  "saturation": 4.0,
-                  "can_always_eat": true
-                },
-                "minecraft:rarity": "uncommon" 
+                  "nutrition": 14,
+                  "saturation": 14.0,
+                  "can_always_eat": false
+                }
               },
               "conditions": []
             },
@@ -29,7 +28,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Irradiated Fruit",
+                "text": "Steak and Eggs",
                 "bold": false,
                 "italic": false
               }

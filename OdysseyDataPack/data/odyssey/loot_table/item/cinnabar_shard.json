@@ -6,22 +6,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:apple",
+          "name": "minecraft:gunpowder",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "irradiated_fruit",
-                "minecraft:item_model": "odyssey:irradiated_fruit",
-                "minecraft:consumable": {
-                  "consume_seconds": 2.0
-                },
-                "minecraft:food": {
-                  "nutrition": 4,
-                  "saturation": 4.0,
-                  "can_always_eat": true
-                },
-                "minecraft:rarity": "uncommon" 
+                "minecraft:item_name": "cinnabar_shard",
+                "minecraft:item_model": "odyssey:cinnabar_shard"
               },
               "conditions": []
             },
@@ -29,7 +20,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Irradiated Fruit",
+                "text": "Cinnabar Shard",
                 "bold": false,
                 "italic": false
               }
