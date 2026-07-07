@@ -4,8 +4,6 @@
 
     "#odyssey:nonphysical_damage",
 
-    "minecraft:in_wall",
-    "minecraft:cramming",
     "minecraft:starve",
     "minecraft:dry_out",
     "minecraft:ender_pearl",

@@ -7,6 +7,22 @@
       "rolls": 3.0,
       "entries": [
         {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/crystal_alloy_ingot",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 14
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
           "functions": [

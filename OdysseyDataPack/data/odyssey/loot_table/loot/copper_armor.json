@@ -7,23 +7,23 @@
       "rolls": 1.0,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "value": "odyssey:item/copper_helmet",
+          "type": "minecraft:item",
+          "name": "minecraft:copper_helmet",
           "weight": 1
         },
         {
-          "type": "minecraft:loot_table",
-          "value": "odyssey:item/copper_chestplate",
+          "type": "minecraft:item",
+          "name": "minecraft:copper_chestplate",
           "weight": 1
         },
         {
-          "type": "minecraft:loot_table",
-          "value": "odyssey:item/copper_leggings",
+          "type": "minecraft:item",
+          "name": "minecraft:copper_leggings",
           "weight": 1
         },
         {
-          "type": "minecraft:loot_table",
-          "value": "odyssey:item/copper_boots",
+          "type": "minecraft:item",
+          "name": "minecraft:copper_boots",
           "weight": 1
         }
       ]

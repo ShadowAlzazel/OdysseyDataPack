@@ -9,12 +9,12 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 1.0,
-          "per_level_above_first": 1.0
+          "base": 0.1,
+          "per_level_above_first": 0.1
         },
         "attribute": "minecraft:block_break_speed",
         "id": "odyssey:enchantment.expedite",
-        "operation": "add_value"
+        "operation": "add_multiplied_base"
       }
     ]
   },

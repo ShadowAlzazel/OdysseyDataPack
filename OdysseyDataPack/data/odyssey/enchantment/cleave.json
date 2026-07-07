@@ -38,6 +38,7 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#odyssey:enchantable/cleave_melee",
+  "primary_items": "#minecraft:enchantable/melee_weapon",
+  "supported_items": "#odyssey:enchantable/melee",
   "weight": 4
 }

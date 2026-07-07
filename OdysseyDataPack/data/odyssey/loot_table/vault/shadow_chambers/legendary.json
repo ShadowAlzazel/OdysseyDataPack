@@ -6,6 +6,22 @@
       "bonus_rolls": 1.0,
       "rolls": 6.0,
       "entries": [
+                {
+          "type": "minecraft:loot_table",
+          "value": "odyssey:item/crystal_alloy_ingot",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 3
+        },
         {
           "type": "minecraft:loot_table",
           "value": "odyssey:item/mithril_helmet",
@@ -90,12 +106,12 @@
         {
           "type": "minecraft:loot_table",
           "value": "odyssey:item/imperial_armor_trim_smithing_template",
-          "weight": 1
+          "weight": 2
         },
         {
           "type": "minecraft:loot_table",
           "value": "odyssey:item/voyager_armor_trim_smithing_template",
-          "weight": 1
+          "weight": 2
         },
         {
           "type": "minecraft:loot_table",
@@ -111,7 +127,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 1
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -127,7 +143,23 @@
               "function": "minecraft:set_count"
             }
           ],
-          "weight": 1
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_block",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 3
         }
       ]
     }
