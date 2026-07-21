@@ -59,7 +59,7 @@
     "slots": [
         "mainhand"
     ],
-    "primary_items": "#minecraft:spears",
-    "supported_items": "#odyssey:enchantable/pierce_melee",
+   "primary_items": "#minecraft:spears",
+   "supported_items": "#odyssey:enchantable/pierce_melee",
     "weight": 6
 }

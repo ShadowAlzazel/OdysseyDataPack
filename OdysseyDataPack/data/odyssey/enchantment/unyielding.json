@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 6,
+  "anvil_cost": 4,
   "description": {
     "fallback": "Unyielding",
     "translate": "enchantment.odyssey.unyielding"
@@ -9,7 +9,7 @@
     "base": 10,
     "per_level_above_first": 6
   },
-  "max_level": 3,
+  "max_level": 4,
   "min_cost": {
     "base": 6,
     "per_level_above_first": 6
