@@ -19,6 +19,35 @@
           "type": "minecraft:loot_table",
           "value": "odyssey:loot/library_tome",
           "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 5.0,
+              "options": "#odyssey:on_random_loot"
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "odyssey:arcane_book",
+                "minecraft:item_name": "arcane_book"
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Arcane Book",
+                "bold": false,
+                "italic": false
+              }
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 5
         }
       ],
       "rolls": 1.0

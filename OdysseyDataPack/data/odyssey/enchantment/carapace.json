@@ -1,0 +1,36 @@
+{
+  "anvil_cost": 10,
+  "description": {
+    "fallback": "Carapace",
+    "translate": "enchantment.odyssey.caraapce"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.1,
+          "per_level_above_first": 0.1
+        },
+        "attribute": "minecraft:max_health",
+        "id": "odyssey:enchantment.carapace",
+        "operation": "add_multiplied_base"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 5
+  },
+  "max_level": 4,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 5
+  },
+  "slots": [
+    "hand"
+  ],
+  "primary_items": "#odyssey:enchantable/shield",
+  "supported_items": "#odyssey:enchantable/shield",
+  "weight": 3
+}

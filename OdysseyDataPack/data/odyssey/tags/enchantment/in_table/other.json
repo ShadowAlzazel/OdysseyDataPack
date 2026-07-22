@@ -9,6 +9,11 @@
 
     "odyssey:mirror_force",
     "odyssey:blowback",
+    "odyssey:carapace",
+    "odyssey:fortification",
+
+    "odyssey:frostbite",
+    "odyssey:guarding_strike",
 
     "odyssey:void_jump"
   ]

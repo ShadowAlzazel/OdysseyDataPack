@@ -1,0 +1,23 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "fallback": "Danger Close",
+    "translate": "enchantment.odyssey.danger_close"
+  },
+  "effects": {},
+  "max_cost": {
+    "base": 8,
+    "per_level_above_first": 6
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 5
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "primary_items": "#minecraft:enchantable/sweeping",
+  "supported_items": "#odyssey:enchantable/melee",
+  "weight": 4
+}
