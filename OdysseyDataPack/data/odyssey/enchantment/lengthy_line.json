@@ -1,7 +1,8 @@
 {
   "anvil_cost": 6,
   "description": {
-    "translate": "enchantment.odyssey.lengthy_line"
+    "translate": "enchantment.odyssey.lengthy_line",
+    "fallback": "Lengthy Line"
   },
   "max_cost": {
     "base": 40,

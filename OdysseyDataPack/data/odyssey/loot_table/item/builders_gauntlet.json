@@ -1,0 +1,48 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "builders_gauntlet",
+                "minecraft:item_model": "odyssey:builders_gauntlet",
+                "minecraft:max_stack_size": 1
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Builders Gauntlet",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:block_interaction_range",
+                  "operation": "add_value",
+                  "amount": 5.0,
+                  "id": "odyssey:item.builders_gauntlet_range",
+                  "slot": "hand"
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
