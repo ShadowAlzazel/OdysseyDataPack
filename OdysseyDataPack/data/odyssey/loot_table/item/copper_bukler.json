@@ -1,0 +1,68 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "copper_buckler",
+                "minecraft:item_model": "odyssey:copper_buckler",
+                "minecraft:max_damage": 168,
+                "minecraft:use_effects": {
+                  "can_sprint": true,
+                  "speed_multiplier": 0.5
+                },
+                "minecraft:blocks_attacks": {
+                  "disable_cooldown_scale": 0,
+                  "damage_reductions": [
+                    {
+                      "type": "#odyssey:can_be_buckler_blocked",
+                      "base": 1.0,
+                      "factor": 0.5
+                    }
+                  ],
+                  "item_damage": {
+                    "base": 2.0,
+                    "factor": 0.5,
+                    "threshold": 1.0
+                  },
+                  "block_sound": "minecraft:item.shield.block"
+                }
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Copper Buckler",
+                "bold": false,
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "amount": 1.0,
+                  "id": "odyssey:item.buckler_armor",
+                  "slot": "hand"
+                }
+              ]
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

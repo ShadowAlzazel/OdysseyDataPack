@@ -8,7 +8,8 @@
   "start_height": {
     "absolute": 270
   },
-  "start_pool": "odyssey:inverted_palace/origin",
+  "start_pool": "odyssey:inverted_palace/base",
+  "start_jigsaw_name": "odyssey:inverted_palace/origin",
   "step": "top_layer_modification",
   "terrain_adaptation": "none",
   "use_expansion_hack": false

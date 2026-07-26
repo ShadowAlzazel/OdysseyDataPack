@@ -14,11 +14,11 @@
                 "minecraft:item_name": "french_toast",
                 "minecraft:item_model": "odyssey:french_toast",
                 "minecraft:consumable": {
-                  "consume_seconds": 1.6
+                  "consume_seconds": 1.2
                 },
                 "minecraft:food": {
                   "nutrition": 6,
-                  "saturation": 6.0,
+                  "saturation": 7.0,
                   "can_always_eat": false
                 }
               },

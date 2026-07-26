@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 9,
+    "separation": 43,
+    "spacing": 55
+  },
+  "structures": [
+    {
+      "structure": "odyssey:inverted_palace",
+      "weight": 1
+    }
+  ]
+}
