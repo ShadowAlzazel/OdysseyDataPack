@@ -1,0 +1,41 @@
+======================================================================
+CREDITS & ATTRIBUTION
+======================================================================
+
+I do not own any of the third-party music tracks or borrowed textures 
+included in this pack. Full acknowledgments and copyright belong to 
+the amazing artists listed below. 
+
+Per the creators' restrictions, these specific assets MAY NOT BE SOLD 
+and do not fall under the pack's MIT License.
+
+----------------------------------------------------------------------
+1. MUSIC TRACKS
+----------------------------------------------------------------------
+The following music tracks belong fully to T_en_M:
+* Track: "Gilded"
+* Artist Link: https://www.youtube.com/@TenM
+
+The following music tracks belong fully to Steelman:
+* Tracks: "Farlands", "Modulo"
+* Artist Link: https://www.youtube.com/@steelmanmusic
+
+----------------------------------------------------------------------
+2. BORROWED TEXTURES & ASSETS
+----------------------------------------------------------------------
+Certain textures and design ideas are adapted from:
+* Creator Name: klei_wright
+* Creator Link: https://www.youtube.com/@kleiwright
+* Original Pack: [https://modrinth.com/datapack/matcha-flavoured]Matcha Flavoured
+* Source/Permission Video: https://youtu.be/zyRH8W58fRI?t=1039
+
+Per the creator's explicit public permission, these assets are free 
+to use and modify, provided they are not used for commercial purposes.
+
+----------------------------------------------------------------------
+DISCLAIMER
+----------------------------------------------------------------------
+NO ONE MENTIONED ABOVE KNOWS OF ME OR CONDONES MY WORK. 
+I just wanted to cite where my inspirations came from and give proper 
+credit to their incredible creations.
+======================================================================
