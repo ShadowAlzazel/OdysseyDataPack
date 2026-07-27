@@ -11,12 +11,12 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "iridium_buckler",
-                "minecraft:item_model": "odyssey:iridium_buckler",
-                "minecraft:max_damage": 888,
+                "minecraft:item_name": "titanium_buckler",
+                "minecraft:item_model": "odyssey:titanium_buckler",
+                "minecraft:max_damage": 456,
                 "minecraft:use_effects": {
                   "can_sprint": true,
-                  "speed_multiplier": 0.5
+                  "speed_multiplier": 0.75
                 },
                 "minecraft:blocks_attacks": {
                   "disable_cooldown_scale": 1,
@@ -41,7 +41,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Iridium Buckler",
+                "text": "Titanium Buckler",
                 "bold": false,
                 "italic": false
               }
@@ -52,15 +52,8 @@
                 {
                   "attribute": "minecraft:armor",
                   "operation": "add_value",
-                  "amount": 2.0,
-                  "id": "odyssey:item.buckler_armor",
-                  "slot": "hand"
-                },
-                {
-                  "attribute": "minecraft:armor_toughness",
-                  "operation": "add_value",
                   "amount": 1.0,
-                  "id": "odyssey:item.buckler_armor_toughness",
+                  "id": "odyssey:item.buckler_armor",
                   "slot": "hand"
                 }
               ]

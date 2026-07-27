@@ -11,9 +11,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "iridium_buckler",
-                "minecraft:item_model": "odyssey:iridium_buckler",
-                "minecraft:max_damage": 888,
+                "minecraft:item_name": "diamond_buckler",
+                "minecraft:item_model": "odyssey:diamond_buckler",
+                "minecraft:max_damage": 528,
                 "minecraft:use_effects": {
                   "can_sprint": true,
                   "speed_multiplier": 0.5
@@ -41,7 +41,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Iridium Buckler",
+                "text": "Diamond Buckler",
                 "bold": false,
                 "italic": false
               }
@@ -52,7 +52,7 @@
                 {
                   "attribute": "minecraft:armor",
                   "operation": "add_value",
-                  "amount": 2.0,
+                  "amount": 1.0,
                   "id": "odyssey:item.buckler_armor",
                   "slot": "hand"
                 },

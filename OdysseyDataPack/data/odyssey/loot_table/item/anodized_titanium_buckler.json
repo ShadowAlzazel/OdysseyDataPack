@@ -11,15 +11,15 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "copper_buckler",
-                "minecraft:item_model": "odyssey:copper_buckler",
-                "minecraft:max_damage": 168,
+                "minecraft:item_name": "anodized_titanium_buckler",
+                "minecraft:item_model": "odyssey:anodized_titanium_buckler",
+                "minecraft:max_damage": 456,
                 "minecraft:use_effects": {
                   "can_sprint": true,
-                  "speed_multiplier": 0.5
+                  "speed_multiplier": 0.75
                 },
                 "minecraft:blocks_attacks": {
-                  "disable_cooldown_scale": 0,
+                  "disable_cooldown_scale": 1,
                   "damage_reductions": [
                     {
                       "type": "#odyssey:can_be_buckler_blocked",
@@ -28,7 +28,7 @@
                     }
                   ],
                   "item_damage": {
-                    "base": 2.0,
+                    "base": 1.0,
                     "factor": 0.5,
                     "threshold": 1.0
                   },
@@ -41,7 +41,7 @@
               "function": "minecraft:set_name",
               "entity": "this",
               "name": {
-                "text": "Copper Buckler",
+                "text": "Anodized Titanium Buckler",
                 "bold": false,
                 "italic": false
               }

@@ -47,8 +47,12 @@ DURABILITY_VALUES = {
     'crystal_alloy': 1.8, 
     'titanium': 1.9, 
     'anodized_titanium': 1.9, 
-    #diamond: 2.2
-    #netherite: 2.47
+    'diamond': 2.2,
+    'netherite': 2.47,
     'iridium': 3.7, 
     'mithril': 2.3, 
 }
+
+if __name__ == "__main__":
+    for k, v in DURABILITY_VALUES.items():
+        print(f'{k}: {v * 240}')

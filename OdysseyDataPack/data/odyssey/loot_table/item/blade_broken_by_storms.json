@@ -23,7 +23,7 @@
                   "cooldown_group": "odyssey:parry"
                 },
                 "minecraft:blocks_attacks": {
-                  "disable_cooldown_scale": 0,
+                  "disable_cooldown_scale": 1,
                   "damage_reductions": [
                     {
                       "type": [
