@@ -38,3 +38,7 @@ OdysseyDataPack.zip
 # Editor
 .vscode/
 .vscode
+
+# Backup Assets
+/_originals_backup
+_originals_backup/
