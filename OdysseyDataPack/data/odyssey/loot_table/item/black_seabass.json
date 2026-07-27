@@ -1,0 +1,36 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "black_seabass",
+                "minecraft:item_model": "odyssey:black_seabass",
+                "minecraft:rarity": "uncommon"
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Black Seabass",
+                "bold": false,
+                "italic": false
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

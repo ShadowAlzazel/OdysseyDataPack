@@ -1,0 +1,36 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "blind_minnow",
+                "minecraft:item_model": "odyssey:blind_minnow",
+                "minecraft:rarity": "common"
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Blind Minnow",
+                "bold": false,
+                "italic": false
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

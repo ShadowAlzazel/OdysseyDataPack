@@ -1,0 +1,39 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chicken_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "axolotl",
+                "minecraft:item_model": "odyssey:axolotl",
+                "minecraft:entity_data": {
+                  "id": "minecraft:axolotl"
+                },
+                "minecraft:rarity": "common"
+              },
+              "conditions": []
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Axolotl",
+                "bold": false,
+                "italic": false
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
