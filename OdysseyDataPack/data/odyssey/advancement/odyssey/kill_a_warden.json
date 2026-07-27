@@ -9,15 +9,15 @@
       "count": 1,
       "id": "minecraft:rotten_flesh",
       "components": {
-        "minecraft:item_model": "odyssey:warden_entrails",
-        "minecraft:item_name": "warden_entrails"
+        "minecraft:item_model": "odyssey:sculk_heart",
+        "minecraft:item_name": "sculk_heart"
       }
     },
     "title": {
-      "translate": "It can still hear..."
+      "fallback": "Heart of Sculk"
     },
     "description": {
-      "translate": "Vanquish the warden in the deep dark."
+      "fallback": "Vanquish the warden in the deep dark."
     }
   },
   "criteria": {

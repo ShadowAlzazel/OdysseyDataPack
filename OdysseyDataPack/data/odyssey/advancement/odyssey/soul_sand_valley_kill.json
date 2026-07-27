@@ -14,10 +14,10 @@
       }
     },
     "title": {
-      "translate": "Who you gonna call..."
+      "fallback": "Who you gonna call..."
     },
     "description": {
-      "translate": "Kill a skeleton in the soul sand valley and collect its drop."
+      "fallback": "Kill a monster in the soul sand valley and collect its drop."
     }
   },
   "criteria": {

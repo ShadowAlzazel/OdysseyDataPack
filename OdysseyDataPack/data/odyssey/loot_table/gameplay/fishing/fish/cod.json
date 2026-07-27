@@ -6,8 +6,8 @@
             "bonus_rolls": 0,
             "entries": [
                 {
-                    "type": "minecraft:loot_table",
-                    "value": "odyssey:item/cod"
+                    "type": "minecraft:item",
+                    "name": "minecraft:cod"
                 }
             ]
         }

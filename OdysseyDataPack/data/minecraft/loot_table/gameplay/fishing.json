@@ -6,8 +6,8 @@
             "bonus_rolls": 0,
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:salmon"
+                    "type": "minecraft:loot_table",
+                    "value": "odyssey:gameplay/fishing"
                 }
             ]
         }

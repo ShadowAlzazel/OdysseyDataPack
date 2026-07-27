@@ -10,10 +10,10 @@
       "id": "minecraft:tnt"
     },
     "title": {
-      "translate": "Fully Charged!"
+      "fallback": "Fully Charged!"
     },
     "description": {
-      "translate": "Died to a charged Creeper"
+      "fallback": "Take fatal damage from a charged Creeper"
     }
   },
   "criteria": {
