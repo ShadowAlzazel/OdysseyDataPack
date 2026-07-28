@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 666888666,
+    "separation": 31,
+    "spacing": 40
+  },
+  "structures": [
+    {
+      "structure": "odyssey:gilded_arena",
+      "weight": 1
+    }
+  ]
+}

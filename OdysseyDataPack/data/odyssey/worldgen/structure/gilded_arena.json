@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#odyssey:has_structure/gilded_arena",
+  "liquid_settings": "ignore_waterlogging",
+  "max_distance_from_center": 100,
+  "size": 4,
+  "spawn_overrides": {},
+  "start_height": {
+    "absolute": 33
+  },
+  "start_pool": "odyssey:gilded_arena/arena",
+  "start_jigsaw_name": "odyssey:gilded_arena/origin",
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "use_expansion_hack": false
+}
