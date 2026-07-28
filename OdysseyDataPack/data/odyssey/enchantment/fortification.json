@@ -9,12 +9,12 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 1.0,
-          "per_level_above_first": 1.0
+          "base": 0.03,
+          "per_level_above_first": 0.03
         },
         "attribute": "minecraft:armor",
-        "id": "odyssey:enchantment.carapace",
-        "operation": "add_value"
+        "id": "odyssey:enchantment.fortification",
+        "operation": "add_multiplied_base"
       }
     ]
   },
@@ -22,7 +22,7 @@
     "base": 10,
     "per_level_above_first": 5
   },
-  "max_level": 4,
+  "max_level": 5,
   "min_cost": {
     "base": 5,
     "per_level_above_first": 5
