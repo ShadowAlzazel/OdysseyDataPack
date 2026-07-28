@@ -11,6 +11,9 @@
     "minecraft:bane_of_arthropods",
     "minecraft:knockback",
     "minecraft:sweeping_edge",
-    "minecraft:breach"
+    "minecraft:breach",
+
+    "odyssey:brutality_curse",
+    "odyssey:parasitic_curse"
   ]
 }

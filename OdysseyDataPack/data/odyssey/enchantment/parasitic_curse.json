@@ -1,6 +1,7 @@
 {
   "anvil_cost": 4,
   "description": {
+    "fallback": "Curse of Parasitic",
     "translate": "enchantment.odyssey.parasitic_curse"
   },
   "effects": {},
