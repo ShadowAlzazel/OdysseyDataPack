@@ -1,13 +1,9 @@
 {
-  "feature": "odyssey:cardinal_fields/calcite_block",
+  "feature": "odyssey:cardinal_fields/calcite_cubes",
   "placement": [
     {
       "type": "count",
       "count": 2
-    },
-    {
-      "type": "minecraft:rarity_filter",
-      "chance": 20
     },
     {
       "type": "minecraft:in_square"

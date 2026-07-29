@@ -1,47 +1,37 @@
 {
-  "type": "fossil",
+  "type": "minecraft:template",
   "config": {
-    "fossil_structures": [
-      "odyssey:biomes_features/calcite_cube_2x2",
-      "odyssey:biomes_features/calcite_cube_3x3",
-      "odyssey:biomes_features/calcite_cube_4x4",
-      "odyssey:biomes_features/calcite_cube_3and2",
-      "odyssey:biomes_features/calcite_cube_2n2n2"
-    ],
-    "overlay_structures": [
-      "odyssey:biomes_features/calcite_cube_2x2",
-      "odyssey:biomes_features/calcite_cube_3x3",
-      "odyssey:biomes_features/calcite_cube_4x4",
-      "odyssey:biomes_features/calcite_cube_3and2",
-      "odyssey:biomes_features/calcite_cube_2n2n2"
-    ],
-    "fossil_processors": [
+    "templates": [
       {
-        "processor_type": "minecraft:gravity",
-        "heightmap": "WORLD_SURFACE_WG",
-        "offset": 0
-      }
-    ],
-    "overlay_processors": [
+        "data": {
+          "id": "odyssey:biomes_features/calcite_cube_2x2"
+        },
+        "weight": 4
+      },
       {
-        "processor_type": "minecraft:rule",
-        "rules": [
-          {
-            "input_predicate": {
-              "block": "minecraft:calcite",
-              "predicate_type": "minecraft:random_block_match",
-              "probability": 0.025
-            },
-            "location_predicate": {
-              "predicate_type": "minecraft:always_true"
-            },
-            "output_state": {
-              "Name": "minecraft:diorite"
-            }
-          }
-        ]
+        "data": {
+          "id": "odyssey:biomes_features/calcite_cube_2n2n2"
+        },
+        "weight": 2
+      },
+      {
+        "data": {
+          "id": "odyssey:biomes_features/calcite_cube_3and2"
+        },
+        "weight": 2
+      },
+      {
+        "data": {
+          "id": "odyssey:biomes_features/calcite_cube_3x3"
+        },
+        "weight": 3
+      },
+      {
+        "data": {
+          "id": "odyssey:biomes_features/calcite_cube_4x4"
+        },
+        "weight": 2
       }
-    ],
-    "max_empty_corners_allowed": 4
+    ]
   }
 }

@@ -18,9 +18,7 @@
   "downfall": 0.4,
   "temperature": 0.8,
   "has_precipitation": true,
-
   "creature_spawn_probability": 0.4,
-
   "effects": {
     "water_color": 9750783,
     "foliage_color": 8847056,

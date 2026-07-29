@@ -6,7 +6,7 @@
   "size": 20,
   "spawn_overrides": {},
   "start_height": {
-    "absolute": 270
+    "absolute": 260
   },
   "start_pool": "odyssey:inverted_palace/base",
   "start_jigsaw_name": "odyssey:inverted_palace/origin",
