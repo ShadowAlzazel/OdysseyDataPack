@@ -5,7 +5,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "odyssey:inverted_palace/inverted_palace_rim_tower_big_base",
+        "location": "odyssey:inverted_palace/inverted_palace_rim_tower_base_big",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"

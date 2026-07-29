@@ -12,5 +12,5 @@
   "start_jigsaw_name": "odyssey:inverted_palace/origin",
   "step": "top_layer_modification",
   "terrain_adaptation": "none",
-  "use_expansion_hack": false
+  "use_expansion_hack": true
 }
