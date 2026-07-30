@@ -5,7 +5,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "odyssey:gilded_arena/boss_spawner_hog_rida",
+        "location": "odyssey:gilded_arena/boss_spawner_hog_rider",
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty"
